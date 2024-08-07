@@ -36,4 +36,4 @@ jobs:
         run: |
           echo "$SSH_KEY_PATH"
           # rsync -avz -e "ssh -i $SSH_KEY_PATH" public/ brk@172.235.173.145:~/website/
-          scp -r -i $SSH_KEY_PATH public/ brk@172.235.173.145:~/website/
+          scp -r -i private.key public/ brk@172.235.173.145:~/website/
