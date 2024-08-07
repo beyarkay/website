@@ -31,9 +31,6 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
           SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
-          SSH_KEY_PATH: ${{ github.workspace }}/private.key
-      - name: "rsync public/ to nginx server"
+      - name: "scp public/ to nginx server"
         run: |
-          echo "$SSH_KEY_PATH"
-          # rsync -avz -e "ssh -i $SSH_KEY_PATH" public/ brk@172.235.173.145:~/website/
           scp -r -i private.key public/ brk@172.235.173.145:~/website/
