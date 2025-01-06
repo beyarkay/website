@@ -3,6 +3,9 @@ title: Definitions
 tags: [definitions, terms, glossary]
 ---
 
+This page is mostly used as a reference, so that I can create links in
+different posts and have consistent definitions.
+
 # AGI
 
 Artificial General Intelligence, generally something that is at least as

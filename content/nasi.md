@@ -3,24 +3,23 @@ title: In support of narrow ASI
 tags: [nasi, asi, ai, narrow-ai]
 ---
 
-The _core_ problem with building [AGI](definitions#agi)/[ASI](definitions#asi) is that we want the good things (cure
-cancer, feed everyone, end poverty) without the bad things (bioweapons,
-misinformation, military super weapons), and AGI/ASI claims the good and the
-bad are two sides of the same coin.
+The _core_ problem with building [AGI](definitions#agi)/[ASI](definitions#asi)
+is that we want the good things (cure cancer, feed everyone, end poverty)
+without the bad things (bioweapons, misinformation, military super weapons),
+and AGI/ASI claims the good and the bad are two sides of the same coin.
 
-I claim that [NASI](definitions#nasi) provides an
-alternative to AGI that sacrifices generality but:
+I claim that [NASI](definitions#nasi) provides an alternative to AGI that
+sacrifices generality but:
 
 - makes deception significantly more difficult
 - makes regulation of dangerous capabilities easier
 - makes distribution of non-dangerous capabilities a net-good with little
   downside.
 
-What's the purpose of ASI anyway? Many will say
-it's for various humanitarian or world-improving side effects, problems which
-people struggle to solve but a smarter intelligence might be able to solve
-faster. Such problems are cancer, global warming, political coordination and
-unrest.
+What's the purpose of ASI anyway? Many will say it's for various humanitarian
+or world-improving side effects, problems which people struggle to solve but a
+smarter intelligence might be able to solve faster. Such problems are cancer,
+global warming, political coordination and unrest.
 
 Lots of the dangers of ASI come from a general-purpose intellect being able to
 act on the world via text[^1], as opposed to something more constrained. For
@@ -60,10 +59,18 @@ manipulation interface. If we can either choose or design an output modality
 that is less open to manipulation than plain text, we will can make it more
 difficult (though not impossible!) for ASI to manipulate humans.
 
-TODO: what experiments could be made to stress-test a given communication
-medium against manipulation? Maybe a game where manipulation is incredibly
-valuable, but the only means of communication is via the medium in question (ie
-protein predictions).
+The ability of a given communication medium to be used for manipulation of
+other players could be tested by designing a strategy game where AI players
+could gain significant reward from communication, and then restricting the only
+means of communication between the players to the communication medium under
+question. It seems clear that protein predictions map less intuitively onto
+ideas such as "I'll pay you 100BTC to synthesize this molecule" than literal
+text "I'll pay you 100BTC to synthesize this molecule". Chess moves might be
+easier to communicate this information, since the trade could be expressed as a
+sacrifice, although conveying the mapping of "you capture my queen" to "100BTC"
+and "synthesizing this molecule" as "I capture your bishop" might be difficult.
+
+
 
 Furthermore, it's not clear what sort of general intelligence can arise if the
 output is protein predictions. It seems likely that the model would gain some
