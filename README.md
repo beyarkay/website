@@ -22,3 +22,9 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
 ```
 npx quartz build --serve
 ```
+
+## Pushing changes
+
+```
+npx quartz sync
+```

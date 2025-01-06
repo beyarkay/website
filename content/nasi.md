@@ -3,12 +3,12 @@ title: In support of narrow ASI
 tags: [nasi, asi, ai, narrow-ai]
 ---
 
-The _core_ problem with building AGI/ASI is that we want the good things (cure
+The _core_ problem with building [AGI](definitions#agi)/[ASI](definitions#asi) is that we want the good things (cure
 cancer, feed everyone, end poverty) without the bad things (bioweapons,
 misinformation, military super weapons), and AGI/ASI claims the good and the
 bad are two sides of the same coin.
 
-I claim that narrow artificial super intelligence (NASI) provides an
+I claim that [NASI](definitions#nasi) provides an
 alternative to AGI that sacrifices generality but:
 
 - makes deception significantly more difficult
@@ -16,7 +16,7 @@ alternative to AGI that sacrifices generality but:
 - makes distribution of non-dangerous capabilities a net-good with little
   downside.
 
-What's the purpose of Artificial Super Intelligence (ASI) anyway? Many will say
+What's the purpose of ASI anyway? Many will say
 it's for various humanitarian or world-improving side effects, problems which
 people struggle to solve but a smarter intelligence might be able to solve
 faster. Such problems are cancer, global warming, political coordination and
@@ -55,28 +55,34 @@ the ASI.
 The core feature here is that not all communication is created equal. We _do_
 want narrow super-human intelligence that can tell us how to cure cancer, but
 general-purpose super-human communication is dangerous. It might be that we can
+achieve many of the benefits of ASI without providing a general purpose
+manipulation interface. If we can either choose or design an output modality
+that is less open to manipulation than plain text, we will can make it more
+difficult (though not impossible!) for ASI to manipulate humans.
 
----
+TODO: what experiments could be made to stress-test a given communication
+medium against manipulation? Maybe a game where manipulation is incredibly
+valuable, but the only means of communication is via the medium in question (ie
+protein predictions).
 
 Furthermore, it's not clear what sort of general intelligence can arise if the
 output is protein predictions. It seems likely that the model would gain some
 sort of model for atom-level physical interactions, but could such a model
 learn manipulative debate? Investigating this question would require training a
-narrow AI and then attempting to put it into situations where it would be able
+narrow ASI and then attempting to put it into situations where it would be able
 to make use of any latent knowledge it gained that might be applicable to "the
 bad stuff".
 
-One other advantage of Narrow Artificial Super Intelligence (NASI) is that it
-would be _significantly_ easier to prevent misuse. Since any single
-intelligence would be super-human in only one domain, we would need multiple
-NASIs in order to achieve the goals of current ASI-builders (curing cancer,
-world hunger, etc). Each of these NASIs would, by definition, be specialised in
-one particular area of expertise and sub-human in other areas. NASIs
-specialised in high-risk areas of expertise (biology, AI research, chemistry,
-negotiation, politics) and the datasets usable to train them could be
-specifically targeted for regulation while NASIs in low-risk areas (logistics,
-supply-chains) and the respective datasets could be put under lesser
-regulations or none at all.
+One other advantage of NASI is that it would be _significantly_ easier to
+prevent misuse. Since any single intelligence would be super-human in only one
+domain, we would need multiple NASIs in order to achieve the goals of current
+ASI-builders (curing cancer, world hunger, etc). Each of these NASIs would, by
+definition, be specialised in one particular area of expertise and sub-human in
+other areas. NASIs specialised in high-risk areas of expertise (biology, AI
+research, chemistry, negotiation, politics) and the datasets usable to train
+them could be specifically targeted for regulation while NASIs in low-risk
+areas (logistics, supply-chains) and the respective datasets could be put under
+lesser regulations or none at all.
 
 General purpose datasets which would be applicable to AGI/ASI could be more
 thoroughly protected, given the known dangers of AGI/ASI.
@@ -114,7 +120,7 @@ reachable by ChatGPT.
 
 [^4]:
     I didn't intend this to be a DeepMind shill-piece, but they've done a lot
-    of very impressive and obviously-impactful narrow AI research. I'm less
+    of very impressive and obviously-impactful narrow ASI research. I'm less
     inclined to include research on video-game AIs because it's a bit clearer
     how that could lead to strategy, deception, and manipulative behaviour
     being learnt and how these AIs could learn to influence human behaviour by

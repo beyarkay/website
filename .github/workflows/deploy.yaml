@@ -1,9 +1,18 @@
-name: Deploy Quartz site to Nginx
+name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
     branches:
       - v4
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -19,18 +28,18 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
-      - name: Create SSH key
-        run: |
-          echo "$SSH_PRIVATE_KEY" > private.key
-          sudo chmod 600 private.key
-          mkdir -p ~/.ssh/
-          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          ls -alt ./
-          ls -alt ../
-        shell: bash
-        env:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
-      - name: "scp public/ to nginx server"
-        run: |
-          scp -r -i private.key public/ brk@172.235.173.145:~/website/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
