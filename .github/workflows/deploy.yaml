@@ -51,5 +51,11 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H 172.235.173.145 >> ~/.ssh/known_hosts
 
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: public
+          path: ./public
+
       - name: Deploy using SCP
         run: scp -r public/ brk@172.235.173.145:/home/brk/website/
