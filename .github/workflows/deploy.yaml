@@ -44,15 +44,12 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Add VM to known hosts
+      - name: Set up SSH
         run: |
           mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H 172.235.173.145 >> ~/.ssh/known_hosts
 
-      - name: Set up SSH key
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: scp to host
-        run: scp public/ brk@172.235.173.145:/home/brk/website/
+      - name: Deploy using SCP
+        run: scp -r public/ brk@172.235.173.145:/home/brk/website/
