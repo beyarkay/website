@@ -1,5 +1,5 @@
 ---
-title: "`localhost:8080/now` What am I working on?"
+title: "What am I working on?"
 tags: [now, nownownow]
 ---
 

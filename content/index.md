@@ -8,9 +8,9 @@ _(obligatory my opinions do not necessarily represent those of my employer)_
 
 # About Me
 
-I like solving incentives (see [mechanism design](mechanism_design.md). The
-tools I use generally are a means to an end, so over the years I've gained
-experience in:
+I like solving incentives (see [mechanism design](mechanism_design.md). You can
+see what I'm currently working on at [[now|this page]]. The tools I use generally are
+a means to an end, so over the years I've gained experience in:
 
 - Embedded C and associated toolchains, non-embedded C
 - Rust for high performance workloads

@@ -70,8 +70,6 @@ easier to communicate this information, since the trade could be expressed as a
 sacrifice, although conveying the mapping of "you capture my queen" to "100BTC"
 and "synthesizing this molecule" as "I capture your bishop" might be difficult.
 
-
-
 Furthermore, it's not clear what sort of general intelligence can arise if the
 output is protein predictions. It seems likely that the model would gain some
 sort of model for atom-level physical interactions, but could such a model
