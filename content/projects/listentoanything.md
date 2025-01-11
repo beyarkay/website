@@ -1,6 +1,6 @@
 ---
-title: ListenToAnything.com - listen to your reading list
-tags: [service, website, idea, reading-list, podcasts, projects]
+title: "ListenToAnything.com: listen to your reading list"
+tags: [service, website, idea, reading-list, podcasts, projects, rust]
 ---
 
 [ListenToAnything.com](https://listentoanything.com) lets you convert any

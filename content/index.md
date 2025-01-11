@@ -36,6 +36,12 @@ to see PRs that I've merged in various open-source projects.
 Please reach out! I'm interested in talking about most technical things, even
 if I haven't expressed an interest in it before.
 
+# About this site
+
+Use `cmd+k`/`ctrl+k` to perform an all-text search. Hover over links that look
+[like this](index.md) to see a preview of the website. Click on a tag like this
+one: #now to see other posts with the same tag.
+
 # Cool Things
 
 I've often gained a lot from hearing friends and coworkers talk about what they
