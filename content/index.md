@@ -9,8 +9,12 @@ _(obligatory my opinions do not necessarily represent those of my employer)_
 # About Me
 
 I like solving incentives (see [mechanism design](mechanism_design.md). You can
-see what I'm currently working on at [[now|this page]]. The tools I use generally are
-a means to an end, so over the years I've gained experience in:
+see what I'm currently working on at [[now|this page]].
+
+## Tools & Languages
+
+The tools I use generally are a means to an end, so over the years I've gained
+experience in:
 
 - Embedded C and associated toolchains, non-embedded C
 - Rust for high performance workloads
@@ -29,9 +33,14 @@ a means to an end, so over the years I've gained experience in:
   building my own basic engine for projects that don't quite fit into a nice
   box.
 
+## Open Source
+
 You can use [this github
 query](https://github.com/pulls?q=is%3Apr+author%3Abeyarkay+archived%3Afalse+sort%3Aupdated-desc+-repo%3Abeyarkay%2Feskom-calendar+is%3Amerged+)
-to see PRs that I've merged in various open-source projects.
+to see PRs that I've merged in various open-source projects (excluding my own
+projects)
+
+## Please reach out!
 
 Please reach out! I'm interested in talking about most technical things, even
 if I haven't expressed an interest in it before.
