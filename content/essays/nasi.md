@@ -3,61 +3,67 @@ title: In support of narrow ASI
 tags: [nasi, asi, ai, narrow-ai]
 ---
 
+<!--
+TODO: include something about the minimum level of intelligence required to
+solve a problem. So problems which require an AGI that has full knowledge of
+human nature, social interactions, politics, science, philosophy, etc, would be
+AGI-complete problems. Those problems would be unsolvable by NASI. But I'd
+argue that lots of worthwhile problems are not AGI-complete, and can be solved
+with just NASI
+-->
+
 The _core_ problem with building [AGI](definitions#agi)/[ASI](definitions#asi)
-is that we want the good things (cure cancer, feed everyone, end poverty)
-without the bad things (bioweapons, misinformation, military super weapons),
-and AGI/ASI claims the good and the bad are two sides of the same coin.
+is we want the good things[^3] without the bad things[^4], and the common
+assumption is that the good and the bad are two sides of the same coin; any
+attempt at building ASI without also enabling the bad things is deemed
+impossible.
 
-I claim that [NASI](definitions#nasi) provides an alternative to AGI that
-sacrifices generality but:
+I claim that systems which are super-human in narrow domains but intentionally
+sub-human in most domains ([NASI](definitions#nasi)[^6]) will provide most of
+the benefits of ASI without the dangers of ASI. I will argue that:
 
-- makes deception significantly more difficult
-- makes regulation of dangerous capabilities easier
-- makes distribution of non-dangerous capabilities a net-good with little
-  downside.
+- NASI can solve many existing problems in the world
+- NASI makes deception significantly more difficult
+- NASI makes regulation of dangerous capabilities easier
+- NASI makes it easy to share non-dangerous capabilities with the entirety of
+  humanity while incurring very little risk
 
-What's the purpose of ASI anyway? Many will say it's for various humanitarian
-or world-improving side effects, problems which people struggle to solve but a
-smarter intelligence might be able to solve faster. Such problems are cancer,
-global warming, political coordination and unrest.
+## Why might NASI be safer than ASI?
 
 Lots of the dangers of ASI come from a general-purpose intellect being able to
 act on the world via text[^1], as opposed to something more constrained. For
 example, it is far easier to imagine ChatGPT convincing a human to do arbitrary
 things than it is to imagine [StockFish][5], [AlphaZero][6], [AlphaGo][3], or
-[AlphaFold][4][^4] convincing a human to do arbitrary things. This is due to
+[AlphaFold][4][^5] convincing a human to do arbitrary things. This is due to
 the medium of chess moves/go moves/protein structures[^2] being inherently less
 convincing than regular text.
 
-To be clear, there's two parts at play here, and they work together:
+There are two parts at play here, and they work together:
 
 1. The artificial narrow intelligence behind AlphaFold is (probably) not
    capable of general cognition and reasoning.
 2. Even if AlphaFold were capable of general cognition, the output of AlphaFold
-   is severely constrained (i.e. atom locations with confidences) making it
-   plausible that human manipulation is trickier via AlphaFold than via
-   ChatGPT.
+   is severely constrained (i.e. atom locations with confidences).
 
-I am not trying to make the argument that an ASI would be unable to enact its
-will on the world using atom locations alone, but rather that it would be
-significantly more difficult. Assume for the moment, that we wrapped an ASI
-into an interface that gave the ASI only amino-acid sequences and interpreted
-its outputs only as protein predictions. How would this ASI manipulate its
-users? There are many creative ways to do this, but they all require some level
-of indirection before the human is manipulated. For example, one method might
-be to make protein predictions that are incorrect in subtle ways that either
-slow down progress in key areas, or -- more nefariously -- make protein
-predictions that result in unexpected and unwanted interactions between
-AI-designed proteins, eventually leading to behaviour that is advantageous to
-the ASI.
+While ASI is, by definition, better at humans at all tasks, even an ASI will
+find manipulating someone to be trickier if the only means of communication the
+ASI has with the human is atom locations. Manipulating someone is far easier
+via text (or voice, or video) because people are taught from a young age to
+give text write-access into the brain, so that thoughts can be shared
+efficiently. This write-access is incredibly useful, but also dangerous.
 
-The core feature here is that not all communication is created equal. We _do_
-want narrow super-human intelligence that can tell us how to cure cancer, but
-general-purpose super-human communication is dangerous. It might be that we can
-achieve many of the benefits of ASI without providing a general purpose
-manipulation interface. If we can either choose or design an output modality
-that is less open to manipulation than plain text, we will can make it more
-difficult (though not impossible!) for ASI to manipulate humans.
+It is entirely possible that ASI could still manipulate humanity via atom
+locations alone, but all means of manipulation would require some level of
+indirection. For example, one method might be to make protein predictions that
+are incorrect in subtle ways that either slow down progress in key areas, or --
+more nefariously -- make protein predictions that result in unexpected and
+unwanted interactions between AI-designed proteins, eventually leading to
+behaviour that is advantageous to the ASI.
+
+Language is dangerous because language directly inserts ideas into your brain.
+Ancient Greek is not dangerous to me because I do not speak ancient Greek, and
+so before any ancient Grecian wishes to manipulate me, they must figure out how
+to communicate with me.
 
 The ability of a given communication medium to be used for manipulation of
 other players could be tested by designing a strategy game where AI players
@@ -69,6 +75,25 @@ text "I'll pay you 100BTC to synthesize this molecule". Chess moves might be
 easier to communicate this information, since the trade could be expressed as a
 sacrifice, although conveying the mapping of "you capture my queen" to "100BTC"
 and "synthesizing this molecule" as "I capture your bishop" might be difficult.
+
+Limited communication mediums are our friends, and we should embrace them if we
+want to reduce the risk of manipulation. NASI deals exclusively with
+hyper-specific outputs, thereby reducing the risk of manipulation.
+
+## NASI can solve many existing problems in the world
+
+What's the purpose of ASI anyway? Many will say it's for various humanitarian
+or world-improving side effects, problems which people struggle to solve but a
+smarter intelligence might be able to solve faster. Such problems are cancer,
+global warming, political coordination and unrest.
+
+## NASI makes deception significantly more difficult
+
+## NASI makes regulation of dangerous capabilities easier
+
+## NASI makes benefits-sharing nearly risk-free
+
+---
 
 Furthermore, it's not clear what sort of general intelligence can arise if the
 output is protein predictions. It seems likely that the model would gain some
@@ -123,7 +148,11 @@ reachable by ChatGPT.
     but NASI could equally apply to AlphaGo, StockFish, or other models where
     the output is sufficiently constrained.
 
-[^4]:
+[^3]: (cure cancer, feed everyone, end poverty)
+
+[^4]: (bioweapons, misinformation, military super weapons)
+
+[^5]:
     I didn't intend this to be a DeepMind shill-piece, but they've done a lot
     of very impressive and obviously-impactful narrow ASI research. I'm less
     inclined to include research on video-game AIs because it's a bit clearer
@@ -131,9 +160,26 @@ reachable by ChatGPT.
     being learnt and how these AIs could learn to influence human behaviour by
     being very good at these video-games.
 
+[^6]:
+    Yes, narrow AI is an existing term that _maybe_ could have worked here
+    instead of defining a new term (NASI), but given the lack of a standard
+    definition for "AI", I felt it important to distinguish NASI from any
+    program that solves MNIST.
+
 [1]: https://deepmind.google/discover/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/
 [2]: https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/
 [3]: https://deepmind.google/research/breakthroughs/alphago/
 [4]: https://deepmind.google/technologies/alphafold/
 [5]: https://stockfishchess.org/
 [6]: https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/
+
+mathematics, joining different domains required to solve problems, narrowness
+won't be enough
+
+Even if 1% of probelms are solvable by narrow AI, it's fine, those problems can
+be solved
+
+There's economic arguments as well, we can have 100s of thousands
+
+Soliving world hunder, requires AGI, individual problems (farming, logistics)
+can probably be solvable by ANI
