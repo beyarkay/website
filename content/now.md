@@ -1,6 +1,6 @@
 ---
 title: "What am I working on?"
-tags: [now, nownownow]
+tags: [now, now-now-now, about-ideas-now]
 ---
 
 Right now I'm interested in and working on:
@@ -21,9 +21,6 @@ Right now I'm interested in and working on:
 - Independent AI Safety Research
 
 - Organising AI Safety Stellenbosch, a branch of [AI Safety Cape Town](https://www.aisafetyct.com/)
-
-- Organising meetups in Cape Town to discuss and learn about the Rust
-  programming language.
 
 Please reach out! I'm interested in talking with interesting people, even if
 you don't know exactly what to talk about.

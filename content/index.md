@@ -104,6 +104,12 @@ Use `cmd+k`/`ctrl+k` to perform an all-text search. Hover over links that look
 [like this](index.md) to see a preview of the website. Click on a tag like this
 one: #now to see other posts with the same tag.
 
+I use a hidden `/wip` directory to store drafts or works in progress. Sometimes
+I leave a link to a file in this directory. This is intentional, it helps me
+track ideas and put links to things in place even before I've finalised the
+essay I'm linking to. So if something links to `/wip`, that's an essay that
+I've not yet written.
+
 # Cool Things
 
 I've often gained a lot from hearing friends and coworkers talk about what they

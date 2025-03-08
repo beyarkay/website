@@ -22,3 +22,7 @@ humans in all economically meaningful tasks.
 
 Narrow Artificial Super Intelligence, generally something that is more capable
 than humans in a _small_ subset of economically meaningful tasks.
+
+# BJJ
+
+Brazilian Ju Jitsu

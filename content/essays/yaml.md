@@ -1,6 +1,6 @@
 ---
 title: YAML for the haters
-tags: [yaml]
+tags: [yaml, essays, configuration, formats]
 ---
 
 YAML is just JSON. That's it. Every valid JSON document is a valid YAML
@@ -86,7 +86,21 @@ object:
 ---
 ```
 
-And if you read the start marker without an ending marker then you know
+And that's it. There's nothing more. Here's the JSON we started with, for
+comparison:
+
+```json
+{
+  "key": "value",
+  "object": {
+    "inner_key": "inner_value"
+  }
+}
+```
+
+---
+
+If you read the start marker without an ending marker then you know
 something gone wrong. Don't complain about a tool just because you haven't
 bothered to learn it properly.
 

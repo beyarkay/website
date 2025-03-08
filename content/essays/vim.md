@@ -1,6 +1,6 @@
 ---
 title: Esoteric vim
-tags: [vim, neovim, vi, shell, unix, terminal]
+tags: [vim, neovim, vi, shell, unix, terminal, essays]
 # draft: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Solving for incentives and Mechanism Design
-tags: [mechanism-design]
+tags: [mechanism-design, essays, game-theory, systems, incentives]
 ---
 
 If game theory tries to solve the question:

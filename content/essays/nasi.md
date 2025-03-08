@@ -1,6 +1,6 @@
 ---
 title: In support of narrow ASI
-tags: [nasi, asi, ai, narrow-ai]
+tags: [nasi, asi, ai, narrow-ai, essays, opinions]
 ---
 
 <!--
@@ -10,6 +10,13 @@ human nature, social interactions, politics, science, philosophy, etc, would be
 AGI-complete problems. Those problems would be unsolvable by NASI. But I'd
 argue that lots of worthwhile problems are not AGI-complete, and can be solved
 with just NASI
+
+
+Also add something about self driving cars being NASI, and obviously providing
+benefit
+
+Remove "ASI" from the terminology, as different people have different
+meainings. the current state might not represent AI, nor AGI
 -->
 
 The _core_ problem with building [AGI](definitions#agi)/[ASI](definitions#asi)
