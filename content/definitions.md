@@ -26,3 +26,12 @@ than humans in a _small_ subset of economically meaningful tasks.
 # BJJ
 
 Brazilian Ju Jitsu
+
+# Loadshedding
+
+The South African power grid is unable to produce the supply to meet the
+demand. This means that, in order to prevent irrecoverable grid collapse, the
+national power utility (Eskom Holdings State Owned Enterprise Limited, or just
+Eskom) implements regular nation-wide blackouts, where your power will be shut
+off for between 2h30 and 4h30 at a time, often multiple times a day. See
+[eskom-calendar](/eskom-calendar).

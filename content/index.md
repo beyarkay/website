@@ -4,13 +4,12 @@ title: Welcome!
 
 [github](https://github.com/beyarkay/) [twitter](https://x.com/beyarkay) [linkedin](https://www.linkedin.com/in/boydrkane/)
 
-_(obligatory my opinions do not necessarily represent those of my employer)_
-
 # About Me
 
 I like solving incentives (see [mechanism design](mechanism_design.md)), using
 computers to solve problems, and bringing novel ideas into existence. You can
-see what I'm currently working on at [[now|this page]].
+see what I'm currently working on at [[now|this page]], or read more about me
+[here](/about).
 
 # Popular Essays and Projects
 

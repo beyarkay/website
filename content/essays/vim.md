@@ -19,7 +19,7 @@ back here.
 
 > NOTE: I'm going to make each trick a heading, so you/I can link to it
 
-# `ctrl-z`
+# `ctrl-z` and `fg`
 
 This isn't technically a vim command, it's just a plain shell
 send-to-background keystroke. But I use it so, so, much. ctrl-z will send vim
@@ -85,14 +85,15 @@ monkey patching a badly recorded macro.
 
 # Special registers `""` and `"%`
 
-Special registers are handy. Use CTRL-r to insert the value of a register.
+Special registers are handy. Use `CTRL-r` to insert the value of a register.
 
 - `""` Contains your last yank
-- `"%` is the filename
+- `"%` is the filename. So `CTRL-r%` in insert mode will fill out the name of
+  whatever file you're editing.
 
 # Expression register `"=`
 
-The calculator/expression register "= is also really good. Use Ctrl-r in insert mode to
+The calculator/expression register "= is also really good. Use `CTRL-r` in insert mode to
 get a simple calculator, but if you have an expression visually selected then
 the following will evaluate the expression:
 
@@ -114,32 +115,74 @@ Insert mode command are very nice:
   list of examples
 - `CTRL-x CTRL-f` to autocomplete a filename in the current working directory
 
-See :h ins-special-keys for lots more
+See `:h ins-special-keys` for lots more
 
-# Remapping CAPS LOCK to control at the OS level
+# Remapping CAPS LOCK to `CTRL` at the OS level
 
 Remapping caps lock to _control_ at the OS level makes a lot of sense, for all
 shortcuts on your computer, and it means you can very easily exit out of insert
-mode with caps lock + [ (keeping your fingers on the home row).
+mode with `caps lock + [` (keeping your fingers on the home row).
 
 # `CTRL-a` and `CTRL-x`
 
 Using CTRL-a and CTRL-x to increment/decrement a number is useful, but even
-more so when paired with gCTRL-a and gCTRL-x, which (when used over a visual
+more so when paired with `gCTRL-a` and `gCTRL-x`, which (when used over a visual
 selection) will increment the first line by 1, the second by 2, etc. Making it
 really easy to get a numbered list.
 
-On macos I've got alt+character `nnoremap`'ed to do @ character, like, so typing alt-r is the same as invoking the macro (but slightly more ergonomic)
+On macos I've got alt+character `nnoremap`'ed to do @ character, like, so typing alt-r is the same as invoking the macro (but slightly more ergonomic):
+
+```
+" Remap the ALT key so that it is used to trigger macros. For example, ALT-q is
+" equivalent to @q in normal mode. This requires some finagling because in
+" MacOS, ALT-q sends the character "œ" and not a literal ALT and then a literal
+" q.
+" In iTerm2, you'll need to adjust the settings in profiles>keys>general>left
+" option key so that iTerm2 sends a literal ALT.
+"
+" normal key: a b c d e f g h i j k l m n o p q r s t u v w x y z
+" alt+key:    å ∫ ç ∂ ´ ƒ © ˙ ˆ ∆ ˚ ¬ µ ˜ ø π œ ® ß † ¨ √ ∑ ≈ \ Ω
+nnoremap å @a
+nnoremap ∫ @b
+nnoremap ç @c
+nnoremap ∂ @d
+nnoremap ´ @e
+nnoremap ƒ @f
+nnoremap © @g
+nnoremap ˙ @h
+nnoremap ˆ @i
+nnoremap ∆ @j
+nnoremap ˚ @k
+nnoremap ¬ @l
+nnoremap µ @m
+nnoremap ˜ @n
+nnoremap ø @o
+nnoremap π @p
+nnoremap œ @q
+nnoremap ® @r
+nnoremap ß @s
+nnoremap † @t
+nnoremap ¨ @u
+nnoremap √ @v
+nnoremap ∑ @w
+nnoremap ≈ @x
+nnoremap \ @y
+nnoremap Ω @z
+```
 
 # Various `g` commands
 
-- `gf` open file under cursor
-- `gx` open URL under cursor in browser
-- `g&` repeat last :s command for entire file
-- `g*`/`g#` like `*`/`#` but without `\<` `\>`
-- `ge` opposite of `e`
+- `gf` open file under your cursor in vim.
+- `gx` open URL under your cursor in browser.
+- `g&` repeat last `:s` command for entire file.
+- `g*`/`g#` like `*`/`#` but without `\<` `\>`.
+- `ge` opposite of `e`, go backwards through the last character of each word.
 - `gv` select whatever your previous selection was (useful after pasting
-  something)
+  something).
+- `gCTRL-g` get a word count for the current file, something like:
+  ```
+  Col 67 of 67; Line 182 of 195; Word 1120 of 1168; Char 6259 of 6611; Byte 6328 of 6680
+  ```
 
 See [`:help g`](https://vimhelp.org/index.txt.html#g)
 
@@ -148,4 +191,29 @@ See [`:help g`](https://vimhelp.org/index.txt.html#g)
 [:cq](https://vimhelp.org/quickfix.txt.html#%3Acq) is useful when writing a
 commit message in git (ie after `git commit`)
 
-It will exit without saving and return a non-zero error code, causing git to abort the commit
+It will exit without saving and return a non-zero error code, causing git to abort the commit.
+
+# Using your terminal `:!`
+
+You can also pipe commands between vim and the shell. So if you've got some
+text:
+
+```
+a,b,c,d
+123,312,513,543
+23,3121312,53,543
+123,32,513,53
+123,312,53,53
+```
+
+And you want to align all the values into a table, you can visually select the
+lines and then type `:!column -t -s,` (`-t` will create a table, `-s,` will use
+`,` as the separator):
+
+```
+a    b        c    d
+123  312      513  543
+23   3121312  53   543
+123  32       513  53
+123  312      53   53
+```
