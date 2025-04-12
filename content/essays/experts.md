@@ -1,6 +1,8 @@
 ---
 title: Experts have it easy
-tags: [experts, novices, incentives, systems, essays, needs-editing]
+permalink: https://boydkane.com/experts
+date: 2024-04-12
+tags: [experts, novices, incentives, systems, essays]
 ---
 
 Something that's painfully understudied is how experts are more efficient
@@ -273,8 +275,8 @@ simple-but-interesting work, and I've written more about this phenomenon here:
 
 ---
 
-Discuss this essay on Hacker News, Reddit, Less Wrong, or using the comment box
-below.
+Discuss this essay on Hacker News, Reddit, Less Wrong, Substack, or using the
+comment box below.
 
 Thanks to Daniël Goosen, Paul Hoft von Hoesslin, Dr Lisa Kane, and Tegan Green,
 and the AI Safety Cape Town writing group chat for reviewing drafts of this
