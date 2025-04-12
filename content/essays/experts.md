@@ -275,9 +275,13 @@ simple-but-interesting work, and I've written more about this phenomenon here:
 
 ---
 
-Discuss this essay on Hacker News, Reddit, Less Wrong, Substack, or using the
+Discuss this essay on [Hacker News][1], [Less Wrong][2], [Substack][3], or using the
 comment box below.
 
 Thanks to Daniël Goosen, Paul Hoft von Hoesslin, Dr Lisa Kane, and Tegan Green,
 and the AI Safety Cape Town writing group chat for reviewing drafts of this
 essay.
+
+[1]: https://news.ycombinator.com/item?id=43664345
+[2]: https://www.lesswrong.com/posts/rfrRxFuas2mgv8RGY/experts-have-it-easy
+[3]: https://beyarkay.substack.com/p/experts-have-it-easy
