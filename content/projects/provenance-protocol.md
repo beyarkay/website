@@ -1,6 +1,7 @@
 ---
 title: "The Provenance Protocol"
-tags: [cryptography, not-crypto, encryption, digital-signatures, projects, rust]
+tags:
+  [cryptography, not-crypto, encryption, digital-signatures, projects, rust, provenance-protocol]
 ---
 
 The [Provenance Protocol][1] allows anyone to verify the source of an image,

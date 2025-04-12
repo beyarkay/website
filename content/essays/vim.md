@@ -130,7 +130,11 @@ more so when paired with `gCTRL-a` and `gCTRL-x`, which (when used over a visual
 selection) will increment the first line by 1, the second by 2, etc. Making it
 really easy to get a numbered list.
 
-On macos I've got alt+character `nnoremap`'ed to do @ character, like, so typing alt-r is the same as invoking the macro (but slightly more ergonomic):
+# Faster macro invocation
+
+On macOS I've got alt+character `nnoremap`'ed to the `@` character. So typing
+`alt-r` is the same as `@r`, with the difference being that `alt-r` is slightly
+more ergonomic:
 
 ```
 " Remap the ALT key so that it is used to trigger macros. For example, ALT-q is

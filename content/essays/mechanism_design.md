@@ -1,6 +1,7 @@
 ---
 title: Solving for incentives and Mechanism Design
-tags: [mechanism-design, essays, game-theory, systems, incentives]
+tags: [mechanism-design, essays, game-theory, systems, incentives,
+needs-writing]
 ---
 
 If game theory tries to solve the question:
@@ -15,3 +16,8 @@ question:
 > put into the system that make this their optimal strategy?
 
 This comes up in many varied places.
+
+<!---
+TODO write also about stag hunts vs prisoner's dilemma and more generally about
+game theory and finding solutions.
+-->

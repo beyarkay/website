@@ -1,0 +1,281 @@
+---
+title: Experts have it easy
+tags: [experts, novices, incentives, systems, essays, needs-editing]
+---
+
+Something that's painfully understudied is how experts are more efficient
+than novices while achieving better results. I say understudied and not
+unstudied, because it's common knowledge that charging people for their time
+results in experts being paid less since they work faster, which is why experts
+charge more for their time.
+
+This effect is understudied in the impact it has on novices entering a field. A
+Novice will start out being woefully inefficient, putting in incredible amounts
+of effort and running through all number of mental hoops in order to maintain
+the growing pile of unmaintainable abstractions they've developed. An expert
+doesn't have to jump through these hoops. They can more clearly see the actual
+problem at hand and will more efficiently put their time and effort towards
+making progress against the problem. In contrast, novices will spend more time
+battling problems they created for themselves. Let's explore this idea by
+looking at two characters entrapped in a maze, and how they go about escaping.
+
+### Stuck in a maze: Expert vs Novice
+
+> Imagine a world-class navigator being set in a maze. They come well prepared
+> with compass and paper, and have previously escaped some of the most
+> dastardly mazes designed by man. Also, imagine yourself. You're the Novice in
+> this scenario. You didn't realise you were being thrown into a maze. You
+> don't even know if the goal is to get out or to find the centre.
+>
+> As you go deeper and deeper into the maze, you realise that you're helplessly
+> lost. Through a miracle of literary convenience, your expert friend calls you
+> up and offers advice: "As soon as you start, keep track of where you've been
+> using your ball of twine. It'll help you keep track of the decisions you make".
+>
+> You didn't realise the criticality of feline playthings, and so didn't bring
+> a ball of twine. You also don't remember where you started. You ask your
+> expert friend for advice on what to do, to which they respond "Oh I've got no
+> idea. I never go anywhere without my ball of twine. You just shouldn't have
+> gotten yourself into this mess in the first place."
+
+Some of the trickiest tangles I've tackled haven't been because the core
+problem is difficult, but rather because I was helping someone with less
+experience, and they spent several hours getting themselves more and more tied
+up. Before asking for help, they made a wrong decision, which maybe solved
+their short term problems but shot them in the foot in the long term. This bad
+decision made other bad decisions more likely until they were helplessly stuck
+in a trap of their own making.
+
+Often this trap is far trickier than anything an expert would let themselves
+get into. Novices, on the other hand, can easily make a sequence of bad
+decisions that result in an ever increasing cost of solving the problem at
+hand. Not only are you lost in the maze without your twine, but you also went
+in a mysterious cave that looked kinda interesting at first and now you're lost
+in the dark. Meanwhile, the world-class expert is happily skipping through the
+warm sunny parts of the maze, because they knew that the cave would eventually
+lead to a dead end.
+
+I'd like to stress at this point that this is in no way the Novice's fault.
+They followed the same policy as any expert: "take best action available to you
+at the time". Telling a Novice to "just be better" is not constructive
+feedback. This feedback does not lead to them improving over time, since from
+the only perspective that matters in this scenario (the Novice's), they were
+taking the best action available to them. And if you're giving feedback that
+doesn't lead to improvement, what's the point of the feedback?
+
+### The Novice has a genius idea
+
+> Still lost in the maze, you keep walking. Your friend mentioned the ball of
+> twine, and after thinking for a bit you realise your woollen jumper, if
+> carefully dismantled, could be a good replacement. Dutifully and with a
+> concrete objective, you sit down and begin to unravel your jumper. After an
+> hour or so, you've got your ball of yarn. After some failed attempts at
+> unspooling the yarn behind you, you realise one strand of yarn is hopelessly
+> weak. You decide to braid the yarn, and sit down for another hour to do so.
+> It's pretty boring, but you assume that this is just what solving mazes is
+> all about.
+>
+> A bit later, your expert friend calls you up and lambastes you for wasting
+> time with this yarn business. "It was clearly never going to work" he says.
+> He instructs you to use broken branches branches from the hedge that makes up
+> the maze as a way of marking your path. You hadn't realised the maze was made
+> of hedge until this point.
+
+Novices often spend energy fixing things that are orthogonal to the actual
+problem they want to solve, whereas experts are able to better direct their
+energy towards the problems they want to solve. This leads to novices having an
+extremely distorted view of a field, because the problems they end up solving
+are both more difficult and less interesting than those being tackled by
+experts. Nobody wants to put more effort into figuring out a more boring
+problem.
+
+### The Novice's search strategy
+
+> Finally, with a means of marking the paths you've taken, you set out to
+> traverse the maze. Or maybe to escape it, you're still not sure. You stride
+> along, breaking and placing branches as you go. You're not really sure which
+> paths are the best, so you mostly just pick at random.
+
+For a Novice, the vast majority of decisions have to be made essentially
+randomly, with very little information going into the choice. If all decisions
+were sequential and did not depend on any other decision, a dedicated Novice
+could come up with a solution better than random chance after thinking hard
+about the decision. But the world we live in is fractal and complexly
+dependant; many decisions depend on other decisions in ways that a Novice has
+no idea about. Even a dedicated Novice will be confronted with situations in
+which they must make several inter-dependant decisions before they can get
+feedback on the efficacy of those decisions. The Novice is (at first) forced to
+make completely arbitrary choices and face the consequences. Hopefully they can
+learn which consequences were due to which decisions, but this isn't always
+feasible.
+
+From the perspective of an expert, the decisions taken while solving a problem
+are often second nature, and yet are carefully crafted so as to avoid
+unnecessary trouble down the road. A Novice looking upon an expert's work would
+be hard-pressed to distinguish these few important decisions (based on years of
+hard work and study) from the myriad of far less important decisions (based
+largely on personal taste).
+
+### Novices don't even see the decision
+
+> You're breezing through a particularly long and straight bit of the maze when
+> your expert friend calls you up once again. "Why didn't you take that right a
+> few meters back?", they ask. There was none, you assert, and glancing behind
+> you confirms this fact.
+>
+> Just in case, you retrace your steps, and sure enough there's a sliver of a
+> gap in the hedges which you suppose could be a path to take. It's terribly
+> cramped and overgrown compared to the wide clean paths you've been taking so
+> far, but it _is_ a path. Looking around carefully now, you realise the hedges
+> are actually packed with cracks and gaps and thin spots. Who knows how many
+> paths you've missed?
+
+Sometimes the Novice doesn't even know that there's a decision to make. When
+the decision is pointed out by the friendly expert, the Novice can often either
+make the correct decision or appreciate the correct solution when it's shown to
+them. But the Novice _didn't even know there was a decision in the first
+place_. This makes it incredibly difficult for the ambitious Novice to make
+progress without outside help. They cannot just "check their work for
+mistakes", because for any substantial body of work the Novice likely wouldn't
+be able to point out half their decisions.
+
+### Experts can't explain their decisions
+
+> You squeeze through this gap in the hedge recommended by your expert friend.
+> Before long, you come to a fork in the maze: one path leads left, the other
+> right. The left path looks a bit wider and a bit brighter, but having learnt
+> from your mistakes you decide to call up your expert friend to get their
+> advice and learn from their wisdom. "The right path is better.", your friend
+> declares. You ask for an explanation, but they are unable to give anything
+> more specific than "The right path is a stronger option, it's clearly got the
+> right look about it. There's no chance it'll let you down."
+>
+> Frustrated at the lack of intelligible wisdom, you take the right path. And
+> sure enough, it looks like it was the correct decision. The path clears up
+> and starts to head towards the exist, as far as you can tell. But you still
+> don't understand what your expert friend saw, and it seems like they don't
+> understand what they saw either.
+
+The expert's intuition is often formidable, but rarely comprehensible. This
+inability to clearly explain their decisions is what makes it so useful for
+novices to spend time with experts. Often there's an underlying pattern that
+the novice can pick up through careful observation, even if neither the expert
+nor the novice can properly articulate this pattern.
+
+### The Expert's ensemble
+
+> Your expert friend is chastising you for missing the obvious gap in the
+> hedge, and for not realising you could climb over hedges, and for not
+> bringing a hedge trimmer, and for a myriad of other choices that you made
+> without even realising you had the option to do differently. As your eyes
+> glaze over, you hear someone call to your friend through the phone. Turns
+> out, your expert friend has expert friends of their own, and they're all
+> helping each other! "I thought I was meant to figure it out on my own" you
+> cry, but your friend asks whatever gave you that idea.
+>
+> You ask how you too can get a network of peers who can help you through the
+> maze. Your friend says to join some online chat rooms. Unfortunately for you,
+> they're all speaking incomprehensible jargon or debating optimal twine
+> spooling techniques.
+
+Experts often have either a network of people, or (more frequently nowadays)
+know the online network of websites and usernames which can guide their
+thoughts. They can quickly distinguish useful insight from helplessly generic
+summaries, and don't have to spend much time looking for the information
+they're after. But a Novice has _no clue_ about how to distinguish the two, nor
+how to find communities who can help them effectively.
+
+### Escape
+
+> Eventually, you finish the maze. Not wanting to repeat the experience of
+> being a complete Novice, you dedicate yourself to learning more and to not
+> falling ill to the traps of being a Novice. But how, exactly, should you do
+> that?
+
+As a Novice, you _need_ to find a sympathetic expert on your side to help you
+out and to whom you can ask all questions, regardless of how trivial the
+questions might be. A replacement for this is finding a lot of experts so you
+can spread the load amongst them. You can go very far online nowadays, and even
+more so with AI tools. But many of the above trappings that novice's succumb to
+do not magically disintegrate because you have access to the internet or to a
+chatbot. You still don't know how to recognise subtle decisions. You still
+don't know how to distinguish good ideas from bad. You still don't know how to
+avoid long-term cascades due to bad choices. The internet helps, for sure, but
+having someone by your side is monumentally better.
+
+One thing that can be tricky to convey to your friendly expert, is that
+sometimes you just need to be able to show them what you're doing without any
+specific question in mind. I've often found that I can feel uneasy about what
+I'm doing, and then talking with an expert friend will quickly surface that
+I've made some error that will cause pain later. Having someone who's happy to
+spend time "just talking", without any specific goal to solve, will go a long
+way.
+
+In the workplace, this style of "just talking" interactions between novices and
+experts is critical for knowledge transfer and training. But novices rarely
+have a voice with key decision makers, and so promoting these interactions is
+often neglected. It is not sufficient to instruct senior employees to answer
+the newcomer's questions, since the vast majority of learning comes from a
+novice watching how the expert plies their skills, and not from direction
+questions and answers. What makes this scenario even trickier is that the
+expert will likely think "just talking" interactions are basically worthless,
+but answering concrete questions _feel_ much more useful. The novice, on the
+other hand, could likely discover answers to concrete questions on their own,
+given enough time. But developing the intuitions that come through while an
+expert is "just talking" with a novice is incredibly valuable to the novice.
+This explains the difficulty of training new employees when all your experts
+are working remotely, as remote work practically eliminates any sort of casual
+unguided "water-cooler" interaction.
+
+Something you can do independently (and possibly it's best done without expert
+supervision), is exploration of the field. You know nothing, and have no biases
+about what may or may not be useful. _Any_ time you come across something that
+feels like it has some depth to it, such as a well-written essay series or a
+deep technical dive, you need to invest heavily into it. As a novice, your one
+advantage is that _everything_ is new and nobody expects you to be fast.
+Because of this, you can afford to spend the time to learn as much as possible.
+
+I honestly don't think it's possible to overdo this. Spending a week exploring
+some specific arcana of your field is probably going to pay dividends, because
+all of a sudden you're expert-level in this (_tiny_) aspect of the field. You
+can go head-to-head with an expert, since they last read about that weird
+subdomain 5 years ago. Don't study the "common" things, but go all-in on the
+niche pockets. The common things are common enough that you'll learn them
+through osmosis regardless of what your main activity is. But the niche things
+require active study, and ignoring the niches is how you remain a novice.
+
+Amongst all of this, the novice needs courage (to make decisions without
+knowing the consequences) and confidence (so that they whole-heartedly commit
+to their decisions and grant them the greatest chance of success). These traits
+are not trivial, and confidence can easily be crushed by a snide comment from
+an expert. I don't want to imagine how many promising novices have been spurned
+by unimpressive experts. In this way, advice from a sour-hearted expert is
+worse than no expert advice at all due to the risk of destroying the novice's
+confidence.
+
+### Closing thoughts
+
+The lack of consistent empathy between experts and novices would suggest that,
+despite feeling easy, it is in fact difficult. I've written more about this
+[here](hard).
+
+In the extreme case, this lack of empathy leads to experts deriding the work of
+novices as not having the prestige/class/taste/status expressed so deftly by
+the work of the experts.
+
+This is self-fulfilling: novices will either conform to the expert's sense of
+aesthetics, dismiss the field of study as "not for them", or (in rare cases)
+work incredibly hard to prove the experts wrong after all. In this last case,
+the Novice becomes an expert anyway. Experts tend to have an aesthetic
+preference towards technically challenging work rather than
+simple-but-interesting work, and I've written more about this phenomenon here:
+[expert aesthetics](expert_aesthetics).
+
+---
+
+Discuss this essay on Hacker News, Reddit, Less Wrong, or using the comment box
+below.
+
+Thanks to Daniël Goosen, Paul Hoft von Hoesslin, Dr Lisa Kane, and Tegan Green,
+and the AI Safety Cape Town writing group chat for reviewing drafts of this
+essay.
