@@ -79,7 +79,7 @@ doesn't lead to improvement, what's the point of the feedback?
 >
 > A bit later, your expert friend calls you up and lambastes you for wasting
 > time with this yarn business. "It was clearly never going to work" he says.
-> He instructs you to use broken branches branches from the hedge that makes up
+> He instructs you to use broken branches from the hedge that makes up
 > the maze as a way of marking your path. You hadn't realised the maze was made
 > of hedge until this point.
 
@@ -154,7 +154,7 @@ be able to point out half their decisions.
 >
 > Frustrated at the lack of intelligible wisdom, you take the right path. And
 > sure enough, it looks like it was the correct decision. The path clears up
-> and starts to head towards the exist, as far as you can tell. But you still
+> and starts to head towards the exit, as far as you can tell. But you still
 > don't understand what your expert friend saw, and it seems like they don't
 > understand what they saw either.
 
