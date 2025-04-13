@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       tagId: "G-150FMGWDW8",
     },
     locale: "en-US",
-    baseUrl: "http://172.235.173.145",
+    baseUrl: "https://boydkane.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
