@@ -1,5 +1,7 @@
 ---
 title: Esoteric vim
+permalink: /vim
+date: 2024-01-01
 tags: [vim, neovim, vi, shell, unix, terminal, essays]
 # draft: true
 ---
