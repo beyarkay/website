@@ -218,7 +218,7 @@ experts is critical for knowledge transfer and training. But novices rarely
 have a voice with key decision makers, and so promoting these interactions is
 often neglected. It is not sufficient to instruct senior employees to answer
 the newcomer's questions, since the vast majority of learning comes from a
-novice watching how the expert plies their skills, and not from direction
+novice watching how the expert plies their skills, and not from direct
 questions and answers. What makes this scenario even trickier is that the
 expert will likely think "just talking" interactions are basically worthless,
 but answering concrete questions _feel_ much more useful. The novice, on the
