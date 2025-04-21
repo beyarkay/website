@@ -8,6 +8,8 @@ until (thankfully) its raison d'être ceased to be. At its peak, it had 60k
 downloads per week and received national media recognition. Oh, and it's
 written in Rust, btw.
 
+![the website](assets/eskcal-website.png)
+
 # The problem
 
 Imagine this: You're going about your daily life when suddenly, your power goes
@@ -67,6 +69,13 @@ actually interesting technical choices.
 
 ## How Eskom announces loadshedding
 
+![yes](assets/eskcal-announcements.png)
+
+_Yes, that is a tweet with an image of a PDF of a table. This is the only way
+to access the information in that table. There is no API, there are no CSVs,
+there is no Excel spreadsheet download. Only a tweet of an image of a PDF of a
+table._
+
 How Eskom implemented loadshedding is politically motivated which makes it
 technically complicated. Basically, Eskom itself does not declare "everyone
 living in suburb Foobar, your power will be off from 5pm to 7pm today", because
@@ -92,6 +101,8 @@ _literally everyone in the country_ would have to cross reference the new stage
 with what their municipality published.
 
 ## Automatic updating via GitHub actions
+
+![auto-update](assets/eskcal-ghactions.png)
 
 From the start, I wanted to use internet calendar subscriptions. This started
 as a personal project, and I wanted to view power outages in my calendar

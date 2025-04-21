@@ -22,8 +22,13 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      Home: "https://boydkane.com",
+      GitHub: "https://github.com/beyarkay",
+      Twitter: "https://www.twitter.com/beyarka",
+      LessWrong: "https://www.lesswrong.com/users/beyarkay",
+      LinkedIn: "https://www.linkedin.com/in/boydrkane/",
+      Essays: "https://boydkane.com/essays/",
+      Projects: "https://boydkane.com/projects/",
     },
   }),
 }

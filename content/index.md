@@ -2,8 +2,6 @@
 title: Welcome!
 ---
 
-[github](https://github.com/beyarkay/) [twitter](https://x.com/beyarkay) [linkedin](https://www.linkedin.com/in/boydrkane/)
-
 # About Me
 
 I like solving incentives (see [mechanism design](mechanism_design.md)), using
@@ -13,52 +11,48 @@ see what I'm currently working on at [[now|this page]], or read more about me
 
 # Popular Essays and Projects
 
-<table>
+<table style="width: 100%; table-layout: fixed; border-spacing: 0; padding: 0; margin: 0;">
   <tr>
-    <td>
-        <center>
-            <img src="/assets/nasi.jpg" width="80%" height="auto" alt="">
-            <br>
-            <a href="/essays/nasi">Narrow Artificial Super Intelligence</a>
-            <p>Curing cancer without existential risk</p>
-        </center>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/experts.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/essays/experts">Experts have it easy</a>
+        <p>Why is it so frustrating to start out in a new field? And why can't the newbies just <em>get it</em>?</p>
+      </div>
     </td>
-    <td>
-        <center>
-        <img src="/assets/vim.png" width="80%" height="auto" alt="">
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/vim.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
         <br>
         <a href="/essays/vim">Esoteric Vim</a>
-        <p>In which I make <code>c&lt;C-R>=&lt;C-R>"&lt;CR>&lt;ESC></code> vaguely more intuitive</p>
-        </center>
+        <p>In which I make <br><code>c&lt;C-R>=&lt;C-R>"&lt;CR>&lt;ESC></code><br>vaguely more intuitive</p>
+      </div>
     </td>
-  </tr><tr>
-    <td>
-        <center>
-        <img src="/assets/yaml.png" width="80%" height="auto" alt="">
+  </tr>
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/listentoanything.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
         <br>
-        <a href="/essays/yaml">YAML for the haters</a>
-        <p>It's not that bad, I promise</p>
-        </center>
-    </td>
-    <td>
-        <center>
-        <img src="/assets/mechanism_design.jpg" width="80%" height="auto" alt="">
+        <a href="/projects/listentoanything">ListenToAnything.com</a>
+        <p>Convert your every-growing reading list into podcast episodes</p>
+      </div>
+    </td><td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/eskom-calendar.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
         <br>
-        <a href="/essays/mechanism_design">Mechanism Design</a>
-        <p>Okay, but what if you <em>could</em> rebuild the system from scratch?</p>
-        </center>
-    </td>
-  </tr><tr>
-    <td>
-        <center>
-        <img src="/assets/elevation.jpg" width="80%" height="auto" alt="">
-        <br>
-        <a href="/projects/elevation">3D printed elevation maps</a>
-        <p>It's cool because it's from NASA</p>
-        </center>
-    </td>
-    <td>
-        <p>tbc</p>
+        <a href="/projects/eskom-calendar">Eskom Calendar</a>
+        <p>Free and up-to-date information on South Africa's national blackouts</p>
+      </div>
     </td>
   </tr>
 </table>
@@ -96,6 +90,13 @@ projects)
 
 Please reach out! I'm interested in talking about most technical things, even
 if I haven't expressed an interest in it before.
+[github](https://github.com/beyarkay/) [twitter](https://x.com/beyarkay)
+[linkedin](https://www.linkedin.com/in/boydrkane/)
+
+Also, please feel encouraged to leave [anonymous feedback
+<3](https://www.admonymous.co/beyarkay). _Especially_ if you just felt that
+social impulse to chamfer your thoughts. Let me have it (: critical feedback is
+the only way to grow.
 
 # About this site
 
