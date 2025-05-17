@@ -275,8 +275,9 @@ simple-but-interesting work, and I've written more about this phenomenon here:
 
 ---
 
-Discuss this essay on [Hacker News][1], [Less Wrong][2], [Substack][3], or using the
-comment box below.
+Discuss this essay on [r/programming][4], [r/ThePrimeagen][5], [Hacker
+News][1], [Less Wrong][2], [Substack][3], [lobse.rs][6], or using the comment
+box below.
 
 Thanks to Daniël Goosen, Paul Hoft von Hoesslin, Dr Lisa Kane, and Tegan Green,
 and the AI Safety Cape Town writing group chat for reviewing drafts of this
@@ -285,3 +286,6 @@ essay.
 [1]: https://news.ycombinator.com/item?id=43664345
 [2]: https://www.lesswrong.com/posts/rfrRxFuas2mgv8RGY/experts-have-it-easy
 [3]: https://beyarkay.substack.com/p/experts-have-it-easy
+[4]: https://www.reddit.com/r/programming/comments/1knu1w1/senior_devs_arent_just_faster_theyre_dodging/
+[5]: https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/
+[6]: https://lobste.rs/s/qwmcoa/senior_devs_aren_t_just_faster_they_can
