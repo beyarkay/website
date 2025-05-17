@@ -103,9 +103,9 @@ randomly, with very little information going into the choice. If all decisions
 were sequential and did not depend on any other decision, a dedicated Novice
 could come up with a solution better than random chance after thinking hard
 about the decision. But the world we live in is fractal and complexly
-dependant; many decisions depend on other decisions in ways that a Novice has
+dependent; many decisions depend on other decisions in ways that a Novice has
 no idea about. Even a dedicated Novice will be confronted with situations in
-which they must make several inter-dependant decisions before they can get
+which they must make several inter-dependent decisions before they can get
 feedback on the efficacy of those decisions. The Novice is (at first) forced to
 make completely arbitrary choices and face the consequences. Hopefully they can
 learn which consequences were due to which decisions, but this isn't always
