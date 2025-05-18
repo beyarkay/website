@@ -29,7 +29,23 @@ Notes:
 - Reddit goes off the rails all the time, very little discussion beyond the
   top-level comments were even vaguely related to the essay
 - Many reddit comments clearly hadn't read the essay
-- `lobse.rs` was surprisingly thoughtful
+- `lobste.rs` was surprisingly thoughtful
+
+
+Follow up:
+
+- Experts and novices as a relative spectrum: experts are only experts
+  *relative* to someone less experienced than them. It's incorrect to say
+  someone is an expert independent of some reference distribution. Although
+  often we'll implicitly assume the reference distribution is the rest of
+  humanity.
+- Someone can have expertise in a certain field but not others, so saying
+  someone "is an expert" isn't correct, they're an expert in a particular field
+  (although often this field is easy to infer, since being an expert is often
+  quite apparent)
+- Experts are not always pedagogically inclined. You can be good, without
+  having learnt how to teach others. There's often to requirement to teach
+  others in order to develop a skill.
 
 -->
 
@@ -287,7 +303,7 @@ confidence.
 
 The lack of consistent empathy between experts and novices would suggest that,
 despite feeling easy, it is in fact difficult. I've written more about this
-[here](hard).
+[here](essays/hard.md).
 
 In the extreme case, this lack of empathy leads to experts deriding the work of
 novices as not having the prestige/class/taste/status expressed so deftly by
@@ -299,7 +315,7 @@ work incredibly hard to prove the experts wrong after all. In this last case,
 the Novice becomes an expert anyway. Experts tend to have an aesthetic
 preference towards technically challenging work rather than
 simple-but-interesting work, and I've written more about this phenomenon here:
-[expert aesthetics](expert_aesthetics).
+[expert aesthetics](essays/expert_aesthetics.md).
 
 ---
 
