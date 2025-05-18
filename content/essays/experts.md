@@ -5,6 +5,34 @@ date: 2024-04-12
 tags: [experts, novices, incentives, systems, essays]
 ---
 
+<!--
+
+Interesting discussion/critique:
+
+- https://www.reddit.com/r/programming/comments/1knu1w1/senior_devs_arent_just_faster_theyre_dodging/msot39i/
+- https://www.reddit.com/r/programming/comments/1knu1w1/senior_devs_arent_just_faster_theyre_dodging/msnwvdo/
+- https://www.reddit.com/r/programming/comments/1knu1w1/senior_devs_arent_just_faster_theyre_dodging/msoqm0l/
+- https://www.reddit.com/r/programming/comments/1knu1w1/senior_devs_arent_just_faster_theyre_dodging/mslcnod/
+- https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/msl1bvu/
+- https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/msqfdbw/
+- https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/msn6lkl/
+- https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/mslykrs/
+- https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/msn794p/
+- https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/mshpkcb/
+- https://lobste.rs/s/qwmcoa/senior_devs_aren_t_just_faster_they_can#c_oaihwo
+- https://lobste.rs/s/qwmcoa/senior_devs_aren_t_just_faster_they_can#c_cv8sjc
+- https://lobste.rs/s/qwmcoa/senior_devs_aren_t_just_faster_they_can#c_m8zlzd
+
+Notes:
+
+- Reddit is *irrationally* anti-AI
+- Reddit goes off the rails all the time, very little discussion beyond the
+  top-level comments were even vaguely related to the essay
+- Many reddit comments clearly hadn't read the essay
+- `lobse.rs` was surprisingly thoughtful
+
+-->
+
 Something that's painfully understudied is how experts are more efficient
 than novices while achieving better results. I say understudied and not
 unstudied, because it's common knowledge that charging people for their time
