@@ -303,9 +303,17 @@ simple-but-interesting work, and I've written more about this phenomenon here:
 
 ---
 
-Discuss this essay on [r/programming][4], [r/ThePrimeagen][5], [Hacker
-News][1], [Less Wrong][2], [Substack][3], [lobse.rs][6], or using the comment
-box below.
+Discuss this essay on
+
+- [r/programming][4] (600 upvotes, 220 comments)
+- [r/ThePrimeagen][5] (196 upvotes, 150 comments)
+- [Hacker News #1][1] (4 points, 0 comments)
+- [Hacker News #2][7] (123 points, 47 comments)
+- [lobste.rs][6] (77 points, 63 comments)
+- [Less Wrong][2] (18 karma from 9 votes, 3 comments)
+- [Substack][3] (1 comment)
+
+or using the comment box below.
 
 Thanks to Daniël Goosen, Paul Hoft von Hoesslin, Dr Lisa Kane, and Tegan Green,
 and the AI Safety Cape Town writing group chat for reviewing drafts of this
@@ -317,3 +325,4 @@ essay.
 [4]: https://www.reddit.com/r/programming/comments/1knu1w1/senior_devs_arent_just_faster_theyre_dodging/
 [5]: https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/
 [6]: https://lobste.rs/s/qwmcoa/senior_devs_aren_t_just_faster_they_can
+[7]: https://news.ycombinator.com/item?id=44018301
