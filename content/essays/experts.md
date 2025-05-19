@@ -319,6 +319,9 @@ simple-but-interesting work, and I've written more about this phenomenon here:
 
 ---
 
+Follow me [on Twitter (subsequently X)](https://twitter.com/beyarkay), it's
+where I'll announce the next things I write.
+
 Discuss this essay on
 
 - [r/programming][4] (600 upvotes, 220 comments)
