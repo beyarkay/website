@@ -24,7 +24,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       Home: "https://boydkane.com",
       GitHub: "https://github.com/beyarkay",
-      Twitter: "https://www.twitter.com/beyarka",
+      Twitter: "https://www.twitter.com/beyarkay",
       LessWrong: "https://www.lesswrong.com/users/beyarkay",
       LinkedIn: "https://www.linkedin.com/in/boydrkane/",
       Essays: "https://boydkane.com/essays/",
