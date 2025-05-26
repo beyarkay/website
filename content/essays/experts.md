@@ -324,15 +324,14 @@ where I'll announce the next things I write.
 
 Discuss this essay on
 
-- [r/programming][4] (600 upvotes, 220 comments)
-- [r/ThePrimeagen][5] (196 upvotes, 150 comments)
-- [Hacker News #1][1] (4 points, 0 comments)
-- [Hacker News #2][7] (123 points, 47 comments)
-- [lobste.rs][6] (77 points, 63 comments)
-- [Less Wrong][2] (18 karma from 9 votes, 3 comments)
+- [r/programming][4] (645 upvotes, 231 comments)
+- [r/ThePrimeagen][5] (253 upvotes, 198 comments)
+- [Hacker News][7] (203 points, 124 comments)
+- [lobste.rs][6] (81 points, 67 comments)
+- [Less Wrong][2] (23 karma from 10 votes, 3 comments)
 - [Substack][3] (1 comment)
 
-or using the comment box below.
+This essay was also [featured on ThePrimeagen's YouTube channel][8] (54k views).
 
 Thanks to Daniël Goosen, Paul Hoft von Hoesslin, Dr Lisa Kane, and Tegan Green,
 and the AI Safety Cape Town writing group chat for reviewing drafts of this
@@ -345,3 +344,4 @@ essay.
 [5]: https://www.reddit.com/r/theprimeagen/comments/1knescv/senior_devs_arent_just_faster_theyre_dodging/
 [6]: https://lobste.rs/s/qwmcoa/senior_devs_aren_t_just_faster_they_can
 [7]: https://news.ycombinator.com/item?id=44018301
+[8]: https://www.youtube.com/watch?v=f4NpQPONlUo
