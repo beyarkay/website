@@ -14,13 +14,15 @@ Right now I'm interested in and working on:
   list and actually close some of those open tabs. I discuss the goals behind
   it in more detail [here](listentoanything).
 
-- The Provenance Protocol, which allows good actors to verify that the
-  images/PDFs/content that they create was indeed created by them, as well as
-  providing a backwards compatible mechanism to encourage adoption.
+- Writing essays about [expertise][1], how AI will impact the economy, and the
+  nature of competition.
+
+- Public speaking and talks about AI safety and the economic impact of
+  white-collar job automation.
 
 - Independent AI Safety Research
 
-- Organising AI Safety Stellenbosch, a branch of [AI Safety Cape Town](https://www.aisafetyct.com/)
-
 Please reach out! I'm interested in talking with interesting people, even if
 you don't know exactly what to talk about.
+
+[1]: https://boydkane.com/essays/experts
