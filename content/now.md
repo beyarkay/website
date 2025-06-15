@@ -3,6 +3,11 @@ title: "What am I working on?"
 tags: [now, now-now-now, about-ideas-now]
 ---
 
+<!--
+Hey dummy, you should leave a reverse-chronological list of what you _were_
+working on, even if it's just for your personal reference.
+-->
+
 Right now I'm interested in and working on:
 
 - Full-time employment as an Embedded Systems Engineer at CubeSpace, building
