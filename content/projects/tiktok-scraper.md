@@ -158,5 +158,19 @@ TikTok learning what the bot wanted to see or hiding videos the bot had already
 seen, but it meant that the bot didn't really experience the "true" version of
 TikTok. C'est la vie.
 
+---
+
+# Final Thoughts
+
+This was a post-hoc write-up of a project I did for university. It would have
+been cool to spend more time, but university doesn't reward you for going
+deep. Maybe another day, although there's so many cool things to do in the
+world.
+
+If you like data science and graphs of interesting data, you'll really like
+[looking at which programming libraries are downloaded on the week vs
+weekend][3].
+
 [1]: http://boydkane.com/assets/tiktok-report.pdf
 [2]: https://github.com/beyarkay/tiktok-scraper
+[2]: /projects/crates-download-ratio
