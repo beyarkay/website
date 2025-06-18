@@ -124,8 +124,8 @@ and on a weekday:
 
 ![](assets/crates-io-top-1000-scatter.png)
 You can also play around with an interactive version of this graph
-[here](assets/crates-io-top-1000-scatter.html) (or [here][4], if that link is
-broken).
+[here](assets/crates-io-top-1000-scatter.html) (you might have to hit "refresh"
+after you click the link).
 
 It's interesting to see a slight curve to the points, indicating that crates
 seem to get lots of adoption during the week, but then later in life they turn
