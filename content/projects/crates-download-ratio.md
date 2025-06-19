@@ -39,7 +39,12 @@ most downloaded crates, extract their names, and then pass them through the
 script, so we can see which crates are most used for hobby projects:
 
 ```sh
-for p in {1..10}; do curl -s "https://crates.io/api/v1/crates?page=${p}&per_page=100&sort=downloads" | jq -r '.crates[].id'; done | xargs uv run https://gist.githubusercontent.com/beyarkay/6e752756f71b3a84f44af42a964cc399/raw/main.py
+for p in {1..10}; do
+  curl -s "https://crates.io/api/v1/crates?page=${p}&per_page=100&sort=downloads" \
+    -H "User-Agent: Script for https://gist.github.com/beyarkay/6e752756f71b3a84f44af42a964cc399" \
+    | jq -r '.crates[].id'
+  sleep 1
+done | xargs uv run https://gist.githubusercontent.com/beyarkay/6e752756f71b3a84f44af42a964cc399/raw/main.py
 ```
 
 This command will take about 10m to download all the crates' metadata. If you
@@ -50,6 +55,12 @@ curl -s 'https://crates.io/api/v1/crates?page=1&per_page=100&sort=downloads' \
     | jq -r '.crates[].id' \
     | xargs uv run https://gist.githubusercontent.com/beyarkay/6e752756f71b3a84f44af42a964cc399/raw/main.py
 ```
+
+> EDIT(2025-06-19): someone from [`crates.io`][6] has pointed me to their [API
+> usage policies[7]. A previous version of this post did not set the user agent
+> of any queries and did not sleep between requests. That's my fault, I should
+> have checked and not abused the good graces of the open internet. I will do
+> better in the future and any future experiments will use the DB, not the API.
 
 You can download the full 1000 crates as a CSV [here][3].
 
@@ -172,11 +183,19 @@ Hopefully this trend continues.
 If you like data science and graphs of interesting data, you'll _love_ [looking
 at the data I managed to scrape from TiKTok][5].
 
+Discuss this project on:
+
+- [r/rust](https://www.reddit.com/r/rust/comments/1lemyl3/which_crates_are_used_on_the_weekend_by_hobbyists/?)
+- [r/programming](https://www.reddit.com/r/programming/comments/1lemxtc/which_lib_is_popular_with_hobbyists_but_never/?)
+- [lobste.rs](https://lobste.rs/s/mwdh7t/analysing_rust_crates_for_weekend)
+
 [1]: https://x.com/ptrschmdtnlsn/status/1932140876899495994
 [2]: https://x.com/beyarkay/status/1932156287766462691
 [3]: https://boydkane.com/assets/crates-io-top-1000.csv
 [4]: https://boydkane.com/assets/crates-io-top-1000-scatter.html
 [5]: /projects/tiktok-scraper
+[6]: https://www.reddit.com/r/rust/comments/1lemyl3/which_crates_are_used_on_the_weekend_by_hobbyists/myin5qh/
+[7]: https://crates.io/data-access#api
 
 [^1]:
     For some unknown reason, the ChatGPT UI doesn't give datetimes for
