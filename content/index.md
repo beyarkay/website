@@ -4,7 +4,7 @@ title: Welcome!
 
 # About Me
 
-I like solving incentives (see [mechanism design](mechanism_design.md)), using
+I like writing about expertise and doing , using
 computers to solve problems, and bringing novel ideas into existence. You can
 see what I'm currently working on at [[now|this page]], or read more about me
 [here](/about).
@@ -12,6 +12,7 @@ see what I'm currently working on at [[now|this page]], or read more about me
 # Popular Essays and Projects
 
 <table style="width: 100%; table-layout: fixed; border-spacing: 0; padding: 0; margin: 0;">
+
   <tr>
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
@@ -34,6 +35,7 @@ see what I'm currently working on at [[now|this page]], or read more about me
       </div>
     </td>
   </tr>
+
   <tr>
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
@@ -47,6 +49,29 @@ see what I'm currently working on at [[now|this page]], or read more about me
     </td><td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/crates-io-frontpage.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/projects/crates-download-ratio">crates.io download analysis</a>
+        <p>Looking at which crates are used by hobbyists vs working devs</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/tiktok.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/projects/tiktok-scraper">Scraping TikTok for fun & profit</a>
+        <p>Data analysis of 26k TikTok videos exploring what makes something go
+        viral</p>
+      </div>
+    </td><td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
           <img src="/assets/eskom-calendar.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
@@ -55,6 +80,7 @@ see what I'm currently working on at [[now|this page]], or read more about me
       </div>
     </td>
   </tr>
+
 </table>
 
 # Tools & Languages
