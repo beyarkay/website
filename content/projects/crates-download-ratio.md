@@ -185,9 +185,9 @@ at the data I managed to scrape from TiKTok][5].
 
 Discuss this project on:
 
-- [r/rust](https://www.reddit.com/r/rust/comments/1lemyl3/which_crates_are_used_on_the_weekend_by_hobbyists/?)
-- [r/programming](https://www.reddit.com/r/programming/comments/1lemxtc/which_lib_is_popular_with_hobbyists_but_never/?)
-- [lobste.rs](https://lobste.rs/s/mwdh7t/analysing_rust_crates_for_weekend)
+- [r/programming](https://www.reddit.com/r/programming/comments/1lemxtc/which_lib_is_popular_with_hobbyists_but_never/?) (525 upvotes, 266 comments)
+- [r/rust](https://www.reddit.com/r/rust/comments/1lemyl3/which_crates_are_used_on_the_weekend_by_hobbyists/?) (72 upvotes, 10 comments)
+- [lobste.rs](https://lobste.rs/s/mwdh7t/analysing_rust_crates_for_weekend) (17 upvotes, 13 comments)
 
 [1]: https://x.com/ptrschmdtnlsn/status/1932140876899495994
 [2]: https://x.com/beyarkay/status/1932156287766462691
