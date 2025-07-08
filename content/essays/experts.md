@@ -330,6 +330,7 @@ Discuss this essay on
 - [lobste.rs][6] (81 points, 67 comments)
 - [Less Wrong][2] (23 karma from 10 votes, 3 comments)
 - [Substack][3] (1 comment)
+- [Troubleshooting Agile][9] podcast
 
 This essay was also [featured on ThePrimeagen's YouTube channel][8] (54k views).
 
@@ -345,3 +346,4 @@ essay.
 [6]: https://lobste.rs/s/qwmcoa/senior_devs_aren_t_just_faster_they_can
 [7]: https://news.ycombinator.com/item?id=44018301
 [8]: https://www.youtube.com/watch?v=f4NpQPONlUo
+[9]: https://soundcloud.com/troubleshootingagile/the-expertise-gap
