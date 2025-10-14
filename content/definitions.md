@@ -18,14 +18,16 @@ straight past that milestone, and many will disagree with that definition.
 Artificial Super Intelligence, generally something that is more capable than
 humans in all economically meaningful tasks.
 
-# NASI
-
-Narrow Artificial Super Intelligence, generally something that is more capable
-than humans in a _small_ subset of economically meaningful tasks.
-
 # BJJ
 
 Brazilian Ju Jitsu
+
+# Expert Aesthetics
+
+The mutated sense of taste that people develop as they gain expertise in a
+field that leads them to feel technically complicated work is aesthetically
+superior (even if a novice would disagree). I've written more about this here:
+[Why experts seem to like weird things](essays/aesthetics.md)
 
 # Loadshedding
 
@@ -35,3 +37,12 @@ national power utility (Eskom Holdings State Owned Enterprise Limited, or just
 Eskom) implements regular nation-wide blackouts, where your power will be shut
 off for between 2h30 and 4h30 at a time, often multiple times a day. See
 [eskom-calendar](/eskom-calendar).
+
+# NASI
+
+Narrow Artificial Super Intelligence, generally something that is more capable
+than humans in a _small_ subset of economically meaningful tasks.
+
+# NPT
+
+Nuclear Non-proliferation Treaty ([wikipedia](https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons))
