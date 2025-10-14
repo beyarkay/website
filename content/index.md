@@ -40,11 +40,11 @@ novel ideas into existence. You can see what I'm currently working on at
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/vim.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/boss.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
-        <a href="/essays/vim">Esoteric Vim</a>
-        <p>In which I make <br><code>c&lt;C-R>=&lt;C-R>"&lt;CR>&lt;ESC></code><br>vaguely more intuitive</p>
+        <a href="/essays/boss">Why your boss isn't worried about advanced AI</a>
+        <p>Your boss: "Can't you just turn it off?"</p>
       </div>
     </td>
   </tr>

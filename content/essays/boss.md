@@ -1,22 +1,27 @@
 ---
 title: Why your boss isn't worried about AI
+subtitle: "Can't you just turn it off?"
+author: Boyd Kane
+date: 2025-10-14
 tags: [essays, artificial-intelligence, ai-safety, boss, public-perception]
+geometry:
+  - top=30mm
+  - bottom=30mm
+  - inner=30mm
+  - outer=30mm
+  - heightrounded
+linkcolor: blue
+fontsize: 11pt
+lineheight: 1.5
+numbersections: true
+secnumdepth: 3
 ---
 
-<details>
-    <summary>(a note for technical folk)</summary>
-    <p>
-        This article is attempting to bridge a gap between the technical and the
-        non-technical, so I'm going to be quite lax with the jargon here and
-        there. By "AI" I'm referring to 2025 frontier LLMs. I'm also going to
-        be making some sweeping statements about "how software works", these
-        claims mostly hold, but they break down when applied to distributed
-        systems, parallel code, or complex interactions between software
-        systems and human processes. Feel free to debate me in the comments if
-        you think this piece discussing how experts struggle to emphasise with
-        novices should have had more jargon (:
-    </p>
-</details>
+<!--
+!pandoc content/essays/boss.md -o content/assets/boss.pdf --pdf-engine=xelatex
+-->
+
+(a note for technical folk)[^7] | [read as pdf][8]
 
 When it comes to understanding the dangers of AI systems, the general public
 has the worst kind of knowledge: that what you know for sure that just ain't
@@ -176,13 +181,13 @@ This means that we don't know what an AI will be capable of before we've
 trained it. It's very common for AIs to be released to the public for months
 before a random person on Twitter discovers some ability that the AI has
 which even its creators didn't know about. So far, these abilities have been
-mostly just fun, like being good at Geoguessr[3]:
+mostly just fun, like being good at [Geoguessr][3]:
 
-![](assets/boss-geoguessr.png)
+![Geoguessr map](assets/boss-geoguessr.png)
 
 Or making photos look like they were from a [Studio Ghibli film][4]:
 
-![](assets/boss-ghibli.png)
+![Ghibli tweet](assets/boss-ghibli.png)
 
 But there's no reason for these hidden abilities to always be positive. It's
 entirely possible that some dangerous capability is hidden in ChatGPT, but
@@ -222,6 +227,18 @@ between them arise, I've written more about the systemic biases encountered by
 experts (and the difficulties endured by novices) in this essay: [Experts have
 it easy][1].
 
+Thanks to Sam Cross and Caleb for reviewing drafts of this essay.
+
+<!--
+
+Read this essay or comments on:
+
+- LessWrong
+- HackerNews
+- Reddit
+- Substack
+-->
+
 [1]: /essays/experts
 [2]: /essays/hard
 [3]: https://x.com/swax/status/1912728143682760934
@@ -229,6 +246,7 @@ it easy][1].
 [5]: https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1
 [6]: https://transformer-circuits.pub/2025/attribution-graphs/biology.html
 [7]: https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+[8]: http://boydkane.com/assets/boss.pdf
 
 [^1]:
     FineWeb is 15 trillion tokens, each token is about 0.75 words, 11.25
@@ -251,3 +269,14 @@ it easy][1].
     discussions with non-technical folk. Communication is [_empirically
     hard_][2], in that it often goes wrong in practice, even if it feels easy
     to do.
+
+[^7]:
+    This article is attempting to bridge a gap between the technical and the
+    non-technical, so I'm going to be quite lax with the jargon here and there.
+    By "AI" I'm referring to 2025 frontier LLMs. I'm also going to be making
+    some sweeping statements about "how software works", these claims mostly
+    hold, but they break down when applied to distributed systems, parallel
+    code, or complex interactions between software systems and human processes.
+    Feel free to debate me in the comments if you think this piece discussing
+    how experts struggle to emphasise with novices should have had more jargon
+    (:
