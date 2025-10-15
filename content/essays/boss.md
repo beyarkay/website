@@ -1,6 +1,9 @@
 ---
 title: Why your boss isn't worried about AI
+socialImage: content/assets/boss.png
+ogImage: content/assets/boss.png
 subtitle: "Can't you just turn it off?"
+description: "Can't you just turn it off?"
 author: Boyd Kane
 date: 2025-10-14
 tags: [essays, artificial-intelligence, ai-safety, boss, public-perception]
@@ -21,7 +24,7 @@ secnumdepth: 3
 !pandoc content/essays/boss.md -o content/assets/boss.pdf --pdf-engine=xelatex
 -->
 
-(a note for technical folk)[^7] | [read as pdf][8]
+(a note for technical folk)[^7] | [read as pdf][8] | [Substack][9] | [LessWrong][10]
 
 When it comes to understanding the dangers of AI systems, the general public
 has the worst kind of knowledge: that what you know for sure that just ain't
@@ -229,15 +232,13 @@ it easy][1].
 
 Thanks to Sam Cross and Caleb for reviewing drafts of this essay.
 
-<!--
+Discuss this essay:
 
-Read this essay or comments on:
-
-- LessWrong
-- HackerNews
-- Reddit
-- Substack
--->
+- [HackerNews](https://news.ycombinator.com/item?id=45583180) (284 points, 218 comments)
+- [r/programming](https://www.reddit.com/r/programming/comments/1o6n17u/why_your_boss_isnt_worried_about_ai_cant_you_just/) (55 points, 7 comments)
+- [/slatestarcodex](https://www.reddit.com/r/slatestarcodex/comments/1o6n5ne/why_your_boss_isnt_worried_about_ai_cant_you_just/) (17 points, 19 comments)
+- [Lobse.rs](https://lobste.rs/s/roygg3/why_your_boss_isn_t_worried_about_ai_can_t) (12 points, 4 comments)
+- [LessWrong][10] (9 points, 2 comments)
 
 [1]: /essays/experts
 [2]: /essays/hard
@@ -247,6 +248,8 @@ Read this essay or comments on:
 [6]: https://transformer-circuits.pub/2025/attribution-graphs/biology.html
 [7]: https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
 [8]: http://boydkane.com/assets/boss.pdf
+[9]: https://beyarkay.substack.com/p/why-your-boss-isnt-worried-about
+[10]: https://www.lesswrong.com/posts/ZFsMtjsa6GjeE22zX/why-your-boss-isn-t-worried-about-ai
 
 [^1]:
     FineWeb is 15 trillion tokens, each token is about 0.75 words, 11.25
@@ -278,5 +281,5 @@ Read this essay or comments on:
     hold, but they break down when applied to distributed systems, parallel
     code, or complex interactions between software systems and human processes.
     Feel free to debate me in the comments if you think this piece discussing
-    how experts struggle to emphasise with novices should have had more jargon
+    how experts struggle to empathise with novices should have had more jargon
     (:
