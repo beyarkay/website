@@ -22,6 +22,8 @@ secnumdepth: 3
 
 <!--
 !pandoc content/essays/boss.md -o content/assets/boss.pdf --pdf-engine=xelatex
+
+Fascinating how people argue that old code isn't more reliable https://news.ycombinator.com/item?id=45583842
 -->
 
 (a note for technical folk)[^7] | [read as pdf][8] | [Substack][9] | [LessWrong][10]
@@ -234,9 +236,9 @@ Thanks to Sam Cross and Caleb for reviewing drafts of this essay.
 
 Discuss this essay:
 
-- [HackerNews](https://news.ycombinator.com/item?id=45583180) (284 points, 218 comments)
-- [r/programming](https://www.reddit.com/r/programming/comments/1o6n17u/why_your_boss_isnt_worried_about_ai_cant_you_just/) (55 points, 7 comments)
-- [/slatestarcodex](https://www.reddit.com/r/slatestarcodex/comments/1o6n5ne/why_your_boss_isnt_worried_about_ai_cant_you_just/) (17 points, 19 comments)
+- [HackerNews](https://news.ycombinator.com/item?id=45583180) (514 points, 441 comments)
+- [r/programming](https://www.reddit.com/r/programming/comments/1o6n17u/why_your_boss_isnt_worried_about_ai_cant_you_just/) (102 points, 7 comments)
+- [/slatestarcodex](https://www.reddit.com/r/slatestarcodex/comments/1o6n5ne/why_your_boss_isnt_worried_about_ai_cant_you_just/) (22 points, 31 comments)
 - [Lobse.rs](https://lobste.rs/s/roygg3/why_your_boss_isn_t_worried_about_ai_can_t) (12 points, 4 comments)
 - [LessWrong][10] (9 points, 2 comments)
 
