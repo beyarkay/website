@@ -21,6 +21,13 @@ export default (() => {
     return (
       <head>
         <title>{title}</title>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="RSS Feed for boydkane.com"
+          href="/index.xml"
+        />
+
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
