@@ -24,6 +24,8 @@ secnumdepth: 3
 !pandoc content/essays/boss.md -o content/assets/boss.pdf --pdf-engine=xelatex
 
 Fascinating how people argue that old code isn't more reliable https://news.ycombinator.com/item?id=45583842
+
+Read by about 36k people (:
 -->
 
 (a note for technical folk)[^7] | [read as pdf][8] | [Substack][9] | [LessWrong][10]
@@ -241,6 +243,7 @@ Discuss this essay:
 - [/slatestarcodex](https://www.reddit.com/r/slatestarcodex/comments/1o6n5ne/why_your_boss_isnt_worried_about_ai_cant_you_just/) (22 points, 31 comments)
 - [Lobse.rs](https://lobste.rs/s/roygg3/why_your_boss_isn_t_worried_about_ai_can_t) (12 points, 4 comments)
 - [LessWrong][10] (9 points, 2 comments)
+- [ai unprompted podcast][11] (starting at about 45s)
 
 [1]: /essays/experts
 [2]: /essays/hard
@@ -252,6 +255,7 @@ Discuss this essay:
 [8]: http://boydkane.com/assets/boss.pdf
 [9]: https://beyarkay.substack.com/p/why-your-boss-isnt-worried-about
 [10]: https://www.lesswrong.com/posts/ZFsMtjsa6GjeE22zX/why-your-boss-isn-t-worried-about-ai
+[11]: https://aiunprompted.substack.com/p/004-ai-in-the-workplace-bugs-roi
 
 [^1]:
     FineWeb is 15 trillion tokens, each token is about 0.75 words, 11.25
