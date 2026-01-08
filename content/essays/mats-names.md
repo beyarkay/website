@@ -3,29 +3,34 @@ title: Using Anki to memorise the names of the MATS 9 cohort
 tags: [mats, social, anki, memorise, mixers, names-and-faces]
 ---
 
+| Also on [LessWrong](https://www.lesswrong.com/posts/W2CxiAKDcdTkMgopu/) |
+
 I'm generally very bad with names, and especially struggle when I'm quickly
 introduced to large numbers of people. Generally I'd just throw up my hands and
 resign myself to awkward conversations attempting to remember someone's name.
 
 But I've been on an [Anki][1] binge recently, and also was recently accepted
-into MATS 9 (which started on the 5th of January 2026). So I used Anki memorise
-all the names and faces of the cohort before the first day and it was
-incredibly successful; I'll certainly be doing it again.
+into MATS 9 (which started on the 5th of January 2026). So I used Anki to
+memorise most of the names and faces of the cohort before the first day and it
+was incredibly successful; I'll certainly be doing it again. If you're a MATS
+scholar and would like the Anki deck, let me know!
 
 # Creating the deck
 
 This ended up being very easy, MATS had already asked the scholars to volunteer
 a profile photo, name, and short bio for use in an Airtable which was shared
-with all of us. After some back and forth, Claude gave me some JavaScript to
-paste into the console which would download all photos and text into a form
-amenable for Anki import. Claude also guided me on where to put the photos and
-how to import the CSV into the Anki app which was all very quick. I _did_ spend
-a little time to crop everyone's photos to just be their head, to remove
-background features that might be easier to memorise than someone's face.
+with all of us.
 
 > Note: I'd feel very weird if I were doing this without knowing that MATS had
 > created an opt-in face book, with the purpose of introducing everyone to one
 > another.
+
+After some back and forth, Claude gave me some JavaScript to paste into the
+console which would download all photos and text into a form amenable for Anki
+import. Claude also guided me on where to put the photos and how to import the
+CSV into the Anki app which was all very quick. I _did_ spend a little time to
+crop everyone's photos to just be their head, to remove background features
+that might be easier to memorise than someone's face.
 
 # What worked well
 
@@ -34,8 +39,8 @@ background features that might be easier to memorise than someone's face.
   name written down it's a lot easier for me to recall than if I'm trying to
   memorise an arbitrary string of syllables.
 - I'm writing this on the third day of MATS, and I _feel_ like I know most of
-  the cohort already. This isn't really true, we've only known each other for a
-  day, but it's significantly better than being panic-stricken as you see
+  the cohort already. This isn't really true, we've only known each other for
+  two days, but it's significantly better than being panic-stricken as you see
   someone approaching you whose name you've forgotten.
 - It's a _lot_ easier to organise outings, meetings, group discussions, trips
   to Yosemite, etc, since I know most people's names and can spend effort
@@ -84,8 +89,6 @@ background features that might be easier to memorise than someone's face.
 I'm hoping that repeatedly memorising lots of names will improve my ability in
 general to recall names. Hopefully Anki can give data about this in the future,
 in which case I might make a follow-up post. I'll absolutely be using this
-technique for large events or mixers.
-
----
+technique for future large events or mixers.
 
 [1]: https://apps.ankiweb.net/
