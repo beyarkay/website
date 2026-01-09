@@ -124,6 +124,11 @@ business start up[^4] and stays in business, or we'll see significant
 innovation in smartphones (something like 10x better batteries or other
 components).
 
+---
+
+Thanks to Jasmine Li, Jo Jiao, Desiree J, Jay Chooi, and the MATS 9 blogging
+and writing channel for reviewing drafts of this essay.
+
 [^1]: I'll note that books and movies might be a slight outlier here: centi-millionaires absolutely can pay or sponsor creative professionals to produce work that they specifically wish to exist. This might be explicit (contracting a director to make a specific film), but more likely this is implicit (funding a film studio, sponsoring an artwork, organising meet-and-greets with powerful donors).
 
 [^3]: You might debate the precise duration of the stagnation, but the past 20 years of gas-powered car innovation is certainly less impressive than the last 20 years of mobile phone innovation.
