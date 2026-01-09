@@ -22,7 +22,7 @@ novel ideas into existence. You can see what I'm currently working on at
 
 </a>
 
-# Popular Essays and Projects
+# Essays
 
 <table style="width: 100%; table-layout: fixed; border-spacing: 0; padding: 0; margin: 0;">
 
@@ -53,13 +53,89 @@ novel ideas into existence. You can see what I'm currently working on at
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-vim.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/essays/vim">Esoteric vim</a>
+        <p>Advanced vim tips that aren't on most "top vim commands" lists</p>
+      </div>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-yaml.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/essays/yaml">YAML for the haters</a>
+        <p>YAML is just JSON with comments and trailing commas. That's it.</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-safety-scaling.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/essays/safety-scaling">AI Safety has a scaling problem</a>
+        <p>Exploring research bounties as a way to scale AI safety research beyond fellowship bottlenecks</p>
+      </div>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-companies-asi.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/essays/companies-as-proto-asi">Companies as proto-ASI</a>
+        <p>Large corporations are an existence proof that systems smarter than humans aren't aligned by default</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-mats-names.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/essays/mats-names">Memorising names with Anki</a>
+        <p>Using spaced repetition to learn the names and faces of a 100+ person cohort before day one</p>
+      </div>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-2025nov.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/essays/2025nov">Writing every day in November 2025</a>
+        <p>30 days of mini-essays: from AI timelines to sign language to the $100k iPhone</p>
+      </div>
+    </td>
+  </tr>
+
+</table>
+
+# Projects
+
+<table style="width: 100%; table-layout: fixed; border-spacing: 0; padding: 0; margin: 0;">
+
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
           <img src="/assets/listentoanything.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/projects/listentoanything">ListenToAnything.com</a>
-        <p>Convert your every-growing reading list into podcast episodes</p>
+        <p>Convert your ever-growing reading list into podcast episodes</p>
       </div>
-    </td><td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
           <img src="/assets/crates-io-frontpage.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
@@ -79,17 +155,63 @@ novel ideas into existence. You can see what I'm currently working on at
         </div>
         <br>
         <a href="/projects/tiktok-scraper">Scraping TikTok for fun & profit</a>
-        <p>Data analysis of 26k TikTok videos exploring what makes something go
-        viral</p>
+        <p>Data analysis of 26k TikTok videos exploring what makes something go viral</p>
       </div>
-    </td><td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
           <img src="/assets/eskom-calendar.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/projects/eskom-calendar">Eskom Calendar</a>
-        <p>Free and up-to-date information on South Africa's national blackouts</p>
+        <p>Free and up-to-date information on South Africa's national blackouts (60k downloads/week at peak)</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-git-activity.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/projects/git_activity">git-activity</a>
+        <p>GitHub-style activity graphs in your terminal with a simple git alias</p>
+      </div>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-elevation.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/projects/elevation">3D Printed Elevation Maps</a>
+        <p>Converting NASA height maps into 3D printable STL files</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-provenance.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/projects/provenance-protocol">The Provenance Protocol</a>
+        <p>Cryptographically verify the source of images to combat AI-generated fakes</p>
+      </div>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <img src="/assets/TODO-card-game.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+        </div>
+        <br>
+        <a href="/projects/card-game-builder">Card Game Builder</a>
+        <p>Convert YAML descriptions into printable PDFs for party card games</p>
       </div>
     </td>
   </tr>
