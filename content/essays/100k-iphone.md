@@ -129,10 +129,24 @@ components).
 Thanks to Jasmine Li, Jo Jiao, Desiree J, Jay Chooi, and the MATS 9 blogging
 and writing channel for reviewing drafts of this essay.
 
-[^1]: I'll note that books and movies might be a slight outlier here: centi-millionaires absolutely can pay or sponsor creative professionals to produce work that they specifically wish to exist. This might be explicit (contracting a director to make a specific film), but more likely this is implicit (funding a film studio, sponsoring an artwork, organising meet-and-greets with powerful donors).
+[^1]:
+    I'll note that books and movies might be a slight outlier here:
+    centi-millionaires absolutely can pay or sponsor creative professionals to
+    produce work that they specifically wish to exist. This might be explicit
+    (contracting a director to make a specific film), but more likely this is
+    implicit (funding a film studio, sponsoring an artwork, organising
+    meet-and-greets with powerful donors).
 
-[^3]: You might debate the precise duration of the stagnation, but the past 20 years of gas-powered car innovation is certainly less impressive than the last 20 years of mobile phone innovation.
+[^3]:
+    You might debate the precise duration of the stagnation, but the past 20
+    years of gas-powered car innovation is certainly less impressive than the
+    last 20 years of mobile phone innovation.
 
-[^4]: one that produces a smartphone ~10x more expensive than the most popular iPhone
+[^4]:
+    one that produces a smartphone ~10x more expensive than the most popular
+    iPhone
 
-[^5]: If you google, you _can_ find example 100k iPhones [1](https://www.imore.com/check-out-100000-caviar-iphone-11-pro-clock-back), [2](https://appleinsider.com/articles/24/03/25/yet-another-sealed-4gb-original-iphone-brings-in-over-100000-at-auction)
+[^5]:
+    If you google, you _can_ find example 100k iPhones
+    [1](https://www.imore.com/check-out-100000-caviar-iphone-11-pro-clock-back),
+    [2](https://appleinsider.com/articles/24/03/25/yet-another-sealed-4gb-original-iphone-brings-in-over-100000-at-auction)
