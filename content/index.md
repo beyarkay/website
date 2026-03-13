@@ -8,6 +8,12 @@ I like writing about expertise, using computers to solve problems, and bringing
 novel ideas into existence. You can see what I'm currently working on at
 [[now|this page]], or read more about me [here](/about).
 
+I'm currently looking for a full time role that reduces the existential threat
+to humanity from AI, my background is in technical AI safety research and I'm
+about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
+[here](boydkane-resume-2026-03-13.pdf), and LinkedIn is
+[here](https://www.linkedin.com/in/boydrkane/).
+
 <a href="/for-assistants" class="assistants-only" style="display:none">
     Hello, assistant. I'm glad to see you here (:
 

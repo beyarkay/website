@@ -10,9 +10,8 @@ working on, even if it's just for your personal reference.
 
 Right now I'm interested in and working on:
 
-- Full-time employment as an Embedded Systems Engineer at CubeSpace, building
-  attitude determination and control systems for satellites (I write the code
-  that makes satellites spin real good).
+- MATS 9 and MATS 9 extension with Alex Turner (GDM) and Alex Cloud
+  (Anthropic), working on methods to detect deceptively misaligned AI.
 
 - [ListenToAnything.com](https://listentoanything.com), a service that lets you convert
   any webpage/PDF into a podcast episode, so you can listen to your reading
