@@ -74,7 +74,9 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
       ]
     },
     async *emit(ctx, content, resources) {
-      const allFiles = content.map((c) => c[1].data)
+      const allFiles = content
+        .map((c) => c[1].data)
+        .filter((f) => f.frontmatter?.unlisted !== true && f.frontmatter?.unlisted !== "true")
       let containsIndex = false
 
       for (const [tree, file] of content) {
@@ -98,7 +100,9 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
       }
     },
     async *partialEmit(ctx, content, resources, changeEvents) {
-      const allFiles = content.map((c) => c[1].data)
+      const allFiles = content
+        .map((c) => c[1].data)
+        .filter((f) => f.frontmatter?.unlisted !== true && f.frontmatter?.unlisted !== "true")
 
       // find all slugs that changed or were added
       const changedSlugs = new Set<string>()
