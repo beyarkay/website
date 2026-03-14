@@ -14,6 +14,10 @@ const PUBLIC_DIR = path.join(ROOT, "public")
 const TEST_FILE = path.join(CONTENT_DIR, "_test-unlisted-xyz789.md")
 const UNLISTED_SLUG = "_test-unlisted-xyz789"
 
+const TEST_SUBDIR = path.join(CONTENT_DIR, "_test-unlisted-subdir-xyz789")
+const TEST_SUBDIR_FILE = path.join(TEST_SUBDIR, "secret-draft.md")
+const UNLISTED_SUBDIR_SLUG = "_test-unlisted-subdir-xyz789/secret-draft"
+
 describe("unlisted frontmatter", () => {
   before(() => {
     fs.writeFileSync(
@@ -27,11 +31,24 @@ tags: [_test-unlisted-tag-xyz789]
 This is a test page that should be unlisted.
 `,
     )
+    fs.mkdirSync(TEST_SUBDIR, { recursive: true })
+    fs.writeFileSync(
+      TEST_SUBDIR_FILE,
+      `---
+title: Secret Draft in Subfolder
+unlisted: true
+---
+
+This is a secret draft in a subfolder.
+`,
+    )
     execSync("npx quartz build", { cwd: ROOT, stdio: "pipe", timeout: 60_000 })
   })
 
   after(() => {
     fs.unlinkSync(TEST_FILE)
+    fs.unlinkSync(TEST_SUBDIR_FILE)
+    fs.rmdirSync(TEST_SUBDIR)
   })
 
   test("unlisted page is built and accessible", () => {
@@ -99,6 +116,16 @@ This is a test page that should be unlisted.
         `Unlisted page should not appear in tag page ${tagFile}`,
       )
     }
+  })
+
+  test("unlisted page in subfolder is built and accessible", () => {
+    const htmlPath = path.join(PUBLIC_DIR, `${UNLISTED_SUBDIR_SLUG}.html`)
+    assert(fs.existsSync(htmlPath), `Expected ${htmlPath} to exist`)
+    const html = fs.readFileSync(htmlPath, "utf-8")
+    assert(
+      html.includes("This is a secret draft in a subfolder"),
+      "Unlisted page in subfolder should contain its content",
+    )
   })
 
   test("unlisted page does not appear in folder listing", () => {
