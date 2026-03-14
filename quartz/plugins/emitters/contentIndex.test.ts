@@ -37,6 +37,11 @@ This is a test page that should be unlisted.
   test("unlisted page is built and accessible", () => {
     const htmlPath = path.join(PUBLIC_DIR, `${UNLISTED_SLUG}.html`)
     assert(fs.existsSync(htmlPath), `Expected ${htmlPath} to exist`)
+    const html = fs.readFileSync(htmlPath, "utf-8")
+    assert(
+      html.includes("This is a test page that should be unlisted"),
+      "Unlisted page should contain its content",
+    )
   })
 
   test("unlisted page has noindex meta tag", () => {
