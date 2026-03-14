@@ -21,6 +21,7 @@ describe("unlisted frontmatter", () => {
       `---
 title: Test Unlisted Page
 unlisted: true
+tags: [_test-unlisted-tag-xyz789]
 ---
 
 This is a test page that should be unlisted.
@@ -72,5 +73,39 @@ This is a test page that should be unlisted.
       !rss.includes(UNLISTED_SLUG),
       "Unlisted page should not appear in RSS feed",
     )
+  })
+
+  test("unlisted page tag does not create a tag page", () => {
+    const tagPagePath = path.join(PUBLIC_DIR, "tags", "_test-unlisted-tag-xyz789.html")
+    assert(
+      !fs.existsSync(tagPagePath),
+      "Tag page should not be created for tags only used by unlisted pages",
+    )
+  })
+
+  test("unlisted page does not appear in any tag listing", () => {
+    const tagsDir = path.join(PUBLIC_DIR, "tags")
+    if (!fs.existsSync(tagsDir)) return
+    const tagFiles = fs.readdirSync(tagsDir).filter((f) => f.endsWith(".html"))
+    for (const tagFile of tagFiles) {
+      const html = fs.readFileSync(path.join(tagsDir, tagFile), "utf-8")
+      assert(
+        !html.includes(UNLISTED_SLUG),
+        `Unlisted page should not appear in tag page ${tagFile}`,
+      )
+    }
+  })
+
+  test("unlisted page does not appear in folder listing", () => {
+    // The test file is at root, so check the root folder index if it exists
+    const folderFiles = fs.readdirSync(PUBLIC_DIR).filter((f) => f.endsWith(".html"))
+    for (const file of folderFiles) {
+      if (file === `${UNLISTED_SLUG}.html`) continue // skip the page itself
+      const html = fs.readFileSync(path.join(PUBLIC_DIR, file), "utf-8")
+      assert(
+        !html.includes(`>${UNLISTED_SLUG}<`),
+        `Unlisted page should not appear as a link in ${file}`,
+      )
+    }
   })
 })
