@@ -1,7 +1,9 @@
 ---
+unlisted: true
 title: In support of narrow ASI
 tags: [nasi, asi, ai, narrow-ai, essays, opinions]
 ---
+unlisted: true
 
 <!--
 TODO: include something about the minimum level of intelligence required to
