@@ -59,7 +59,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-vim.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-vim-1.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/essays/vim">Esoteric vim</a>
@@ -69,7 +69,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-yaml.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-yaml-1.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/essays/yaml">YAML for the haters</a>
@@ -82,7 +82,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-safety-scaling.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-safety-scaling-4.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/essays/safety-scaling">AI Safety has a scaling problem</a>
@@ -92,7 +92,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-companies-asi.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-companies-as-proto-asi-2.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/essays/companies-as-proto-asi">Companies as proto-ASI</a>
@@ -105,7 +105,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-mats-names.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-mats-names-4.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/essays/mats-names">Memorising names with Anki</a>
@@ -115,7 +115,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-2025nov.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-2025nov-2.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/essays/2025nov">Writing every day in November 2025</a>
@@ -180,7 +180,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-git-activity.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-git-activity-1.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/projects/git_activity">git-activity</a>
@@ -190,7 +190,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-elevation.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-elevation-1.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/projects/elevation">3D Printed Elevation Maps</a>
@@ -203,7 +203,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-provenance.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-provenance-1.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/projects/provenance-protocol">The Provenance Protocol</a>
@@ -213,7 +213,7 @@ about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/TODO-card-game.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
+          <img src="/assets/thumbnail-card-game-2.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
         <a href="/projects/card-game-builder">Card Game Builder</a>
