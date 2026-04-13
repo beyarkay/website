@@ -21,6 +21,33 @@ back here.
 
 > NOTE: I'm going to make each trick a heading, so you/I can link to it
 
+# NEW: `ctrl-j` and `ctrl-k` to scroll in a new way
+
+Something I've _always_ wanted but only now clicked for how to create it. So
+for moving the screen/cursor by one line, you've basically got `j`/`k` and
+`ctrl-e`/`ctrl-y`. `j`/`k` will move the cursor but keep the page still, and
+`ctrl-e`/ctrl-y` will move the page but keep the cursor still. But what if you
+want that secret third option? To move the page _and_ move the cursor? Alas,
+stock vim does not provide this option. But here's the keybinding to do this!
+
+```
+nnoremap <C-j> <C-e>j
+nnoremap <C-k> <C-y>k
+```
+
+Basically there's three reference frames that we care about: the position of
+the cursor relative to the lines (of the file) and the position of the lines of
+the file relative to the viewport of the screen. I want some way to keep my
+cursor in the same location _relative to the viewport of the screen_ but move
+the lines relative to the viewport of the screen. This mapping gives that
+option:
+
+|                    | move screen? | move cursor? | change line? |
+| ------------------ | ------------ | ------------ | ------------ |
+| OLD: j/k           | no           | yes          | yes          |
+| OLD: ctrl-e/ctrl-y | yes          | yes          | no           |
+| NEW: ctrl-j/ctrl-k | yes          | no           | yes          |
+
 # `ctrl-z` and `fg`
 
 This isn't technically a vim command, it's just a plain shell
