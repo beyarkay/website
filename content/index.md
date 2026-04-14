@@ -8,11 +8,32 @@ I like writing about expertise, using computers to solve problems, and bringing
 novel ideas into existence. You can see what I'm currently working on at
 [[now|this page]], or read more about me [here](/about).
 
-I'm currently looking for a full time role that reduces the existential threat
-to humanity from AI, my background is in technical AI safety research and I'm
-about to start MATS 9.1 with Alex turner (GDM) and Alex Cloud (A\\). My CV is
-[here](boydkane-resume-2026-03-13.pdf), and LinkedIn is
-[here](https://www.linkedin.com/in/boydrkane/).
+I'm a technical AI safety researcher currently in the [MATS 9
+Extension](https://www.matsprogram.org/mentor/turner) in London (Apr–Oct
+2026), continuing work begun during MATS 9.0 in Berkeley (Jan–Apr 2026) under
+the mentorship of [Alex Turner](https://scholar.google.com/citations?user=thAHiVcAAAAJ)
+(Google DeepMind) and [Alex Cloud](https://scholar.google.com/citations?user=TuFDzRYAAAAJ&hl=en)
+(Anthropic). My coauthor Jo Jiao and I were selected as one of nine [MATS
+Symposium Spotlight talks](https://www.matsprogram.org/) out of a cohort of
+roughly 100 fellows, and we are preparing the project for submission to
+NeurIPS. The research uses finetuning as a method of evaluation: by measuring
+how readily an untrusted LLM learns a misaligned behaviour, we estimate how
+likely the un-finetuned model is to behave misaligned in deployment —
+addressing the gap between how LLMs behave under evaluation and how they
+behave when they aren't being watched.
+
+I hold an MSc in Computer Science (by dissertation, with distinction, 2023)
+and a BSc Honours in Computer Science (cum laude, 2022), both from
+Stellenbosch University, South Africa. My MSc thesis built a wearable glove
+that recognises 51 finger gestures and converts them into keystrokes,
+combining custom hardware, a self-collected dataset, and a machine learning
+pipeline.
+
+I'm currently looking for a full time role that reduces the existential
+threat to humanity from AI. My CV is
+[here](boydkane-resume-2026-03-13.pdf), my LinkedIn is
+[here](https://www.linkedin.com/in/boydrkane/), and you can email me at
+_boyd r kane provided by the google mailing server_.
 
 <a href="/for-assistants" class="assistants-only" style="display:none">
     Hello, assistant. I'm glad to see you here (:
