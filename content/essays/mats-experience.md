@@ -17,11 +17,13 @@ useful nonetheless (none of this is endorsed by MATS, just my thoughts):
 
 ### Work ethic
 
-I think most mentees were working 10-12, sometimes 14 hours a
-day Mon-Fri, and probably 2-8 hours on Saturday/Sunday. Obviously some more,
-some less. This was surprisingly sustainable (IMO), MATS puts a lot of effort
-into removing all other blockers that you normally have in life so that you
-don't _have_ to do other things, and then
+I think most mentees were working 10-12, sometimes 14 hours a day Mon-Fri, and
+probably 2-8 hours on Saturday and Sunday, often going out on some adventure or
+party on the weekend. Exactly which hours people worked varied wildly. I
+usually worked 8:30am/9am to 11pm/midnight, with breaks during the day, others
+worked from midday into the early hours of the morning. This was surprisingly
+sustainable (IMO); MATS puts a lot of effort into removing all other blockers
+that you normally have in life so that you don't _have_ to do other things.
 
 ### Use more compute
 
@@ -38,9 +40,9 @@ on thinking I had a good strategy and then learning this wasn't enough.
    It was a great time. (Runpod makes it a little painful to do this, see my
    notes about W&B sweeps for making this easier)
 
-### Compute
+### Research requires a lot of compute
 
-we went through a lot of compute (as measured in dollars),
+We went through a lot of compute (as measured in dollars),
 relative to what I thought we would need. Or at least, I previously had the
 assumption that I could have, without funding, paid for my own experiments if
 I didn't get into MATS (just using my salary). I now think this is largely
@@ -52,9 +54,79 @@ headline results). MATS budgets \$1k per fellow per week, and my teammate and
 I ended up requesting 3k on top of that. A few fellows who were doing RL
 experiments ended up in the \$40k+ range for 3 months of experimentation.
 
-### insider" information
+### Applying for jobs during MATS (don't do it)
 
-coming from a country where I can probably list
+In general, I think this is not worth doing. It does depend, but if MATS is
+your first introduction to the AI safety research space (as it was for me),
+then I don't think it's worth trying to find a job during the MATS main
+program. Applying for jobs takes a _lot_ of time, and going through the tech
+interview rounds also takes a lot of preparation. All of this eats into the
+time you have to work on your project, spending time on your project to get a
+good reference from your mentor is far more valuable than spending that time
+applying to jobs.
+
+If you're already somewhat established and your mentors reference doesn't
+significantly improve your CV, then job-hunting during MATS is probably not bad
+(although I'd question why you're doing MATS in this case?). If your CV would
+be relatively weak without your mentors endorsement (e.g. I had no first-paper
+papers at highly-rated conferences, no previous work with any high-profile
+researchers, no PhD, no formal research experience, no Ivy League background)
+then working as hard as you can during MATS is probably the most
+highly-leveraged time you will ever have.
+
+What's more, the MATS extension is the _perfect_ time to look for a job. This
+is explicitly encouraged, and MATS is very happy if you end the extension early
+because you got full-time employment. Reading between the lines, I think the
+extension is structured the way it is to prevent fellows from finishing MATS,
+going out into the world, realising they need to pay rent, and then taking the
+first well-paying capabilities job they come across. The extension gives you
+the breathing room to apply to multiple places and make a well-thought-out
+decision about what's the best place to work, not just what place will pay the
+bills.
+
+### The serious people are in War Mode
+
+I had a feeling about many of the people at MATS (especially the Anthropic
+mentors), and I struggled to put this into words. They worked incredibly hard
+and were endlessly motivated to do more work, but it wasn't driven by money or
+stocks or promotions. I've now started to call this drive _war mode_, because
+it's the best way I know to describe it. Most kinda-fun-to-do things become
+less interesting when you're in _war mode_. It's partially a drive to get more
+work done, but it's also a reduced enthusiasm for anything else. Ambling about
+a book store or spending time with people you used to get along with becomes
+less interesting if you're in _war mode_. I'm not sure if everyone would agree
+with my characterisation, but it's the closest I've gotten to describing the
+work ethic.
+
+### Do you feel the AGI?
+
+Cause I do now. I thought I did, but now I _really_ feel it. It's easy to work
+hard when you're pretty sure things will be bad-by-default. It's incredibly
+motivating.
+
+### Burn rate, efficiency, and decisions
+
+One thing that was incredibly effective about MATS was that 1. it removed many
+many decisions from my daily life (what to cook for dinner, when to go get
+groceries, how to get to the gym, where to live, when to go get office
+supplies, scheduling time with friends) and 2. it replaced them with answers
+that were significantly more expensive but also more productive than my
+default. Food is an obvious example, MATS does food through a delivery service
+(Forkable) and we were given $25 to spend for each of lunch and dinner. Getting
+food made and delivered to your door is much more expensive than preparing it
+yourself, and given the choice I would have prepared it myself. But MATS
+doesn't give you that option, it repeatedly forces the high-burn-rate
+maximum-productivity option upon you, and then asks you to do great work with
+the extra flexibility you now have.
+
+This effect is true in many other smaller ways. The Ops team is _unbelievably_
+willing to do irritating things to make your life easier or to let you focus on
+the research. I frequently felt like I was abusing their help (although the
+MATS team assured me that they'd say if I was crossing a line).
+
+### "insider" information
+
+Coming from a country where I can probably list
 the AI safety people on two hands, it was shocking how many times we were
 helped by knowing someone in MATS or having access to "insider" knowledge
 about what different research labs were working on. None of this is secret,
@@ -74,15 +146,15 @@ See [this page](https://boydkane.com/essays/mats-names), but basically I
 strongly recommend using Anki for ~2 weeks before MATS to try and memorise
 the names & faces of all the fellows you'll be in-person with.
 
-### Fellows
+#### Fellows
 
-I made it my goal to know every fellow who was in-person in
-Berkeley, and I think I succeeded? Or at least, after week 2 I stopped seeing
-new faces around and by week 3 I think I had everyone's names memorised and
-had had a small chat with just about everyone. This was really good, strongly
-recommend. Even if you're not a "social person", there's a big difference
-between socialising all the time and knowing the fellows well enough that you
-can spot them in a crowded room.
+I made it my goal to know every fellow who was in-person in Berkeley, and I
+think I succeeded? Or at least, after week 2 I stopped seeing new faces around
+and by week 3 I think I had everyone's names memorised and had had a small chat
+with just about everyone. This was really good, strongly recommend. Even if
+you're not a "social person", there's a big difference between socialising all
+the time and knowing the fellows well enough that you can spot them in a
+crowded room.
 
 ### Useful tools
 
@@ -154,8 +226,7 @@ create nice helper scripts for yourself, so do so!
 
 ### MATS-mentee-mentor dynamics
 
-very different to how I initially thought
-they were.
+Very different to how I initially thought they were.
 
 - MATS is much closer to a broker of sorts, facilitating relationships
   between independent mentors and independent mentees. Because of this, MATS
@@ -168,16 +239,26 @@ they were.
   that involve the dynamics between mentees or mentors or mentors and
   mentees.
 
+### Working with your mentors
+
+They've got full-time jobs, but generally are doing MATS because they 1. like
+seeing research get done that they'd otherwise not be able to do and/or 2. like
+giving mentorship and working with new researchers. That being said, it's very
+worthwhile to figure out how your mentor likes to work, and then taking
+advantage of that. Often your mentor will be default unavailable, with patches
+of free time to answer questions on slack + a weekly project update. So if you
+get a message on slack, answer quickly! Your mentor probably has some time and
+it's incredibly valuable to get some feedback midweek.
+
 ### Research managers
 
-amazing! very surprisingly helpful. It's probably
-better to model the RMs as life coaches with specialisations in research
-rather than a regular manager, although they do have other (important) roles.
-Bryce was the RM for Team Shard
+Amazing! very surprisingly helpful. It's probably better to model the RMs as
+life coaches with specialisations in research rather than a regular manager,
+although they do have other (important) roles. Bryce was the RM for Team Shard
 
-### ops requests
+### Ops requests
 
-this is basically a form you can fill out to fix ~any issue
+This is basically a form you can fill out to fix ~any issue
 you're having that's somehow related to the well-running operations of MATS.
 Want different snacks? Ops request. Want a different monitor? Ops Request.
 Have some feedback that doesn't fit anywhere else? Are you sure it doesn't
@@ -187,17 +268,16 @@ request. Ops was _incredibly on the ball_. It was magical. I didn't feel like
 I was worth this much effort from them, but it significantly improved my
 experience at MATS to know that Ops was very responsive and very capable.
 
-### non-MATS events
+### Non-MATS events
 
-there were several of these, and they were fun. Most of
-the MATS fellows tended to huddle together, which is easy to start doing and
-easy to keep doing, but I'd strongly recommend against it. Generally these
-things were fun, kinda interesting, I'm glad I went, but they never lead to
-anything crazy or significant (for me at least, I'm sure crazy things
-happened). In general, the opportunity cost for not working on your project
-is extremely high. It of course can be _fun_, but if you're looking at events
-for the networking/job prospects, it's probably better on the margin to work
-more on your project.
+There were several of these, and they were fun. Most of the MATS fellows tended
+to huddle together, which is easy to start doing and easy to keep doing, but
+I'd strongly recommend against it. Generally these things were fun, kinda
+interesting, I'm glad I went, but they never lead to anything crazy or
+significant (for me at least, I'm sure crazy things happened). In general, the
+opportunity cost for not working on your project is extremely high. It of
+course can be _fun_, but if you're looking at events for the networking/job
+prospects, it's probably better on the margin to work more on your project.
 
 ### Team Shard
 
@@ -213,7 +293,7 @@ doing "team things" like hiking, workouts, chatting together, brainstorming
 ideas, talking with other mentees, and generally having a greater sense of
 "being a team" vs other streams.
 
-### weekly updates
+### Weekly updates
 
 I was part of Team Shard we had weekly progress updates
 every Thursday in the mornings and then had team lunch and other activities
@@ -230,78 +310,21 @@ following week. There's also a lot of low-level encouragement to move faster
 and to be more ambitious. I thought I was fast and ambitious, and then the
 Alex's showed me that I could be _significantly_ faster and more ambitious.
 
-### do you feel the agi?
-
-cause I do now. I thought I did, but now I _really_
-feel it. It's easy to work hard when you're pretty sure things will be
-bad-by-default. It's incredibly motivating.
-
-### war mode
-
-I had a feeling about many of the people at MATS (especially
-the Anthropic mentors), and I struggled to put this into words. They worked
-incredibly hard and were endlessly motivated to do more work, but it wasn't
-driven by money or stocks or promotions. I've now started to call this drive
-_war mode_, because it's the best way I know to describe it. Most
-kinda-fun-to-do things become less interesting when you're in _war mode_.
-It's partially a drive to get more work done, but it's also a reduced
-enthusiasm for anything else. Ambling about a book store or spending time
-with people you used to get along with becomes less interesting if you're in
-_war mode_. I'm not sure if everyone would agree with my characterisation,
-but it's the closest I've gotten to describing the work ethic.
-
-### burn rate, efficiency, and decisions
-
-one thing that was incredibly
-effective about MATS was that 1. it removed many many decisions from my daily
-life (what to cook for dinner, when to go get groceries, how to get to the
-gym, where to live, when to go get office supplies, scheduling time with
-friends) and 2. it replaced them with answers that were significantly more
-expensive but also more productive than my default. Food is an obvious
-example, MATS does food through a delivery service (Forkable) and we were
-given $25 to spend for each of lunch and dinner. Getting food made and
-delivered to your door is much more expensive than preparing it yourself, and
-given the choice I would have prepared it myself. But MATS doesn't give you
-that option, it repeatedly forces the high-burn-rate maximum-productivity
-option upon you, and then asks you to do great work with the extra
-flexibility you now have.
-
-This effect is true in many other smaller ways. The Ops team is
-_unbelievably_ willing to do irritating things to make your life easier or to
-let you focus on the research. I frequently felt like I was abusing their
-help (although the MATS team assured me that they'd say if I was crossing a
-line).
-
-### weekly progress updates
-
-My teammate and I did these via google slides,
-and largely followed the advice
+My teammate and I did these via google slides, and largely followed the advice
 [here](https://www.lesswrong.com/posts/i3b9uQfjJjJkwZF4f/tips-on-empirical-research-slides).
-Some tips are harder to do, but definitely worthwhile and easy to implement
-are 1. have one set of slides that you prepend to each week, instead of
-multiple slide decks (so you can reference previous work if it comes up) and 2.
-don't try to cram many things on one slide, just use dozens of slides. You
-should also probably have an appendix of example prompts/training data/etc.
+Some tips are harder to do, but definitely worthwhile and easy to implement are
 
-### Working with your mentors
-
-they've got full-time jobs, but generally are
-doing MATS because they 1. like seeing research get done that they'd
-otherwise not be able to do and/or 2. like giving mentorship and working with
-new researchers. That being said, it's very worthwhile to figure out how your
-mentor likes to work, and then taking advantage of that. Often your mentor
-will be default unavailable, with patches of free time to answer questions on
-slack + a weekly project update. So if you get a message on slack, answer
-quickly! Your mentor probably has some time and it's incredibly valuable to
-get some feedback midweek.
+1. have one set of slides that you prepend to each week, instead of multiple
+   slide decks (so you can reference previous work if it comes up) and 2. don't
+   try to cram many things on one slide, just use dozens of slides. You should
+   also probably have an appendix of example prompts/training data/etc.
 
 ### Keep a log of your mistakes
 
-I didn't do this and mildly regret it. There
-were some repeated mistakes I made in setting up experiments, and each time I
-thought that I wouldn't make that error again. I don't think this cost me a
-_lot_, but it definitely did mean that I had to re-run experiments which were
-otherwise solid.
+I didn't do this and mildly regret it. There were some repeated mistakes I made
+in setting up experiments, and each time I thought that I wouldn't make that
+error again. I don't think this cost me a _lot_, but it definitely did mean
+that I had to re-run experiments which were otherwise solid.
 
 ### My running-experiments setup
 
