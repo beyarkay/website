@@ -1,21 +1,21 @@
 ---
 unlisted: true
-title: MATS 9 experience
+title: MATS 9 Retrospective & Advice
 tags: [mats, essay, retrospective, advice]
 ---
 
-I couldn't find a write-up from a MATS alum about what attending MATS was
-like, so this is the thing that I wish I had. I attended MATS from January to
-March 2026, on Team Shard with Alex Turner and Alex Cloud. It was a great time!
-Applications for MATS are basically on a rolling basis nowadays, and I can
-strongly recommend applying (to multiple streams) even if you think you're not
-a great match.
+I couldn't find a recent write-up from a MATS alum about what attending MATS
+was like, so this is the thing that I wish I had. I attended MATS from January
+to March 2026, on Team Shard with Alex Turner and Alex Cloud. It was a great
+time! Applications for MATS are basically on a rolling basis nowadays, and I
+can strongly recommend applying (to multiple streams) even if you think you're
+not a great match.
 
 With that being said, there's a lot I wish I knew going into MATS, so here's a
 brain-dump of thoughts. It's not extremely polished, but I expect it'll be
 useful nonetheless (none of this is endorsed by MATS, just my thoughts):
 
-### Work ethic
+## Work ethic
 
 I think most mentees were working 10-12, sometimes 14 hours a day Mon-Fri, and
 probably 2-8 hours on Saturday and Sunday, often going out on some adventure or
@@ -25,7 +25,7 @@ worked from midday into the early hours of the morning. This was surprisingly
 sustainable (IMO); MATS puts a lot of effort into removing all other blockers
 that you normally have in life so that you don't _have_ to do other things.
 
-### Use more compute
+## Use more compute
 
 MATS was a lot about learning to go _fast_, and I kept
 on thinking I had a good strategy and then learning this wasn't enough.
@@ -40,7 +40,7 @@ on thinking I had a good strategy and then learning this wasn't enough.
    It was a great time. (Runpod makes it a little painful to do this, see my
    notes about W&B sweeps for making this easier)
 
-### Research requires a lot of compute
+## Research requires a lot of compute
 
 We went through a lot of compute (as measured in dollars),
 relative to what I thought we would need. Or at least, I previously had the
@@ -54,7 +54,7 @@ headline results). MATS budgets \$1k per fellow per week, and my teammate and
 I ended up requesting 3k on top of that. A few fellows who were doing RL
 experiments ended up in the \$40k+ range for 3 months of experimentation.
 
-### Applying for jobs during MATS (don't do it)
+## Applying for jobs during MATS (don't do it)
 
 In general, I think this is not worth doing. It does depend, but if MATS is
 your first introduction to the AI safety research space (as it was for me),
@@ -84,7 +84,7 @@ the breathing room to apply to multiple places and make a well-thought-out
 decision about what's the best place to work, not just what place will pay the
 bills.
 
-### The serious people are in War Mode
+## The serious people are in War Mode
 
 I had a feeling about many of the people at MATS (especially the Anthropic
 mentors), and I struggled to put this into words. They worked incredibly hard
@@ -98,13 +98,13 @@ less interesting if you're in _war mode_. I'm not sure if everyone would agree
 with my characterisation, but it's the closest I've gotten to describing the
 work ethic.
 
-### Do you feel the AGI?
+## Do you feel the AGI?
 
 'Cause I do now. I thought I did, but now I _really_ feel it. It's easy to work
 hard when you're pretty sure things will be bad-by-default. It's incredibly
 motivating.
 
-### Burn rate, efficiency, and decisions
+## Burn rate, efficiency, and decisions
 
 One thing that was incredibly effective about MATS was that 1. it removed many
 many decisions from my daily life (what to cook for dinner, when to go get
@@ -124,7 +124,7 @@ willing to do irritating things to make your life easier or to let you focus on
 the research. I frequently felt like I was abusing their help (although the
 MATS team assured me that they'd say if I was crossing a line).
 
-### "insider" information
+## "insider" information
 
 Coming from a country where I can probably list
 the AI safety people on two hands, it was shocking how many times we were
@@ -140,13 +140,13 @@ other people, and I only realised this when I was casually chit-chatting at
 dinner with some other MATS fellows. I just mourn previous me who thought I
 could do good research without a good network of researchers.
 
-### Names & Faces
+## Names & Faces
 
 See [this page](https://boydkane.com/essays/mats-names), but basically I
 strongly recommend using Anki for ~2 weeks before MATS to try and memorise
 the names & faces of all the fellows you'll be in-person with.
 
-#### Fellows
+### Fellows
 
 I made it my goal to know every fellow who was in-person in Berkeley, and I
 think I succeeded? Or at least, after week 2 I stopped seeing new faces around
@@ -156,7 +156,7 @@ you're not a "social person", there's a big difference between socialising all
 the time and knowing the fellows well enough that you can spot them in a
 crowded room.
 
-### Useful tools
+## Useful tools
 
 Below are some tools you should know exist, they might be
 perfect for the problem you have.
@@ -195,7 +195,7 @@ perfect for the problem you have.
 - **Hyperbolic**: teammates swore by hyperbolic (they basically do the same
   thing as runpod) but I never used them.
 
-### Use more Claudes
+## Use more Claudes
 
 - Get the $200/m Claude Code subscription, there's no point in hitting the usage limits.
 - Another fellow just constantly used fast-mode (2x faster, 6x more
@@ -208,7 +208,7 @@ perfect for the problem you have.
   all had critical logical flaws due to me not being able to keep them all in
   my head enough to properly supervise Claude
 
-### Build nice helper utilities for yourself
+## Build nice helper utilities for yourself
 
 Claude makes it very easy to
 create nice helper scripts for yourself, so do so!
@@ -224,7 +224,7 @@ create nice helper scripts for yourself, so do so!
   to work nicely with a jupyter notebook (and why bother with a notebook if
   you're not going to review the plotting code every time?)
 
-### MATS-mentee-mentor dynamics
+## MATS-mentee-mentor dynamics
 
 Very different to how I initially thought they were.
 
@@ -239,7 +239,7 @@ Very different to how I initially thought they were.
   that involve the dynamics between mentees or mentors or mentors and
   mentees.
 
-### Working with your mentors
+## Working with your mentors
 
 They've got full-time jobs, but generally are doing MATS because they 1. like
 seeing research get done that they'd otherwise not be able to do and/or 2. like
@@ -250,13 +250,13 @@ patches of free time to answer questions on Slack + a weekly project update. So
 if you get a message on Slack, answer quickly! Your mentor probably has some time and
 it's incredibly valuable to get some feedback midweek.
 
-### Research managers
+## Research managers
 
 Amazing! very surprisingly helpful. It's probably better to model the RMs as
 life coaches with specialisations in research rather than a regular manager,
 although they do have other (important) roles. Bryce was the RM for Team Shard.
 
-### Ops requests
+## Ops requests
 
 This is basically a form you can fill out to fix ~any issue
 you're having that's somehow related to the well-running operations of MATS.
@@ -268,7 +268,7 @@ request. Ops was _incredibly on the ball_. It was magical. I didn't feel like
 I was worth this much effort from them, but it significantly improved my
 experience at MATS to know that Ops was very responsive and very capable.
 
-### Non-MATS events
+## Non-MATS events
 
 There were several of these, and they were fun. Most of the MATS fellows tended
 to huddle together, which is easy to start doing and easy to keep doing, but
@@ -279,7 +279,7 @@ opportunity cost for not working on your project is extremely high. It of
 course can be _fun_, but if you're looking at events for the networking/job
 prospects, it's probably better on the margin to work more on your project.
 
-### Team Shard
+## Team Shard
 
 Alex Turner (Google DeepMind) and Alex Cloud (Anthropic) were
 my mentors, and this team is a bit unusual compared to other teams at MATS.
@@ -293,7 +293,7 @@ doing "team things" like hiking, workouts, chatting together, brainstorming
 ideas, talking with other mentees, and generally having a greater sense of
 "being a team" vs other streams.
 
-### Weekly updates
+## Weekly updates
 
 I was part of Team Shard, and we had weekly progress updates
 every Thursday morning, followed by team lunch and other activities. Basically the entire week revolved around Thursdays. The other
@@ -321,14 +321,14 @@ easy to implement:
 You should also probably have an appendix of example prompts/training
 data/etc.
 
-### Keep a log of your mistakes
+## Keep a log of your mistakes
 
 I didn't do this and mildly regret it. There were some repeated mistakes I made
 in setting up experiments, and each time I thought that I wouldn't make that
 error again. I don't think this cost me a _lot_, but it definitely did mean
 that I had to re-run experiments which were otherwise solid.
 
-### My running-experiments setup
+## My running-experiments setup
 
 Before MATS I had never used a GPU, and I went through several iterations
 getting a decent setup before settling into something I was happy with. This
@@ -445,22 +445,28 @@ reset`, `rm`, `find`, others, see
   fine-tuned or for just doing lots of queries against open-weight models.
   It's a _lot_ faster (and cheaper) than using OpenRouter.
 - **wandb**: Weights & Biases is great, I love using it. Every experiment I
-  ran was logged and tracked via wandb, and I think basically every tool has
-  wandb integrations nowadays. You can track experiments in real time via
+  ran was logged and tracked via W&B, and I think basically every tool has
+  W&B integrations nowadays. You can track experiments in real time via
   their website, and don't have to worry about storing the
   evaluation/validation/training metrics yourself (they store it for you). If
   you've got >100s of experimental runs, it can be a bit slow to download all
   the data locally for plotting purposes, but it's very nice not having to
-  worry about syncing the data manually.
+  worry about syncing the data manually. I used their "sweep" feature
+  extensively, it let's you really easily orchestrate multiple iterations of
+  the same experiment (e.g. sweep over learning rates, or datasets, or LLMs,
+  etc), and then running that experiment over multiple nodes is as simple as
+  executing `wandb agent <sweep-id>` on each machine that you want to run
+  experiments for you. W&B takes care of collecting results, distributing new
+  runs, and graphing incremental progress.
 
-### Lighthaven
+## Lighthaven
 
 This place is really cool, and a large part of my positive experience at MATS
 was due to it being at Lighthaven. Future cohorts won't be at Lighthaven
 though, so I won't discuss it in any detail. If you're in Berkeley, you should
 try to visit for a few days and work from here (:
 
-### Getting setup with the Compute team
+## Getting setup with the Compute team
 
 You should request lots of API keys from compute in the first ~week, just with
 ~$100 each to start off (e.g. hyperbolic, runpod, openrouter, openai,
