@@ -1,10 +1,10 @@
 ---
 unlisted: true
-title: MATS 9 experiennce
+title: MATS 9 experience
 tags: [mats, essay, retrospective, advice]
 ---
 
-I couldn't find a write-up from a MATS alumni about what attending MATS was
+I couldn't find a write-up from a MATS alum about what attending MATS was
 like, so this is the thing that I wish I had. I attended MATS from January to
 March 2026, on Team Shard with Alex Turner and Alex Cloud. It was a great time!
 Applications for MATS are basically on a rolling basis nowadays, and I can
@@ -65,10 +65,10 @@ time you have to work on your project, spending time on your project to get a
 good reference from your mentor is far more valuable than spending that time
 applying to jobs.
 
-If you're already somewhat established and your mentors reference doesn't
+If you're already somewhat established and your mentor's reference doesn't
 significantly improve your CV, then job-hunting during MATS is probably not bad
 (although I'd question why you're doing MATS in this case?). If your CV would
-be relatively weak without your mentors endorsement (e.g. I had no first-paper
+be relatively weak without your mentor's endorsement (e.g. I had no first-author
 papers at highly-rated conferences, no previous work with any high-profile
 researchers, no PhD, no formal research experience, no Ivy League background)
 then working as hard as you can during MATS is probably the most
@@ -100,7 +100,7 @@ work ethic.
 
 ### Do you feel the AGI?
 
-Cause I do now. I thought I did, but now I _really_ feel it. It's easy to work
+'Cause I do now. I thought I did, but now I _really_ feel it. It's easy to work
 hard when you're pretty sure things will be bad-by-default. It's incredibly
 motivating.
 
@@ -163,14 +163,14 @@ perfect for the problem you have.
 
 - **RunPod**: Server-based GPUs, what I used for basically all of MATS and
   continue to use mostly because I don't feel like moving. You can spin up GPUs
-  in different datacenters, and you get an ssh command to login. You can also
+  in different datacenters, and you get an ssh command to log in. You can also
   use _network drives_ which are persistent (and cheap) storage across pods. So
   my setup ended up being: 2TB network drive in one zone, and then I'd have a
   persistent CPU attached to the drive (for basic code edits) and I'd spin up
   GPUs attached to the drive for training or bigger workloads. This worked
   well, I don't ever have to transfer my checkpoints/training data or anything
   like that because the network drive just has all my stuff. Also I made a
-  docker container which had my dotfiles, vllm, Claude code, etc all installed
+  docker container which had my dotfiles, vllm, Claude Code, etc all installed
   so everything was setup how I wanted it. The main painpoint is that runpod
   requires the GPU to be in the same datacenter as the network drive. So
   sometimes/often there's not a full 8xH100 pod available, I've got to scrounge
@@ -178,18 +178,18 @@ perfect for the problem you have.
   something else.
 
 - **Codex**: I never used codex, probably should have given it a go, but nobody
-  every said it was significantly better than Claude code.
+  ever said it was significantly better than Claude Code.
 
 - **Modal**: basically serverless GPUs. You write a local python script with a
-  modal function (containing all your training code), and model ensures that
+  modal function (containing all your training code), and modal ensures that
   function runs on the GPU you select. This makes it trivial to run a big sweep
   on ~50 GPUs at once. About 1.5x as expensive as runpod, but the convenience
   is very nice.
 
-- **OpenRouter**: very nice! a bit pricey (they skim 5% off the top) and
+- **OpenRouter**: very nice! A bit pricey (they skim 5% off the top) and
   they're not open in any FOSS sense of the word, but it's incredibly
   convenient to test an idea against multiple LLMs via one UI without having to
-  write any code. I quickly iterated on many researsch ideas via
+  write any code. I quickly iterated on many research ideas via
   https://openrouter.ai/chat and had a good time doing it.
 
 - **Hyperbolic**: teammates swore by hyperbolic (they basically do the same
@@ -197,11 +197,11 @@ perfect for the problem you have.
 
 ### Use more Claudes
 
-- Get the $200/m Claude code subscription, there's no point in hitting the usage limits.
+- Get the $200/m Claude Code subscription, there's no point in hitting the usage limits.
 - Another fellow just constantly used fast-mode (2x faster, 6x more
   expensive) which I never tried because I feared the withdrawal symptoms of
   having to go back down to 1x after nirvana.
-- After getting burnt a few times, I settled on having two Claude's going at
+- After getting burnt a few times, I settled on having two Claudes going at
   the same time on completely different experiments, and then sometimes a
   third/fourth to do small pieces of analysis/graphing/etc data collection. I
   tried to go up to 4 simultaneous "real" experiments and those experiments
@@ -216,7 +216,7 @@ create nice helper scripts for yourself, so do so!
 - I had a little `view` script that visualised .jsonl chat-completion files
   in the terminal in colour and with nice formatting, this was great for
   getting me to actually review the data that I was using for training.
-- I also (after struggling with jupter notebooks) just got Claude to write a
+- I also (after struggling with jupyter notebooks) just got Claude to write a
   `plot.py` script which Claude would edit, and then this script emitted a
   `plots.html` file which I'd open in my browser. The HTML contained plotly
   plots so they were interactive (amazing!) and if I wanted changes I'd just
@@ -244,26 +244,26 @@ Very different to how I initially thought they were.
 They've got full-time jobs, but generally are doing MATS because they 1. like
 seeing research get done that they'd otherwise not be able to do and/or 2. like
 giving mentorship and working with new researchers. That being said, it's very
-worthwhile to figure out how your mentor likes to work, and then taking
-advantage of that. Often your mentor will be default unavailable, with patches
-of free time to answer questions on slack + a weekly project update. So if you
-get a message on slack, answer quickly! Your mentor probably has some time and
+worthwhile to figure out how your mentor likes to work, and then take
+advantage of that. Often your mentor will be unavailable by default (they're very busy), with
+patches of free time to answer questions on Slack + a weekly project update. So
+if you get a message on Slack, answer quickly! Your mentor probably has some time and
 it's incredibly valuable to get some feedback midweek.
 
 ### Research managers
 
 Amazing! very surprisingly helpful. It's probably better to model the RMs as
 life coaches with specialisations in research rather than a regular manager,
-although they do have other (important) roles. Bryce was the RM for Team Shard
+although they do have other (important) roles. Bryce was the RM for Team Shard.
 
 ### Ops requests
 
 This is basically a form you can fill out to fix ~any issue
 you're having that's somehow related to the well-running operations of MATS.
-Want different snacks? Ops request. Want a different monitor? Ops Request.
+Want different snacks? Ops request. Want a different monitor? Ops request.
 Have some feedback that doesn't fit anywhere else? Are you sure it doesn't
-fit anywhere else? Are you _really_ sure (there's a lot of feedback forms)?
-Ops Request. Found a leak? Ops Request. Is the printer out of ink? Ops
+fit anywhere else? Are you _really_ sure (there are a lot of feedback forms)?
+Ops request. Found a leak? Ops request. Is the printer out of ink? Ops
 request. Ops was _incredibly on the ball_. It was magical. I didn't feel like
 I was worth this much effort from them, but it significantly improved my
 experience at MATS to know that Ops was very responsive and very capable.
@@ -273,7 +273,7 @@ experience at MATS to know that Ops was very responsive and very capable.
 There were several of these, and they were fun. Most of the MATS fellows tended
 to huddle together, which is easy to start doing and easy to keep doing, but
 I'd strongly recommend against it. Generally these things were fun, kinda
-interesting, I'm glad I went, but they never lead to anything crazy or
+interesting, I'm glad I went, but they never led to anything crazy or
 significant (for me at least, I'm sure crazy things happened). In general, the
 opportunity cost for not working on your project is extremely high. It of
 course can be _fun_, but if you're looking at events for the networking/job
@@ -283,7 +283,7 @@ prospects, it's probably better on the margin to work more on your project.
 
 Alex Turner (Google DeepMind) and Alex Cloud (Anthropic) were
 my mentors, and this team is a bit unusual compared to other teams at MATS.
-We spend ~5 of the 12 weeks of MATS "just exploring", doing small de-risking
+We spent ~5 of the 12 weeks of MATS "just exploring", doing small de-risking
 experiments, and trying to find a project we were excited about. This was
 really cool! Team Shard spends a lot of time finding a good idea, and we were
 explicitly encouraged to pursue ideas we thought of. But the default for most
@@ -295,29 +295,31 @@ ideas, talking with other mentees, and generally having a greater sense of
 
 ### Weekly updates
 
-I was part of Team Shard we had weekly progress updates
-every Thursday in the mornings and then had team lunch and other activities
-on Thursdays. Basically the entire week revolved around Thursdays. The other
+I was part of Team Shard, and we had weekly progress updates
+every Thursday morning, followed by team lunch and other activities. Basically the entire week revolved around Thursdays. The other
 team shard mentees sometimes reflected that Friday felt like a weird limbo
 day because everything else was just a build up to Thursday. Thursday was
 where experiments went to die and then be reborn again. Thursday was
 incredibly valuable in terms of getting precise mentor feedback, but it was
-often a little soul crushing to realise that I had spent a full day on
+often a little soul-crushing to realise that I had spent a full day on
 something that was doomed from the start. Very educational! But the correct
 mindset is easy to learn badly. We'd get just under an hour to present the
 experiments from last week, discuss the results, and brainstorm plans for the
 following week. There's also a lot of low-level encouragement to move faster
 and to be more ambitious. I thought I was fast and ambitious, and then the
-Alex's showed me that I could be _significantly_ faster and more ambitious.
+Alexes showed me that I could be _significantly_ faster and more ambitious.
 
 My teammate and I did these via google slides, and largely followed the advice
 [here](https://www.lesswrong.com/posts/i3b9uQfjJjJkwZF4f/tips-on-empirical-research-slides).
-Some tips are harder to do, but definitely worthwhile and easy to implement are
+Some tips are harder to do, but a couple that are definitely worthwhile and
+easy to implement:
 
-1. have one set of slides that you prepend to each week, instead of multiple
-   slide decks (so you can reference previous work if it comes up) and 2. don't
-   try to cram many things on one slide, just use dozens of slides. You should
-   also probably have an appendix of example prompts/training data/etc.
+1. Have one set of slides that you prepend to each week, instead of multiple
+   slide decks (so you can reference previous work if it comes up).
+2. Don't try to cram many things on one slide, just use dozens of slides.
+
+You should also probably have an appendix of example prompts/training
+data/etc.
 
 ### Keep a log of your mistakes
 
@@ -349,9 +351,9 @@ don't.
   ("the eval scored 2/4, the other 2 are probably just noise, we're all good!"),
   but also _really_ good at writing code that works very quickly. It's well
   worth using, but requires a different mindset when reviewing code and for
-  spotting flaws/issues. - I'll put some more details about Claude usage below, although note that
-  these will go out of date very quickly (this was using Claude code at the
-  start of 2026, using Opus 4.6 and Opus 4.7).
+  spotting flaws/issues. I'll put some more details about Claude usage below,
+  although note that these will go out of date very quickly (this was using
+  Claude Code at the start of 2026, using Opus 4.6 and Opus 4.7).
   - **plotting**: definitely use Claude for plotting your results. Claude
     is very good at HTML, very bad at notebooks. Get Claude to write
     python to generate HTML (with plots generated via plotly), and you'll
@@ -402,11 +404,11 @@ reset`, `rm`, `find`, others, see
     [here](https://github.com/beyarkay/dotfiles/blob/main/claude-settings.json))
     set to "ask" or "deny".
 
-- **neovim**: I've used vim/nvim for several years, if you don't use vim
+- **neovim**: I've used vim/nvim for several years. If you don't use vim
   keybindings I strongly recommend learning them (even if you use a non-vim
   editor, using a vim keybindings plugin is clearly superior to using your
   mouse).
-- **tmux**: Absolutely essential for keeping Claude-code running on a GPU or
+- **tmux**: Absolutely essential for keeping Claude Code running on a GPU or
   remote machine. At the start I had one local tmux session and I'd SSH into
   remote GPUs from there. This was convenient (everything is in one session)
   but meant that closing my laptop quit the session (not good). So I now have
@@ -438,7 +440,7 @@ reset`, `rm`, `find`, others, see
   one RunPod region, and this meant that sometimes I struggled to get as many
   GPUs as I wanted. I always got _some_ GPUs, but every now and again I
   couldn't get enough to make my experiment maximally parallel. This was
-  worthwhile for me, but might not be fore you.
+  worthwhile for me, but might not be for you.
 - **vllm**: You should use vllm for doing local inference of models you've
   fine-tuned or for just doing lots of queries against open-weight models.
   It's a _lot_ faster (and cheaper) than using OpenRouter.
@@ -464,4 +466,4 @@ You should request lots of API keys from compute in the first ~week, just with
 ~$100 each to start off (e.g. hyperbolic, runpod, openrouter, openai,
 anthropic, modal, maybe tinker). It'll make it a lot easier to explore the
 different services and find something that works for you (if you haven't done
-much exploration already)
+much exploration already).
