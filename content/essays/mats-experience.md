@@ -1,5 +1,4 @@
 ---
-unlisted: true
 title: MATS 9 Retrospective & Advice
 tags: [mats, essay, retrospective, advice]
 ---
@@ -42,17 +41,18 @@ on thinking I had a good strategy and then learning this wasn't enough.
 
 ## Research requires a lot of compute
 
-We went through a lot of compute (as measured in dollars),
-relative to what I thought we would need. Or at least, I previously had the
-assumption that I could have, without funding, paid for my own experiments if
-I didn't get into MATS (just using my salary). I now think this is largely
-not possible, and that you need funding to do serious work. Although I think
-we could have been a lot more stringent, I would love to see research papers
-declare how much compute went into each paper (and not just to create the
-results, but also for all the initial experiments that lead up to the
-headline results). MATS budgets \$1k per fellow per week, and my teammate and
-I ended up requesting 3k on top of that. A few fellows who were doing RL
-experiments ended up in the \$40k+ range for 3 months of experimentation.
+We went through a lot of compute (as measured in dollars), relative to what I
+thought we would need. Or at least, I previously had the assumption that I
+could have, without funding, paid for my own experiments if I didn't get into
+MATS (just using my salary). I now think this is largely not possible, and that
+you need funding to do serious work. Although I think we could have been a lot
+more stringent, I would love to see research papers declare how much compute
+went into each paper (and not just to create the results, but also for all the
+initial experiments that lead up to the headline results). MATS budgets \$1k
+per fellow per week (edit: MATS 10 will be $2k/week/fellow, to encourage more
+ambitious projects), and my teammate and I ended up requesting 3k on top of
+that. A few fellows who were doing RL experiments ended up in the \$40k+ range
+for 3 months of experimentation.
 
 ## Applying for jobs during MATS (don't do it)
 
@@ -473,3 +473,75 @@ You should request lots of API keys from compute in the first ~week, just with
 anthropic, modal, maybe tinker). It'll make it a lot easier to explore the
 different services and find something that works for you (if you haven't done
 much exploration already).
+
+---
+
+## Extra thoughts after posting this
+
+Many people seemed to like this, so here's some more thoughts that came up
+during in-person/online discussions:
+
+### MATS-exclusive opportunities
+
+There were more formal opportunities, like seminars from Neel Nanda/Nick
+Bostrom/Ajeya Cotra/Fabian Rogers/Buck Shlegeris/Jesse Hoogland/many others.
+There were various MATS-hosted networking events, such as after EAG or at the
+end/start of the program. There were organised opportunities, like 4-hour AI
+wargame scenarios as was used for preparation for AI 2027. There were also a
+lot of casual things that came from being around Lighthaven for most of my
+waking hours:
+
+- being asked to review not-yet-released AI safety websites
+- chatting with the longer-term residents of Lighthaven (who I won't dox but I
+  had lots of fun talking with!)
+- being asked to participate in various crowd-sourced things like a scenario
+  where AI maybe sabotaged a research codebase.
+- Attending the Win-Win AI Anti-debate hosted by Liv Boeree
+  between Daniel Kokotajlo and Dean Ball.
+
+### MATS clout
+
+Love it or hate it, being able to say "I'm a MATS Fellow" absolutely opens
+doors to me that weren't available before. And if you get into MATS, you
+absolutely should try to make use of this clout. I'm not sure what this will
+look like for you, but it might be attending exclusive events, getting
+interviews that you usually wouldn't have, getting datasets/models/unreleased
+papers, getting favours from large labs. I don't want to cause a wave of MATS
+fellows feeling like they own the place (you _don't_) but you should question
+your assumptions about what you can and can't do with a well-written cold
+email. I'm pretty sure this also got me more and more interesting 1-1s at EAG
+than I otherwise would have been able to get.
+
+### The MATS #opportunities channel
+
+It has an incredible number of job postings and other ad-hoc or semi-exclusive
+things being posted (thanks John!). Partially this is a mindset thing (it's
+cool seeing how many opportunities are out there! Much more than I thought) and
+partially this is an ease-of-access thing (seeing options come and go makes me
+more relaxed in thinking I'll be able to find a nice job after my MATS research
+is done).
+
+### The people on the MATS slack
+
+The number of high-profile people on the MATS slack who are happy to talk about
+their work is incredibly powerful. At this point, if I've got queries about an
+AI safety research paper I'm _surprised_ if I can't find one of the authors on
+the MATS slack so that I can send them a DM with my question(s). It's a very
+high-signal platform, so there's a lot of trust that a slack DM is from someone
+who's not going to waste your time. Knowing that I could DM Owain asking for
+feedback on a paper is incredibly motivating to make that paper as good as it
+can possibly be.
+
+### MATS team is constantly integrating feedback
+
+This is one of those things where you don't know the ceiling until you see
+someone above it. The MATS team is very competent at encouraging people to
+give feedback, making it easy to give feedback, collecting that feedback, and
+then quickly (often <6hrs) changing how the program works to address the
+feedback. The quick and obvious integration of the feedback makes me more
+likely to give more feedback.
+
+<!--
+AI written code as a danger
+AI as unit tests for the legal code
+-->
