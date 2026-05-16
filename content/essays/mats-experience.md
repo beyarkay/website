@@ -3,6 +3,8 @@ title: MATS 9 Retrospective & Advice
 tags: [mats, essay, retrospective, advice]
 ---
 
+| [LessWrong post](https://www.lesswrong.com/posts/eFD3rozNCZKMe4rTs/) |
+
 I couldn't find a recent write-up from a MATS alum about what attending MATS
 was like, so this is the thing that I wish I had. I attended MATS from January
 to March 2026, on Team Shard with Alex Turner and Alex Cloud. It was a great
