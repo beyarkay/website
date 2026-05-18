@@ -1,5 +1,6 @@
 ---
 title: "Advice on interviewing candidates for AI safety fellowships"
+unlisted: true
 tags: [essay, mats, advice, retrospective]
 ---
 
