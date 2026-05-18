@@ -51,7 +51,7 @@ you need funding to do serious work. Although I think we could have been a lot
 more stringent, I would love to see research papers declare how much compute
 went into each paper (and not just to create the results, but also for all the
 initial experiments that lead up to the headline results). MATS budgets \$1k
-per fellow per week (edit: MATS 10 will be $2k/week/fellow, to encourage more
+per fellow per week (edit: MATS 10 will be \$2k/week/fellow, to encourage more
 ambitious projects), and my teammate and I ended up requesting 3k on top of
 that. A few fellows who were doing RL experiments ended up in the \$40k+ range
 for 3 months of experimentation.
