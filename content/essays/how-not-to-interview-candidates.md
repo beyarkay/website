@@ -13,7 +13,7 @@ I had a really fun job. And a really pretty flat. And South Africa is a
 really fun place. But I had spent two years
 -->
 
-I applied to every fellowship that was open[^2], and got rejected from several
+I applied to every fellowship that was open[^1], and got rejected from several
 of them before being accepted into MATS on Team Shard around mid-November. I
 handed in my notice the following Monday, and told my landlady that I had to
 move out in 6 weeks because I was leaving the country.
@@ -256,6 +256,4 @@ saying: The only timezone for deadlines should be anywhere-on-earth.
 It's very weird seeing DEI disclaimers about equality and then having the
 applications be in "winter" while it's a bright summer's day outside.
 
-[^2]:
-    For context, I applied to: Astra, CAIRF, ERA, MARS (multiple streams),
-    MATS (multiple streams), Pivotal, SPAR.
+[^1]: Astra, CAIRF, ERA, MARS (multiple streams), MATS (multiple streams), Pivotal, and SPAR.
