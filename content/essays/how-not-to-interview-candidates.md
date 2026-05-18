@@ -1,6 +1,5 @@
 ---
 title: "Advice on interviewing candidates for AI safety fellowships"
-unlisted: true
 tags: [essay, mats, advice, retrospective]
 ---
 
@@ -19,9 +18,9 @@ of them before being accepted into MATS on Team Shard around mid-November. I
 handed in my notice the following Monday, and told my landlady that I had to
 move out in 6 weeks because I was leaving the country.
 
-MATS went great! Me and my co-author's project got the first spotlight talk at
-the MATS Symposium, we've submitted to NeurIPS, and I'm more hopeful than ever
-that I'll be able to help reduce x-risk.
+MATS went great! My co-author and I got the first spotlight talk at the MATS
+Symposium, we've submitted to NeurIPS, and I'm more hopeful than ever that
+I'll be able to help reduce x-risk.
 
 <!--
 I assert that the purpose of multiple rounds of interviews and applications is
@@ -44,16 +43,15 @@ I'm hoping that any goodwill I earned from [this
 post](https://www.lesswrong.com/posts/eFD3rozNCZKMe4rTs) ~can be sacrificed as
 a peace offering~ allows me to make suggestions without people assuming I
 have ill intent. If AGI goes well, I believe AI safety fellowships will have
-played significant role. I hope these fellowships can become even more
+played a significant role. I hope these fellowships can become even more
 effective than they currently are at putting good people in good places. And I
 hope this post helps these fellowships be marginally more effective.
 
 ## Don't say "we were impressed by your profile" unless you mean it
 
-I got a lot of rejections, many of them coming after I had spent time
-submitting my application and after someone on that fellowship's team had spent
-time reviewing that application. These rejection letters generally sounded
-like:
+I got a lot of rejections, and all of them required someone to spend time
+reviewing my application. Sometimes, quite a lot of time! These rejection letters
+generally sounded like:
 
 > we are genuinely disappointed that we couldn't find a match for you this
 > time, as we were impressed by your profile
@@ -65,49 +63,50 @@ something like:
 
 > **Letter of Recommendation**
 >
-> `[name]` applied to `[fellowship]` in `[year]` and we were very impressed by their
+> `[name]` applied to `[fellowship]` in `[year]` and we were impressed by their
 > application. We thought they were very strong because of `[specific points]`.
 > We thought their main weak points were `[specific points]`. We were unable to
 > offer them a position due to `[specific reason]`, but we identified them as
 > having strong potential for `[field]`. We can recommend fast-tracking their
 > application, and have attached their responses to our questions for your
-> perusal. Please contact `[name]` at `[email address]` with questions.
+> perusal. Please contact `[name]` at `[email address]` if you have questions.
 >
 > Kind regards,
 >
 > `[name]`, `[fellowship]`
 
-This is strong letter: it makes falsifiable claims, it makes clear the decision
-process of the fellowship, it makes recommendations to other fellowships. It
-also takes time to write, significantly more time than sending an apology
-rejection email. If a candidate is not strong enough that you'd not feel
-comfortable writing this letter, then don't! But the status quo is a mixture of
-appeasement and obscurity, which does not encourage rejected candidates to
-improve.
+This is a strong letter: it makes falsifiable claims, it makes clear the
+decision process of the fellowship, and it makes recommendations to other
+fellowships. It
+also takes time to write, significantly more time than sending a rejection
+email. If a candidate is not strong enough that you'd feel comfortable
+writing this letter, then don't! But the current status quo around rejection
+emails is a mixture of appeasement of the candidate and obscurity of the
+rejection reason, which does not encourage rejected candidates to improve.
 
 This letter does something else: it allows other fellowships to spend less time
-reviewing promising candidates, if they had already been reviewed by another
-fellowship. And in a complementary fashion, _you_ can spend less time reviewing
-promising candidates if you receive a letter of recommendation from a
+reviewing promising candidates, if that candidate had already been reviewed by
+a similar fellowship. And in a complementary fashion, _you_ can spend less time
+reviewing promising candidates if you receive a letter of recommendation from a
 fellowship you trust.
 
 Letters of recommendation would increase the capacity of the AI safety field,
-but making letters of recommendation the norm is a collective action problem
-that I suspect only the big players (MATS, Astra, Anthropic Fellows Program)
-can kick-start.
+by reducing the duplicated work done across different fellowships. However,
+this requires solving a collective action problem and making letters of
+recommendation the norm, which I suspect is a process only the big players
+(MATS, Astra, Anthropic Fellows Program) can kick-start.
 
 ## Make the whole application timeline clear upfront
 
-Many applications did not do this. During the application process, candidates
-want to know how many rounds of "You ask, I respond" there will be. They want
-to know the deadlines for all those responses, and how much work is expected
-for each of their responses.
+During the application process, candidates want to know how many rounds of "You
+ask, I respond" there will be. They want to know the deadlines for all those
+responses, and how much work is expected for each of their responses.
 
 Not being clear about timelines makes it impossible for candidates to ensure
 they've got free time to complete those applications properly. This is not a
-case of "good enough candidates will figure it out" because poor communication
-adversely selecting for candidates who have lots of time, instead of selecting
-for the best candidates. This adds noise to your application, increasing false
+case of "good enough candidates will figure it out": poor communication
+selects for candidates who have lots of time, rather than for the best
+candidates. This adds noise to your application process, increasing false
 positives and false negatives.
 
 If you do not know those deadlines before you open your applications, please
@@ -115,17 +114,17 @@ communicate your best estimates of these deadlines.
 
 ## Word limits, character limits, and timed forms
 
-Word limits are good, but please ensure your website calculates the word count
-as the candidate is typing, and displays this clearly. No, the candidate can
-not just "use a word counter" because (amongst other edge-cases) some
-applications thought hyphenated words ("fine-tuning") were one, others thought
-it were two. Please tell the candidate what the count is, and tell them _before_
-they click submit.
+Word limits are good, but please ensure your application form calculates the
+word count as the candidate is typing, and displays this clearly.
+Unfortunately, using a word counter is not enough: some applications think that
+hyphenated words ("fine-tuning") count as one, others think they count as
+two. Please tell the candidate what the count is, and tell them _before_ they
+click submit.
 
 If you can, please quietly accept ~5% over the word limit without penalty.
-Having a word limits ensures the candidate can think concisely, and reduces the
-reviewer burden. I don't think being <5% over the limit detracts from either of
-those goals.
+Having a word limit is good: it ensures the candidate can think concisely, and
+reduces the reviewer burden. I don't think being <5% over the limit detracts
+from either of those goals.
 
 In light of the above, I'd recommend having _alphanumeric-only character
 limits_ instead of word limits or plain character limits. Candidates can cheat
@@ -143,7 +142,7 @@ something similar to a semantic limit on complexity.
 ## Proctored tests are a terrible, terrible time
 
 Mostly because proctoring software is really bad. I'm aware that proctoring
-solves a real problem, and I'm in favour of the platonicly-ideal version of
+solves a real problem, and I'm in favour of the platonically ideal version of
 proctoring. I imagine that really good software wouldn't be more stressful than
 an in-person test, but I've _never_ used good proctoring software. Bad
 proctoring software artificially adds noise to your estimate of a candidate's
@@ -167,16 +166,15 @@ people you should have accepted. Some specific recommendations:
   application because I was recording my screen and had proof to show the
   fellowship administrator.
 
-- Most proctoring software offers "live troubleshooting", but most of the time
-  this is slow and your timer continues to tick down while you're doing the
-  troubleshooting. This is less than helpful when you're attempting to do your
-  best.
+- Most proctoring software offers "live troubleshooting", but it's usually
+  slow, and your timer continues to tick down while you're troubleshooting.
+  This is less than helpful when you're attempting to do your best.
 
 - Most proctoring software doesn't let you export your answers, so if the
   software decides to reset your progress without warning, you will have lost
   everything. This problem is solved by giving candidates a "dummy" assessment.
 
-- Most proctoring software requires you to take a video of the room your in
+- Most proctoring software requires you to take a video of the room you're in
   before you start, and this is fine. _Some_ proctoring software requires you
   to take a video of your room _after the timer has started_ and this is not
   fine. Please ensure your software does the former, and not the latter.
@@ -209,10 +207,9 @@ applications.
 I'm sure there are reasons for fellowships clustering their deadlines together
 so that they're all on the same weekend. But if you choose to do this, please
 be aware of the cost: the increased workload will cause even very good fellows
-will _appear worse_ if your deadline is the same as another large fellowship's
-deadline. The best candidates will likely ignore less-prestigious applications
-if they happen to have a deadline coinciding with more-prestigious
-applications.
+to _appear worse_ if your deadline is the same as another large fellowship's
+deadline. The best candidates will likely ignore a less-prestigious application
+if its deadline coincides with a more-prestigious one.
 
 If tracking the various fellowship's deadlines is too much to ask, please
 consider giving two weekends between announcing a round of interviews and the
@@ -236,8 +233,8 @@ If possible, make the list of mentors (and their biographies, research
 interests, etc) available publicly and early so that candidates can start
 reviewing the mentors as soon as possible. Gating this information behind the
 first round of interviews just reduces the quality of applications that the
-mentors end up reviewing, as the candidates would have had less time to
-consider which mentors to apply to.
+mentors end up reviewing, since candidates have less time to consider which
+mentors to apply to.
 
 ## Fellowships compete for fellows
 
