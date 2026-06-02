@@ -49,6 +49,8 @@ _boyd r kane provided by the google mailing server_.
 
 </a>
 
+I have not signed any documents that I cannot discuss.
+
 # Essays
 
 <table style="width: 100%; table-layout: fixed; border-spacing: 0; padding: 0; margin: 0;">
