@@ -156,6 +156,29 @@ I have not signed any documents that I cannot discuss.
     <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
       <div style="width: 100%; max-width: 250px; margin: 0 auto;">
         <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <a href="https://melee.boydkane.com"><img src="/assets/melee.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;"></a>
+        </div>
+        <br>
+        <a href="https://melee.boydkane.com">Language Model Melee</a>
+        <p>An adversarial benchmark where LLMs build text-adventure games and play each other's — scored on both attack and defence</p>
+      </div>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
+          <a href="https://extropians.boydkane.com"><img src="/assets/extropians-embeddings-thread.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;"></a>
+        </div>
+        <br>
+        <a href="https://extropians.boydkane.com">Extropians Mailing List Explorer</a>
+        <p>An interactive interface for exploring 256k messages from the 20-year Extropians mailing list — browse threads, search semantic clusters, and navigate a UMAP map of topics</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
+      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
+        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
           <img src="/assets/listentoanything.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
