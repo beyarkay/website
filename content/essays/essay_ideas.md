@@ -3,7 +3,6 @@ unlisted: true
 title: Blog post ideas
 tags: [boyd-bot, ideas, idea-storage, projects]
 ---
-unlisted: true
 
 (TODO: don't keep an ideas page, just have each essay idea be it's own file)
 

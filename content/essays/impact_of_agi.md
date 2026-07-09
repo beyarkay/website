@@ -3,7 +3,6 @@ unlisted: true
 title: Adoption of AGI in the workplace
 tags: [agi, musings, essays]
 ---
-unlisted: true
 
 Right now, money going towards labour is some part dumb-machine, some part
 remote workers, and some part on-premise workers[numbers-needed]. Very little

@@ -1,4 +1,5 @@
 ---
+unlisted: true
 title: Solving for incentives and Mechanism Design
 tags: [mechanism-design, essays, game-theory, systems, incentives,
 needs-writing]

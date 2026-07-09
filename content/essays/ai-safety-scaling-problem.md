@@ -1,9 +1,7 @@
 ---
-unlisted: true
 title: AI Safety has a scaling problem
 tags: [ai-safety, field-building, scaling, mechanism-design]
 ---
-unlisted: true
 
 | Read on [LessWrong](https://www.lesswrong.com/posts/aEiZfHAXeKXF5PJgH) |
 
