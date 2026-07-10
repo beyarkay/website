@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 There's an idea that's a bit tricky to explain, but quite intuitive once you've
 got the shape of it, so I'm just going to start with some examples and we'll
 look at what connects them afterwards.
@@ -52,7 +56,6 @@ _???_ has been discussed before, but generally with a focus on systems
 which already have this mechanism in place. I'm interested in how to either
 build a system that has these incentives in-place, or otherwise mutate an
 existing system such that it ends up with these incentives.
-
 
 (less polished from here out):
 
