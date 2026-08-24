@@ -52,101 +52,15 @@ I have not signed any documents that I cannot discuss.
 
 # Essays
 
-<table style="width: 100%; table-layout: fixed; border-spacing: 0; padding: 0; margin: 0;">
-
-  <tr>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/experts.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/experts">Experts have it easy</a>
-        <p>Why is it so frustrating to start out in a new field? And why can't the newbies just <em>get it</em>?</p>
-      </div>
-    </td>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/boss.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/boss">Why your boss isn't worried about advanced AI</a>
-        <p>Your boss: "Can't you just turn it off?"</p>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/thumbnail-vim-1.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/vim">Esoteric vim</a>
-        <p>Advanced vim tips that aren't on most "top vim commands" lists</p>
-      </div>
-    </td>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/thumbnail-yaml-1.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/yaml">YAML for the haters</a>
-        <p>YAML is just JSON with comments and trailing commas. That's it.</p>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/thumbnail-safety-scaling-4.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/ai-safety-scaling-problem">AI Safety has a scaling problem</a>
-        <p>Exploring research bounties as a way to scale AI safety research beyond fellowship bottlenecks</p>
-      </div>
-    </td>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/thumbnail-companies-as-proto-asi-2.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/companies-as-proto-asi">Companies as proto-ASI</a>
-        <p>Large corporations are an existence proof that systems smarter than humans aren't aligned by default</p>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/thumbnail-mats-names-4.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/mats-names">Memorising names with Anki</a>
-        <p>Using spaced repetition to learn the names and faces of a 100+ person cohort before day one</p>
-      </div>
-    </td>
-    <td style="width: 50%; text-align: center; vertical-align: top; padding: 1rem;">
-      <div style="width: 100%; max-width: 250px; margin: 0 auto;">
-        <div style="width: 100%; aspect-ratio: 1 / 1; overflow: hidden;">
-          <img src="/assets/thumbnail-2025nov-2.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
-        </div>
-        <br>
-        <a href="/essays/2025nov">Writing every day in November 2025</a>
-        <p>30 days of mini-essays: from AI timelines to sign language to the $100k iPhone</p>
-      </div>
-    </td>
-  </tr>
-
-</table>
+- [new] [LLMs could control their host machines by exploiting inference engines](/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines): How malicious LLMs could exploit inference-engine vulnerabilities to take control of the machines running them.
+- [MATS 9 retrospective & advice](/essays/mats-experience): What I learned at MATS 9, and what I wish I'd known before starting.
+- [Public evidence of the OpenAI–HuggingFace AI attack](/essays/public-evidence-of-the-openai-huggingface-ai-attack): Public artefacts left behind after a frontier model took unauthorised actions online.
+- [What if AI safety employees unionised?](/essays/what-if-ai-safety-employees-unionised): How collective bargaining could help safety-minded employees hold AI labs to their commitments.
+- [Experts have it easy](/essays/experts): Why novices struggle in ways that experts often fail to see.
+- [Where's the $100k iPhone?](/essays/100k-iphone): Why ultra-premium versions of everyday products so often don't exist.
+- [The EU could hold AI capabilities development hostage if they wanted to](/essays/2025nov#the-eu-could-hold-ai-capabilities-development-hostage-if-they-wanted-to-3-november-2025): How the EU's place in a fragile chip supply chain could give it leverage over frontier AI development.
+- [HTTP 402: musings about an ad-free internet](/essays/2025nov#http-402-how-the-internet-could-have-been-ad-free-25-november-2025): How internet-native micropayments might have enabled an ad-free web.
+- [Companies as proto-ASI](/essays/companies-as-proto-asi): What large corporations can teach us about why systems smarter than individuals aren't aligned by default.
 
 # Projects
 
