@@ -136,16 +136,10 @@ button.desktop-explorer {
       text-indent: -0.85rem;
 
       &::before {
-        content: "◦";
+        content: "•";
         display: inline-block;
         width: 0.85rem;
         text-indent: 0;
-        color: var(--gray);
-      }
-
-      &:hover::before,
-      &.active::before {
-        color: var(--tertiary);
       }
 
       &.active {
@@ -173,7 +167,6 @@ button.desktop-explorer {
     overflow: hidden;
     margin-left: 6px;
     padding-left: 0.8rem;
-    border-left: 1px solid var(--lightgray);
   }
 }
 
