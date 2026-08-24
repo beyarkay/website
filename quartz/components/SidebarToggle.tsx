@@ -27,7 +27,8 @@ const SidebarToggle: QuartzComponent = () => {
       >
         <rect width="18" height="18" x="3" y="3" rx="2" />
         <path d="M9 3v18" />
-        <path class="sidebar-toggle-chevron" d="m15 9-3 3 3 3" />
+        <path class="sidebar-toggle-caret sidebar-toggle-collapse-caret" d="m16 9-3 3 3 3" />
+        <path class="sidebar-toggle-caret sidebar-toggle-expand-caret" d="m14 9 3 3-3 3" />
       </svg>
     </button>
   )

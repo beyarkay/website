@@ -2,26 +2,19 @@
 
 .sidebar-toggle {
   display: flex;
-  width: 28px;
+  width: 20px;
   height: 32px;
   align-items: center;
   justify-content: center;
   padding: 0;
   color: var(--darkgray);
-  background: var(--light);
-  border: 1px solid var(--lightgray);
-  border-radius: 6px;
+  background: none;
+  border: none;
   cursor: pointer;
-  box-shadow: 0 1px 4px color-mix(in srgb, var(--dark) 12%, transparent);
-  transition:
-    color 0.2s ease,
-    background-color 0.2s ease,
-    border-color 0.2s ease;
+  transition: color 0.2s ease;
 
   &:hover {
     color: var(--dark);
-    background: var(--highlight);
-    border-color: var(--gray);
   }
 
   &:focus-visible {
@@ -29,9 +22,8 @@
     outline-offset: 2px;
   }
 
-  & .sidebar-toggle-chevron {
-    transform-origin: center;
-    transition: transform 0.2s ease;
+  & .sidebar-toggle-expand-caret {
+    display: none;
   }
 
   @media all and ($mobile) {
@@ -50,14 +42,6 @@
     transition: grid-template-columns 0.2s ease;
   }
 
-  .sidebar.left .flex-component > div:has(.sidebar-toggle) {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    inset-inline-end: -0.875rem;
-    transform: translateY(-50%);
-  }
-
   :root[left-sidebar="collapsed"] {
     & .page > #quartz-body {
       @media all and ($desktop) {
@@ -70,6 +54,7 @@
     }
 
     & .sidebar.left {
+      align-items: center;
       padding-inline: 0;
 
       & > :not(.flex-component:has(.sidebar-toggle)) {
@@ -78,6 +63,8 @@
     }
 
     & .flex-component:has(.sidebar-toggle) {
+      width: 100%;
+      justify-content: center;
       gap: 0 !important;
 
       & > :not(:has(.sidebar-toggle)) {
@@ -85,8 +72,14 @@
       }
 
       & .sidebar-toggle {
-        & .sidebar-toggle-chevron {
-          transform: rotate(180deg);
+        margin: 0 auto;
+
+        & .sidebar-toggle-collapse-caret {
+          display: none;
+        }
+
+        & .sidebar-toggle-expand-caret {
+          display: initial;
         }
       }
     }
@@ -95,8 +88,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .page > #quartz-body,
-  .sidebar-toggle,
-  .sidebar-toggle .sidebar-toggle-chevron {
+  .sidebar-toggle {
     transition: none;
   }
 }
