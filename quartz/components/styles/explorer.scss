@@ -130,6 +130,23 @@ button.desktop-explorer {
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
+      display: block;
+      line-height: 1.3;
+      padding: 0.3rem 0 0.3rem 0.85rem;
+      text-indent: -0.85rem;
+
+      &::before {
+        content: "◦";
+        display: inline-block;
+        width: 0.85rem;
+        text-indent: 0;
+        color: var(--gray);
+      }
+
+      &:hover::before,
+      &.active::before {
+        color: var(--tertiary);
+      }
 
       &.active {
         opacity: 1;
