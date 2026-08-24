@@ -55,12 +55,13 @@ export const defaultContentPageLayout: PageLayout = {
         },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
+        { Component: Component.SidebarToggle() },
       ],
     }),
     Component.Explorer({
       filterFn: (node) => {
         // exclude files with the tag "explorerexclude"
-        return node.file?.frontmatter?.tags?.includes("explorer-exclude") !== true
+        return node.data?.tags?.includes("explorer-exclude") !== true
       },
     }),
   ],
@@ -84,6 +85,7 @@ export const defaultListPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
+        { Component: Component.SidebarToggle() },
       ],
     }),
     Component.Explorer(),

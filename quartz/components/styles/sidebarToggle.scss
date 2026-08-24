@@ -1,0 +1,102 @@
+@use "../../styles/variables.scss" as *;
+
+.sidebar-toggle {
+  display: flex;
+  width: 28px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: var(--darkgray);
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px color-mix(in srgb, var(--dark) 12%, transparent);
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    color: var(--dark);
+    background: var(--highlight);
+    border-color: var(--gray);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+
+  & .sidebar-toggle-chevron {
+    transform-origin: center;
+    transition: transform 0.2s ease;
+  }
+
+  @media all and ($mobile) {
+    display: none;
+  }
+}
+
+@media all and ($mobile) {
+  .flex-component > div:has(.sidebar-toggle) {
+    display: none;
+  }
+}
+
+@media all and not ($mobile) {
+  .page > #quartz-body {
+    transition: grid-template-columns 0.2s ease;
+  }
+
+  .sidebar.left .flex-component > div:has(.sidebar-toggle) {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    inset-inline-end: -0.875rem;
+    transform: translateY(-50%);
+  }
+
+  :root[left-sidebar="collapsed"] {
+    & .page > #quartz-body {
+      @media all and ($desktop) {
+        grid-template-columns: 3.5rem minmax(0, 1fr) #{$sidePanelWidth};
+      }
+
+      @media all and ($tablet) {
+        grid-template-columns: 3.5rem minmax(0, 1fr);
+      }
+    }
+
+    & .sidebar.left {
+      padding-inline: 0;
+
+      & > :not(.flex-component:has(.sidebar-toggle)) {
+        display: none;
+      }
+    }
+
+    & .flex-component:has(.sidebar-toggle) {
+      gap: 0 !important;
+
+      & > :not(:has(.sidebar-toggle)) {
+        display: none;
+      }
+
+      & .sidebar-toggle {
+        & .sidebar-toggle-chevron {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page > #quartz-body,
+  .sidebar-toggle,
+  .sidebar-toggle .sidebar-toggle-chevron {
+    transition: none;
+  }
+}
