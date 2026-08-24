@@ -1,11 +1,22 @@
---
+---
+unlisted: true
 title: "How to get into an AIS fellowship"
 tags: [essay, mats, advice, retrospective]
-unlisted: true
-
 ---
 
 <!--
+
+Also add something about having theory of mind for the person reviewing you r
+paplication anddistinguishing yourself from the dummies in front & beihnd you
+whoe don't have your qualifications but are Nonetheless trying to pass
+themselves off as being as good as you are. write something, think about what
+your reviewer will take from it, and think critically, and then also think
+about what's the *least* qualified person who could still answer that question
+with the answer you just wrote, you want to write something that makes the
+least qualified person still be very qualified.
+
+---
+
 Hi Jing,
 
 Apologies for the delay in responding.
