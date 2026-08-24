@@ -1,5 +1,6 @@
 ---
 title: AI Safety has a scaling problem
+aliases: [essays/safety-scaling]
 tags: [ai-safety, field-building, scaling, mechanism-design]
 ---
 

@@ -107,7 +107,7 @@ I have not signed any documents that I cannot discuss.
           <img src="/assets/thumbnail-safety-scaling-4.png" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 8px;">
         </div>
         <br>
-        <a href="/essays/safety-scaling">AI Safety has a scaling problem</a>
+        <a href="/essays/ai-safety-scaling-problem">AI Safety has a scaling problem</a>
         <p>Exploring research bounties as a way to scale AI safety research beyond fellowship bottlenecks</p>
       </div>
     </td>
