@@ -4,6 +4,8 @@ author: Boyd Kane
 tags: [extropians, embeddings, explorer, vibecoding]
 ---
 
+| Read on [LessWrong](https://www.lesswrong.com/posts/hTnhwX9kr6GHgFrp4/an-interactive-version-of-the-extropians-mailing-list) |
+
 Claude & I vibecoded an interface for the extropians mailing list. It's live!
 Have a look here: https://extropians.boydkane.com/.
 

@@ -3,6 +3,8 @@ title: "Advice on interviewing candidates for AI safety fellowships"
 tags: [essay, mats, advice, retrospective]
 ---
 
+| Read on [LessWrong](https://www.lesswrong.com/posts/jmGvMSnkemSPLs6qv/thoughts-on-interviewing-candidates-for-ai-safety) |
+
 Around July last year I decided I was going to go all in on technical AI safety
 research. To do that I'd need to get into an AI safety fellowship, quit my job,
 and sell everything that was in my flat in South Africa (hopefully in that

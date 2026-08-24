@@ -1,8 +1,9 @@
 ---
-unlisted: true
 title: Public evidence of the OpenAI/HuggingFace AI attack
 tags: [llms, cyberattack, discovery]
 ---
+
+| Read on [LessWrong](https://www.lesswrong.com/posts/fBLDaAKzigo65eJn7/public-evidence-of-the-openai-huggingface-ai-attack) |
 
 I'm a MATS 9 extension fellow, and usually my week is spent trying to find
 better ways of evaluating Large Language Models. But this week I was working on

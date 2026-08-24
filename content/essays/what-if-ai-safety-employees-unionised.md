@@ -3,6 +3,8 @@ title: What if AI Safety employees unionised?
 tags: [ai-safety, artificial-intelligence, careers, jobs]
 ---
 
+| Read on [LessWrong](https://www.lesswrong.com/posts/A6newsppjeJm8oQvB/what-if-ai-safety-employees-unionised) |
+
 _American bald eagle caws angrily in the distance_
 
 Whoa whoa whoa, just hear me out. Unions aren't usually a good answer for

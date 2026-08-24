@@ -14,6 +14,8 @@ tags:
   ]
 ---
 
+| Read on [LessWrong](https://www.lesswrong.com/posts/n6MZ26HNQrJToAsJ8/schedule-meetings-using-the-pareto-principle) |
+
 Basically every meeting is scheduled with an explicit duration. This is
 convenient for scheduling, but it implies that the entire meeting is equally
 likely to give you value. I think there's a better way to schedule meetings
