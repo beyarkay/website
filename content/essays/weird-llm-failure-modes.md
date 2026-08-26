@@ -42,15 +42,15 @@ values: `[0, 0.005, 0.01, 0.02, 0.05, 0.1]`.
 Less obvious than the blatant sycophancy of previous Claudes, but still there's
 so many "you're right" and "good call"
 
-> `⏺ You're right, and that's a real error on my part. [...]`
+> `You're right, and that's a real error on my part. [...]`
 
-> `⏺ Fair challenge. [...]`
+> `Fair challenge. [...]`
 
-> `⏺ Good call. [...]`
+> `Good call. [...]`
 
-> `⏺ Clear. [...]`
+> `Clear. [...]`
 
-> `⏺ You're right, and the thing I missed makes most of that spec redundant.`
+> `You're right, and the thing I missed makes most of that spec redundant.`
 
 ## Imprecise commentary
 
@@ -59,16 +59,16 @@ comments communicate _nothing_ but add a weird sense of anticipation that's not
 helpful.
 
 > ```
-> ⏺ Good call. Let me verify one more thing first, because it changes what's worth writing down.
+> Good call. Let me verify one more thing first, because it changes what's worth writing down.
 >
-> ⏺ Bash(uv run --with pandas --with pyarrow python -c "…")
+> Bash(uv run --with pandas --with pyarrow python -c "…")
 >
-> ⏺ That changes things — this is the most useful fact in the dataset and nothing in the repo records it.
+> That changes things — this is the most useful fact in the dataset and nothing in the repo records it.
 > ```
 
-> `⏺ Fair challenge. Here's exactly what I computed, and it's weaker evidence than my phrasing implied.`
+> `Fair challenge. Here's exactly what I computed, and it's weaker evidence than my phrasing implied.`
 
-> `⏺ You're right, and that's a real error on my part.`
+> `You're right, and that's a real error on my part.`
 
 > `The one thing I can't do — your call to run:`
 
@@ -93,6 +93,19 @@ one is the exception", e.g.:
 
 > `[...] Let me check the one part that isn't trivial.`
 
-> `⏺ Concretely: two places build a sv2.py command line, and neither would have carried --root.`
+> `Concretely: two places build a sv2.py command line, and neither would have carried --root.`
 
-> `⏺ Clear. That makes the review a hard gate on vector creation, not a step someone can forget.`
+> `Clear. That makes the review a hard gate on vector creation, not a step someone can forget.`
+
+> `Both questions land on the same correction, and it goes against what I recommended.`
+
+> `Two different situations, and only one should be edited.`
+
+> `Two different problems, and only one was actually a wrong file:`
+
+## 'rather than reciting from memory'
+
+Some posttraining process traumatised opus against ever just saying something,
+the facts always need a 30s tool call to figure out.
+
+> `Let me read the actual definitions rather than paraphrase from memory.`
