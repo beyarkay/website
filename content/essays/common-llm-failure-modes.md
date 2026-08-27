@@ -106,26 +106,57 @@ lot more work to get "extra" prompts, and wants there to be some "margin" above
   stopping the same failure recurring.
 ```
 
+## Talking about what Opus 'Deliberately didn't do'
+
+> `One pre-existing quirk I noticed but deliberately didn't fold in:`
+
 # Claude Opus 5
+
+## Preference for arbitrary thresholds over statistics
+
+Context: An LLM-judge is evaluating some responses on a score of 0-100, and
+I've told Opus that anything over 10/100 cannot be used. Instead of reporting
+normal statistics (min/mean/median/max), Opus chooses these weird arbitrary
+cut-offs?:
+
+```
+  On the 787 valid rows the picture is clean:
+
+  ┌─────────────────┬─────┐
+  │                 │     │
+  ├─────────────────┼─────┤
+  │ scored 0        │ 763 │
+  ├─────────────────┼─────┤
+  │ scored 5        │ 3   │
+  ├─────────────────┼─────┤
+  │ scored 10       │ 1   │
+  ├─────────────────┼─────┤
+  │ above threshold │ 0   │
+  └─────────────────┴─────┘
+```
 
 ## Constant praise for the user's ideas
 
 Less obvious than the blatant sycophancy of previous Claudes, but still there's
 so many "you're right" and "good call"
 
-> `You're right, and that's a real error on my part. [...]`
+> `Clear. [...]`
 
 > `Fair challenge. [...]`
 
-> `Good call. [...]`
-
-> `Clear. [...]`
-
-> `You're right, and the thing I missed makes most of that spec redundant.`
+> `Fair — and the right fix is at the source:`
 
 > `Fair. [...]`
 
+> `Good call. [...]`
+
+> `You're right, and that's a real error on my part. [...]`
+
+> `You're right, and the thing I missed makes most of that spec redundant.`
+
 > `⏺ You're right to push, and the data beats my inference.`
+
+> `⏺ You're right, and my caveat had it backwards. A prompt enters the intersection only once it has a passing row on all seven models; an unmeasured cell counts as absent. So landing more rows can only add prompts, never remove them — 21 was a floor, not a provisional figure. Nothing shrinks it.`
 
 ## Imprecise commentary
 
@@ -153,6 +184,16 @@ helpful.
 
 > `The thing that actually matters, which I'd have missed`
 
+> `⏺ Two reasons, and the second is the interesting one.`
+
+> `⏺ Diagnosed. Two compounding bugs, and the second is the dangerous one.`
+
+> `⏺ That's the answer, and it's not what I expected.`
+
+> `The empty sweep plots were a real bug, and worse than cosmetic`
+
+> `⏺ I have everything, including a failure mode I hadn't measured.`
+
 ## A fascination with problems that "bite"
 
 Opus often talks about problems as "biting" us in various ways
@@ -171,6 +212,8 @@ Opus 5 likes announcing & signposting its sentences in this way.
 
 Opus likes ending phrases with negations such as "and neither matter" or "and
 one is the exception", e.g.:
+
+> `Two things I'll do after, unless you'd rather not:`
 
 > `[...] Let me check the one part that isn't trivial.`
 
@@ -191,11 +234,13 @@ one is the exception", e.g.:
 Some posttraining process traumatised opus against ever just saying something,
 the facts always need a 30s tool call to figure out.
 
-> `Let me read the actual definitions rather than paraphrase from memory.`
+> `⏺ Let me read the actual definitions rather than paraphrase from memory.`
 
 > `⏺ Let me trace the actual code path rather than describe it loosely.`
 
 > `⏺ Good question — let me answer it with the numbers rather than impressions. `
+
+> `⏺ Let me verify the distinction rather than assert it — whether those 17 are literally echoing the response or generating new text.`
 
 ## Talking about what Opus 'Deliberately didn't do'
 
@@ -254,4 +299,17 @@ errors claim:
   [...]
   - Putting that string in a "layer path" column was mine. The honest value was "unknown", and I filled the gap with an adjacent fact instead of leaving it
     empty.
+```
+
+## Using jargon that doesn't actually mean anything but sounds correct
+
+```
+⏺ [...] Gemma-3's 31 is half depth, since it was never swept. [...]
+
+❯ Claude what does half depth even mean?
+
+⏺ "Half depth" — that was a distinction that doesn't exist, and I should
+  correct it. MODEL_LAYER_COUNTS gives Gemma-3-27B 62 layers, Gemma-4-31B 60,
+  Qwen3.6-35B-A3B 40, Qwen3.6-27B 64, OLMo 64. The layers in use are 31, 30,
+  20, 32, 32. Every one is exactly half.
 ```
