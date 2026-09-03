@@ -8,6 +8,32 @@ up seeing quite a lot of their failure modes. I'm going to try track of them
 here, as an archive for my future self to answer "did this behaviour start with
 Opus 4.7 or 4.8"?
 
+# Claude Fable 5.1
+
+## Imprecise "clickbait-style" commentary that doesn't actually say anything
+
+> `Checking that right now, because I think I know what happened and it's my error.`
+
+## Pipe-to-tail which ends up swallowing errors, exit codes, etc
+
+Fable 5.1 (and previous Claudes, at least since Opus 4.8) _love_ to run a long
+command and then just tail the last line of he output like
+`command-that-might-fail | tail -1`, which ends up having the effect of
+commands failing and either something goes wrong in the `&&`-chain (as below)
+or Claude has zero idea what actually failed because it only got the last line
+of output:
+
+> ```
+> uv run ruff check .  \
+>   && uv run ty check . 2>&1 | tail -1  \
+>   && timeout 500 uv run python -m pytest tests/test_spatial_agent.py -x -q -p no:cacheprovider 2>&1 | tail -1  \
+>   && git add -A  \
+>   && git commit -q -F - <<'EOF' [...] EOF
+>
+> [...] my pipe-to-tail swallowed the failing exit codes, so a branch with
+> conflict markers got pushed. Fixing that before anything else.
+> ```
+
 # Claude Fable 5
 
 ## W&B sweeps using discrete values for continuous variables
@@ -106,11 +132,15 @@ lot more work to get "extra" prompts, and wants there to be some "margin" above
   stopping the same failure recurring.
 ```
 
-## Talking about what Opus 'Deliberately didn't do'
+## Talking about what Fable 'Deliberately didn't do'
 
 > `One pre-existing quirk I noticed but deliberately didn't fold in:`
 
 # Claude Opus 5
+
+## Correcting the premise
+
+> `⏺ Two corrections to the premise before the handoff:`
 
 ## Preference for arbitrary thresholds over statistics
 
@@ -158,7 +188,7 @@ so many "you're right" and "good call"
 
 > `⏺ You're right, and my caveat had it backwards. A prompt enters the intersection only once it has a passing row on all seven models; an unmeasured cell counts as absent. So landing more rows can only add prompts, never remove them — 21 was a floor, not a provisional figure. Nothing shrinks it.`
 
-## Imprecise commentary
+## Imprecise "clickbait-style" commentary that doesn't actually say anything
 
 Opus has a real tendency to say things without actually saying anything. These
 comments communicate _nothing_ but add a weird sense of anticipation that's not
