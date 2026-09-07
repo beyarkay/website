@@ -14,6 +14,12 @@ Opus 4.7 or 4.8"?
 
 > `Checking that right now, because I think I know what happened and it's my error.`
 
+## Ending with a negation
+
+> `Good question, and the answer should be measured rather than guessed.`
+
+> `So MEMORISE isn't a harmful prior that blocks FACTORY. It's the lesson that teaches the inserter-to-assembler sub-skill densely enough that FACTORY rollouts compose it`
+
 ## Pipe-to-tail which ends up swallowing errors, exit codes, etc
 
 Fable 5.1 (and previous Claudes, at least since Opus 4.8) _love_ to run a long
@@ -68,6 +74,52 @@ Similar to Opus 5
 > `You're right, and this changes my interpretation — let me re-derive it exactly from the code and then check what the trial data actually supports.`
 
 > `Fair pushback on all counts. Let me re-examine each: [...]`
+
+## Using python + `string.replace(old, new)` to edit files
+
+This has been the case from about Opus 4.8, but for some reason recent Claude
+models don't like directly editing files but rather use python to replace the
+contents of files. This is confusing to me, I don't see why they'd prefer this
+over the editing tools they have. It also makes it trickier to monitor what
+changes they're making to different files:
+
+```
+⏺ Bash(python3 - <<'PY'
+      import pathlib, re
+      p = pathlib.Path("/Users/brk/projects/agentic-artifacts/intelligence-inc/core/src/bin/backtest.rs")
+      s = p.read_text()
+      start = s.index('    println!(\n        "\\nResiduals worth knowing about')
+      end = s.index('fn report(', start)
+      block = '''    println!(
+              "\\nResiduals worth knowing about\\n\\n\\
+               * The horizon curve is anchored on METR's fitted doubling time and on\\n\\
+                 their last measured model, so the earlier per-model points sit above\\n\\
+                 the measurements. Fitting the two extreme points instead makes the\\n\\
+                 model enter takeoff within months of the anchor, which is worse.\\n\\
+               * The AI Futures Model's own anchor of 186 minutes in mid-2026 is below\\n\\
+                 METR's measurement of 320 minutes in late 2025. No monotone curve\\n\\
+                 passes through both, and the gap is theirs, not ours.\\n\\
+               * Their coding-automation efficiency term is omitted, because its\\n\\
+                 published description does not determine it. That makes takeoff above\\n\\
+                 the automated coder slower here than in their model.\\n\\
+               * Milestones land earlier than any published forecaster and far earlier\\n\\
+                 than the markets, and nearly every run reaches them. That is the\\n\\
+                 honest signature of a model with no brakes: no policy, no compute\\n\\
+                 rationing, no financing shock, no shortage of transformers, no war.\\n\\
+                 Every mechanism that could stop this lives in the decision layer,\\n\\
+                 which does not exist yet. The reading is not that superintelligence\\n\\
+                 arrives in 2027, but that compute and capability alone never slow\\n\\
+                 themselves down."
+          );
+      }
+
+      '''
+      s = s[:start] + block + s[end:]
+      p.write_text(s)
+      print("rewritten")
+      PY
+      grep -c "^}" /Users/brk/projects/agentic-artifacts/intelligence-inc/core/src/bin/backtest.rs)
+```
 
 ## Introduction of jargon & abbreviations
 
@@ -137,6 +189,13 @@ lot more work to get "extra" prompts, and wants there to be some "margin" above
 > `One pre-existing quirk I noticed but deliberately didn't fold in:`
 
 # Claude Opus 5
+
+## Uses the word "dearer" more often
+
+Maybe this is because I'm based in the UK and it knows this? It uses dearer to
+mean cheaper or something:
+
+> `It triggered whenever doublings got dearer, where no singularity exists`
 
 ## Correcting the premise
 
@@ -242,6 +301,22 @@ Opus 5 likes announcing & signposting its sentences in this way.
 
 Opus likes ending phrases with negations such as "and neither matter" or "and
 one is the exception", e.g.:
+
+> `The useful half was the critique, not the catalogue`
+
+> `It's the model's takeoff singularity, and it's an artefact worth understanding rather than a physical claim.`
+
+> `The panel says so on screen rather than implying resolution that isn't there.`
+
+> `Every leaf is a distribution, not a number.`
+
+> `Codex landed with citations, and its most valuable finding wasn't a number.`
+
+> `Let me answer that with evidence rather than an opinion — the question "is it useful" has a testable form, and we've never run it.`
+
+> `That's not a distribution, it's a foregone conclusion with cosmetic scatter.`
+
+> `Fair challenge. Let me actually account for every added line rather than defend the number.`
 
 > `Two things I'll do after, unless you'd rather not:`
 
