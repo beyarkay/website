@@ -25,7 +25,7 @@ The [On-Line Encyclopedia of Integer Sequences](https://oeis.org) contains thous
 
 ### A4 Formally verify existing zero-knowledge circuits
 
-The [0xPARC ZK bug tracker](https://github.com/0xPARC/zk-bug-tracker) shows under-constrained [Circom](https://circom.io)/[Halo2](https://github.com/zcash/halo2) circuits securing real money. Proof checks or it doesn't. No dual use.
+The [0xPARC ZK bug tracker](https://github.com/0xPARC/zk-bug-tracker) shows under-constrained [Circom](https://circom.io)/[Halo2](https://github.com/zcash/halo2) circuits securing real money.
 
 ### A5 Machine-checked correctness for the crypto everyone runs
 
@@ -63,7 +63,7 @@ Start from the [open-sourced IRS Direct File code](https://github.com/IRS-Public
 
 ### B2 Resurrect dead scientific software
 
-[Software Heritage](https://www.softwareheritage.org) has the source; the paper names the figure. Verifier: the figure regenerates.
+[Software Heritage](https://www.softwareheritage.org) has the source; the paper names the figure.
 
 ### B3 Port legacy Fortran/MATLAB/IDL models to open languages with numerical-equivalence tests
 
@@ -83,7 +83,7 @@ For [Wikipedia](https://en.wikipedia.org) and for review articles. [Meta](https:
 
 ### B7 Errata hunting in open textbooks
 
-Recompute every worked example in [OpenStax](https://openstax.org), [LibreTexts](https://libretexts.org), [MIT OCW](https://ocw.mit.edu) problem sets. Verifier: the arithmetic.
+Recompute every worked example in [OpenStax](https://openstax.org), [LibreTexts](https://libretexts.org), [MIT OCW](https://ocw.mit.edu) problem sets.
 
 ### B8 Fuzz, fix and regression-test open-source software that has opted in
 
@@ -210,9 +210,9 @@ Tree rings are used to estimate land temperature before thermometers, but first 
 
 90 years of silk samples ([CPR Survey](https://www.cprsurvey.org)) counted by human microscopists at a fixed rate. Image the archive and re-count at species resolution.
 
-### D8 Read the tsunami waveforms out of NOAA's scanned tide charts
+### D8 Extend the sea-level record backwards from paper tide charts
 
-Tsunami hazard maps rest on how big past waves actually were, and for events before modern instruments the only waveform is the ink trace a tide gauge drew on paper. [NOAA](https://www.ngdc.noaa.gov/hazel/view/hazards/tsunami/marigram-search/) has scanned over 3,000 of those charts, covering 390-odd events back to 1854, and turned nine events into time series. Trace the rest into waveforms and publish them against the page images.
+Measuring how fast sea level is rising needs records long enough to show acceleration, and [<abbr title="Permanent Service for Mean Sea Level">PSMSL</abbr>](https://psmsl.org) thins out before 1950. The missing years are ink traces on paper. [BODC](https://www.bodc.ac.uk/data/hosted_data_systems/sea_level/historical_uk_tide_gauge_data/) has scanned UK station charts and [NOAA](https://www.ngdc.noaa.gov/hazel/view/hazards/tsunami/marigram-search/) 3,000 more around tsunami events, nearly all still un-traced; elsewhere they sit in harbour archives and need someone to go in person. Trace them into series and submit to PSMSL.
 
 ### D9 Legacy soil surveys
 
@@ -674,7 +674,7 @@ UK planning portals, US municipal agendas: proposals conflicting with the author
 
 ### L5 Dead and inconsistent statutory cross-references
 
-[US Code](https://www.govinfo.gov/app/collection/uscode), [CFR](https://www.ecfr.gov), [legislation.gov.uk](https://www.legislation.gov.uk), EU regulations: references to repealed sections, circular definitions, the same term defined differently across a code. Mechanical verifier. The multilingual version: the 24 official-language texts of the same EU regulation are equally authoritative and sometimes disagree on a number, a date or a negation; aligned passages plus a bilingual spot-check.
+[US Code](https://www.govinfo.gov/app/collection/uscode), [CFR](https://www.ecfr.gov), [legislation.gov.uk](https://www.legislation.gov.uk), EU regulations: references to repealed sections, circular definitions, the same term defined differently across a code. The multilingual version: the 24 official-language texts of the same EU regulation are equally authoritative and sometimes disagree on a number, a date or a negation; aligned passages plus a bilingual spot-check.
 
 ### L6 Patent prior-art hunting
 
@@ -702,7 +702,7 @@ Before governments kept databases they printed the numbers: statistical abstract
 
 #### M4 Speech recognition for dysarthric and accented speech and unserved languages
 
-[Project Euphonia](https://sites.research.google/euphonia/about/) collected data; open models are far behind. Word-error rate is the verifier.
+[Project Euphonia](https://sites.research.google/euphonia/about/) collected data; open models are far behind.
 
 #### M5 Geo-referencing at scale
 
@@ -812,11 +812,11 @@ The [PRONOM registry](https://www.nationalarchives.gov.uk/PRONOM/) lists formats
 
 #### M30 Write Linux drivers for hardware whose vendor walked away
 
-Working microscopes, spectrometers, scanners and industrial controllers get scrapped because the vendor stopped shipping drivers, not because anything broke. The protocol is usually plain USB or PCI traffic you can capture and replay, which is slow, unglamorous work nobody is paid for. Pick devices whose owners are still asking on forums, reverse-engineer the protocol, and upstream the driver. Verifier: it works.
+Working microscopes, spectrometers, scanners and industrial controllers get scrapped because the vendor stopped shipping drivers, not because anything broke. The protocol is usually plain USB or PCI traffic you can capture and replay, which is slow, unglamorous work nobody is paid for. Pick devices whose owners are still asking on forums, reverse-engineer the protocol, and upstream the driver.
 
-#### M31 Emulation for preservation
+#### M31 Emulate the platforms nobody has got running yet
 
-The [Internet Archive](https://archive.org/details/software) maintains want-lists.
+Software outlives the hardware it was written for only if someone emulates the machine; scientific tools, interactive media and government systems all become unreadable otherwise. The [Internet Archive](https://archive.org/details/software) runs thousands of titles in the browser and keeps want-lists of the platforms it still cannot. Take one, get real software running on it, and contribute the emulator back.
 
 ## N Niche fields with public data and few analysts
 
@@ -1043,9 +1043,9 @@ Household voltage quality is unmapped; a plug-in logger and an agent give a per-
 
 [CrowdWater](https://crowdwater.ch) plus a fixed camera gives a continuous gauge on ungauged streams.
 
-#### O28 Coastlines
+#### O28 Turn a fixed camera into a daily shoreline gauge
 
-[CoastSnap](https://www.coastsnap.com) with permanent cameras.
+Coastal erosion and storm recovery are managed from shoreline positions that most beaches have never had measured. [CoastSnap](https://www.coastsnap.com) solves the geometry with a phone cradle at a viewpoint, but depends on whoever walks past, so the series is ragged. A permanent camera in the same cradle and an agent extracting the waterline gives a daily record. Publish it.
 
 #### O29 Street counts
 
@@ -1471,10 +1471,6 @@ Every weather provider's forecasts versus outcomes, every city, permanently; [Fo
 
 The pattern: a person is owed something and the process gates on knowing the magic words, the right address and the deadline. Patrick McKenzie's [debanking letters](https://www.bitsaboutmoney.com) are the template. The gap is large: under 1% of [ACA](https://www.healthcare.gov/glossary/affordable-care-act/) claim denials are [appealed](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/); ~two-thirds of disability claims are denied initially and about half win at hearing; ~70% of UK [PIP](https://www.gov.uk/pip) tribunal appeals succeed; ~70% of 2023–24 Medicaid disenrollments were procedural; [Dollar For](https://dollarfor.org) has erased $100M+ in hospital bills by filing charity-care forms.
 
-### Rules
-
-Assert only facts the person supplies; never fabricate or coach; one person, one matter, no bulk; prefer channels with case numbers (ombudsmen, formal appeals) over open complaint boxes; stay inside unauthorised-practice lines ([DoNotPay's FTC settlement](https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes) is the cautionary tale; [Upsolve](https://upsolve.org) the model). Deadlines are the highest-value knowledge. A related finding with a mechanical verifier: processes that cannot be completed as written, where document A requires B and B requires A. A minimal dependency cycle with the official source passages is publishable and usually gets fixed.
-
 ### Health
 
 #### W1 Insurance denials
@@ -1565,9 +1561,9 @@ Deadlines as short as 10 days.
 
 ### Housing
 
-#### W22 Security-deposit demand letters
+#### W22 Get withheld security deposits back by citing the penalty
 
-Cite the statutory penalty.
+Most states require a landlord to return a deposit within a set number of days with an itemised list of deductions, and impose double or treble damages for failing. Tenants rarely know either the deadline or the penalty, so the money stays withheld. Find the statute for the person's state, check the dates against it, and draft the demand letter.
 
 #### W23 Written repair notices
 
