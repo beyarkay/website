@@ -13,23 +13,23 @@ _Highest expected value per unit of compute, in Claude Fable's judgement: B1 (re
 
 ### A1 OEIS conjectures.
 
-The [On-Line Encyclopedia of Integer Sequences](https://oeis.org) contains thousands of entries with unproved "Conjecture: a(n) = …" comments. Prove each in Lean, or refute with a computable counterexample. Nobody has attacked this systematically.
+The [On-Line Encyclopedia of Integer Sequences](https://oeis.org) contains thousands of entries with unproved "Conjecture: a(n) = …" comments. Prove each in [Lean](https://lean-lang.org), or refute with a computable counterexample. Nobody has attacked this systematically.
 
 ### A2 Erdős problems.
 
-[erdosproblems.com](https://www.erdosproblems.com) lists ~1,000 problems; Terence Tao has been running AI on them since 2025, so this is not new, but hundreds remain and Lean is the verifier.
+[erdosproblems.com](https://www.erdosproblems.com) lists ~1,000 problems; Terence Tao has been running AI on them since 2025, so this is not new, but hundreds remain and [Lean](https://lean-lang.org) is the verifier.
 
 ### A3 Formalise the unformalised.
 
-DeepMind's [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures) repo and [Freek Wiedijk's 100 theorems list](https://www.cs.ru.nl/~freek/100/) name what isn't yet in [Mathlib](https://leanprover-community.github.io). Deliverable is a standalone Lean project, not a Mathlib pull request (review is the bottleneck).
+[DeepMind](https://deepmind.google)'s [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures) repo and [Freek Wiedijk's 100 theorems list](https://www.cs.ru.nl/~freek/100/) name what isn't yet in [Mathlib](https://leanprover-community.github.io). Deliverable is a standalone [Lean](https://lean-lang.org) project, not a Mathlib pull request (review is the bottleneck).
 
 ### A4 Formally verify existing zero-knowledge circuits.
 
-The [0xPARC ZK bug tracker](https://github.com/0xPARC/zk-bug-tracker) shows under-constrained Circom/Halo2 circuits securing real money. Proof checks or it doesn't. No dual use.
+The [0xPARC ZK bug tracker](https://github.com/0xPARC/zk-bug-tracker) shows under-constrained [Circom](https://circom.io)/[Halo2](https://github.com/zcash/halo2) circuits securing real money. Proof checks or it doesn't. No dual use.
 
 ### A5 Machine-checked correctness for the crypto everyone runs.
 
-[HACL\*](https://hacl-star.github.io) covers a subset; BoringSSL, libsodium, RustCrypto and the Linux kernel crypto subsystem have large unverified surfaces. Tools: [Verus](https://github.com/verus-lang/verus), F\*, Lean. Deliverable is a proof.
+[HACL\*](https://hacl-star.github.io) covers a subset; [BoringSSL](https://boringssl.googlesource.com/boringssl), [libsodium](https://libsodium.org), [RustCrypto](https://github.com/RustCrypto) and the Linux kernel crypto subsystem have large unverified surfaces. Tools: [Verus](https://github.com/verus-lang/verus), [F\*](https://en.wikipedia.org/wiki/F*_%28programming_language%29), [Lean](https://lean-lang.org). Deliverable is a proof.
 
 ### A6 Re-derive computer-assisted proofs with verified interval arithmetic.
 
@@ -41,7 +41,7 @@ PDF, JSON, ASN.1, eBPF, WebAssembly. Parsers are where exploits live. [CompCert]
 
 ### A8 Verified re-implementations of small C libraries with differential fuzzing.
 
-zlib, libpng, libjpeg-turbo, expat; SQLite's [public test suite](https://www.sqlite.org/testing.html) is the gold standard. Verifier: byte-identical output across millions of fuzzed inputs plus upstream tests. [DARPA TRACTOR](https://www.darpa.mil/program/translating-all-c-to-rust) is adjacent.
+[zlib](https://zlib.net), [libpng](http://www.libpng.org/pub/png/libpng.html), [libjpeg-turbo](https://libjpeg-turbo.org), [expat](https://libexpat.github.io/); [SQLite](https://www.sqlite.org)'s [public test suite](https://www.sqlite.org/testing.html) is the gold standard. Verifier: byte-identical output across millions of fuzzed inputs plus upstream tests. [DARPA TRACTOR](https://www.darpa.mil/program/translating-all-c-to-rust) is adjacent.
 
 ### A9 Post-quantum migration with interop test vectors.
 
@@ -49,17 +49,17 @@ For libraries and protocols not yet moved. Verifier: [NIST PQC](https://csrc.nis
 
 ### A10 Executable law with official worked examples as tests.
 
-[Catala](https://catala-lang.org) already encodes chunks of French benefits law. Targets: UK Universal Credit, US SNAP per state, EITC, student-loan repayment, pension rules. Verifier: government-published worked examples and [PolicyEngine](https://policyengine.org) cross-checks.
+[Catala](https://catala-lang.org) already encodes chunks of French benefits law. Targets: [UK Universal Credit](https://www.gov.uk/universal-credit), US [SNAP](https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program) per state, [EITC](https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc), student-loan repayment, pension rules. Verifier: government-published worked examples and [PolicyEngine](https://policyengine.org) cross-checks.
 
 ### A11 Open tax computation engine.
 
-Start from the [open-sourced IRS Direct File code](https://github.com/IRS-Public/direct-file). Verifier: IRS e-file [Assurance Testing System scenarios](https://www.irs.gov/e-file-providers) and published worked examples. Scope honestly: the barrier to a "TurboTax killer" is e-file authorisation, liability and 50 state codes, not code.
+Start from the [open-sourced IRS Direct File code](https://github.com/IRS-Public/direct-file). Verifier: IRS e-file [Assurance Testing System scenarios](https://www.irs.gov/e-file-providers) and published worked examples. Scope honestly: the barrier to a "[TurboTax](https://turbotax.intuit.com) killer" is e-file authorisation, liability and 50 state codes, not code.
 
 ## B. Re-run to verify
 
 ### B1 Computational reproducibility of every paper with a replication package.
 
-[AEA journals](https://aeadataeditor.github.io) mandate packages since 2019; NeurIPS/ICML have code links; PLOS has data policies. Rerun, diff against the paper's tables, publish a scoreboard. The [Institute for Replication](https://i4replication.org) does dozens a year by hand. Probably the highest-value entry in the whole list: scalable, cheap verifier, no maintainer burden. Models too: [BioModels](https://www.ebi.ac.uk/about/news/announcements/biomodels-reproducibility-scorecard/) publishes a reproducibility scorecard, and running [memote](https://memote.readthedocs.io/en/latest/) over every published genome-scale metabolic model finds the ones that make energy from nothing, which is machine-checkable.
+[AEA journals](https://aeadataeditor.github.io) mandate packages since 2019; [NeurIPS](https://neurips.cc)/[ICML](https://icml.cc) have code links; [PLOS](https://plos.org) has data policies. Rerun, diff against the paper's tables, publish a scoreboard. The [Institute for Replication](https://i4replication.org) does dozens a year by hand. Probably the highest-value entry in the whole list: scalable, cheap verifier, no maintainer burden. Models too: [BioModels](https://www.ebi.ac.uk/about/news/announcements/biomodels-reproducibility-scorecard/) publishes a reproducibility scorecard, and running [memote](https://memote.readthedocs.io/en/latest/) over every published genome-scale metabolic model finds the ones that make energy from nothing, which is machine-checkable.
 
 ### B2 Resurrect dead scientific software.
 
@@ -71,7 +71,7 @@ Hydrology, ecology, epidemiology, climate. Verifier: outputs match to tolerance 
 
 ### B4 Statistical-error sweeps of the literature.
 
-[statcheck](https://michelenuijten.shinyapps.io/statcheck-web/), [GRIM](https://en.wikipedia.org/wiki/GRIM_test), SPRITE, image-duplication detection across all of PubMed Central and arXiv. The Black Spatula Project started this in 2025; scale is what's missing. Two more with ground truth: gene symbols that Excel turned into dates ([still in a third of supplements](https://doi.org/10.1371/journal.pcbi.1008984)), and Cochrane reviews recomputed from their own [data packages](https://documentation.cochrane.org/revman-kb/data-package-user-guide-243761660.html) for double-counted trials and arithmetic slips. Report to authors and journals, not Twitter.
+[statcheck](https://michelenuijten.shinyapps.io/statcheck-web/), [GRIM](https://en.wikipedia.org/wiki/GRIM_test), SPRITE, image-duplication detection across all of [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/) and [arXiv](https://arxiv.org). [The Black Spatula Project](https://the-black-spatula-project.github.io/) started this in 2025; scale is what's missing. Two more with ground truth: gene symbols that [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) turned into dates ([still in a third of supplements](https://doi.org/10.1371/journal.pcbi.1008984)), and [Cochrane](https://www.cochrane.org) reviews recomputed from their own [data packages](https://documentation.cochrane.org/revman-kb/data-package-user-guide-243761660.html) for double-counted trials and arithmetic slips. Report to authors and journals, not [Twitter](https://twitter.com).
 
 ### B5 Outcome switching in clinical trials.
 
@@ -79,11 +79,11 @@ Compare pre-registered primary outcomes on [ClinicalTrials.gov](https://clinical
 
 ### B6 Does the cited source actually say that?
 
-For Wikipedia and for review articles. Meta [prototyped this in 2022](https://ai.meta.com/research/publications/improving-wikipedia-verifiability-with-ai/) and dropped it. Verifier: crowd spot-check.
+For [Wikipedia](https://en.wikipedia.org) and for review articles. [Meta](https://about.meta.com) [prototyped this in 2022](https://ai.meta.com/research/publications/improving-wikipedia-verifiability-with-ai/) and dropped it. Verifier: crowd spot-check.
 
 ### B7 Errata hunting in open textbooks.
 
-Recompute every worked example in [OpenStax](https://openstax.org), [LibreTexts](https://libretexts.org), MIT OCW problem sets. Verifier: the arithmetic.
+Recompute every worked example in [OpenStax](https://openstax.org), [LibreTexts](https://libretexts.org), [MIT OCW](https://ocw.mit.edu) problem sets. Verifier: the arithmetic.
 
 ### B8 Fuzz, fix and regression-test open-source software that has opted in.
 
@@ -91,21 +91,21 @@ Recompute every worked example in [OpenStax](https://openstax.org), [LibreTexts]
 
 ### B9 Accessibility remediation of civic websites.
 
-Measured by [axe-core](https://github.com/dequelabs/axe-core) and Lighthouse plus screen-reader scripts. Do it on forks and hand over.
+Measured by [axe-core](https://github.com/dequelabs/axe-core) and [Lighthouse](https://developer.chrome.com/docs/lighthouse) plus screen-reader scripts. Do it on forks and hand over.
 
 ### B10 Conformance test suites for standards that ship without them.
 
-Many ISO/IETF specs have no reference tests. Deliverable is the suite; everyone's implementation then gets checked for free.
+Many [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)/[IETF](https://www.ietf.org) specs have no reference tests. Deliverable is the suite; everyone's implementation then gets checked for free.
 
 ### B11 Cross-implementation differential testing.
 
-TLS stacks, JSON parsers, date/time libraries, Unicode handling, payroll engines. Disagreements are bugs by construction.
+TLS stacks, JSON parsers, date/time libraries, [Unicode](https://home.unicode.org) handling, payroll engines. Disagreements are bugs by construction.
 
 ## C. Text archives: digitised but unread
 
 ### C1 Oxyrhynchus papyri.
 
-~500,000 fragments, under 10% published after a century ([Oxford POxy](https://www.papyrology.ox.ac.uk/POxy/); crowd project [Ancient Lives](https://www.ancientlives.org)). Transcribe; match against known texts in the TLG; find physical joins; flag what matches nothing (candidate lost works). Verifier: known texts, physical joins.
+~500,000 fragments, under 10% published after a century ([Oxford POxy](https://www.papyrology.ox.ac.uk/POxy/); crowd project [Ancient Lives](https://www.ancientlives.org)). Transcribe; match against known texts in the [TLG](https://www.tlg.uci.edu); find physical joins; flag what matches nothing (candidate lost works). Verifier: known texts, physical joins.
 
 ### C2 Cairo Genizah.
 
@@ -113,7 +113,7 @@ TLS stacks, JSON parsers, date/time libraries, Unicode handling, payroll engines
 
 ### C3 Cuneiform backlog.
 
-~500,000 tablets excavated, most unpublished ([CDLI](https://cdli.mpiwg-berlin.mpg.de)); LMU's [Fragmentarium](https://www.ebl.lmu.de) does AI joins for literature. The 90% that is administrative text holds Bronze Age price series, harvests, disease.
+~500,000 tablets excavated, most unpublished ([CDLI](https://cdli.mpiwg-berlin.mpg.de)); [LMU](https://www.lmu.de/en/index.html)'s [Fragmentarium](https://www.ebl.lmu.de) does AI joins for literature. The 90% that is administrative text holds Bronze Age price series, harvests, disease.
 
 ### C4 Sinai palimpsests.
 
@@ -125,7 +125,7 @@ Multispectral images of ~70 overwritten manuscripts are online at the [Sinai Pal
 
 ### C6 Undeciphered scripts with corpora.
 
-Proto-Elamite (~1,600 tablets on CDLI), [Linear A](https://en.wikipedia.org/wiki/Linear_A), Cypro-Minoan, Indus. Verifier is Ventris's: consistent readings across the corpus that predict new tablets.
+Proto-Elamite (~1,600 tablets on [CDLI](https://cdli.mpiwg-berlin.mpg.de)), [Linear A](https://en.wikipedia.org/wiki/Linear_A), Cypro-Minoan, Indus. Verifier is Ventris's: consistent readings across the corpus that predict new tablets.
 
 ### C7 Vatican Archive, Pius XII pontificate.
 
@@ -137,11 +137,13 @@ Opened 2020, ~16 million pages ([Archivio Apostolico](https://www.archivioaposto
 
 ### C9 Stasi shredded files.
 
-~15,500 sacks of hand-torn documents at the [Stasi Records Archive](https://www.stasi-unterlagen-archiv.de); the Fraunhofer e-Puzzler stalled after a few hundred. Scanned-but-unreconstructed sacks are a jigsaw-vision problem. Caveat: no downloadable fragment corpus exists; this starts with a [Bundesarchiv](https://www.bundesarchiv.de/stasi-unterlagen-archiv/rekonstruktion/) partnership, not a download.
+~15,500 sacks of hand-torn documents at the [Stasi Records Archive](https://www.stasi-unterlagen-archiv.de); the [Fraunhofer e-Puzzler](https://www.ipk.fraunhofer.de/de/zusammenarbeit/referenzen/stasi-puzzle.html) stalled after a few hundred. Scanned-but-unreconstructed sacks are a jigsaw-vision problem. Caveat: no downloadable fragment corpus exists; this starts with a [Bundesarchiv](https://www.bundesarchiv.de/stasi-unterlagen-archiv/rekonstruktion/) partnership, not a download.
+
+<abbr title="German Democratic Repubic" lang="en" class="dreipc-abbreviation">GDR</abbr>
 
 ### C10 Declassified intelligence corpora.
 
-[CIA CREST](https://www.cia.gov/readingroom/), [FBI Vault](https://vault.fbi.gov), the [2025 JFK release](https://www.archives.gov/research/jfk), MKUltra, Venona, UK releases. Build a who-met-whom-when graph; surface documents contradicting official histories. Every finding cites a page image.
+[CIA CREST](https://www.cia.gov/readingroom/), [FBI Vault](https://vault.fbi.gov), the [2025 JFK release](https://www.archives.gov/research/jfk), [MKUltra](https://en.wikipedia.org/wiki/Project_MKUltra), [Venona](https://en.wikipedia.org/wiki/Venona_project), UK releases. Build a who-met-whom-when graph; surface documents contradicting official histories. Every finding cites a page image.
 
 ### C11 UK "migrated archives".
 
@@ -149,7 +151,7 @@ Colonial-office files on Kenya, Malaya, Cyprus released 2011–13 ([FCO 141 at T
 
 ### C12 Trial and party archives.
 
-[Nuremberg exhibits](https://nuremberg.law.harvard.edu), Comintern microfilm ([Hoover](https://www.hoover.org/library-archives)), Cultural Revolution local gazetteers.
+[Nuremberg exhibits](https://nuremberg.law.harvard.edu), [Comintern](https://en.wikipedia.org/wiki/Comintern) microfilm ([Hoover](https://www.hoover.org/library-archives)), Cultural Revolution local gazetteers.
 
 ### C13 Nazi-looted art.
 
@@ -161,7 +163,7 @@ Colonial-office files on Kenya, Malaya, Cyprus released 2011–13 ([FCO 141 at T
 
 ### C15 Industry document archives.
 
-UCSF's [Industry Documents Library](https://www.industrydocuments.ucsf.edu) (14M+ tobacco documents), the [Opioid Industry Documents Archive](https://www.industrydocuments.ucsf.edu/opioids/), chemical and fossil-fuel collections ([Climate Files](https://www.climatefiles.com)). Primary documents from litigation, public, mostly unread.
+[UCSF](https://en.wikipedia.org/wiki/University_of_California,_San_Francisco)'s [Industry Documents Library](https://www.industrydocuments.ucsf.edu) (14M+ tobacco documents), the [Opioid Industry Documents Archive](https://www.industrydocuments.ucsf.edu/opioids/), chemical and fossil-fuel collections ([Climate Files](https://www.climatefiles.com)). Primary documents from litigation, public, mostly unread.
 
 ### C16 Translate untranslated public-domain science.
 
@@ -173,13 +175,13 @@ Soviet-era mathematics and physics, German chemistry, Japanese engineering. Veri
 
 ### C18 Un-redact by diffing releases.
 
-The same page is often released more than once with different black boxes: the 2017 and 2025 JFK tranches, a CIA CREST copy versus the FBI Vault copy of the same memo, a cable held at both TNA and NARA. Align page images across releases and surface every word visible in one copy and redacted in another. Researchers do this by hand on famous documents; nobody has run it across the corpora in C10. Verifier: the recovered text must be visible in a public page image. Guessed redactions count for nothing.
+The same page is often released more than once with different black boxes: the 2017 and 2025 JFK tranches, a [CIA CREST](https://www.cia.gov/readingroom/) copy versus the FBI Vault copy of the same memo, a cable held at both [TNA](https://www.nationalarchives.gov.uk) and [NARA](https://www.archives.gov). Align page images across releases and surface every word visible in one copy and redacted in another. Researchers do this by hand on famous documents; nobody has run it across the corpora in C10. Verifier: the recovered text must be visible in a public page image. Guessed redactions count for nothing.
 
 ## D. Scientific data rescue
 
 ### D1 Ship logbooks and weather sheets.
 
-NOAA scanned tens of millions of pages; volunteers hand-type them at [Old Weather](https://www.oldweather.org) and [Rainfall Rescue](https://www.zooniverse.org/projects/edh/rainfall-rescue); [Copernicus](https://climate.copernicus.eu/data-rescue-service) coordinates. Handwriting → observations extends the instrumental record to the 1700s. Verifier: existing transcriptions; overlapping ships.
+[NOAA](https://www.noaa.gov) scanned tens of millions of pages; volunteers hand-type them at [Old Weather](https://www.oldweather.org) and [Rainfall Rescue](https://www.zooniverse.org/projects/edh/rainfall-rescue); [Copernicus](https://climate.copernicus.eu/data-rescue-service) coordinates. Handwriting → observations extends the instrumental record to the 1700s. Verifier: existing transcriptions; overlapping ships.
 
 ### D2 Analog seismograms.
 
@@ -195,7 +197,7 @@ Millions of paper records pre-1980 ([SeismoArchives](https://ds.iris.edu/seismo-
 
 ### D5 Cross-proxy reconciliation.
 
-[Neotoma](https://www.neotomadb.org) (pollen), SISAL (cave deposits), corals, ice cores all measure past climate through different lenses; [PAGES 2k](https://pastglobalchanges.org) reconciles with a few dozen people.
+[Neotoma](https://www.neotomadb.org) (pollen), [SISAL](https://pastglobalchanges.org/sisal) (cave deposits), corals, ice cores all measure past climate through different lenses; [PAGES 2k](https://pastglobalchanges.org) reconciles with a few dozen people.
 
 ### D6 Glacier repeat photography.
 
@@ -225,15 +227,15 @@ Decades of contest and contact logs are an ionosphere record; [HamSCI](https://h
 
 ### E1 Historical aerial photography.
 
-[NCAP](https://ncap.org.uk) (tens of millions of RAF/Luftwaffe frames), USGS via [EarthExplorer](https://earthexplorer.usgs.gov) back to the 1930s, [IWM](https://www.iwm.org.uk). Products: WWII bomb-crater → UXO (Unexplained Ordinance) risk maps (see H1); 1940s landscape baseline before ploughing and development.
+[NCAP](https://ncap.org.uk) (tens of millions of [RAF](https://en.wikipedia.org/wiki/Royal_Air_Force)/[Luftwaffe](https://en.wikipedia.org/wiki/Luftwaffe) frames), [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) via [EarthExplorer](https://earthexplorer.usgs.gov) back to the 1930s, [IWM](https://www.iwm.org.uk). Products: WWII bomb-crater → UXO (Unexplained Ordinance) risk maps (see H1); 1940s landscape baseline before ploughing and development.
 
 ### E2 Declassified spy-satellite imagery.
 
-CORONA (~860k frames 1960–72; [CORONA Atlas](https://corona.cast.uark.edu) covers the Middle East), KH-7 GAMBIT and KH-9 HEXAGON (declassified 2011, higher resolution, barely used), all on [EarthExplorer](https://earthexplorer.usgs.gov). Systematic survey of Central Asia, Iran, Iraq, Syria for sites since destroyed or built over. See Q for the full list of declassified sources.
+[CORONA](<https://en.wikipedia.org/wiki/Corona_(satellite)>) (~860k frames 1960–72; [CORONA Atlas](https://corona.cast.uark.edu) covers the Middle East), [KH-7 GAMBIT](https://en.wikipedia.org/wiki/KH-7_Gambit) and [KH-9 HEXAGON](https://en.wikipedia.org/wiki/KH-9_Hexagon) (declassified 2011, higher resolution, barely used), all on [EarthExplorer](https://earthexplorer.usgs.gov). Systematic survey of Central Asia, Iran, Iraq, Syria for sites since destroyed or built over. See Q for the full list of declassified sources.
 
 ### E3 Historical maps.
 
-[David Rumsey](https://www.davidrumsey.com) (100k+), Ordnance Survey historic sheets, [Sanborn fire-insurance maps](https://www.loc.gov/collections/sanborn-maps/). Georeference with [MapReader](https://github.com/maps-as-data/MapReader), extract every named feature → gazetteer of vanished villages, old coastlines, forgotten mine shafts.
+[David Rumsey](https://www.davidrumsey.com) (100k+), [Ordnance Survey](https://www.ordnancesurvey.co.uk) historic sheets, [Sanborn fire-insurance maps](https://www.loc.gov/collections/sanborn-maps/). Georeference with [MapReader](https://github.com/maps-as-data/MapReader), extract every named feature → gazetteer of vanished villages, old coastlines, forgotten mine shafts.
 
 ### E4 National LiDAR sweeps.
 
@@ -245,7 +247,7 @@ Public [GEBCO](https://www.gebco.net) is ~400 m grid and useless for wrecks; the
 
 ### E6 Every tailings dam, monitored.
 
-Sentinel-1 InSAR (Interferometric Synthetic Aperture Radar) is free; the [Global Tailings Portal](https://tailing.grida.no) lists ~1,900 facilities. Deliverable: public per-dam deformation time series with a documented noise floor, not "alerts" (false positives from vegetation, thermal cycles, atmosphere are the real problem). Brumadinho killed 270.
+[Sentinel-1](https://en.wikipedia.org/wiki/Sentinel-1) InSAR (Interferometric Synthetic Aperture Radar) is free; the [Global Tailings Portal](https://tailing.grida.no) lists ~1,900 facilities. Deliverable: public per-dam deformation time series with a documented noise floor, not "alerts" (false positives from vegetation, thermal cycles, atmosphere are the real problem). [Brumadinho](https://en.wikipedia.org/wiki/Brumadinho_dam_disaster) killed 270.
 
 ### E7 Every bridge, same method.
 
@@ -265,15 +267,15 @@ In the style of the [Allen Coral Atlas](https://allencoralatlas.org) for the eco
 
 ### E11 Unidentified photographs in library commons.
 
-[Flickr Commons](https://www.flickr.com/commons), Library of Congress. Date and geolocate from signage, shadows, vehicles.
+[Flickr Commons](https://www.flickr.com/commons), [Library of Congress](https://en.wikipedia.org/wiki/Library_of_Congress). Date and geolocate from signage, shadows, vehicles.
 
 ### E12 Landslide catalogue completion.
 
-[NASA's catalogue](https://gpm.nasa.gov/landslides) is built from news reports; Sentinel-2 change detection fills it, verified against reported events.
+[NASA's catalogue](https://gpm.nasa.gov/landslides) is built from news reports; [Sentinel-2](https://en.wikipedia.org/wiki/Sentinel-2) change detection fills it, verified against reported events.
 
 ### E13 Global coastline change.
 
-[CoastSat](https://github.com/kvos/CoastSat) extracts shorelines from Landsat; nobody has run it globally with per-settlement erosion rates.
+[CoastSat](https://github.com/kvos/CoastSat) extracts shorelines from [Landsat](https://en.wikipedia.org/wiki/Landsat_program); nobody has run it globally with per-settlement erosion rates.
 
 ### E14 Heritage looting from satellite.
 
@@ -285,7 +287,7 @@ Hundreds of millions of observations on [iNaturalist](https://www.inaturalist.or
 
 ### E16 Insect biomass from weather radar.
 
-The [NEXRAD archive](https://registry.opendata.aws/noaa-nexrad/) back to 1991 sees insects; BirdCast does birds. Cross-check against the 60-year [Rothamsted Insect Survey](https://insectsurvey.com).
+The [NEXRAD archive](https://registry.opendata.aws/noaa-nexrad/) back to 1991 sees insects; [BirdCast](https://birdcast.info) does birds. Cross-check against the 60-year [Rothamsted Insect Survey](https://insectsurvey.com).
 
 ### E17 Dark taxa.
 
@@ -293,11 +295,11 @@ The [NEXRAD archive](https://registry.opendata.aws/noaa-nexrad/) back to 1991 se
 
 ### E18 Top-down vs self-reported methane.
 
-TROPOMI and [MethaneSAT](https://www.methanesat.org) see plumes; EPA's [GHGRP](https://www.epa.gov/ghgreporting) has facility self-reports. Reconcile facility by facility.
+[TROPOMI](http://www.tropomi.eu) and [MethaneSAT](https://www.methanesat.org) see plumes; [EPA](https://www.epa.gov)'s [GHGRP](https://www.epa.gov/ghgreporting) has facility self-reports. Reconcile facility by facility.
 
 ### E19 Flaring and refinery attribution.
 
-[VIIRS Nightfire](https://eogdata.mines.edu/products/vnf/) flaring detections plus fence-line monitors (Texas TCEQ posts them) plus [OpenAQ](https://openaq.org)/[PurpleAir](https://www.purpleair.com).
+[VIIRS Nightfire](https://eogdata.mines.edu/products/vnf/) flaring detections plus fence-line monitors (Texas [TCEQ](https://www.tceq.texas.gov) posts them) plus [OpenAQ](https://openaq.org)/[PurpleAir](https://www.purpleair.com).
 
 ### E20 Timber and deforestation supply chains.
 
@@ -305,47 +307,47 @@ TROPOMI and [MethaneSAT](https://www.methanesat.org) see plumes; EPA's [GHGRP](h
 
 ## F. Other worlds: more images than eyes
 
-Everything below is public in NASA's [Planetary Data System](https://pds.nasa.gov) or ESA's [Planetary Science Archive](https://archives.esac.esa.int/psa). The rule: bodies with O(10) images are studied to death; bodies with O(10⁵–10⁶) images are not.
+Everything below is public in [NASA](https://www.nasa.gov)'s [Planetary Data System](https://pds.nasa.gov) or [ESA](https://www.esa.int)'s [Planetary Science Archive](https://archives.esac.esa.int/psa). The rule: bodies with O(10) images are studied to death; bodies with O(10⁵–10⁶) images are not.
 
 ### F1 Mars orbital.
 
-[HiRISE](https://www.uahirise.org) (~80k images at 25 cm), [CTX](https://murray-lab.caltech.edu/CTX/) (global 6 m mosaic, ~100k images), daily global MARCI weather. Targets: new impact craters from before/after pairs (partially done by ML), recurring slope lineae changes, gullies, dune migration, avalanches at the polar cap, dust-devil tracks ([Planet Four](https://www.zooniverse.org/projects/mschwamb/planet-four) is the citizen version). Verifier: re-imaging requests, which HiRISE honours.
+[HiRISE](https://www.uahirise.org) (~80k images at 25 cm), [CTX](https://murray-lab.caltech.edu/CTX/) (global 6 m mosaic, ~100k images), daily global [MARCI](https://en.wikipedia.org/wiki/Mars_Color_Imager) weather. Targets: new impact craters from before/after pairs (partially done by ML), recurring slope lineae changes, gullies, dune migration, avalanches at the polar cap, dust-devil tracks ([Planet Four](https://www.zooniverse.org/projects/mschwamb/planet-four) is the citizen version). Verifier: re-imaging requests, which HiRISE honours.
 
 ### F2 Mars rover images.
 
-Curiosity and Perseverance have returned over a million [raw images](https://mars.nasa.gov/msl/multimedia/raw-images/). Several [meteorites on Mars](https://en.wikipedia.org/wiki/List_of_meteorites_on_Mars) were found by chance; a systematic search for meteorites, unusual rocks and dust-devil captures is unfinished.
+[Curiosity](<https://en.wikipedia.org/wiki/Curiosity_(rover)>) and [Perseverance](<https://en.wikipedia.org/wiki/Perseverance_(rover)>) have returned over a million [raw images](https://mars.nasa.gov/msl/multimedia/raw-images/). Several [meteorites on Mars](https://en.wikipedia.org/wiki/List_of_meteorites_on_Mars) were found by chance; a systematic search for meteorites, unusual rocks and dust-devil captures is unfinished.
 
 ### F3 Moon.
 
-[LROC](https://quickmap.lroc.asu.edu) has millions of frames at 0.5 m; Chandrayaan-2's OHRC reaches 25 cm ([ISRO](https://www.isro.gov.in)); Kaguya and Chang'e add more. Targets: new craters, lava-tube skylights beyond the existing pit catalogue, boulder tracks, lunar swirls, crash sites of early landers, artefact inventory of every Apollo and Luna site.
+[LROC](https://quickmap.lroc.asu.edu) has millions of frames at 0.5 m; [Chandrayaan-2](https://en.wikipedia.org/wiki/Chandrayaan-2)'s OHRC reaches 25 cm ([ISRO](https://www.isro.gov.in)); [Kaguya](https://en.wikipedia.org/wiki/SELENE) and [Chang'e](https://en.wikipedia.org/wiki/Chang%27e_program) add more. Targets: new craters, lava-tube skylights beyond the existing pit catalogue, boulder tracks, lunar swirls, crash sites of early landers, artefact inventory of every [Apollo](https://en.wikipedia.org/wiki/Apollo_program) and [Luna](https://en.wikipedia.org/wiki/Luna_programme) site.
 
 ### F4 Venus radar.
 
-Magellan (1990–94) mapped the whole planet; in 2023, [re-analysis of old Magellan data found active volcanism](https://doi.org/10.1126/science.abm7735). The archive was studied in parts, never systematically for change between orbits.
+[Magellan](<https://en.wikipedia.org/wiki/Magellan_(spacecraft)>) (1990–94) mapped the whole planet; in 2023, [re-analysis of old Magellan data found active volcanism](https://doi.org/10.1126/science.abm7735). The archive was studied in parts, never systematically for change between orbits.
 
 ### F5 Mercury.
 
-MESSENGER returned ~300k images (PDS (Planetary Data System)); BepiColombo arrives 2026. Hollows, volatiles, crater statistics. Few people work on Mercury.
+[MESSENGER](https://en.wikipedia.org/wiki/MESSENGER) returned ~300k images ([PDS (Planetary Data System)](https://pds.nasa.gov)); [BepiColombo](https://en.wikipedia.org/wiki/BepiColombo) arrives 2026. Hollows, volatiles, crater statistics. Few people work on Mercury.
 
 ### F6 Saturn system.
 
-Cassini's 13 years, ~450k images, plus radar swaths of Titan and VIMS spectral cubes ([PDS (Planetary Data System) Ring-Moon Systems Node](https://pds-rings.seti.org)). Targets: ring propellers and moonlets, Enceladus plume variability, Titan lake-level change, small-moon rotation states.
+[Cassini](https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens)'s 13 years, ~450k images, plus radar swaths of Titan and [VIMS](https://en.wikipedia.org/wiki/Visual_and_Infrared_Mapping_Spectrometer) spectral cubes ([PDS (Planetary Data System) Ring-Moon Systems Node](https://pds-rings.seti.org)). Targets: ring propellers and moonlets, Enceladus plume variability, Titan lake-level change, small-moon rotation states.
 
 ### F7 Jupiter.
 
-[JunoCam](https://www.missionjuno.swri.edu/junocam) raw images are processed mostly by amateurs; Galileo's archive is older. Cloud tracking, lightning, small-moon recoveries.
+[JunoCam](https://www.missionjuno.swri.edu/junocam) raw images are processed mostly by amateurs; [Galileo](<https://en.wikipedia.org/wiki/Galileo_(spacecraft)>)'s archive is older. Cloud tracking, lightning, small-moon recoveries.
 
 ### F8 Comets and asteroids.
 
-Rosetta's ~100k OSIRIS images of 67P (activity, cliff collapses, boulder movement), Dawn at Vesta and Ceres, OSIRIS-REx at Bennu, Hayabusa2 at Ryugu. Rosetta's archive is the most under-exploited.
+[Rosetta](<https://en.wikipedia.org/wiki/Rosetta_(spacecraft)>)'s ~100k OSIRIS images of 67P (activity, cliff collapses, boulder movement), [Dawn](<https://en.wikipedia.org/wiki/Dawn_(spacecraft)>) at Vesta and Ceres, [OSIRIS-REx](https://en.wikipedia.org/wiki/OSIRIS-REx) at Bennu, [Hayabusa2](https://en.wikipedia.org/wiki/Hayabusa2) at Ryugu. Rosetta's archive is the most under-exploited.
 
 ### F9 The Sun.
 
-[SDO](https://sdo.gsfc.nasa.gov) returns terabytes per day since 2010; SOHO comet-hunting by amateurs is the existing model.
+[SDO](https://sdo.gsfc.nasa.gov) returns terabytes per day since 2010; [SOHO](https://en.wikipedia.org/wiki/Solar_and_Heliospheric_Observatory) comet-hunting by amateurs is the existing model.
 
 ### F10 Survey backlog.
 
-[Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid) will image 1.5 billion galaxies; JWST and Hubble archives at [MAST](https://archive.stsci.edu); Kepler/TESS light curves still hide planets ([Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess)). Galaxy Zoo is the model.
+[Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid) will image 1.5 billion galaxies; [JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope) and [Hubble](https://en.wikipedia.org/wiki/Hubble_Space_Telescope) archives at [MAST](https://archive.stsci.edu); [Kepler](https://en.wikipedia.org/wiki/Kepler_space_telescope)/[TESS](https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite) light curves still hide planets ([Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess)). [Galaxy Zoo](https://en.wikipedia.org/wiki/Galaxy_Zoo) is the model.
 
 ## G. Oceans: lost lands, lost things, the deep
 
@@ -359,7 +361,7 @@ The [Blinkerwall](https://en.wikipedia.org/wiki/Blinkerwall), a 10,000-year-old 
 
 ### G3 Shipwrecks and lost aircraft, prioritised.
 
-UNESCO estimates [3 million wrecks](https://www.unesco.org/en/underwater-heritage). Records: [Wrecksite](https://www.wrecksite.eu) (crowd), NOAA's wreck database, UKHO, the [Lloyd's Register Foundation heritage archive](https://hec.lrfoundation.org.uk) (casualty returns), Lloyd's List reports in historic newspapers. Combine last-known positions with drift models and the high-resolution bathymetry of E5 to rank targets. For aircraft: the digitised [Missing Air Crew Reports](https://www.archives.gov/research/military/ww2/missing-air-crew-reports) give date, type and last reported position for thousands of WWII losses; intersect each with the footprint of surveys already flown and you get search-ready packets. Slave-ship wrecks via the [Slave Wrecks Project](https://nmaahc.si.edu/explore/initiatives/slave-wrecks-project).
+[UNESCO](https://www.unesco.org) estimates [3 million wrecks](https://www.unesco.org/en/underwater-heritage). Records: [Wrecksite](https://www.wrecksite.eu) (crowd), [NOAA](https://www.noaa.gov)'s wreck database, [UKHO](https://www.gov.uk/government/organisations/uk-hydrographic-office), the [Lloyd's Register Foundation heritage archive](https://hec.lrfoundation.org.uk) (casualty returns), [Lloyd's List](https://lloydslist.com) reports in historic newspapers. Combine last-known positions with drift models and the high-resolution bathymetry of E5 to rank targets. For aircraft: the digitised [Missing Air Crew Reports](https://www.archives.gov/research/military/ww2/missing-air-crew-reports) give date, type and last reported position for thousands of WWII losses; intersect each with the footprint of surveys already flown and you get search-ready packets. Slave-ship wrecks via the [Slave Wrecks Project](https://nmaahc.si.edu/explore/initiatives/slave-wrecks-project).
 
 ### G4 Fishermen's snag records as a wreck finder.
 
@@ -383,11 +385,11 @@ The [ISA DeepData](https://data.isa.org.jm) database holds contractors' environm
 
 ### G9 Deep-sea video archives.
 
-[NOAA Ocean Exploration](https://oceanexplorer.noaa.gov/data/) Okeanos ROV dives, [MBARI's VARS](https://www.mbari.org/technology/video-annotation-and-reference-system-vars/) (28,000+ hours, expert-annotated, with [FathomNet](https://fathomnet.org) as the training set), [ONC SeaTube](https://data.oceannetworks.ca/SeaTube), [Schmidt Ocean](https://www.youtube.com/@SchmidtOcean), [Nautilus Live](https://nautiluslive.org), JAMSTEC's [J-EDI](https://www.godac.jamstec.go.jp/jedi/e/) and [Deep-sea Debris Database](https://www.godac.jamstec.go.jp/dsdebris/e/index.html). Annotators tag the object of interest; the background is unexamined. Targets: unannotated organisms at the frame edge, "unidentified" tags, behaviour events, litter counts, bioluminescence, re-sightings of individuals across dives.
+[NOAA Ocean Exploration](https://oceanexplorer.noaa.gov/data/) [Okeanos](https://oceanexplorer.noaa.gov/okeanos/welcome.html) ROV dives, [MBARI's VARS](https://www.mbari.org/technology/video-annotation-and-reference-system-vars/) (28,000+ hours, expert-annotated, with [FathomNet](https://fathomnet.org) as the training set), [ONC SeaTube](https://data.oceannetworks.ca/SeaTube), [Schmidt Ocean](https://www.youtube.com/@SchmidtOcean), [Nautilus Live](https://nautiluslive.org), [JAMSTEC](https://www.jamstec.go.jp/e/)'s [J-EDI](https://www.godac.jamstec.go.jp/jedi/e/) and [Deep-sea Debris Database](https://www.godac.jamstec.go.jp/dsdebris/e/index.html). Annotators tag the object of interest; the background is unexamined. Targets: unannotated organisms at the frame edge, "unidentified" tags, behaviour events, litter counts, bioluminescence, re-sightings of individuals across dives.
 
 ### G10 Deep-sea audio archives.
 
-NOAA's [passive acoustic archive](https://www.ncei.noaa.gov/products/passive-acoustic-data), MBARI's continuous hydrophone on [AWS Open Data](https://registry.opendata.aws/pacific-sound/) since 2015, [ONC hydrophones](https://data.oceannetworks.ca). NOAA maintains a list of [unexplained sounds](https://oceanexplorer.noaa.gov/explorations/sound01/background/seasounds/seasounds.html). Targets: unidentified call types, whale population trends, ship-noise exposure, cross-referencing sightings in [OBIS](https://obis.org).
+[NOAA](https://www.noaa.gov)'s [passive acoustic archive](https://www.ncei.noaa.gov/products/passive-acoustic-data), [MBARI](https://www.mbari.org)'s continuous hydrophone on [AWS Open Data](https://registry.opendata.aws/pacific-sound/) since 2015, [ONC hydrophones](https://data.oceannetworks.ca). NOAA maintains a list of [unexplained sounds](https://oceanexplorer.noaa.gov/explorations/sound01/background/seasounds/seasounds.html). Targets: unidentified call types, whale population trends, ship-noise exposure, cross-referencing sightings in [OBIS](https://obis.org).
 
 ### G11 Dark fibre as a sensor.
 
@@ -397,15 +399,15 @@ NOAA's [passive acoustic archive](https://www.ncei.noaa.gov/products/passive-aco
 
 ### H1 WWII bomb craters → UXO (Unexplained Ordinance)risk.
 
-Aerial photos (E1) plus [RAF Bomber Command raid records at TNA](https://discovery.nationalarchives.gov.uk) and USAAF mission reports. Germany still evacuates cities for bombs; contractors do this privately, never openly. LiDAR also shows craters under forest.
+Aerial photos (E1) plus [RAF Bomber Command raid records at TNA](https://discovery.nationalarchives.gov.uk) and [USAAF](https://en.wikipedia.org/wiki/United_States_Army_Air_Forces) mission reports. Germany still evacuates cities for bombs; contractors do this privately, never openly. LiDAR also shows craters under forest.
 
 ### H2 WWI battlefields.
 
-The "iron harvest" recovers ~900 tonnes of shells a year in France and Belgium ([overview](https://en.wikipedia.org/wiki/Iron_harvest)). WWI aerial photos ([IWM](https://www.iwm.org.uk)), trench maps and LiDAR of the Zone Rouge give a contamination map.
+The "iron harvest" recovers ~900 tonnes of shells a year in France and Belgium ([overview](https://en.wikipedia.org/wiki/Iron_harvest)). WWI aerial photos ([IWM](https://www.iwm.org.uk)), trench maps and LiDAR of the [Zone Rouge](https://en.wikipedia.org/wiki/Zone_Rouge) give a contamination map.
 
 ### H3 Indochina bombing.
 
-The Pentagon's [THOR database](https://data.world/datamil/vietnam-war-thor-data) records every US bombing mission over Laos, Cambodia and Vietnam. [MAG](https://www.maginternational.org) and [Legacies of War](https://www.legaciesofwar.org) clear by hand; combining THOR with satellite crater detection and clearance records prioritises villages.
+The [Pentagon](https://en.wikipedia.org/wiki/The_Pentagon)'s [THOR database](https://data.world/datamil/vietnam-war-thor-data) records every US bombing mission over Laos, Cambodia and Vietnam. [MAG](https://www.maginternational.org) and [Legacies of War](https://www.legaciesofwar.org) clear by hand; combining THOR with satellite crater detection and clearance records prioritises villages.
 
 ### H4 Landmines.
 
@@ -413,11 +415,11 @@ The Pentagon's [THOR database](https://data.world/datamil/vietnam-war-thor-data)
 
 ### H5 Historic industrial sites → contamination.
 
-[Sanborn](https://www.loc.gov/collections/sanborn-maps/) and Goad fire-insurance maps name every gasworks, tannery and foundry a century ago. Predict brownfield contamination; verify with sampling.
+[Sanborn](https://www.loc.gov/collections/sanborn-maps/) and [Goad](https://en.wikipedia.org/wiki/Goad_plan) fire-insurance maps name every gasworks, tannery and foundry a century ago. Predict brownfield contamination; verify with sampling.
 
 ### H6 Eroding coastal landfills.
 
-The Environment Agency's [historic landfill data](https://environment.data.gov.uk) plus coastline change (E13) identifies dumps about to wash into the sea.
+The [Environment Agency](https://www.gov.uk/government/organisations/environment-agency)'s [historic landfill data](https://environment.data.gov.uk) plus coastline change (E13) identifies dumps about to wash into the sea.
 
 ### H7 Old mine shafts and workings.
 
@@ -489,7 +491,7 @@ Navigators recorded compass declination for centuries; the [gufm1 model](https:/
 
 ### I11 Gravestones → historical mortality.
 
-[Find a Grave](https://www.findagrave.com) and BillionGraves hold hundreds of millions of dated stones: child-mortality curves and epidemic timing by parish, checkable against the few places with good registers.
+[Find a Grave](https://www.findagrave.com) and [BillionGraves](https://billiongraves.com) hold hundreds of millions of dated stones: child-mortality curves and epidemic timing by parish, checkable against the few places with good registers.
 
 ### I12 Bomb-pulse radiocarbon → poached ivory.
 
@@ -497,11 +499,11 @@ Atmospheric nuclear tests left a carbon-14 spike that dates any tissue ([Uno et 
 
 ### I13 Night-lights → outages, conflict, informal economy.
 
-VIIRS night-time imagery tracks power outages and economic activity where statistics are missing.
+[VIIRS](https://en.wikipedia.org/wiki/Visible_Infrared_Imaging_Radiometer_Suite) night-time imagery tracks power outages and economic activity where statistics are missing.
 
 ### I14 Aircraft transponders → winds and turbulence.
 
-ADS-B/Mode-S data on [OpenSky](https://opensky-network.org) yields wind fields (KNMI does this) and turbulence maps; also GNSS jamming (see [GPSJam](https://gpsjam.org)).
+[ADS-B](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast)/[Mode-S](https://en.wikipedia.org/wiki/Mode_S) data on [OpenSky](https://opensky-network.org) yields wind fields ([KNMI](https://www.knmi.nl) does this) and turbulence maps; also GNSS jamming (see [GPSJam](https://gpsjam.org)).
 
 ### I15 Solar-inverter output → cloud and irradiance maps.
 
@@ -509,7 +511,7 @@ ADS-B/Mode-S data on [OpenSky](https://opensky-network.org) yields wind fields (
 
 ### I16 Fitness-app traces → informal paths and park use.
 
-Desire lines for planners, from Strava-style heatmaps. Aggregate only.
+Desire lines for planners, from [Strava](https://www.strava.com)-style heatmaps. Aggregate only.
 
 ### I17 Muons → imaging.
 
@@ -523,15 +525,15 @@ Wine-harvest dates in Burgundy reconstruct summer temperature since 1354; hearth
 
 ### J1 SRA/ENA sweeps.
 
-[Serratus](https://serratus.io) found 130k new RNA viruses; [Logan](https://github.com/IndexThePlanet/Logan) assembled all of the Sequence Read Archive. Remaining: novel CRISPR systems, antibiotic biosynthetic clusters, giant viruses, and contamination/mislabeling audits (wrong species, wrong sex, cell-line cross-contamination). Mislabeling is checkable from the reads.
+[Serratus](https://serratus.io) found 130k new RNA viruses; [Logan](https://github.com/IndexThePlanet/Logan) assembled all of the [Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra). Remaining: novel CRISPR systems, antibiotic biosynthetic clusters, giant viruses, and contamination/mislabeling audits (wrong species, wrong sex, cell-line cross-contamination). Mislabeling is checkable from the reads.
 
 ### J2 Restoring invisible trials.
 
-Half of trials never publish; results exist in FDA approval packages ([Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/)), EMA clinical data, and data-sharing portals. [RIAT](https://restoringtrials.org) did a handful by hand.
+Half of trials never publish; results exist in [FDA](https://www.fda.gov) approval packages ([Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/)), [EMA](https://www.ema.europa.eu) clinical data, and data-sharing portals. [RIAT](https://restoringtrials.org) did a handful by hand.
 
 ### J3 Adverse-event backtesting.
 
-[openFDA](https://open.fda.gov) exposes FAERS. Freeze a signal detector on data to year N, score it against label changes and withdrawals in N+1..N+5, then run forward.
+[openFDA](https://open.fda.gov) exposes [FAERS](https://www.fda.gov/drugs/surveillance/fda-adverse-event-reporting-system-faers). Freeze a signal detector on data to year N, score it against label changes and withdrawals in N+1..N+5, then run forward.
 
 ### J4 Hospital price files.
 
@@ -539,11 +541,11 @@ Every US hospital must post machine-readable prices; the files are deliberately 
 
 ### J5 Image-archive audits.
 
-[EMPIAR](https://www.ebi.ac.uk/empiar/), [IDR](https://idr.openmicroscopy.org), Human Protein Atlas for mislabeled or duplicated images; [PDB-REDO](https://pdb-redo.eu) covers geometry, not misassigned ligands.
+[EMPIAR](https://www.ebi.ac.uk/empiar/), [IDR](https://idr.openmicroscopy.org), [Human Protein Atlas](https://www.proteinatlas.org) for mislabeled or duplicated images; [PDB-REDO](https://pdb-redo.eu) covers geometry, not misassigned ligands.
 
 ### J6 Antimicrobial resistance from public isolates.
 
-[NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/) (over a million isolates with resistance genes, dates, locations); Pfizer's ATLAS via [Vivli](https://amr.vivli.org). Spread maps, cross-hospital outbreak detection, gaps versus WHO GLASS.
+[NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/) (over a million isolates with resistance genes, dates, locations); [Pfizer](https://www.pfizer.com)'s ATLAS via [Vivli](https://amr.vivli.org). Spread maps, cross-hospital outbreak detection, gaps versus [WHO GLASS](https://www.who.int/initiatives/glass).
 
 ### J7 Wastewater epidemiology methods.
 
@@ -551,15 +553,15 @@ Every US hospital must post machine-readable prices; the files are deliberately 
 
 ### J8 Drug-shortage prediction.
 
-[FDA shortage list](https://www.accessdata.fda.gov/scripts/drugshortages/) plus [warning letters](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters), inspection reports via FOIA, and the number of manufacturers per active ingredient. Predict which sterile injectable goes short next; hospitals would use it. Backtestable, but only against a dated timeline rebuilt from archived snapshots: the live shortage API rewrites history, so a naive backtest leaks the answer.
+[FDA shortage list](https://www.accessdata.fda.gov/scripts/drugshortages/) plus [warning letters](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters), inspection reports via [FOIA](https://www.foia.gov), and the number of manufacturers per active ingredient. Predict which sterile injectable goes short next; hospitals would use it. Backtestable, but only against a dated timeline rebuilt from archived snapshots: the live shortage API rewrites history, so a naive backtest leaks the answer.
 
 ### J9 Inspection-report clustering.
 
-FDA Form 483s and EU inspection reports describe recurring plant failures in free text; cluster by facility over time.
+[FDA Form 483s](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/fda-form-483-frequently-asked-questions) and EU inspection reports describe recurring plant failures in free text; cluster by facility over time.
 
 ### J10 Food-safety alert prediction.
 
-[RASFF](https://webgate.ec.europa.eu/rasff-window/screen/search) (EU), FDA recalls, USDA pesticide-residue data. Predict the next product/origin alert; backtest.
+[RASFF](https://webgate.ec.europa.eu/rasff-window/screen/search) (EU), [FDA](https://www.fda.gov) recalls, [USDA](https://en.wikipedia.org/wiki/United_States_Department_of_Agriculture) pesticide-residue data. Predict the next product/origin alert; backtest.
 
 ### J11 Animal-disease early signals.
 
@@ -577,7 +579,7 @@ FDA Form 483s and EU inspection reports describe recurring plant failures in fre
 
 ### K3 Model-bill fingerprinting.
 
-[Copy, Paste, Legislate](https://publicintegrity.org/topics/politics/copy-paste-legislate/) matched lobbyist model bills to state laws once in 2019. Run continuously across all states, the EU and Westminster, with lobbying-disclosure filings attached.
+[Copy, Paste, Legislate](https://publicintegrity.org/topics/politics/copy-paste-legislate/) matched lobbyist model bills to state laws once in 2019. Run continuously across all states, the [EU](https://european-union.europa.eu) and [Westminster](https://en.wikipedia.org/wiki/Parliament_of_the_United_Kingdom), with lobbying-disclosure filings attached.
 
 ### K4 Judicial conflicts.
 
@@ -585,7 +587,7 @@ The [WSJ found 131 federal judges](https://www.wsj.com/articles/131-federal-judg
 
 ### K5 Charity self-dealing.
 
-Every Form 990 is on [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/): related-party transactions, pay outliers, grants to entities sharing a board. Checkable against later IRS revocations.
+Every [Form 990](https://en.wikipedia.org/wiki/Form_990) is on [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/): related-party transactions, pay outliers, grants to entities sharing a board. Checkable against later [IRS](https://www.irs.gov) revocations.
 
 ### K6 Unidentified remains vs missing persons.
 
@@ -601,7 +603,7 @@ Every Form 990 is on [ProPublica Nonprofit Explorer](https://projects.propublica
 
 ### K9 FOIA archaeology.
 
-Agencies publish FOIA logs (what was requested) and reading rooms (what was posted). Mine logs for records released to one requester but never posted, then request them via [MuckRock](https://www.muckrock.com).
+Agencies publish [FOIA](<https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)>) logs (what was requested) and reading rooms (what was posted). Mine logs for records released to one requester but never posted, then request them via [MuckRock](https://www.muckrock.com).
 
 ### K10 Wildlife-trade discrepancies.
 
@@ -621,7 +623,7 @@ Tuna commissions publish compliance reports and vessel lists as PDFs; the [combi
 
 ### K14 Catch reconstruction vs trade.
 
-[Sea Around Us](https://www.seaaroundus.org) reconstructs true catch; UN Comtrade has trade. Exporting more of a species than plausibly caught is checkable.
+[Sea Around Us](https://www.seaaroundus.org) reconstructs true catch; [UN Comtrade](https://comtrade.un.org) has trade. Exporting more of a species than plausibly caught is checkable.
 
 ### K15 Politician promise and position tracker.
 
@@ -629,7 +631,7 @@ Automated, cross-country, every claim hyperlinked to a primary source; [PolitiFa
 
 ### K16 Aid-project failure prediction.
 
-Every World Bank project has a completion report and an IEG rating ([documents.worldbank.org](https://documents.worldbank.org), [IEG](https://ieg.worldbankgroup.org)); [IATI](https://iatistandard.org) has donor transactions. What predicts failure has only been studied in samples.
+Every [World Bank](https://www.worldbank.org) project has a completion report and an IEG rating ([documents.worldbank.org](https://documents.worldbank.org), [IEG](https://ieg.worldbankgroup.org)); [IATI](https://iatistandard.org) has donor transactions. What predicts failure has only been studied in samples.
 
 ### K17 Discredited forensics in standing convictions.
 
@@ -641,7 +643,7 @@ Per-state expungement eligibility verified against statute; the [Collateral Cons
 
 ### K19 Which promised repairs vanished.
 
-Every public audit ends with recommendations; almost nobody checks what happened next. The US [GAO](https://www.gao.gov/reports-testimonies/recommendations-database) keeps an open-recommendations database, the UK NAO, Brazil's TCU and India's CAG publish equivalents as PDFs. Trace each recommendation through later budgets, minutes and implementation reports to a completion record or an explicit statement of non-completion, and find the ones that were re-recommended three audits running. Verifier: the dated document that closes or reopens each item. Non-US coverage comes free.
+Every public audit ends with recommendations; almost nobody checks what happened next. The US [GAO](https://www.gao.gov/reports-testimonies/recommendations-database) keeps an open-recommendations database, the UK [NAO](https://www.nao.org.uk), Brazil's [TCU](https://www.tcu.gov.br) and India's [CAG](https://cag.gov.in) publish equivalents as PDFs. Trace each recommendation through later budgets, minutes and implementation reports to a completion record or an explicit statement of non-completion, and find the ones that were re-recommended three audits running. Verifier: the dated document that closes or reopens each item. Non-US coverage comes free.
 
 ## L. Improving documents, with adoption as the verifier
 
@@ -657,7 +659,7 @@ Most consultation documents got a week of a tired analyst's time. Some venues ha
 
 ### L3 Standards errata.
 
-The [RFC Editor](https://www.rfc-editor.org/errata.php) formally accepts errata; [Ethereum EIPs](https://eips.ethereum.org), Bitcoin BIPs, W3C specs. Spec ambiguities that produce implementation divergence (B11) are the richest vein.
+The [RFC Editor](https://www.rfc-editor.org/errata.php) formally accepts errata; [Ethereum EIPs](https://eips.ethereum.org), [Bitcoin BIPs](https://github.com/bitcoin/bips), [W3C](https://www.w3.org) specs. Spec ambiguities that produce implementation divergence (B11) are the richest vein.
 
 ### L4 Local planning consultations.
 
@@ -665,11 +667,11 @@ UK planning portals, US municipal agendas: proposals conflicting with the author
 
 ### L5 Dead and inconsistent statutory cross-references.
 
-[US Code](https://uscode.house.gov), CFR, [legislation.gov.uk](https://www.legislation.gov.uk), EU regulations: references to repealed sections, circular definitions, the same term defined differently across a code. Mechanical verifier. The multilingual version: the 24 official-language texts of the same EU regulation are equally authoritative and sometimes disagree on a number, a date or a negation; aligned passages plus a bilingual spot-check.
+[US Code](https://uscode.house.gov), [CFR](https://www.ecfr.gov), [legislation.gov.uk](https://www.legislation.gov.uk), EU regulations: references to repealed sections, circular definitions, the same term defined differently across a code. Mechanical verifier. The multilingual version: the 24 official-language texts of the same EU regulation are equally authoritative and sometimes disagree on a number, a date or a negation; aligned passages plus a bilingual spot-check.
 
 ### L6 Patent prior-art hunting.
 
-[Unified Patents](https://www.unifiedpatents.com) runs cash bounties; PTAB outcomes are the verifier.
+[Unified Patents](https://www.unifiedpatents.com) runs cash bounties; [PTAB](https://www.uspto.gov/patents/ptab) outcomes are the verifier.
 
 ### L7 Improper Orange Book listings.
 
@@ -705,7 +707,7 @@ _Guard against slop:_ every replacement ships with the incumbent's verification 
 
 #### M6 Structural analysis.
 
-Incumbents: ETABS/SAP2000 ([CSI](https://www.csiamerica.com)), RISA, Tekla. Open: [OpenSees](https://opensees.berkeley.edu) (research, no GUI), [Code_Aster](https://code-aster.org), [CalculiX](http://www.calculix.de). Proof: CSI publishes verification manuals; pass every case, then pass the [NAFEMS benchmarks](https://www.nafems.org) and the [AISC design examples](https://www.aisc.org) for code checking, which is what practitioners actually pay for.
+Incumbents: [ETABS](https://www.csiamerica.com/products/etabs)/[SAP2000](https://www.csiamerica.com/products/sap2000) ([CSI](https://www.csiamerica.com)), [RISA](https://risa.com), [Tekla](https://www.tekla.com). Open: [OpenSees](https://opensees.berkeley.edu) (research, no GUI), [Code_Aster](https://code-aster.org), [CalculiX](http://www.calculix.de). Proof: CSI publishes verification manuals; pass every case, then pass the [NAFEMS benchmarks](https://www.nafems.org) and the [AISC design examples](https://www.aisc.org) for code checking, which is what practitioners actually pay for.
 
 #### M7 River and flood hydraulics.
 
@@ -713,63 +715,63 @@ Incumbent: [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/) (free but
 
 #### M8 Regulated statistics.
 
-Incumbents: SAS, SPSS, Stata, Prism. Open: R, [jamovi](https://www.jamovi.org), [JASP](https://jasp-stats.org). SAS's grip on pharma is validation, not features. Proof: packages validated to FDA-submission standards via the [R Validation Hub](https://www.pharmar.org) and [pharmaverse](https://pharmaverse.org); reproduce a published FDA submission's tables.
+Incumbents: [SAS](https://www.sas.com), [SPSS](https://www.ibm.com/spss), [Stata](https://www.stata.com), [Prism](https://www.graphpad.com). Open: [R](https://www.r-project.org), [jamovi](https://www.jamovi.org), [JASP](https://jasp-stats.org). SAS's grip on pharma is validation, not features. Proof: packages validated to [FDA](https://www.fda.gov)-submission standards via the [R Validation Hub](https://www.pharmar.org) and [pharmaverse](https://pharmaverse.org); reproduce a published FDA submission's tables.
 
 #### M9 Legal e-discovery.
 
-Incumbents: [Relativity](https://www.relativity.com), Everlaw. Open: OCCRP's [Aleph](https://aleph.occrp.org) (investigative, not litigation-grade). Proof: recall/precision on the public [EDRM Enron set](https://edrm.net) under TREC Legal Track protocols.
+Incumbents: [Relativity](https://www.relativity.com), [Everlaw](https://www.everlaw.com). Open: OCCRP's [Aleph](https://aleph.occrp.org) (investigative, not litigation-grade). Proof: recall/precision on the public [EDRM Enron set](https://edrm.net) under [TREC Legal Track](https://trec-legal.umiacs.umd.edu/) protocols.
 
 #### M10 Augmentative and alternative communication (AAC).
 
-Incumbents: Tobii Dynavox, Proloquo2Go. Open: [Cboard](https://www.cboard.io), [OptiKey](https://www.optikey.org). Proof: words-per-minute and error rate with real users; budget the human time.
+Incumbents: [Tobii Dynavox](https://www.tobiidynavox.com), [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go). Open: [Cboard](https://www.cboard.io), [OptiKey](https://www.optikey.org). Proof: words-per-minute and error rate with real users; budget the human time.
 
 #### M11 Mechanical CAD.
 
-Incumbents: SolidWorks, Inventor, Fusion. Open: [FreeCAD](https://www.freecad.org) (1.0 in 2024 fixed the worst), OpenSCAD. Gaps: assemblies, drawings, fillet robustness. Proof: model a benchmark set of real parts and measure time-to-model and failure rate against the incumbent.
+Incumbents: [SolidWorks](https://www.solidworks.com), [Inventor](https://en.wikipedia.org/wiki/Autodesk_Inventor), [Fusion](https://en.wikipedia.org/wiki/Autodesk_Fusion_360). Open: [FreeCAD](https://www.freecad.org) (1.0 in 2024 fixed the worst), [OpenSCAD](https://openscad.org). Gaps: assemblies, drawings, fillet robustness. Proof: model a benchmark set of real parts and measure time-to-model and failure rate against the incumbent.
 
 #### M12 Electronics and chip design.
 
-Incumbents: Altium, Cadence. Open: [KiCad](https://www.kicad.org) (good), [OpenROAD](https://theopenroadproject.org) for chips, [openEMS](https://www.openems.de) for RF. Proof: tape-out-tested reference designs; measured vs simulated S-parameters on published RF test structures.
+Incumbents: [Altium](https://www.altium.com), [Cadence](https://en.wikipedia.org/wiki/Cadence_Design_Systems). Open: [KiCad](https://www.kicad.org) (good), [OpenROAD](https://theopenroadproject.org) for chips, [openEMS](https://www.openems.de) for RF. Proof: tape-out-tested reference designs; measured vs simulated S-parameters on published RF test structures.
 
 #### M13 Finite-element and CFD.
 
-Incumbents: Ansys, Abaqus, Fluent, STAR-CCM. Open: [CalculiX](http://www.calculix.de), [Elmer](https://www.elmerfem.org), [OpenFOAM](https://www.openfoam.com) (capable, brutal to use). The gap is meshing and usability. Proof: NAFEMS and [NASA turbulence-modelling](https://turbmodels.larc.nasa.gov) validation cases, then a timed usability study.
+Incumbents: [Ansys](https://www.ansys.com), [Abaqus](https://www.3ds.com/products/simulia/abaqus), [Fluent](https://www.ansys.com/products/fluids/ansys-fluent), [STAR-CCM](https://plm.sw.siemens.com/en-US/simcenter/fluids-thermal-simulation/star-ccm/). Open: [CalculiX](http://www.calculix.de), [Elmer](https://www.elmerfem.org), [OpenFOAM](https://www.openfoam.com) (capable, brutal to use). The gap is meshing and usability. Proof: [NAFEMS](https://www.nafems.org) and [NASA turbulence-modelling](https://turbmodels.larc.nasa.gov) validation cases, then a timed usability study.
 
 #### M14 Chemical process simulation.
 
-Incumbents: Aspen Plus, HYSYS. Open: [DWSIM](https://dwsim.org). Proof: published flowsheet cases.
+Incumbents: [Aspen Plus](https://www.aspentech.com/en/products/engineering/aspen-plus), [HYSYS](https://www.aspentech.com/en/products/engineering/aspen-hysys). Open: [DWSIM](https://dwsim.org). Proof: published flowsheet cases.
 
 #### M15 Optical design.
 
-Incumbents: [Zemax OpticStudio](https://www.ansys.com/products/optics/ansys-zemax-opticstudio), Code V. Open: [ray-optics](https://github.com/mjhoptics/ray-optics) and a few small projects; a real gap. Proof: reproduce merit functions on Zemax sample files and published patent lens prescriptions.
+Incumbents: [Zemax OpticStudio](https://www.ansys.com/products/optics/ansys-zemax-opticstudio), [Code V](https://en.wikipedia.org/wiki/Code_V). Open: [ray-optics](https://github.com/mjhoptics/ray-optics) and a few small projects; a real gap. Proof: reproduce merit functions on Zemax sample files and published patent lens prescriptions.
 
 #### M16 Room acoustics.
 
-Incumbents: Odeon, EASE. Open: [I-Simpa](https://i-simpa.ifsttar.fr), [pyroomacoustics](https://github.com/LCAV/pyroomacoustics). Proof: round-robin datasets of measured reverberation times.
+Incumbents: [Odeon](https://odeon.dk), [EASE](https://ease.afmg.eu). Open: [I-Simpa](https://i-simpa.ifsttar.fr), [pyroomacoustics](https://github.com/LCAV/pyroomacoustics). Proof: round-robin datasets of measured reverberation times.
 
 #### M17 Power-system analysis.
 
-Incumbents: PSS/E, PowerFactory. Open: [pandapower](https://www.pandapower.org), [PyPSA](https://pypsa.org), [OpenDSS](https://sourceforge.net/projects/electricdss/). Already decent. Proof: [IEEE test feeders](https://cmte.ieee.org/pes-testfeeders/).
+Incumbents: [PSS/E](https://www.siemens.com/global/en/products/energy/grid-software/planning/pss-software/pss-e.html), [PowerFactory](https://www.digsilent.de/en/powerfactory.html). Open: [pandapower](https://www.pandapower.org), [PyPSA](https://pypsa.org), [OpenDSS](https://sourceforge.net/projects/electricdss/). Already decent. Proof: [IEEE test feeders](https://cmte.ieee.org/pes-testfeeders/).
 
 #### M18 Transport modelling.
 
-Incumbents: VISSIM, Cube, EMME. Open: [SUMO](https://eclipse.dev/sumo/), [MATSim](https://www.matsim.org), [AequilibraE](https://www.aequilibrae.com). Proof: calibrate to real counts on a published city dataset.
+Incumbents: [VISSIM](https://www.ptvgroup.com/en/products/ptv-vissim), [Cube](https://www.bentley.com/software/cube/), [EMME](https://www.bentley.com/software/emme/). Open: [SUMO](https://eclipse.dev/sumo/), [MATSim](https://www.matsim.org), [AequilibraE](https://www.aequilibrae.com). Proof: calibrate to real counts on a published city dataset.
 
 #### M19 Civil road/rail alignment design.
 
-Incumbent: Civil 3D. Open: nothing usable. Proof: published alignment design examples to code.
+Incumbent: [Civil 3D](https://en.wikipedia.org/wiki/AutoCAD_Civil_3D). Open: nothing usable. Proof: published alignment design examples to code.
 
 #### M20 Photogrammetry.
 
-Incumbents: Metashape, RealityCapture. Open: [Meshroom](https://alicevision.org), [OpenDroneMap](https://www.opendronemap.org). Proof: [ISPRS benchmark](https://www.isprs.org) accuracy.
+Incumbents: [Metashape](https://www.agisoft.com/), [RealityCapture](https://www.capturingreality.com). Open: [Meshroom](https://alicevision.org), [OpenDroneMap](https://www.opendronemap.org). Proof: [ISPRS benchmark](https://www.isprs.org) accuracy.
 
 #### M21 NMR and mass-spec processing.
 
-Incumbents: [MestReNova](https://mestrelab.com), TopSpin, vendor software. Open: [NMRium](https://www.nmrium.org), [nmrglue](https://www.nmrglue.com), [OpenMS](https://openms.de), [MZmine](https://mzmine.github.io). Proof: identical peak lists on the same raw files.
+Incumbents: [MestReNova](https://mestrelab.com), [TopSpin](https://www.bruker.com/en/products-and-solutions/mr/nmr-software/topspin.html), vendor software. Open: [NMRium](https://www.nmrium.org), [nmrglue](https://www.nmrglue.com), [OpenMS](https://openms.de), [MZmine](https://mzmine.github.io). Proof: identical peak lists on the same raw files.
 
 #### M22 Music notation.
 
-Incumbents: Sibelius, Finale ([discontinued 2024](https://www.finalemusic.com)). Open: [MuseScore](https://musescore.org) is already close. Proof: engraving test suite against Gould's _Behind Bars_ rules.
+Incumbents: [Sibelius](<https://en.wikipedia.org/wiki/Sibelius_(scorewriter)>), Finale ([discontinued 2024](https://www.finalemusic.com)). Open: [MuseScore](https://musescore.org) is already close. Proof: engraving test suite against Gould's _[Behind Bars](<https://en.wikipedia.org/wiki/Behind_Bars_(book)>)_ rules.
 
 #### M23 Hearing-aid fitting.
 
@@ -777,11 +779,11 @@ Every manufacturer's fitting software is proprietary. Open: [openMHA](https://ww
 
 #### M24 Small-business accounting and payroll.
 
-Incumbents: QuickBooks, Xero, Sage. Open: [GnuCash](https://www.gnucash.org), [ERPNext](https://erpnext.com). Proof: pass the tax authority's test filings and bank reconciliation on real data.
+Incumbents: [QuickBooks](https://en.wikipedia.org/wiki/QuickBooks), [Xero](https://www.xero.com), [Sage](https://en.wikipedia.org/wiki/Sage_Group). Open: [GnuCash](https://www.gnucash.org), [ERPNext](https://erpnext.com). Proof: pass the tax authority's test filings and bank reconciliation on real data.
 
 #### M25 Seismic interpretation.
 
-Incumbent: Petrel. Open: [OpendTect](https://www.dgbes.com/software/opendtect). Needed for G1.
+Incumbent: [Petrel](https://www.software.slb.com/products/petrel). Open: [OpendTect](https://www.dgbes.com/software/opendtect). Needed for G1.
 
 #### M26 Hygrothermal (heat and moisture) simulation of building walls.
 
@@ -791,7 +793,7 @@ Incumbents: [WUFI](https://wufi.de), Delphin. Open: nothing usable. Proof: repro
 
 #### M27 Critical software stuck on Windows XP.
 
-Lab-instrument control (mass specs, chromatographs on XP boxes kept in a corner), older CNC controllers, radio programming, hospital and library admin systems, engineering codes from the 1990s. Approach: port or reimplement, verified by identical outputs on archived input/output pairs; [Wine](https://www.winehq.org) and [ReactOS](https://reactos.org) as compatibility fallbacks. HEC-RAS (M7) is the flagship example. [CHIRP](https://chirpmyradio.com) shows the model for radio programming.
+Lab-instrument control (mass specs, chromatographs on XP boxes kept in a corner), older CNC controllers, radio programming, hospital and library admin systems, engineering codes from the 1990s. Approach: port or reimplement, verified by identical outputs on archived input/output pairs; [Wine](https://www.winehq.org) and [ReactOS](https://reactos.org) as compatibility fallbacks. [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/) (M7) is the flagship example. [CHIRP](https://chirpmyradio.com) shows the model for radio programming.
 
 #### M28 Matching decompilation.
 
@@ -799,7 +801,7 @@ Recover source for abandoned software and firmware; [decomp.me](https://decomp.m
 
 #### M29 Dead and badly-read file formats.
 
-The [PRONOM registry](https://www.nationalarchives.gov.uk/PRONOM/) lists formats with no living reader; the [Document Liberation Project](https://www.documentliberation.org/projects/) keeps a want-list. The working model is fixture by fixture through an open reader's issue tracker: [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) for microscopy, [liborigin](https://github.com/gerlachs/liborigin) for OriginLab, [lasio](https://lasio.readthedocs.io) for borehole logs, [ReadStat](https://github.com/WizardMac/ReadStat) for SPSS/SAS/Stata, [MDB Tools](https://mdbtools.github.io) for Access, [SLYR](https://github.com/north-road/slyr) for ArcGIS styling. Verifier: round-trip against the original application's export, metadata included, then a real user finishes their real task.
+The [PRONOM registry](https://www.nationalarchives.gov.uk/PRONOM/) lists formats with no living reader; the [Document Liberation Project](https://www.documentliberation.org/projects/) keeps a want-list. The working model is fixture by fixture through an open reader's issue tracker: [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) for microscopy, [liborigin](https://github.com/gerlachs/liborigin) for [OriginLab](https://www.originlab.com), [lasio](https://lasio.readthedocs.io) for borehole logs, [ReadStat](https://github.com/WizardMac/ReadStat) for [SPSS](https://www.ibm.com/spss)/[SAS](https://www.sas.com)/[Stata](https://www.stata.com), [MDB Tools](https://mdbtools.github.io) for [Access](https://www.microsoft.com/en-us/microsoft-365/access), [SLYR](https://github.com/north-road/slyr) for [ArcGIS](https://www.esri.com/en-us/arcgis/about-arcgis/overview) styling. Verifier: round-trip against the original application's export, metadata included, then a real user finishes their real task.
 
 #### M30 Linux drivers for orphaned hardware.
 
@@ -813,7 +815,7 @@ The [Internet Archive](https://archive.org/details/software) maintains want-list
 
 ### N1 Microplastics harmonisation.
 
-Thousands of papers in incompatible units and methods. Extend NOAA's [Marine Microplastics database](https://www.ncei.noaa.gov/products/microplastics) with method metadata; publish method-corrected trends. Improve polymer spectral matching in [Open Specy](https://www.openanalysis.org/openspecy/).
+Thousands of papers in incompatible units and methods. Extend [NOAA](https://www.noaa.gov)'s [Marine Microplastics database](https://www.ncei.noaa.gov/products/microplastics) with method metadata; publish method-corrected trends. Improve polymer spectral matching in [Open Specy](https://www.openanalysis.org/openspecy/).
 
 ### N2 Soil spectroscopy.
 
@@ -833,11 +835,11 @@ Same structure with [NHTSA complaints](https://www.nhtsa.gov/nhtsa-datasets-and-
 
 ### N6 Dangerous road design.
 
-FARS fatality records plus OpenStreetMap geometry: which intersection and road designs kill, controlled for traffic volume. Output: a ranked list for engineers.
+[FARS](https://en.wikipedia.org/wiki/Fatality_Analysis_Reporting_System) fatality records plus [OpenStreetMap](https://www.openstreetmap.org) geometry: which intersection and road designs kill, controlled for traffic volume. Output: a ranked list for engineers.
 
 ### N7 Aviation precursors.
 
-[ASRS](https://asrs.arc.nasa.gov) (~2M anonymous pilot narratives), FAA [Service Difficulty Reports](https://sdrs.faa.gov) (part-level failures), NTSB's [CAROL](https://data.ntsb.gov/carol-main-public/basic-search). Predict which part numbers get an airworthiness directive.
+[ASRS](https://asrs.arc.nasa.gov) (~2M anonymous pilot narratives), [FAA](https://www.faa.gov) [Service Difficulty Reports](https://sdrs.faa.gov) (part-level failures), [NTSB](https://www.ntsb.gov)'s [CAROL](https://data.ntsb.gov/carol-main-public/basic-search). Predict which part numbers get an airworthiness directive.
 
 ### N8 Pipelines and dams.
 
@@ -845,7 +847,7 @@ FARS fatality records plus OpenStreetMap geometry: which intersection and road d
 
 ### N9 Drinking water.
 
-[SDWIS](https://www.epa.gov/ground-water-and-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting) violations, [ECHO](https://echo.epa.gov) enforcement, UCMR5 PFAS results, thousands of PDF consumer-confidence reports. Serial violators with no enforcement; reports contradicting the official record.
+[SDWIS](https://www.epa.gov/ground-water-and-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting) violations, [ECHO](https://echo.epa.gov) enforcement, [UCMR5](https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule) PFAS results, thousands of PDF consumer-confidence reports. Serial violators with no enforcement; reports contradicting the official record.
 
 ### N10 Chemical dossier audits.
 
@@ -853,7 +855,7 @@ FARS fatality records plus OpenStreetMap geometry: which intersection and road d
 
 ### N11 Nuclear plant precursors.
 
-NRC's [ADAMS](https://adams.nrc.gov/wba/) (millions of public documents) and [Licensee Event Reports](https://lersearch.inl.gov). Precursor analysis at scale.
+[NRC](https://en.wikipedia.org/wiki/United_States_Nuclear_Regulatory_Commission)'s [ADAMS](https://adams.nrc.gov/wba/) (millions of public documents) and [Licensee Event Reports](https://lersearch.inl.gov). Precursor analysis at scale.
 
 ### N12 Particle-physics reanalysis.
 
@@ -865,7 +867,7 @@ NRC's [ADAMS](https://adams.nrc.gov/wba/) (millions of public documents) and [Li
 
 ### N14 Grid interconnection queues.
 
-[Berkeley Lab queue data](https://emp.lbl.gov/queues) (~2 TW waiting, most withdrawing), [ENTSO-E transparency](https://transparency.entsoe.eu). Predict withdrawals; build open power-flow models of real grids from OSM line data.
+[Berkeley Lab queue data](https://emp.lbl.gov/queues) (~2 TW waiting, most withdrawing), [ENTSO-E transparency](https://transparency.entsoe.eu). Predict withdrawals; build open power-flow models of real grids from [OSM](https://www.openstreetmap.org) line data.
 
 ### N15 Elections infrastructure.
 
@@ -873,7 +875,7 @@ NRC's [ADAMS](https://adams.nrc.gov/wba/) (millions of public documents) and [Li
 
 ### N16 Bird strikes.
 
-[FAA wildlife strike database](https://wildlife.faa.gov) plus airport land use plus eBird migration: strike risk by airport and week, which changes mowing schedules.
+[FAA wildlife strike database](https://wildlife.faa.gov) plus airport land use plus [eBird](https://ebird.org) migration: strike risk by airport and week, which changes mowing schedules.
 
 ### N17 Endangered-language recordings.
 
@@ -881,27 +883,27 @@ NRC's [ADAMS](https://adams.nrc.gov/wba/) (millions of public documents) and [Li
 
 ### N18 Ethnomusicology archives.
 
-[British Library Sounds](https://sounds.bl.uk), the [Lomax archive](https://research.culturalequity.org), Smithsonian Folkways: unidentified recordings, tune families across cultures.
+[British Library Sounds](https://sounds.bl.uk), the [Lomax archive](https://research.culturalequity.org), [Smithsonian Folkways](https://en.wikipedia.org/wiki/Smithsonian_Folkways): unidentified recordings, tune families across cultures.
 
 ### N19 Bioacoustics on land.
 
-[xeno-canto](https://xeno-canto.org), Macaulay Library, [AudioMoth](https://www.openacousticdevices.info) recordings of bats with no processing network.
+[xeno-canto](https://xeno-canto.org), [Macaulay Library](https://www.macaulaylibrary.org), [AudioMoth](https://www.openacousticdevices.info) recordings of bats with no processing network.
 
 ### N20 Accessibility at scale.
 
-[Project Sidewalk](https://projectsidewalk.org) curb ramps from street imagery; ~100M Wikimedia Commons images without alt text; every scanned government PDF inaccessible until OCR'd and tagged.
+[Project Sidewalk](https://projectsidewalk.org) curb ramps from street imagery; ~100M [Wikimedia Commons](https://commons.wikimedia.org) images without alt text; every scanned government PDF inaccessible until OCR'd and tagged.
 
 ### N21 Measurement reconciliation across fields.
 
-Physics has CODATA and the Particle Data Group to reconcile discrepant measurements (neutron lifetime, Hubble constant). Nobody does it for global insect biomass, soil carbon stocks, ocean plastic mass, groundwater depletion, each measured by three or four fields with incompatible methods. Build the standing reconciliation, discrepancies published.
+Physics has [CODATA](https://codata.org) and the [Particle Data Group](https://pdg.lbl.gov) to reconcile discrepant measurements (neutron lifetime, Hubble constant). Nobody does it for global insect biomass, soil carbon stocks, ocean plastic mass, groundwater depletion, each measured by three or four fields with incompatible methods. Build the standing reconciliation, discrepancies published.
 
 ### N22 Lost media.
 
-[Lost Media Wiki](https://lostmediawiki.com) want-lists against millions of hours of archived radio and TV at the Internet Archive; the "most mysterious song" was identified in 2024 after 17 years.
+[Lost Media Wiki](https://lostmediawiki.com) want-lists against millions of hours of archived radio and TV at the [Internet Archive](https://archive.org); the "[most mysterious song](https://en.wikipedia.org/wiki/Most_Mysterious_Song_on_the_Internet)" was identified in 2024 after 17 years.
 
 ### N23 Cipher cold cases with verifiable plaintext.
 
-Zodiac Z13/Z32 ([Z340 fell in 2020](https://en.wikipedia.org/wiki/Zodiac_Killer#Ciphers) to hobbyists), the McCormick notes, Dorabella, Beale. Plaintext is self-verifying.
+Zodiac Z13/Z32 ([Z340 fell in 2020](https://en.wikipedia.org/wiki/Zodiac_Killer#Ciphers) to hobbyists), the [McCormick notes](https://en.wikipedia.org/wiki/Ricky_McCormick), [Dorabella](https://en.wikipedia.org/wiki/Dorabella_Cipher), [Beale](https://en.wikipedia.org/wiki/Beale_ciphers). Plaintext is self-verifying.
 
 ### N24 Find the missing fish in the mussel's life cycle.
 
@@ -909,7 +911,7 @@ Freshwater mussels are the most endangered animal group in North America, and ea
 
 ## O. Hardware you already own, plus an agent
 
-Control layers exist: [ASCOM](https://ascom-standards.org)/[INDI](https://indilib.org) and schedulers like [N.I.N.A.](https://nighttime-imaging.eu) for telescopes; smart scopes like the [Seestar](https://www.zwoastro.com/product/seestar-s50/); [RTL-SDR](https://www.rtl-sdr.com) dongles; Raspberry Pi. The missing software is a dispatcher (science request → observation plan), a reduction pipeline, and a submitter to the right archive.
+Control layers exist: [ASCOM](https://ascom-standards.org)/[INDI](https://indilib.org) and schedulers like [N.I.N.A.](https://nighttime-imaging.eu) for telescopes; smart scopes like the [Seestar](https://www.zwoastro.com/product/seestar-s50/); [RTL-SDR](https://www.rtl-sdr.com) dongles; [Raspberry Pi](https://www.raspberrypi.org). The missing software is a dispatcher (science request → observation plan), a reduction pipeline, and a submitter to the right archive.
 
 ### Telescopes
 
@@ -919,7 +921,7 @@ The [MPC NEO Confirmation Page](https://minorplanetcenter.net/iau/NEO/toconfirm_
 
 #### O2 Exoplanet ephemerides.
 
-[ExoClock](https://www.exoclock.space) keeps transit times current for ESA's Ariel mission using hobby scopes.
+[ExoClock](https://www.exoclock.space) keeps transit times current for [ESA](https://www.esa.int)'s [Ariel](https://arielmission.space/) mission using hobby scopes.
 
 #### O3 Asteroid occultations.
 
@@ -927,7 +929,7 @@ The [MPC NEO Confirmation Page](https://minorplanetcenter.net/iau/NEO/toconfirm_
 
 #### O4 Transient follow-up.
 
-Subscribe to Rubin alert brokers ([ALeRCE](https://alerce.science), [Fink](https://fink-broker.org)); observe what your aperture can reach; submit to [AAVSO](https://www.aavso.org).
+Subscribe to [Rubin](https://rubinobservatory.org) alert brokers ([ALeRCE](https://alerce.science), [Fink](https://fink-broker.org)); observe what your aperture can reach; submit to [AAVSO](https://www.aavso.org).
 
 #### O5 Debris light curves and reentry tracking.
 
@@ -939,7 +941,7 @@ Optical observations in the last orbits sharpen predictions from [Space-Track](h
 
 #### O7 Rented time.
 
-[iTelescope](https://www.itelescope.net), [Las Cumbres](https://lco.global), Telescope Live sell time by the minute; no hardware needed.
+[iTelescope](https://www.itelescope.net), [Las Cumbres](https://lco.global), [Telescope Live](https://telescope.live) sell time by the minute; no hardware needed.
 
 ### Sky cameras
 
@@ -959,7 +961,7 @@ No calibrated network; noctilucent cloud frequency is a mesospheric climate indi
 
 #### O11 Ionosphere and flares.
 
-[HamSCI](https://hamsci.org) Grape stations and Stanford's [SID monitors](https://solar-center.stanford.edu/SID/).
+[HamSCI](https://hamsci.org) [Grape](https://hamsci.org/grape2) stations and [Stanford](https://www.stanford.edu)'s [SID monitors](https://solar-center.stanford.edu/SID/).
 
 #### O12 Solar and Jupiter radio.
 
@@ -1021,7 +1023,7 @@ Household voltage quality is unmapped; a plug-in logger and an agent give a per-
 
 #### O25 Public webcams as instruments.
 
-[Windy](https://www.windy.com/webcams), EarthCam, [explore.org](https://explore.org): glacier termini, volcanoes, harbours, snowlines, bird colonies. Extract a daily number; old frames verify. Nature and infrastructure only.
+[Windy](https://www.windy.com/webcams), [EarthCam](https://www.earthcam.com), [explore.org](https://explore.org): glacier termini, volcanoes, harbours, snowlines, bird colonies. Extract a daily number; old frames verify. Nature and infrastructure only.
 
 #### O26 Phenology.
 
@@ -1049,7 +1051,7 @@ Same microscope on water samples; diatom assemblages are a standard water-qualit
 
 #### O32 Insects and moths.
 
-UKCEH's AMI light-trap camera and Dutch Diopsis are institutional; open versions with agent ID put insect monitoring in backyards.
+[UKCEH](https://www.ceh.ac.uk)'s [AMI](https://www.insectmonitoring.org/) light-trap camera and Dutch [Diopsis](https://diopsis.eu/en/) are institutional; open versions with agent ID put insect monitoring in backyards.
 
 #### O33 Birds and bats by sound.
 
@@ -1083,11 +1085,11 @@ Dock hydrophones for ship noise and marine mammals; [Sofar Spotter](https://www.
 
 #### O39 The dispatcher (meta-project).
 
-A registry of instruments, a queue of science needs (NEOCP, occultations, broker alerts, reentry windows, webcam watches), and an agent per instrument that plans, executes, reduces, checks and submits. SatNOGS did it for one instrument type.
+A registry of instruments, a queue of science needs ([NEOCP](https://minorplanetcenter.net/iau/NEO/toconfirm_tabular.html), occultations, broker alerts, reentry windows, webcam watches), and an agent per instrument that plans, executes, reduces, checks and submits. [SatNOGS](https://satnogs.org) did it for one instrument type.
 
 ## P. Appendix: small open problems with checkable certificates (lower priority)
 
-Kept for completeness; real-world impact is indirect. The [bbchallenge](https://bbchallenge.org) community (amateurs, Coq-verified, BB(5) settled 2024) is the organisational template.
+Kept for completeness; real-world impact is indirect. The [bbchallenge](https://bbchallenge.org) community (amateurs, [Coq](https://coq.inria.fr)-verified, BB(5) settled 2024) is the organisational template.
 
 ### P1 Costas arrays of order 32 and 33.
 
@@ -1111,21 +1113,21 @@ Tracked on [bbchallenge](https://bbchallenge.org).
 
 ### P6 Record tables.
 
-[Friedman's Packing Center](https://erich-friedman.github.io/packing/), [La Jolla Covering Repository](https://ljcr.dmgordon.org), Golomb rulers, van der Waerden numbers, kissing numbers in dimensions 5–7, the Lebesgue universal covering, chromatic number of the plane. Every improvement is a construction anyone can check.
+[Friedman's Packing Center](https://erich-friedman.github.io/packing/), [La Jolla Covering Repository](https://ljcr.dmgordon.org), [Golomb rulers](https://en.wikipedia.org/wiki/Golomb_ruler), [van der Waerden numbers](https://en.wikipedia.org/wiki/Van_der_Waerden_number), [kissing numbers](https://en.wikipedia.org/wiki/Kissing_number) in dimensions 5–7, the [Lebesgue universal covering](https://en.wikipedia.org/wiki/Lebesgue%27s_universal_covering_problem), [chromatic number of the plane](https://en.wikipedia.org/wiki/Chromatic_number_of_the_plane). Every improvement is a construction anyone can check.
 
 ### P7 Combinatorial game positions.
 
-Hex and Go variants, with proof-number search and Lean certificates.
+[Hex](<https://en.wikipedia.org/wiki/Hex_(board_game)>) and [Go](<https://en.wikipedia.org/wiki/Go_(game)>) variants, with [proof-number search](https://en.wikipedia.org/wiki/Proof-number_search) and [Lean](https://leanprover.github.io/) certificates.
 
 ## Q. Reference: declassified and historical imagery sources
 
 ### Q1 CORONA, KH-7 GAMBIT and KH-9 HEXAGON.
 
-CORONA ran 1960–72 and left ~860k frames; all three are on [USGS EarthExplorer](https://earthexplorer.usgs.gov). The [CORONA Atlas](https://corona.cast.uark.edu) covers the Middle East.
+[CORONA](<https://en.wikipedia.org/wiki/Corona_(satellite)>) ran 1960–72 and left ~860k frames; all three are on [USGS EarthExplorer](https://earthexplorer.usgs.gov). The [CORONA Atlas](https://corona.cast.uark.edu) covers the Middle East.
 
 ### Q2 U-2 photography.
 
-1950s–60s, used for archaeology by [Hammer & Ur 2019](https://doi.org/10.1017/aap.2018.38); mostly at NARA.
+1950s–60s, used for archaeology by [Hammer & Ur 2019](https://doi.org/10.1017/aap.2018.38); mostly at [NARA](https://www.archives.gov).
 
 ### Q3 Landsat.
 
@@ -1133,7 +1135,7 @@ CORONA ran 1960–72 and left ~860k frames; all three are on [USGS EarthExplorer
 
 ### Q4 SPOT.
 
-1986–2015, released free under CNES's [SPOT World Heritage](https://www.theia-land.fr/en/product/spot-world-heritage/) programme.
+1986–2015, released free under [CNES](https://cnes.fr)'s [SPOT World Heritage](https://www.theia-land.fr/en/product/spot-world-heritage/) programme.
 
 ### Q5 Nimbus.
 
@@ -1145,11 +1147,11 @@ CORONA ran 1960–72 and left ~860k frames; all three are on [USGS EarthExplorer
 
 ### Q7 Historical aerial photography.
 
-[NCAP](https://ncap.org.uk), USGS aerials via EarthExplorer, [IWM](https://www.iwm.org.uk).
+[NCAP](https://ncap.org.uk), [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) aerials via [EarthExplorer](https://earthexplorer.usgs.gov), [IWM](https://www.iwm.org.uk).
 
 ## S. Women's health, hormones and wearables
 
-The big consumer datasets (Clue, Natural Cycles, Oura, WHOOP, Apple's Women's Health Study) are private. Work with the public cohorts and the regulatory databases, and fix the measurement layer.
+The big consumer datasets ([Clue](https://helloclue.com), [Natural Cycles](https://www.naturalcycles.com), [Oura](https://ouraring.com), [WHOOP](<https://en.wikipedia.org/wiki/Whoop_(company)>), [Apple's Women's Health Study](https://www.hsph.harvard.edu/applewomenshealthstudy/)) are private. Work with the public cohorts and the regulatory databases, and fix the measurement layer.
 
 ### Public data
 
@@ -1157,31 +1159,31 @@ The big consumer datasets (Clue, Natural Cycles, Oura, WHOOP, Apple's Women's He
 
 ### S1 Sex-stratified adverse-drug-event signals.
 
-Women have ~1.5× the adverse-event rate of men; the FDA halved zolpidem doses for women only in [2013](https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-risk-next-morning-impairment-after-use-insomnia-drugs-fda-requires-lower-recommended-doses-certain-drugs). Run FAERS signal detection by sex, backtest against label changes, publish the unlabelled female signals.
+Women have ~1.5× the adverse-event rate of men; the [FDA](https://www.fda.gov) halved zolpidem doses for women only in [2013](https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-risk-next-morning-impairment-after-use-insomnia-drugs-fda-requires-lower-recommended-doses-certain-drugs). Run [FAERS](https://open.fda.gov) signal detection by sex, backtest against label changes, publish the unlabelled female signals.
 
 ### S2 Device adverse-event early warning.
 
-MAUDE holds the mesh, Essure and breast-implant histories in free text years before regulatory action. Backtest against later recalls.
+[MAUDE](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/search.cfm) holds the mesh, [Essure](https://en.wikipedia.org/wiki/Essure) and breast-implant histories in free text years before regulatory action. Backtest against later recalls.
 
 ### S3 Trial representation tracker.
 
-Female, pregnant and over-65 enrolment per condition versus prevalence, continuously from ClinicalTrials.gov results.
+Female, pregnant and over-65 enrolment per condition versus prevalence, continuously from [ClinicalTrials.gov](https://clinicaltrials.gov) results.
 
 ### S4 Sex-specific normative ranges for wearable metrics.
 
-Resting heart rate, HRV, sleep architecture, step counts by sex, age, cycle phase and menopausal status from NHANES, NSRR and All of Us. Verifier: cross-cohort replication.
+Resting heart rate, HRV, sleep architecture, step counts by sex, age, cycle phase and menopausal status from [NHANES](https://www.cdc.gov/nchs/nhanes/), [NSRR](https://sleepdata.org) and [All of Us](https://www.researchallofus.org). Verifier: cross-cohort replication.
 
 ### S5 Cycle-phase physiology, independently replicated.
 
-Replicate the Oura/Natural Cycles temperature, HRV and sleep claims on All of Us Fitbit data with survey-reported cycles.
+Replicate the [Oura](https://ouraring.com)/[Natural Cycles](https://www.naturalcycles.com) temperature, HRV and sleep claims on [All of Us](https://www.researchallofus.org) [Fitbit](https://www.fitbit.com) data with survey-reported cycles.
 
 ### S6 Predicting the final menstrual period from hormone trajectories.
 
-SWAN data; open re-analysis with held-out validation.
+[SWAN](https://www.swanstudy.org) data; open re-analysis with held-out validation.
 
 ### S7 Iron-deficiency thresholds.
 
-A [2023 JAMA re-analysis](https://doi.org/10.1001/jama.2023.8020) of NHANES found ~40% of adolescent girls and young women deficient depending on the ferritin cut-off. Public, re-analysable, high stakes.
+A [2023 JAMA re-analysis](https://doi.org/10.1001/jama.2023.8020) of [NHANES](https://www.cdc.gov/nchs/nhanes/) found ~40% of adolescent girls and young women deficient depending on the ferritin cut-off. Public, re-analysable, high stakes.
 
 ### S8 Estradiol immunoassay bias.
 
@@ -1189,17 +1191,17 @@ Immunoassays are inaccurate at low estradiol levels; mass spectrometry is the re
 
 ### S9 Benchmark wearable algorithms against camera ground truth.
 
-Capture-24 plus raw data pulled from consumer devices via [Gadgetbridge](https://gadgetbridge.org); publish where sleep and step algorithms fail, by sex and body type.
+[Capture-24](https://github.com/OxWearables/capture24) plus raw data pulled from consumer devices via [Gadgetbridge](https://gadgetbridge.org); publish where sleep and step algorithms fail, by sex and body type.
 
 ### S10 Period-tracker privacy audit.
 
-Capture and document each app's network traffic; Mozilla's _Privacy Not Included_ did it once by hand.
+Capture and document each app's network traffic; [Mozilla](https://www.mozilla.org)'s _Privacy Not Included_ did it once by hand.
 
 ## T. Open hardware an agent could plausibly design
 
 ### Why now
 
-[KiCad](https://www.kicad.org) is scriptable; [atopile](https://atopile.io) and [tscircuit](https://tscircuit.com) are code-to-PCB; [JLCPCB](https://jlcpcb.com) assembles from a BOM; enclosures via OpenSCAD/CadQuery; open firmware stacks for ESP32/nRF52/RP2040. The agent produces schematic, layout, firmware, enclosure and test procedure.
+[KiCad](https://www.kicad.org) is scriptable; [atopile](https://atopile.io) and [tscircuit](https://tscircuit.com) are code-to-PCB; [JLCPCB](https://jlcpcb.com) assembles from a BOM; enclosures via [OpenSCAD](https://openscad.org)/[CadQuery](https://cadquery.readthedocs.io/); open firmware stacks for [ESP32](https://www.espressif.com/en/products/socs/esp32)/[nRF52](https://www.nordicsemi.com/Products/nRF52840)/[RP2040](https://www.raspberrypi.com/products/rp2040/). The agent produces schematic, layout, firmware, enclosure and test procedure.
 
 ### Rule for every entry
 
@@ -1213,7 +1215,7 @@ Legal in the US since 2022; commercial $200–$3,000, prescription $2–5k. [Tym
 
 #### T2 Continuous skin-temperature logger for cycle tracking.
 
-Tempdrop ~$200; BOM under $15. Open ovulation-detection algorithms don't exist. Verifier: reference thermometer plus LH strips.
+[Tempdrop](https://tempdrop.com) ~$200; BOM under $15. Open ovulation-detection algorithms don't exist. Verifier: reference thermometer plus LH strips.
 
 #### T3 Hot-flash monitor.
 
@@ -1229,7 +1231,7 @@ $2–5k commercially; calibrated DAC and headphones. Verifier: clinical audiogra
 
 #### T6 Child vision screener.
 
-Photorefraction with camera and off-axis flash; the commercial Spot screener is ~$8k. Verifier: optometrist refraction. Catches amblyopia early.
+Photorefraction with camera and off-axis flash; the commercial [Spot screener](https://www.hillrom.com/en/products/spot-vision-screener/) is ~$8k. Verifier: optometrist refraction. Catches amblyopia early.
 
 #### T7 Pulse oximeter with skin-tone validation.
 
@@ -1245,7 +1247,7 @@ Pressure sensor in medical-grade silicone; only with a materials and hygiene sec
 
 #### T10 Validated open smartwatch firmware.
 
-[PineTime](https://pine64.org/devices/pinetime/), [Bangle.js](https://banglejs.com); contribution is algorithms validated on Capture-24 and NSRR.
+[PineTime](https://pine64.org/devices/pinetime/), [Bangle.js](https://banglejs.com); contribution is algorithms validated on [Capture-24](https://github.com/OxWearables/capture24) and [NSRR](https://sleepdata.org).
 
 ### Assistive technology
 
@@ -1269,7 +1271,7 @@ Unlocks O3.
 
 #### T15 Water-level logger.
 
-ESP32 + pressure sensor + LoRa for ~$30 vs $400 HOBO (O27, N3).
+[ESP32](https://www.espressif.com/en/products/socs/esp32) + pressure sensor + [LoRa](https://lora-alliance.org) for ~$30 vs $400 HOBO (O27, N3).
 
 #### T16 Sound-level meter.
 
@@ -1309,7 +1311,7 @@ The electronics are ordinary; the flexible PCB, 20 mAh battery and sensor-fusion
 
 #### U1 Open "Shepardizing."
 
-Classify every citing sentence in the [Caselaw Access Project](https://case.law)/[CourtListener](https://www.courtlistener.com) citation graph as positive or negative treatment. Verifier: sampled comparison with KeyCite. Breaks the core paid product of the legal-research duopoly.
+Classify every citing sentence in the [Caselaw Access Project](https://case.law)/[CourtListener](https://www.courtlistener.com) citation graph as positive or negative treatment. Verifier: sampled comparison with [KeyCite](https://en.wikipedia.org/wiki/KeyCite). Breaks the core paid product of the legal-research duopoly.
 
 #### U2 Zombie laws.
 
@@ -1317,7 +1319,7 @@ Statutes ruled unconstitutional but never repealed (e.g., sodomy laws after [Law
 
 #### U3 Link rot in opinions.
 
-[Perma.cc](https://perma.cc) found about half the links in Supreme Court opinions dead. Archive every URL in every opinion and government report; reconstruct dead ones from the Wayback Machine.
+[Perma.cc](https://perma.cc) found about half the links in [Supreme Court](https://www.supremecourt.gov) opinions dead. Archive every URL in every opinion and government report; reconstruct dead ones from the [Wayback Machine](https://web.archive.org).
 
 #### U4 Court forms as code.
 
@@ -1339,19 +1341,19 @@ Every plan files a [Form 5500](https://www.efast.dol.gov); fee dispersion across
 
 #### U8 Ghost provider directories.
 
-Over half of listed in-network mental-health providers are unreachable. Verify directories against licensing boards and NPI records; binary per entry.
+Over half of listed in-network mental-health providers are unreachable. Verify directories against licensing boards and [NPI](https://npiregistry.cms.hhs.gov/) records; binary per entry.
 
 #### U9 Nursing-home staffing and ownership.
 
-CMS [payroll-based staffing data](https://data.cms.gov) and inspection narratives; ownership routed through shells. Predict neglect citations; verifier is the next inspection.
+[CMS](https://www.cms.gov) [payroll-based staffing data](https://data.cms.gov) and inspection narratives; ownership routed through shells. Predict neglect citations; verifier is the next inspection.
 
 #### U10 Hospital cost reports.
 
-[HCRIS](https://www.cms.gov/data-research/statistics-trends-and-reports/cost-reports) plus Form 990s: charity-care claims versus actual; which nonprofit hospitals sue patients.
+[HCRIS](https://www.cms.gov/data-research/statistics-trends-and-reports/cost-reports) plus [Form 990s](https://www.irs.gov/forms-pubs/about-form-990): charity-care claims versus actual; which nonprofit hospitals sue patients.
 
 #### U11 Device predicate chains.
 
-ICIJ's [Implant Files](https://www.icij.org/investigations/implant-files/) found clearance chains leading to recalled devices. Build the full graph from the [510(k) database](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm).
+[ICIJ](https://www.icij.org)'s [Implant Files](https://www.icij.org/investigations/implant-files/) found clearance chains leading to recalled devices. Build the full graph from the [510(k) database](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm).
 
 #### U12 Property-tax regressivity.
 
@@ -1373,7 +1375,7 @@ ICIJ's [Implant Files](https://www.icij.org/investigations/implant-files/) found
 
 #### U16 Slaughterhouse noncompliance.
 
-[FSIS](https://www.fsis.usda.gov) records via FOIA; violations cluster by plant.
+[FSIS](https://www.fsis.usda.gov) records via [FOIA](https://www.foia.gov); violations cluster by plant.
 
 #### U17 Deaths in custody.
 
@@ -1381,7 +1383,7 @@ ICIJ's [Implant Files](https://www.icij.org/investigations/implant-files/) found
 
 #### U18 Public-housing conditions.
 
-HUD [REAC](https://www.hud.gov/program_offices/public_indian_housing/reac) scores plus 311 and code violations predict which buildings fail next.
+[HUD](https://www.hud.gov) [REAC](https://www.hud.gov/program_offices/public_indian_housing/reac) scores plus 311 and code violations predict which buildings fail next.
 
 ### Civic infrastructure
 
@@ -1391,7 +1393,7 @@ HUD [REAC](https://www.hud.gov/program_offices/public_indian_housing/reac) score
 
 #### U20 Blocked rail crossings.
 
-FRA's [complaint portal](https://www.fra.dot.gov/blockedcrossings/) lacks evidence; a webcam plus an agent supplies it.
+[FRA](https://en.wikipedia.org/wiki/Federal_Railroad_Administration)'s [complaint portal](https://www.fra.dot.gov/blockedcrossings/) lacks evidence; a webcam plus an agent supplies it.
 
 #### U21 Zoning atlas.
 
@@ -1403,7 +1405,7 @@ England's [EPC open data](https://epc.opendatacommunities.org), 25M+ certificate
 
 #### U23 Urban heat and heat deaths.
 
-Landsat surface temperature, [heat.gov](https://www.heat.gov) campaigns, [CDC WONDER](https://wonder.cdc.gov) mortality; where cooling centres should go.
+[Landsat](https://landsat.gsfc.nasa.gov) surface temperature, [heat.gov](https://www.heat.gov) campaigns, [CDC WONDER](https://wonder.cdc.gov) mortality; where cooling centres should go.
 
 #### U24 Rural water points.
 
@@ -1411,7 +1413,7 @@ Landsat surface temperature, [heat.gov](https://www.heat.gov) campaigns, [CDC WO
 
 #### U25 Broadband truth.
 
-FCC claims versus [Ookla open data](https://github.com/teamookla/ookla-open-data).
+[FCC](https://en.wikipedia.org/wiki/Federal_Communications_Commission) claims versus [Ookla open data](https://github.com/teamookla/ookla-open-data).
 
 #### U26 Gas leaks.
 
@@ -1425,11 +1427,11 @@ Cabanac's [Problematic Paper Screener](https://www.irit.fr/~Guillaume.Cabanac/pr
 
 #### U28 Retracted papers still cited as valid.
 
-[Retraction Watch data](https://gitlab.com/crossref/retraction-watch-data) is open via Crossref; find every guideline, review and textbook citing a retracted result without noting it, then re-run the downstream analysis with the corrected value where the code exists, rather than just flagging the citation.
+[Retraction Watch data](https://gitlab.com/crossref/retraction-watch-data) is open via [Crossref](https://www.crossref.org); find every guideline, review and textbook citing a retracted result without noting it, then re-run the downstream analysis with the corrected value where the code exists, rather than just flagging the citation.
 
 #### U29 Data that never arrived.
 
-Every NIH, NSF, ERC and UKRI grant promises a data deposit; check the promise against the repositories and the paper's supplements, and recover orphaned datasets from wherever they actually landed.
+Every [NIH](https://en.wikipedia.org/wiki/National_Institutes_of_Health), [NSF](https://www.nsf.gov), [ERC](https://erc.europa.eu) and [UKRI](https://www.ukri.org) grant promises a data deposit; check the promise against the repositories and the paper's supplements, and recover orphaned datasets from wherever they actually landed.
 
 #### U30 Benchmark contamination.
 
@@ -1453,7 +1455,7 @@ Every weather provider's forecasts versus outcomes, every city, permanently; [Fo
 
 ## W. Bureaucracy navigation: asserting entitlements people already have
 
-The pattern: a person is owed something and the process gates on knowing the magic words, the right address and the deadline. Patrick McKenzie's [debanking letters](https://www.bitsaboutmoney.com) are the template. The gap is large: under 1% of ACA claim denials are [appealed](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/); ~two-thirds of disability claims are denied initially and about half win at hearing; ~70% of UK PIP tribunal appeals succeed; ~70% of 2023–24 Medicaid disenrollments were procedural; [Dollar For](https://dollarfor.org) has erased $100M+ in hospital bills by filing charity-care forms.
+The pattern: a person is owed something and the process gates on knowing the magic words, the right address and the deadline. Patrick McKenzie's [debanking letters](https://www.bitsaboutmoney.com) are the template. The gap is large: under 1% of [ACA](https://www.healthcare.gov/glossary/affordable-care-act/) claim denials are [appealed](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/); ~two-thirds of disability claims are denied initially and about half win at hearing; ~70% of UK [PIP](https://www.gov.uk/pip) tribunal appeals succeed; ~70% of 2023–24 Medicaid disenrollments were procedural; [Dollar For](https://dollarfor.org) has erased $100M+ in hospital bills by filing charity-care forms.
 
 ### Rules
 
@@ -1511,7 +1513,7 @@ Validation within 30 days; statute-of-limitations defence; file an answer (most 
 
 #### W13 Background- and tenant-screening errors.
 
-The FCRA applies.
+The [FCRA](https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act) applies.
 
 #### W14 Identity theft.
 
@@ -1523,7 +1525,7 @@ The FCRA applies.
 
 #### W16 Taxes.
 
-[first-time penalty abatement](https://www.irs.gov/payments/administrative-penalty-relief); CP2000 responses; [Taxpayer Advocate](https://www.taxpayeradvocate.irs.gov); property-tax appeals (U12).
+[first-time penalty abatement](https://www.irs.gov/payments/administrative-penalty-relief); [CP2000](https://www.irs.gov/individuals/understanding-your-cp2000-notice) responses; [Taxpayer Advocate](https://www.taxpayeradvocate.irs.gov); property-tax appeals (U12).
 
 ### Benefits
 
@@ -1563,7 +1565,7 @@ Warranty of habitability; repair-and-deduct.
 
 #### W25 Reasonable-accommodation requests.
 
-Under the FHA and the ADA.
+Under the [FHA](https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview) and the [ADA](https://www.ada.gov/).
 
 #### W26 UK Section 21 validity checks.
 
@@ -1573,7 +1575,7 @@ Under the FHA and the ADA.
 
 #### W27 Wage claims.
 
-Final-paycheck demands and misclassification (Form SS-8).
+Final-paycheck demands and misclassification ([Form SS-8](https://www.irs.gov/forms-pubs/about-form-ss-8)).
 
 #### W28 ADA accommodation and FMLA requests.
 
@@ -1587,13 +1589,13 @@ In writing.
 
 #### W31 Financial-aid appeals.
 
-[Student-loan](https://studentaid.gov) servicer disputes; PSLF reconsideration.
+[Student-loan](https://studentaid.gov) servicer disputes; [PSLF](https://studentaid.gov/pslf/) reconsideration.
 
 ### Consumer and travel
 
 #### W32 Air-travel refunds.
 
-EU261 and the US DOT [refund rules](https://www.transportation.gov/airconsumer).
+[EU261](https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm) and the US DOT [refund rules](https://www.transportation.gov/airconsumer).
 
 #### W33 FCC informal complaints.
 
@@ -1603,7 +1605,7 @@ EU261 and the US DOT [refund rules](https://www.transportation.gov/airconsumer).
 
 #### W35 GDPR and CCPA subject-access requests.
 
-GDPR Art. 15/22 and CCPA, via the [ICO](https://ico.org.uk) where relevant. Subject access is the fastest way to learn why an institution acted.
+[GDPR](https://commission.europa.eu/law/law-topic/data-protection_en) Art. 15/22 and [CCPA](https://oag.ca.gov/privacy/ccpa), via the [ICO](https://ico.org.uk) where relevant. Subject access is the fastest way to learn why an institution acted.
 
 #### W36 Platform account terminations.
 
@@ -1617,15 +1619,15 @@ For legitimate businesses, and only from the person's own records.
 
 #### W38 USCIS inquiries.
 
-The [ombudsman](https://www.dhs.gov/topics/citizenship-and-immigration-services-ombudsman) and own-file FOIA. Inquiries only; filings by non-lawyers is where notario fraud lives.
+The [ombudsman](https://www.dhs.gov/topics/citizenship-and-immigration-services-ombudsman) and own-file [FOIA](https://www.foia.gov). Inquiries only; filings by non-lawyers is where notario fraud lives.
 
 #### W39 Prison grievances.
 
-PLRA exhaustion discipline.
+[PLRA](https://en.wikipedia.org/wiki/Prison_Litigation_Reform_Act) exhaustion discipline.
 
 #### W40 Own-records requests.
 
-Police reports, FERPA files, personnel files.
+Police reports, [FERPA](https://studentprivacy.ed.gov/ferpa) files, personnel files.
 
 ### Outside the US
 
