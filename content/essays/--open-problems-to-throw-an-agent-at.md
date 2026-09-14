@@ -187,6 +187,9 @@ The same page is often released more than once with different black boxes: the 2
 
 Millions of paper records pre-1980 ([SeismoArchives](https://web.archive.org/web/20231205151122/http://ds.iris.edu/seismo-archives/)). Digitising traces lets modern methods study 1906, 1923, 1960.
 
+NOTE: original is gone, we've linked an archive, republishing would also be
+good
+
 ### D3 Harvard DASCH plates
 
 ~450,000 photographic plates 1885–1992, fully scanned ([DASCH](https://dasch.cfa.harvard.edu)). Century-long light curves: historical supernovae, [vanishing stars](https://vasconsite.wordpress.com), pre-discovery asteroid images ([SSOIS](https://www3.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/ssois/documentation.html) tells you which archived exposures a known object's orbit passes through).
@@ -207,9 +210,9 @@ Tree rings are used to estimate land temperature before thermometers, but first 
 
 90 years of silk samples ([CPR Survey](https://www.cprsurvey.org)) counted by human microscopists at a fixed rate. Image the archive and re-count at species resolution.
 
-### D8 Extend the sea-level record backwards from paper tide charts
+### D8 Read the tsunami waveforms out of NOAA's scanned tide charts
 
-Estimates of how fast sea level is rising depend on the few tide gauges with records long enough to show acceleration, and the [<abbr title="Permanent Service for Mean Sea Level">PSMSL</abbr>](https://psmsl.org) archive thins out before 1950. The missing years survive as marigrams, ink traces on rolled paper charts, in harbour archives. Trace them into sea-level series and submit them.
+Tsunami hazard maps rest on how big past waves actually were, and for events before modern instruments the only waveform is the ink trace a tide gauge drew on paper. [NOAA](https://www.ngdc.noaa.gov/hazel/view/hazards/tsunami/marigram-search/) has scanned over 3,000 of those charts, covering 390-odd events back to 1854, and turned nine events into time series. Trace the rest into waveforms and publish them against the page images.
 
 ### D9 Legacy soil surveys
 
@@ -221,7 +224,7 @@ Century-old variety-trial yield data, scanned, never aggregated. Seed data via [
 
 ### D11 Rebuild ionosphere history from amateur radio contest logs
 
-A logged contact records the frequency, the time and both stations' locations, which makes it a measurement of what the ionosphere was doing on that path. Decades of contest logs sit in public archives, covering paths and years no ionosonde did; [HamSCI](https://hamsci.org) uses a fraction, [WSPRnet](https://wsprnet.org) only the recent automated era. Parse the archives into a propagation dataset.
+A solar storm that garbles <abbr title="High Frequency">HF</abbr> radio also degrades satellite positioning and pushes current into power grids, and forecasting it means knowing how the ionosphere has behaved over many solar cycles. Ionosondes are sparse and recent. A logged radio contact dates and locates one, so decades of public contest logs are a measurement record nobody has assembled: [HamSCI](https://hamsci.org) uses a fraction, [WSPRnet](https://wsprnet.org) only the automated era. Parse the archives into a propagation dataset.
 
 ### D12 Date and place the timber in historic buildings and artefacts
 
@@ -693,9 +696,9 @@ The [FTC challenged 100+ patent listings](https://www.ftc.gov/news-events/news/p
 
 [IMSLP](https://imslp.org) has ~700k scores as images; [Audiveris](https://github.com/Audiveris/audiveris) is the open tool and nobody uses it. Verifier: alignment with recordings.
 
-#### M3 Turn scanned statistical yearbooks into machine-readable tables
+#### M3 Extract the tables from scanned government statistical annuals
 
-Long-run price, wage and production series exist only as printed tables in national statistical yearbooks and census volumes. <abbr title="Optical Character Recognition">OCR</abbr> reads the prose around them and fails on the tables themselves: merged headers, footnote markers, categories that change between editions. Economic history is bottlenecked on this. Extract the tables at scale and publish each cell alongside its page image.
+Before governments kept databases they printed the numbers: statistical abstracts, census volumes, trade and customs returns, agricultural and factory returns. Those pages are the only record of prices, wages, output and population for most countries before about 1960, and they are scanned. <abbr title="Optical Character Recognition">OCR</abbr> reads the prose and fails on the tables, so economic history is bottlenecked on hand transcription. Extract the tables and publish each cell with its page image.
 
 #### M4 Speech recognition for dysarthric and accented speech and unserved languages
 
@@ -807,9 +810,9 @@ Recover source for abandoned software and firmware; [decomp.me](https://decomp.m
 
 The [PRONOM registry](https://www.nationalarchives.gov.uk/PRONOM/) lists formats with no living reader; the [Document Liberation Project](https://www.documentliberation.org/projects/) keeps a want-list. The working model is fixture by fixture through an open reader's issue tracker: [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) for microscopy, [liborigin](https://github.com/gerlachs/liborigin) for [OriginLab](https://www.originlab.com), [lasio](https://lasio.readthedocs.io) for borehole logs, [ReadStat](https://github.com/WizardMac/ReadStat) for [SPSS](https://www.ibm.com/spss)/[SAS](https://www.sas.com)/[Stata](https://www.stata.com), [MDB Tools](https://mdbtools.github.io) for [Access](https://www.microsoft.com/en-us/microsoft-365/access), [SLYR](https://github.com/north-road/slyr) for [ArcGIS](https://www.esri.com/en-us/arcgis/about-arcgis/overview) styling. Verifier: round-trip against the original application's export, metadata included, then a real user finishes their real task.
 
-#### M30 Linux drivers for orphaned hardware
+#### M30 Write Linux drivers for hardware whose vendor walked away
 
-Verifier: it works.
+Working microscopes, spectrometers, scanners and industrial controllers get scrapped because the vendor stopped shipping drivers, not because anything broke. The protocol is usually plain USB or PCI traffic you can capture and replay, which is slow, unglamorous work nobody is paid for. Pick devices whose owners are still asking on forums, reverse-engineer the protocol, and upstream the driver. Verifier: it works.
 
 #### M31 Emulation for preservation
 
@@ -888,6 +891,9 @@ Same structure with [NHTSA complaints](https://www.nhtsa.gov/nhtsa-datasets-and-
 ### N18 Ethnomusicology archives
 
 [British Library Sounds](https://www.bl.uk/subjects/sound), the [Lomax archive](https://research.culturalequity.org), [Smithsonian Folkways](https://en.wikipedia.org/wiki/Smithsonian_Folkways): unidentified recordings, tune families across cultures.
+
+TODO: this data might be out of date, there was a ransom attack in 2023 that
+removed lots of data.
 
 ### N19 Bioacoustics on land
 
@@ -1015,9 +1021,9 @@ Hobby fluxgates for geomagnetically induced currents; calibration is the hard pa
 
 [Airthings](https://www.airthings.com)-class detectors are common; radon maps are coarse; opt-in map by geology and building type.
 
-#### O23 Radiation
+#### O23 Rebuild an open background-radiation baseline
 
-[Safecast](https://safecast.org) is under-maintained.
+An anomaly is only visible against a baseline, and outside Japan the public background-radiation map is thin: official networks are sparse and [Safecast](https://safecast.org), the volunteer network that mapped Fukushima's fallout, is under-maintained. A consumer detector and a logging agent produce calibrated, geotagged readings from a car or a windowsill. Revive the pipeline and publish the drives and fixed-point series.
 
 #### O24 Power quality
 
@@ -1241,6 +1247,8 @@ Photorefraction with camera and off-axis flash; the commercial [Spot screener](h
 
 [FDA-acknowledged](https://web.archive.org/web/20240110123831/https://www.fda.gov/medical-devices/safety-communications/pulse-oximeter-accuracy-and-limitations-fda-safety-communication) bias in dark skin; [HealthyPi](https://www.protocentral.com) is the open board. Needs a clinical partner for arterial-blood verification; research-only.
 
+NOTE: we're using web-archives, not original webpage
+
 #### T8 Fall-detection pendant
 
 Accelerometer plus algorithm; verifier: public fall datasets and a scripted protocol.
@@ -1370,6 +1378,8 @@ Over half of listed in-network mental-health providers are unreachable. Verify d
 #### U14 Wage filings
 
 [H-1B/PERM disclosures](https://www.dol.gov/agencies/eta/foreign-labor/performance) versus prevailing wages; [NLRB](https://www.nlrb.gov/reports/graphs-data) records against employer identities.
+
+NOTE: NLRB is down, not sure what's happening there
 
 ### Institutions that hold people and animals
 
@@ -1625,9 +1635,9 @@ For legitimate businesses, and only from the person's own records.
 
 The [ombudsman](https://www.dhs.gov/topics/citizenship-and-immigration-services-ombudsman) and own-file [FOIA](https://www.foia.gov). Inquiries only; filings by non-lawyers is where notario fraud lives.
 
-#### W39 Prison grievances
+#### W39 Keep prison grievances alive through the exhaustion rules
 
-[PLRA](https://en.wikipedia.org/wiki/Prison_Litigation_Reform_Act) exhaustion discipline.
+The [<abbr title="Prison Litigation Reform Act">PLRA</abbr>](https://en.wikipedia.org/wiki/Prison_Litigation_Reform_Act) bars a prisoner from federal court unless every level of the facility's internal grievance process was completed first, on the right form and inside short deadlines. Claims die procedurally rather than on merit, and the rules differ by state and facility. Track the levels and dates for one person's grievance and draft each step.
 
 #### W40 Own-records requests
 
@@ -1642,6 +1652,8 @@ Police reports, [FERPA](https://studentprivacy.ed.gov/ferpa) files, personnel fi
 #### W42 India
 
 [RTI](https://rtionline.gov.in) requests and first appeals.
+
+NOTE: connection refused, I don't know what's up.
 
 #### W43 Brazil
 
