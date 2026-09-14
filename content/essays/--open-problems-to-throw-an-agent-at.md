@@ -79,7 +79,7 @@ Compare pre-registered primary outcomes on [ClinicalTrials.gov](https://clinical
 
 ### B6 Does the cited source actually say that?
 
-For [Wikipedia](https://en.wikipedia.org) and for review articles. [Meta](https://about.meta.com) [prototyped this in 2022](https://ai.meta.com/research/publications/improving-wikipedia-verifiability-with-ai/) and dropped it. Verifier: crowd spot-check.
+For [Wikipedia](https://en.wikipedia.org) and for review articles. [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) [prototyped this in 2022](https://ai.meta.com/research/publications/improving-wikipedia-verifiability-with-ai/) and dropped it. Verifier: crowd spot-check.
 
 ### B7 Errata hunting in open textbooks.
 
@@ -727,7 +727,7 @@ Incumbents: [Tobii Dynavox](https://www.tobiidynavox.com), [Proloquo2Go](https:/
 
 #### M11 Mechanical CAD.
 
-Incumbents: [SolidWorks](https://www.solidworks.com), [Inventor](https://en.wikipedia.org/wiki/Autodesk_Inventor), [Fusion](https://en.wikipedia.org/wiki/Autodesk_Fusion_360). Open: [FreeCAD](https://www.freecad.org) (1.0 in 2024 fixed the worst), [OpenSCAD](https://openscad.org). Gaps: assemblies, drawings, fillet robustness. Proof: model a benchmark set of real parts and measure time-to-model and failure rate against the incumbent.
+Incumbents: [SolidWorks](https://en.wikipedia.org/wiki/SolidWorks), [Inventor](https://en.wikipedia.org/wiki/Autodesk_Inventor), [Fusion](https://en.wikipedia.org/wiki/Autodesk_Fusion_360). Open: [FreeCAD](https://www.freecad.org) (1.0 in 2024 fixed the worst), [OpenSCAD](https://openscad.org). Gaps: assemblies, drawings, fillet robustness. Proof: model a benchmark set of real parts and measure time-to-model and failure rate against the incumbent.
 
 #### M12 Electronics and chip design.
 
@@ -747,7 +747,7 @@ Incumbents: [Zemax OpticStudio](https://www.ansys.com/products/optics/ansys-zema
 
 #### M16 Room acoustics.
 
-Incumbents: [Odeon](https://odeon.dk), [EASE](https://ease.afmg.eu). Open: [I-Simpa](https://i-simpa.ifsttar.fr), [pyroomacoustics](https://github.com/LCAV/pyroomacoustics). Proof: round-robin datasets of measured reverberation times.
+Incumbents: Odeon, [EASE](https://ease.afmg.eu). Open: [I-Simpa](https://i-simpa.ifsttar.fr), [pyroomacoustics](https://github.com/LCAV/pyroomacoustics). Proof: round-robin datasets of measured reverberation times.
 
 #### M17 Power-system analysis.
 
