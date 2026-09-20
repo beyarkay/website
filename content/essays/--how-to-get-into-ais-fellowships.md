@@ -6,6 +6,15 @@ tags: [essay, mats, advice, retrospective]
 
 <!--
 
+Also add something about having theory of mind for the person reviewing you r
+paplication anddistinguishing yourself from the dummies in front & beihnd you
+whoe don't have your qualifications but are Nonetheless trying to pass
+themselves off as being as good as you are. write something, think about what
+your reviewer will take from it, and think critically, and then also think
+about what's the *least* qualified person who could still answer that question
+with the answer you just wrote, you want to write something that makes the
+least qualified person still be very qualified.
+
 ---
 
 Hi Jing,
@@ -114,88 +123,7 @@ figure out but I’ve found it well-worthwhile.
 Hope that helps, and good luck!
 -->
 
-I've recently finished the 3-month MATS AI safety fellowship and am continuing
-with the 6-month extension in London. To get in, I put in quite a bit of effort
-into applying to various AI safety fellowships. I think there's a small art in
-doing this, so thought I'd make most of what I can suggest public knowledge.
-
-## Apply to lots of streams
-
-Fellowship applications are noisy, so you'll be rejected even though you
-shouldn't have, and someone'll be accepted even though they should have been
-rejected. There's some luck involved, and applying to more fellowships gives
-you more chances at being lucky.
-
-Think of it like flipping a coin trying to get heads. You can both flip the
-coin more times (e.g. apply to more fellowships) and you can change the odds of
-the coin (e.g. improve yourself to be a better applicant). Flipping the coin
-more times is a bit hacky, but it does work.
-
-Improving yourself is what you should do between applications, but if there's
-lots of fellowships available, you should try apply to all of the relevant ones.
-
-## Different streams are more/less competitive
-
-I can't speak for every fellowship, but generally you don't apply to The
-Fellowship, you actually apply to The Stream within The Fellowship. This means
-you're not competing with everyone who applied to The Fellowship, you're just
-competing with the people who applied to The Stream. So while MATS is extremely
-competitive, your preferred stream within MATS might not be as competitive as
-is often cited.
-
-## The mentors (usually) make the final decision
-
-At the end of the day, you don't apply to the fellowship, you apply to a
-mentor's stream. If possible, you should heavily tailor your application to
-your mentor's interests. Don't be fake! But if you've got experience in some
-niche field, and your mentor happened to have done a MSc in that field, you
-should consider highlighting this in your application (assuming it's relevant).
-You should read your mentor's website/twitter/papers, and ensure you highlight
-experience/projects that they're likely to be interested in, and reduce the
-emphasis of everything else.
-
-Don't make the mistake of faking alignment with your mentor's values. At best
-this will get you into the fellowship you want but then you've got to spend
-three months doing something you dread, and there's better things to do than
-waste your own time pursuing a goal you don't care about.
-
-## Ensure your CV is skim-able
-
-If I look at your CV for 5s, what information do I see? I should see things
-that are directly relevant to the application, like LLM/ML experience and
-research experience.
-
-If I look at it from 5m away, what stands out? I sure hope it's things like
-"Intern @ Impressive Company" or "Build Cool Project" and not "The internship
-was from January to March 2025".
-
-Is ~every word on your CV pulling it's weight? (I do mean _every_ word). CV's
-are particularly prone to tabular replication (e.g. repeating some phrase
-because it's consistent with the formatting). Sometimes this is fine and adds
-clarity, sometimes this is just bloat that detracts from the core parts.
-Think about removing a word, and then ask "Will a mentor think less of me
-because they don't know this information?"
-
-## Differentiate yourself from Average Joe Programmer
-
-There will be lots of Average Joe's applying alongside you, and you want to
-make sure you're not mistaken for an Average Joe. You've done cool and
-interesting things, Average Joe hasn't. But make sure that when you're
-describing your experience or projects or accomplishments, that no reviewer
-could mistake you for an Average Joe.
-
-e.g. Average Joe says
-
-> "During the internship at The Company I submitted pull requests to fix bugs."
-
-You should say
-
-> "Intern at Company: increased performance on hot path by 12% and bug fixes"
-
-Note that there's a number. Numbers are great. They're like reward hacks for
-humans. Do you not have any numbers to include in your CV? You should actively
-work on getting more numbers to include in your CV (e.g. actively pursue tasks
-that make your skills legible and understandable to low-context outsiders)
+<!-- NEW: sections written from dictation, not yet integrated with the rest of the essay -->
 
 ## Have a theory of mind for whoever's reviewing you
 
@@ -381,6 +309,190 @@ If you're applying, you almost certainly have some internal, fuzzy feeling of
 it's just not _legible_ yet. Your job is to take the intuition and make it
 very, very clear to someone who doesn't have access to your head. Which brings
 me to:
+
+## Red flags and green flags when picking mentors
+
+I think it matters a lot which mentors you apply to. Some mentors are really,
+really great and some are not so great, and you're going to be spending three
+fairly intense months with whoever you pick. Looking properly at the mentors
+and the projects they propose is a somewhat insane amount of work if I'm
+honest. Claude can help, but Claude will get things wrong, so be wary.
+
+Some red flags:
+
+- No previous mentees. Mentoring is a skill, and someone who's never done it
+  before is a risk.
+- No clear description of the stream, or no precise idea of what the mentees
+  will actually be doing.
+- The description or the project list hasn't been updated in six months or
+  more. They're probably just going to do the same thing over and over.
+- Previous mentees don't seem to have gone very far or done much afterwards.
+
+Some green flags:
+
+- Lots of mentees, over many rounds. Neel Nanda is the obvious example, Team
+  Shard is another. Someone who keeps taking lots of mentees almost certainly
+  enjoys mentoring and has had a lot of practice at it.
+- There seems to be a bit of a community around this person. This usually
+  means they're a good person to be around, which makes your three months a
+  lot more fun and productive and a _lot_ more motivating, and motivation
+  matters more than you'd think.
+- They're explicit about what they can and can't do, and about how much time
+  they will and won't give you.
+- Publications, track record, job titles. These aren't perfect signals but
+  they are definitely signals.
+
+Ideally you want a mentor who enjoys mentoring _and_ is good at it, and these
+are different things. Enjoying it is easy to spot, they'll often say so
+explicitly or they'll just be visibly doing lots of mentoring. Being good at
+it is harder to tell, but if they've been around for a while you can usually
+see where their mentees end up: doing nothing related, or doing clearly useful
+things, or in very good positions. This is a pretty good indicator of where
+you can expect to end up too. Be aware that it's not always visible online,
+sometimes a mentee goes off to do something secret with a government, or
+something impactful that can't be published for IP reasons. But sometimes you
+get a very clear signal, e.g. if a mentee later goes on to work with an even
+more prestigious mentor. That probably means they applied to both, only got
+into the less prestigious one, and that mentor helped them enough (and made
+their skills legible enough) that the more prestigious mentor took them the
+next time round. That's a good sign for the first mentor.
+
+## If the application is painful, take the hint
+
+When I was applying to MATS I was initially going to apply to Neel Nanda's
+stream, which has a ~20 hour research project as part of the application. I
+sat for a few hours trying to think of an interesting project in line with
+what Neel had asked for. I'd come up with an idea, think "oh this is
+fascinating", go and read his (very helpfully elaborate) how-to-apply docs
+more carefully, and find that he'd explicitly said he wasn't looking for that
+sort of thing. Or I'd go down some other rabbit hole, read some papers, find
+something else I thought was super interesting, and realise it just wasn't in
+Neel's interests at all. This went on for a while. And when I looked at the
+projects he _did_ recommend, I just wasn't very interested in them. It took me
+far too long to realise that this meant I probably shouldn't be applying to
+Neel's stream.
+
+So, to say it very explicitly, because I absolutely did not figure it out
+until quite late: if you're really struggling to apply to someone's stream, if
+it's just painful to answer the questions, if you're not feeling inspired and
+you keep finding yourself wanting to go look at something else that's still
+work-adjacent but not really relevant to this stream, then probably you don't
+actually like this and probably you won't enjoy doing the work. To be clear,
+this is the application process working as intended. Some part of an
+application _needs_ to be a bit painful, because an application that requires
+zero effort doesn't filter out the people who only vaguely want the position.
+I think the process could be a lot better than it is, but it probably
+shouldn't be free.
+
+Two things follow from that. One, if the process feels like a pain and you get
+through it anyway, that's a good sign, you've already distinguished yourself
+from everyone who vaguely wanted this but didn't finish the application in
+time. Two, if you really want to apply to someone's stream because it seems
+obvious, or they seem so cool or prestigious or high status, and then you find
+yourself struggling through the application and not enjoying it, heed that
+signal very carefully. In my case I realised I was pretty explicitly just
+chasing the prestige, and I didn't even know I was doing it, which is the part
+I find most interesting. I thought I had a pretty good handle on whether I was
+chasing prestige! I thought "Neel seems really good, mech interp seems very
+interesting", and it turns out I just don't enjoy mech interp the way Neel
+does it. No shade to Neel, this was just not a good match for me. He's a very
+good mentor: I've spoken to a lot of his mentees and they repeatedly say he's
+very good at giving incredibly precise advice, spends a lot of time helping,
+and gives you good taste, and his mentees very reliably go on to do good work.
+If you enjoy his stuff then by all means apply. But the application itself is
+already a filter, and if you don't enjoy answering the questions the mentor
+wrote, you probably won't enjoy three months of working with them.
+
+Three months is pretty intense. There were a fair number of MATS fellows in my
+cohort who just didn't like their project and had a pretty bad time. Sure,
+they got the prestige of MATS and they're probably better off overall than
+they were, but they didn't enjoy it, and they probably should have been more
+choosy about which stream they applied to.
+
+<!-- END NEW -->
+
+I've recently finished the 3-month MATS AI safety fellowship and am continuing
+with the 6-month extension in London. To get in, I put in quite a bit of effort
+into applying to various AI safety fellowships. I think there's a small art in
+doing this, so thought I'd make most of what I can suggest public knowledge.
+
+## Apply to lots of streams
+
+Fellowship applications are noisy, so you'll be rejected even though you
+shouldn't have, and someone'll be accepted even though they should have been
+rejected. There's some luck involved, and applying to more fellowships gives
+you more chances at being lucky.
+
+Think of it like flipping a coin trying to get heads. You can both flip the
+coin more times (e.g. apply to more fellowships) and you can change the odds of
+the coin (e.g. improve yourself to be a better applicant). Flipping the coin
+more times is a bit hacky, but it does work.
+
+Improving yourself is what you should do between applications, but if there's
+lots of fellowships available, you should try apply to all of the relevant ones.
+
+## Different streams are more/less competitive
+
+I can't speak for every fellowship, but generally you don't apply to The
+Fellowship, you actually apply to The Stream within The Fellowship. This means
+you're not competing with everyone who applied to The Fellowship, you're just
+competing with the people who applied to The Stream. So while MATS is extremely
+competitive, your preferred stream within MATS might not be as competitive as
+is often cited.
+
+## The mentors (usually) make the final decision
+
+At the end of the day, you don't apply to the fellowship, you apply to a
+mentor's stream. If possible, you should heavily tailor your application to
+your mentor's interests. Don't be fake! But if you've got experience in some
+niche field, and your mentor happened to have done a MSc in that field, you
+should consider highlighting this in your application (assuming it's relevant).
+You should read your mentor's website/twitter/papers, and ensure you highlight
+experience/projects that they're likely to be interested in, and reduce the
+emphasis of everything else.
+
+Don't make the mistake of faking alignment with your mentor's values. At best
+this will get you into the fellowship you want but then you've got to spend
+three months doing something you dread, and there's better things to do than
+waste your own time pursuing a goal you don't care about.
+
+## Ensure your CV is skim-able
+
+If I look at your CV for 5s, what information do I see? I should see things
+that are directly relevant to the application, like LLM/ML experience and
+research experience.
+
+If I look at it from 5m away, what stands out? I sure hope it's things like
+"Intern @ Impressive Company" or "Build Cool Project" and not "The internship
+was from January to March 2025".
+
+Is ~every word on your CV pulling it's weight? (I do mean _every_ word). CV's
+are particularly prone to tabular replication (e.g. repeating some phrase
+because it's consistent with the formatting). Sometimes this is fine and adds
+clarity, sometimes this is just bloat that detracts from the core parts.
+Think about removing a word, and then ask "Will a mentor think less of me
+because they don't know this information?"
+
+## Differentiate yourself from Average Joe Programmer
+
+There will be lots of Average Joe's applying alongside you, and you want to
+make sure you're not mistaken for an Average Joe. You've done cool and
+interesting things, Average Joe hasn't. But make sure that when you're
+describing your experience or projects or accomplishments, that no reviewer
+could mistake you for an Average Joe.
+
+e.g. Average Joe says
+
+> "During the internship at The Company I submitted pull requests to fix bugs."
+
+You should say
+
+> "Intern at Company: increased performance on hot path by 12% and bug fixes"
+
+Note that there's a number. Numbers are great. They're like reward hacks for
+humans. Do you not have any numbers to include in your CV? You should actively
+work on getting more numbers to include in your CV (e.g. actively pursue tasks
+that make your skills legible and understandable to low-context outsiders)
 
 ## You're good, but are you _legible_?
 
@@ -587,105 +699,6 @@ mentors. This is a process you can start in advance, before applications for
 that fellowship technically open. But it _does_ take a long time. I relied on
 heavily filtering early on (e.g I wasn't interested in governance or
 non-Berkeley options) and then going deep on the remaining mentors.
-
-## Red flags and green flags when picking mentors
-
-I think it matters a lot which mentors you apply to. Some mentors are really,
-really great and some are not so great, and you're going to be spending three
-fairly intense months with whoever you pick. Looking properly at the mentors
-and the projects they propose is a somewhat insane amount of work if I'm
-honest. Claude can help, but Claude will get things wrong, so be wary.
-
-Some red flags:
-
-- No previous mentees. Mentoring is a skill, and someone who's never done it
-  before is a risk.
-- No clear description of the stream, or no precise idea of what the mentees
-  will actually be doing.
-- The description or the project list hasn't been updated in six months or
-  more. They're probably just going to do the same thing over and over.
-- Previous mentees don't seem to have gone very far or done much afterwards.
-
-Some green flags:
-
-- Lots of mentees, over many rounds. Neel Nanda is the obvious example, Team
-  Shard is another. Someone who keeps taking lots of mentees almost certainly
-  enjoys mentoring and has had a lot of practice at it.
-- There seems to be a bit of a community around this person. This usually
-  means they're a good person to be around, which makes your three months a
-  lot more fun and productive and a _lot_ more motivating, and motivation
-  matters more than you'd think.
-- They're explicit about what they can and can't do, and about how much time
-  they will and won't give you.
-- Publications, track record, job titles. These aren't perfect signals but
-  they are definitely signals.
-
-Ideally you want a mentor who enjoys mentoring _and_ is good at it, and these
-are different things. Enjoying it is easy to spot, they'll often say so
-explicitly or they'll just be visibly doing lots of mentoring. Being good at
-it is harder to tell, but if they've been around for a while you can usually
-see where their mentees end up: doing nothing related, or doing clearly useful
-things, or in very good positions. This is a pretty good indicator of where
-you can expect to end up too. Be aware that it's not always visible online,
-sometimes a mentee goes off to do something secret with a government, or
-something impactful that can't be published for IP reasons. But sometimes you
-get a very clear signal, e.g. if a mentee later goes on to work with an even
-more prestigious mentor. That probably means they applied to both, only got
-into the less prestigious one, and that mentor helped them enough (and made
-their skills legible enough) that the more prestigious mentor took them the
-next time round. That's a good sign for the first mentor.
-
-## If the application is painful, take the hint
-
-When I was applying to MATS I was initially going to apply to Neel Nanda's
-stream, which has a ~20 hour research project as part of the application. I
-sat for a few hours trying to think of an interesting project in line with
-what Neel had asked for. I'd come up with an idea, think "oh this is
-fascinating", go and read his (very helpfully elaborate) how-to-apply docs
-more carefully, and find that he'd explicitly said he wasn't looking for that
-sort of thing. Or I'd go down some other rabbit hole, read some papers, find
-something else I thought was super interesting, and realise it just wasn't in
-Neel's interests at all. This went on for a while. And when I looked at the
-projects he _did_ recommend, I just wasn't very interested in them. It took me
-far too long to realise that this meant I probably shouldn't be applying to
-Neel's stream.
-
-So, to say it very explicitly, because I absolutely did not figure it out
-until quite late: if you're really struggling to apply to someone's stream, if
-it's just painful to answer the questions, if you're not feeling inspired and
-you keep finding yourself wanting to go look at something else that's still
-work-adjacent but not really relevant to this stream, then probably you don't
-actually like this and probably you won't enjoy doing the work. To be clear,
-this is the application process working as intended. Some part of an
-application _needs_ to be a bit painful, because an application that requires
-zero effort doesn't filter out the people who only vaguely want the position.
-I think the process could be a lot better than it is, but it probably
-shouldn't be free.
-
-Two things follow from that. One, if the process feels like a pain and you get
-through it anyway, that's a good sign, you've already distinguished yourself
-from everyone who vaguely wanted this but didn't finish the application in
-time. Two, if you really want to apply to someone's stream because it seems
-obvious, or they seem so cool or prestigious or high status, and then you find
-yourself struggling through the application and not enjoying it, heed that
-signal very carefully. In my case I realised I was pretty explicitly just
-chasing the prestige, and I didn't even know I was doing it, which is the part
-I find most interesting. I thought I had a pretty good handle on whether I was
-chasing prestige! I thought "Neel seems really good, mech interp seems very
-interesting", and it turns out I just don't enjoy mech interp the way Neel
-does it. No shade to Neel, this was just not a good match for me. He's a very
-good mentor: I've spoken to a lot of his mentees and they repeatedly say he's
-very good at giving incredibly precise advice, spends a lot of time helping,
-and gives you good taste, and his mentees very reliably go on to do good work.
-If you enjoy his stuff then by all means apply. But the application itself is
-already a filter, and if you don't enjoy answering the questions the mentor
-wrote, you probably won't enjoy three months of working with them.
-
-Three months is pretty intense. There were a fair number of MATS fellows in my
-cohort who just didn't like their project and had a pretty bad time. Sure,
-they got the prestige of MATS and they're probably better off overall than
-they were, but they didn't enjoy it, and they probably should have been more
-choosy about which stream they applied to.
 
 ## Use the LLMs for motivation, but not for writing
 
