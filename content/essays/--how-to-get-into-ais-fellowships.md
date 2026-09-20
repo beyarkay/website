@@ -134,12 +134,12 @@ general, not just AI safety fellowships.
 
 The reviewer is going to be reading dozens of applications in one sitting.
 They've seen everything under the sun, and most of what they've seen is pretty
-bad. If you're reading this and you're good, then there's _something_ about
-you that makes you good, and your job is to get that something into the
-reviewer's head. But it's not enough for your application to look good on its
-own. It also has to look very different from the dum-dums who came before you
-and the dum-dums who'll come after you, because the reviewer is comparing you
-against them whether you like it or not.
+bad. If you're reading this and you're good, then there's _something_ about you
+that makes you good, and your job is to get that something into the reviewer's
+head. Not just onto the page, into their _head_. But it's not enough for your
+application to look good on its own. It also has to look very different from
+the dum-dums who came before you and the dum-dums who'll come after you,
+because the reviewer is comparing you against them whether you like it or not.
 
 So the bar for every sentence is: could a worse applicant have written this?
 "I am a hard worker" is a sentence anyone can write, so it counts for nothing.
@@ -154,7 +154,12 @@ If every sentence meets this bar, then a reviewer looking for a reason to
 accept you can land on _any_ sentence and find one. That's great for your
 application.
 
-I think this is also why LLMs are often not great at writing application
+Actually putting yourself in the reviewer's shoes is hard. It's very good if
+you can get someone else to review your answers, but this is tricky to
+arrange. Getting an AI to review them is sometimes not great, but can also be
+alright.
+
+I think this is also why LLMs are often not great at _writing_ application
 answers for you. For better or worse, they don't have a good model of the
 reviewer's head, so they'll happily produce an answer that answers the question
 without making anyone more likely to accept you.
@@ -172,8 +177,8 @@ This is different from the fuzzier stuff, like exactly how you phrase things
 or how dense to make the prose or what to include and exclude at the margin.
 That stuff matters, but it's hard to learn and I don't think it's worth
 grinding on if you're just trying to get through applications. The "does this
-sentence pull its weight" test is easy to apply and catches most of the
-damage.
+sentence pull its weight" test is easy to apply and gets you most of the way
+there.
 
 ## Put the impressive thing first
 
@@ -217,7 +222,7 @@ The heading is evidence on its own, so it seems a waste to spend it on
 something generic.
 
 The goal of all this formatting is to make it excruciatingly obvious where the
-evidence is. Picture the reviewer with two applications that look pretty much
+evidence is. Imagine the reviewer with two applications that look pretty much
 the same (this happens a lot, there are lots of people applying) trying to
 figure out which one to accept. They vaguely remember that one of the
 candidates said something about a paper, or a grant, or a project that was
@@ -226,7 +231,7 @@ through. You want them to be able to Ctrl-F for it. It is not in your favour
 to bury the lede, or to describe the important thing obtusely, or to use
 unusual language that's not the thing they're searching for.
 
-## The question behind the question
+## Every question is a proxy for one question
 
 When you're answering an application question, there's the question on the
 page, and then peering over that question's shoulder is the real question,
@@ -259,7 +264,7 @@ that you should accept me" even without the question above it.
 
 ## Label your evidence explicitly
 
-Mentors are looking for someone who can do good work in three months. That
+Mentors are looking for someone who can do good work in _three months_. That
 implies a few things. It implies you can work fairly independently: not 100%
 independently, you'll get mentorship roughly once a week, but nobody is going
 to give you daily tasks or remind you what to do. It implies you can come up
@@ -307,8 +312,8 @@ firmware for satellites having never written C before and did well there.
 If you're applying, you almost certainly have some internal, fuzzy feeling of
 "I think I'll be good at this because of X". That feeling is real evidence,
 it's just not _legible_ yet. Your job is to take the intuition and make it
-very, very clear to someone who doesn't have access to your head. Which brings
-me to:
+very, very clear to someone who doesn't have access to your head. I've got
+more on legibility further down.
 
 ## Red flags and green flags when picking mentors
 
@@ -335,8 +340,8 @@ Some green flags:
   enjoys mentoring and has had a lot of practice at it.
 - There seems to be a bit of a community around this person. This usually
   means they're a good person to be around, which makes your three months a
-  lot more fun and productive and a _lot_ more motivating, and motivation
-  matters more than you'd think.
+  lot more fun and productive and a _lot_ more motivating, which is very
+  important.
 - They're explicit about what they can and can't do, and about how much time
   they will and won't give you.
 - Publications, track record, job titles. These aren't perfect signals but
@@ -359,18 +364,18 @@ next time round. That's a good sign for the first mentor.
 
 ## If the application is painful, take the hint
 
-When I was applying to MATS I was initially going to apply to Neel Nanda's
-stream, which has a ~20 hour research project as part of the application. I
-sat for a few hours trying to think of an interesting project in line with
-what Neel had asked for. I'd come up with an idea, think "oh this is
-fascinating", go and read his (very helpfully elaborate) how-to-apply docs
-more carefully, and find that he'd explicitly said he wasn't looking for that
-sort of thing. Or I'd go down some other rabbit hole, read some papers, find
-something else I thought was super interesting, and realise it just wasn't in
-Neel's interests at all. This went on for a while. And when I looked at the
-projects he _did_ recommend, I just wasn't very interested in them. It took me
-far too long to realise that this meant I probably shouldn't be applying to
-Neel's stream.
+When I was applying to MATS I was initially going to apply to [Neel
+Nanda's](https://www.neelnanda.io/) stream, which has a ~20 hour research
+project as part of the application. I sat for a few hours trying to think of an
+interesting project in line with what Neel had asked for. I'd come up with an
+idea, think "oh this is fascinating", go and read his (very helpfully
+elaborate) how-to-apply docs more carefully, and find that he'd explicitly said
+he wasn't looking for that sort of thing. Or I'd go down some other rabbit
+hole, read some papers, find something else I thought was super interesting,
+and realise it just wasn't in Neel's interests at all. This went on for a
+while. And when I looked at the projects he _did_ recommend, I just wasn't very
+interested in them. It took me far too long to realise that this meant I
+probably shouldn't be applying to Neel's stream.
 
 So, to say it very explicitly, because I absolutely did not figure it out
 until quite late: if you're really struggling to apply to someone's stream, if
