@@ -6,15 +6,6 @@ tags: [essay, mats, advice, retrospective]
 
 <!--
 
-Also add something about having theory of mind for the person reviewing you r
-paplication anddistinguishing yourself from the dummies in front & beihnd you
-whoe don't have your qualifications but are Nonetheless trying to pass
-themselves off as being as good as you are. write something, think about what
-your reviewer will take from it, and think critically, and then also think
-about what's the *least* qualified person who could still answer that question
-with the answer you just wrote, you want to write something that makes the
-least qualified person still be very qualified.
-
 ---
 
 Hi Jing,
@@ -205,6 +196,191 @@ Note that there's a number. Numbers are great. They're like reward hacks for
 humans. Do you not have any numbers to include in your CV? You should actively
 work on getting more numbers to include in your CV (e.g. actively pursue tasks
 that make your skills legible and understandable to low-context outsiders)
+
+## Have a theory of mind for whoever's reviewing you
+
+Most of what I've got to say about writing applications comes down to one
+thing: you need a model of the person reading your answers, and you need to
+write for _that_ person, not for yourself. This applies to job applications in
+general, not just AI safety fellowships.
+
+The reviewer is going to be reading dozens of applications in one sitting.
+They've seen everything under the sun, and most of what they've seen is pretty
+bad. If you're reading this and you're good, then there's _something_ about
+you that makes you good, and your job is to get that something into the
+reviewer's head. But it's not enough for your application to look good on its
+own. It also has to look very different from the dum-dums who came before you
+and the dum-dums who'll come after you, because the reviewer is comparing you
+against them whether you like it or not.
+
+So the bar for every sentence is: could a worse applicant have written this?
+"I am a hard worker" is a sentence anyone can write, so it counts for nothing.
+"I am good at research" is literally just the words, anyone can type them.
+What you want is sentences that a worse applicant _couldn't_ write, or at
+least couldn't back up. Obviously they could type out the words, but they
+wouldn't be able to give the receipts. You've (probably) done some impressive
+things, and your sentences need to give proof that you did those things, not
+just assert that you're the kind of person who does them.
+
+If every sentence meets this bar, then a reviewer looking for a reason to
+accept you can land on _any_ sentence and find one. That's great for your
+application.
+
+I think this is also why LLMs are often not great at writing application
+answers for you. For better or worse, they don't have a good model of the
+reviewer's head, so they'll happily produce an answer that answers the question
+without making anyone more likely to accept you.
+
+## Every sentence needs to pay its dues
+
+You've got a limited word budget, and the reviewer has a limited attention
+budget, and between the two of them you cannot afford a single sentence that's
+just freeloading. Read through every sentence and every word and ask: does
+this word make it more likely that I get accepted? If the answer is no, cut
+it. I do mean every word, and the bar should be incredibly high, because this
+is literally all the reviewer has to go on.
+
+This is different from the fuzzier stuff, like exactly how you phrase things
+or how dense to make the prose or what to include and exclude at the margin.
+That stuff matters, but it's hard to learn and I don't think it's worth
+grinding on if you're just trying to get through applications. The "does this
+sentence pull its weight" test is easy to apply and catches most of the
+damage.
+
+## Put the impressive thing first
+
+A really common failure mode: the question asks for a couple of things, you've
+done a couple of cool things, so you write them down in whatever order they
+came to mind. And then the most impressive thing ends up in the last bullet
+point, or in the last sentence of the paragraph, after the reviewer has
+already stopped paying attention. There's just no point in that.
+
+If you give a list, the first item should be the most impressive item. If you
+describe several things in a paragraph, the first line of the paragraph should
+be the most interesting thing in it. You don't have to go all the way to
+newspaper-speak (where the first sentence is the whole story and every
+following paragraph is elaboration), but you absolutely cannot spend a hundred
+words building up to your main project and then twenty words on the project
+itself. You need to invert that. The first twenty words are "I did this very
+impressive thing, here are the facts", and the remaining hundred are about why
+it's impressive, what the context was, and why it's even better than it sounds
+at first.
+
+A test I like: every paragraph is secretly a list of sentences, so read _just_
+the first phrase of each sentence (not the whole sentence, some of them are
+long, that's a separate problem) and ask whether someone who read only those
+phrases would accept you. If the answer is no, restructure. Similarly, care a
+lot about the first line and the last line of each paragraph, because that's
+what a skimming reviewer actually reads. Not even the first sentence, just
+however much happens to fit on the first line, although of course you can't
+know how wide their screen is.
+
+## Use formatting, and name your headings something specific
+
+Do not submit one massive wall of text. At the very least, use paragraphs and
+newlines and bullet points so that the structure of your answer is visible.
+If it's clear the reviewer will see rendered markdown, use _italics_ and
+**bold** too. Headings are probably only worth it for longer answers, say over
+200 words, but when you do use them, name them something a worse applicant
+couldn't. Anyone can write a heading called "Impressive things I've done".
+Not everyone can write a heading called "Paper submitted to NeurIPS" or
+"Prize I won" or a one-line precise description of a genuinely cool project.
+The heading is evidence on its own, so it seems a waste to spend it on
+something generic.
+
+The goal of all this formatting is to make it excruciatingly obvious where the
+evidence is. Picture the reviewer with two applications that look pretty much
+the same (this happens a lot, there are lots of people applying) trying to
+figure out which one to accept. They vaguely remember that one of the
+candidates said something about a paper, or a grant, or a project that was
+kind of about the mentor's area, and they've got thousands of words to search
+through. You want them to be able to Ctrl-F for it. It is not in your favour
+to bury the lede, or to describe the important thing obtusely, or to use
+unusual language that's not the thing they're searching for.
+
+## The question behind the question
+
+When you're answering an application question, there's the question on the
+page, and then peering over that question's shoulder is the real question,
+which is something like "will this person do good work if I accept them?" or
+"will this person impress me?". All the individual questions are proxies for
+that one. They're often very good proxies! But don't hone in too much on the
+literal wording, because sometimes the question is phrased a bit poorly, or
+it's unclear whether you should mention this thing or that thing, and the
+person reviewing your answer might not even be the person who wrote the
+question.
+
+The most common failure mode here is questions which, if answered to the
+letter, wouldn't require you to say anything about yourself at all. Something
+like "what's the state of the art in X?", or a question that's really asking
+for a mini literature review. Answering these well is a fine proof that you've
+read things and roughly know what's going on, and you should answer them. But
+don't get distracted: the purpose of the entire application is to judge
+whether you're a good applicant, so your answer should answer the little
+question _and_ the big one. Treat the questions as a guide and a prompt for
+your thoughts. Don't go completely off the walls, but be a bit more freeform
+than you might otherwise be if that's what it takes to convince someone you're
+good.
+
+A related thing: you should almost go as far as blanking out the question and
+reading your answer on its own. The reviewer probably isn't re-reading every
+question, they're skipping from your answer to your next answer to your next
+answer, and only going back to the question if your answer confused them. So a
+good answer is fairly self-contained, and reads as "here is very good evidence
+that you should accept me" even without the question above it.
+
+## Label your evidence explicitly
+
+Mentors are looking for someone who can do good work in three months. That
+implies a few things. It implies you can work fairly independently: not 100%
+independently, you'll get mentorship roughly once a week, but nobody is going
+to give you daily tasks or remind you what to do. It implies you can come up
+with good ideas. And it implies you can actually finish something.
+
+So show evidence for each of those, and I'd recommend labelling it almost
+explicitly. Like, "evidence I can work independently: project one, project
+two, project three. Evidence I can come up with interesting ideas: project
+three, project four", or whatever your evidence happens to be. If the question
+is "why do you think you'll be good at research?" then I'd genuinely go as far
+as "1. Evidence I can do research: ... 2. Evidence I can work independently:
+... 3. Evidence I can do XYZ: ...".
+
+This feels a bit blunt, but it is not good enough for the reviewer to have to
+piece it together across several sentences, or to have it be _implied_ that
+you can do things, or to have it be the case that if you combine this sentence
+and that sentence you can sort of work out that the applicant is capable. No.
+Someone writing up whether to accept you needs to be able to pull the evidence
+straight out of your answer, and you should make that as easy as possible.
+
+## If you're not the ideal candidate, say so
+
+If you went to an Ivy League school and published 15 papers and won a bunch of
+prizes and have been doing research with impressive people for a decade, then
+yeah, you'll be a great candidate and there's no question about it. If you've
+got less evidence than that, you need to do some soul searching and figure out
+why it is that _you_ think you'll be good at research, and then make that
+reasoning very obvious.
+
+In my case, I didn't have a strong research background before MATS. I'd done
+an MSc by dissertation, which was useful, but it wasn't at an impressive
+university or with a well-known supervisor, and I hadn't published anything.
+So I had very little going for me on the "proven researcher" front, and I knew
+this going in. It's maybe on the fence whether this was a good idea, but what
+I did was raise it explicitly in my application. I said something like "I
+know I don't have a track record, a PhD, or references from researchers who've
+worked with me, but nonetheless I think I'll be very good at research, and
+here's why". And then I gave concrete evidence. One was a completely
+self-directed transformer-based RL project that went well. And I pointed out
+that a lot of what I'd done was just me picking up an idea quickly and running
+with it: I got an internship at AWS having never done distributed systems or
+web services before and did well there, I got a job at CubeSpace writing
+firmware for satellites having never written C before and did well there.
+
+If you're applying, you almost certainly have some internal, fuzzy feeling of
+"I think I'll be good at this because of X". That feeling is real evidence,
+it's just not _legible_ yet. Your job is to take the intuition and make it
+very, very clear to someone who doesn't have access to your head. Which brings
+me to:
 
 ## You're good, but are you _legible_?
 
@@ -411,6 +587,105 @@ mentors. This is a process you can start in advance, before applications for
 that fellowship technically open. But it _does_ take a long time. I relied on
 heavily filtering early on (e.g I wasn't interested in governance or
 non-Berkeley options) and then going deep on the remaining mentors.
+
+## Red flags and green flags when picking mentors
+
+I think it matters a lot which mentors you apply to. Some mentors are really,
+really great and some are not so great, and you're going to be spending three
+fairly intense months with whoever you pick. Looking properly at the mentors
+and the projects they propose is a somewhat insane amount of work if I'm
+honest. Claude can help, but Claude will get things wrong, so be wary.
+
+Some red flags:
+
+- No previous mentees. Mentoring is a skill, and someone who's never done it
+  before is a risk.
+- No clear description of the stream, or no precise idea of what the mentees
+  will actually be doing.
+- The description or the project list hasn't been updated in six months or
+  more. They're probably just going to do the same thing over and over.
+- Previous mentees don't seem to have gone very far or done much afterwards.
+
+Some green flags:
+
+- Lots of mentees, over many rounds. Neel Nanda is the obvious example, Team
+  Shard is another. Someone who keeps taking lots of mentees almost certainly
+  enjoys mentoring and has had a lot of practice at it.
+- There seems to be a bit of a community around this person. This usually
+  means they're a good person to be around, which makes your three months a
+  lot more fun and productive and a _lot_ more motivating, and motivation
+  matters more than you'd think.
+- They're explicit about what they can and can't do, and about how much time
+  they will and won't give you.
+- Publications, track record, job titles. These aren't perfect signals but
+  they are definitely signals.
+
+Ideally you want a mentor who enjoys mentoring _and_ is good at it, and these
+are different things. Enjoying it is easy to spot, they'll often say so
+explicitly or they'll just be visibly doing lots of mentoring. Being good at
+it is harder to tell, but if they've been around for a while you can usually
+see where their mentees end up: doing nothing related, or doing clearly useful
+things, or in very good positions. This is a pretty good indicator of where
+you can expect to end up too. Be aware that it's not always visible online,
+sometimes a mentee goes off to do something secret with a government, or
+something impactful that can't be published for IP reasons. But sometimes you
+get a very clear signal, e.g. if a mentee later goes on to work with an even
+more prestigious mentor. That probably means they applied to both, only got
+into the less prestigious one, and that mentor helped them enough (and made
+their skills legible enough) that the more prestigious mentor took them the
+next time round. That's a good sign for the first mentor.
+
+## If the application is painful, take the hint
+
+When I was applying to MATS I was initially going to apply to Neel Nanda's
+stream, which has a ~20 hour research project as part of the application. I
+sat for a few hours trying to think of an interesting project in line with
+what Neel had asked for. I'd come up with an idea, think "oh this is
+fascinating", go and read his (very helpfully elaborate) how-to-apply docs
+more carefully, and find that he'd explicitly said he wasn't looking for that
+sort of thing. Or I'd go down some other rabbit hole, read some papers, find
+something else I thought was super interesting, and realise it just wasn't in
+Neel's interests at all. This went on for a while. And when I looked at the
+projects he _did_ recommend, I just wasn't very interested in them. It took me
+far too long to realise that this meant I probably shouldn't be applying to
+Neel's stream.
+
+So, to say it very explicitly, because I absolutely did not figure it out
+until quite late: if you're really struggling to apply to someone's stream, if
+it's just painful to answer the questions, if you're not feeling inspired and
+you keep finding yourself wanting to go look at something else that's still
+work-adjacent but not really relevant to this stream, then probably you don't
+actually like this and probably you won't enjoy doing the work. To be clear,
+this is the application process working as intended. Some part of an
+application _needs_ to be a bit painful, because an application that requires
+zero effort doesn't filter out the people who only vaguely want the position.
+I think the process could be a lot better than it is, but it probably
+shouldn't be free.
+
+Two things follow from that. One, if the process feels like a pain and you get
+through it anyway, that's a good sign, you've already distinguished yourself
+from everyone who vaguely wanted this but didn't finish the application in
+time. Two, if you really want to apply to someone's stream because it seems
+obvious, or they seem so cool or prestigious or high status, and then you find
+yourself struggling through the application and not enjoying it, heed that
+signal very carefully. In my case I realised I was pretty explicitly just
+chasing the prestige, and I didn't even know I was doing it, which is the part
+I find most interesting. I thought I had a pretty good handle on whether I was
+chasing prestige! I thought "Neel seems really good, mech interp seems very
+interesting", and it turns out I just don't enjoy mech interp the way Neel
+does it. No shade to Neel, this was just not a good match for me. He's a very
+good mentor: I've spoken to a lot of his mentees and they repeatedly say he's
+very good at giving incredibly precise advice, spends a lot of time helping,
+and gives you good taste, and his mentees very reliably go on to do good work.
+If you enjoy his stuff then by all means apply. But the application itself is
+already a filter, and if you don't enjoy answering the questions the mentor
+wrote, you probably won't enjoy three months of working with them.
+
+Three months is pretty intense. There were a fair number of MATS fellows in my
+cohort who just didn't like their project and had a pretty bad time. Sure,
+they got the prestige of MATS and they're probably better off overall than
+they were, but they didn't enjoy it, and they probably should have been more
+choosy about which stream they applied to.
 
 ## Use the LLMs for motivation, but not for writing
 
