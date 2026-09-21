@@ -21,7 +21,18 @@ back here.
 
 > NOTE: I'm going to make each trick a heading, so you/I can link to it
 
-# NEW: `ctrl-j` and `ctrl-k` to scroll in a new way
+# NEW: `j`/`k` remapped to `gj`/`gk`
+
+```
+" Move by display lines, so wrapped text behaves like separate lines.
+" Keep the g-prefixed forms available for moving by actual file lines.
+nnoremap j gj
+nnoremap k gk
+nnoremap gj j
+nnoremap gk k
+```
+
+# `ctrl-j` and `ctrl-k` to scroll in a new way
 
 Something I've _always_ wanted but only now clicked for how to create it. So
 for moving the screen/cursor by one line, you've basically got `j`/`k` and
