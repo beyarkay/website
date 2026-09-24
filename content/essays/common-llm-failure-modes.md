@@ -116,6 +116,20 @@ Astra will (usually after working for a while) being to talk to its sub-agents w
   └ Maxplan997fcf0reviewclosed authorize NEW UNEXPORTED softmax_max_subtract/tests.rs+reference.rs ONLY. Darwinroot/air,Carsonproof/trace. Independent maxnetwork...
 ```
 
+# GPT-5.6-Sol
+
+## [...] <good thing> rather than <obviously bad thing>
+
+> `I’ll leave genuinely judgment-dependent contrasts for the flagged list rather than silently rewriting them.`
+
+> `The protocol existed, but it was scattered rather than obvious.`
+
+# Claude Opus 5.5
+
+## `<compliment>` and `<it gets better>` when you `<actually make it good>`
+
+> `The idea holds up, and it gets stronger once you pin down two things: what the classifier is, and what the trajectories are for.`
+
 # Claude Fable 5.1
 
 ## Imprecise "clickbait-style" commentary that doesn't actually say anything
