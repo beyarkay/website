@@ -218,11 +218,11 @@ Measuring how fast sea level is rising needs records long enough to show acceler
 
 A century of national surveys are scanned PDFs with profile data never entered into [WoSIS](https://www.isric.org/explore/wosis). Feeds every soil-carbon estimate.
 
-### D10 Agricultural experiment station bulletins  
+### D10 Agricultural experiment station bulletins
 
 Century-old variety-trial yield data, scanned, never aggregated. Seed data via [Genesys](https://www.genesys-pgr.org) and [GRIN](https://npgsweb.ars-grin.gov).
 
-### D11 Rebuild ionosphere history from amateur radio contest logs 
+### D11 Rebuild ionosphere history from amateur radio contest logs
 
 A solar storm that garbles <abbr title="High Frequency">HF</abbr> radio also degrades satellite positioning and pushes current into power grids, and forecasting it means knowing how the ionosphere has behaved over many solar cycles. Ionosondes are sparse and recent. A logged radio contact dates and locates one, so decades of public contest logs are a measurement record nobody has assembled: [HamSCI](https://hamsci.org) uses a fraction, [WSPRnet](https://wsprnet.org) only the automated era. Parse the archives into a propagation dataset.
 
@@ -236,7 +236,7 @@ A roof beam, a panel painting or a ship's frame carries the same ring pattern as
 
 [NCAP](https://ncap.org.uk) (tens of millions of [RAF](https://en.wikipedia.org/wiki/Royal_Air_Force)/[Luftwaffe](https://en.wikipedia.org/wiki/Luftwaffe) frames), [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) via [EarthExplorer](https://earthexplorer.usgs.gov) back to the 1930s, [IWM](https://www.iwm.org.uk). Products: WWII bomb-crater → UXO (Unexplained Ordinance) risk maps (see H1); 1940s landscape baseline before ploughing and development.
 
-### E2 Declassified spy-satellite imagery URLs? idk if Wikipedia has the actual imagery... 
+### E2 Declassified spy-satellite imagery URLs? idk if Wikipedia has the actual imagery...
 
 [CORONA](<https://en.wikipedia.org/wiki/Corona_(satellite)>) (~860k frames 1960–72; [CORONA Atlas](https://corona.cast.uark.edu) covers the Middle East), [KH-7 GAMBIT](https://en.wikipedia.org/wiki/KH-7_Gambit) and [KH-9 HEXAGON](https://en.wikipedia.org/wiki/KH-9_Hexagon) (declassified 2011, higher resolution, barely used), all on [EarthExplorer](https://earthexplorer.usgs.gov). Systematic survey of Central Asia, Iran, Iraq, Syria for sites since destroyed or built over. See Q for the full list of declassified sources.
 
@@ -276,7 +276,7 @@ In the style of the [Allen Coral Atlas](https://allencoralatlas.org) for the eco
 
 [Flickr Commons](https://www.flickr.com/commons), [Library of Congress](https://en.wikipedia.org/wiki/Library_of_Congress). Date and geolocate from signage, shadows, vehicles.
 
-### E12 Landslide catalogue completion URLs?datasets? elaborate 
+### E12 Landslide catalogue completion URLs?datasets? elaborate
 
 [NASA's catalogue](https://gpm.nasa.gov/landslides) is built from news reports; [Sentinel-2](https://en.wikipedia.org/wiki/Sentinel-2) change detection fills it, verified against reported events.
 
@@ -304,7 +304,7 @@ The [NEXRAD archive](https://registry.opendata.aws/noaa-nexrad/) back to 1991 se
 
 [TROPOMI](http://www.tropomi.eu) and [MethaneSAT](https://www.methanesat.org) see plumes; [EPA](https://www.epa.gov)'s [GHGRP](https://www.epa.gov/ghgreporting) has facility self-reports. Reconcile facility by facility.
 
-### E19 Flaring and refinery attribution clarify? goal? better URLs 
+### E19 Flaring and refinery attribution clarify? goal? better URLs
 
 [VIIRS Nightfire](https://eogdata.mines.edu/products/vnf/) flaring detections plus fence-line monitors (Texas [TCEQ](https://www.tceq.texas.gov) posts them) plus [OpenAQ](https://openaq.org)/[PurpleAir](https://www.purpleair.com).
 
@@ -324,7 +324,7 @@ Everything below is public in [NASA](https://www.nasa.gov)'s [Planetary Data Sys
 
 [Curiosity](<https://en.wikipedia.org/wiki/Curiosity_(rover)>) and [Perseverance](<https://en.wikipedia.org/wiki/Perseverance_(rover)>) have returned over a million [raw images](https://mars.nasa.gov/msl/multimedia/raw-images/). Several [meteorites on Mars](https://en.wikipedia.org/wiki/List_of_meteorites_on_Mars) were found by chance; a systematic search for meteorites, unusual rocks and dust-devil captures is unfinished.
 
-### F3 Moon ohrc? split, better URLs ideally 
+### F3 Moon ohrc? split, better URLs ideally
 
 [LROC](https://quickmap.lroc.asu.edu) has millions of frames at 0.5 m; [Chandrayaan-2](https://en.wikipedia.org/wiki/Chandrayaan-2)'s OHRC reaches 25 cm ([ISRO](https://www.isro.gov.in)); [Kaguya](https://en.wikipedia.org/wiki/SELENE) and [Chang'e](https://en.wikipedia.org/wiki/Chang%27e_program) add more. Targets: new craters, lava-tube skylights beyond the existing pit catalogue, boulder tracks, lunar swirls, crash sites of early landers, artefact inventory of every [Apollo](https://en.wikipedia.org/wiki/Apollo_program) and [Luna](https://en.wikipedia.org/wiki/Luna_programme) site.
 
@@ -336,7 +336,7 @@ Everything below is public in [NASA](https://www.nasa.gov)'s [Planetary Data Sys
 
 [MESSENGER](https://en.wikipedia.org/wiki/MESSENGER) returned ~300k images ([PDS (Planetary Data System)](https://pds.nasa.gov)); [BepiColombo](https://en.wikipedia.org/wiki/BepiColombo) arrives 2026. Hollows, volatiles, crater statistics. Few people work on Mercury.
 
-### F6 Saturn system URLs to images? define ring propellor?  split
+### F6 Saturn system URLs to images? define ring propellor? split
 
 [Cassini](https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens)'s 13 years, ~450k images, plus radar swaths of Titan and [VIMS](https://en.wikipedia.org/wiki/Visual_and_Infrared_Mapping_Spectrometer) spectral cubes ([PDS (Planetary Data System) Ring-Moon Systems Node](https://pds-rings.seti.org)). Targets: ring propellers and moonlets, Enceladus plume variability, Titan lake-level change, small-moon rotation states.
 
@@ -358,7 +358,7 @@ Everything below is public in [NASA](https://www.nasa.gov)'s [Planetary Data Sys
 
 ## G Oceans: lost lands, lost things, the deep
 
-### G1 Doggerland's method, applied everywhere split, 
+### G1 Doggerland's method, applied everywhere split,
 
 Gaffney mapped Doggerland's rivers from oil-company 3D seismic data. National repositories now release seismic: [UK NSTA National Data Repository](https://ndr.nstauthority.co.uk), [Dutch NLOG](https://www.nlog.nl), [Norway's Sodir](https://www.sodir.no), [US BOEM](https://www.boem.gov). Every continental shelf exposed at the last glacial maximum has buried river valleys, lakes and coastlines in that data: Sundaland (SE Asia), Sahul (Australia's shelf, where [submerged Aboriginal sites were found off the Pilbara in 2020](https://doi.org/10.1371/journal.pone.0233912)), Beringia, the Persian Gulf basin, Black Sea shelf, Adriatic, Yellow Sea, Gulf of Mexico.
 
@@ -366,7 +366,7 @@ Gaffney mapped Doggerland's rivers from oil-company 3D seismic data. National re
 
 The [Blinkerwall](https://en.wikipedia.org/wiki/Blinkerwall), a 10,000-year-old kilometre-long stone wall, was found in 2024 in ordinary survey data from the Baltic. The offshore-wind survey archives in E5 are full of unexamined 1–5 m data.
 
-### G3 Shipwrecks and lost aircraft, prioritised split, URLs, 
+### G3 Shipwrecks and lost aircraft, prioritised split, URLs,
 
 [UNESCO](https://www.unesco.org) estimates [3 million wrecks](https://www.unesco.org/en/underwater-heritage). Records: [Wrecksite](https://www.wrecksite.eu) (crowd), [NOAA](https://www.noaa.gov)'s wreck database, [UKHO](https://www.gov.uk/government/organisations/uk-hydrographic-office), the [Lloyd's Register Foundation heritage archive](https://hec.lrfoundation.org.uk) (casualty returns), [Lloyd's List](https://lloydslist.com) reports in historic newspapers. Combine last-known positions with drift models and the high-resolution bathymetry of E5 to rank targets. For aircraft: the digitised [Missing Air Crew Reports](https://www.archives.gov/research/military/ww2/missing-air-crew-reports) give date, type and last reported position for thousands of WWII losses; intersect each with the footprint of surveys already flown and you get search-ready packets. Slave-ship wrecks via the [Slave Wrecks Project](https://nmaahc.si.edu/explore/initiatives/slave-wrecks-project).
 
@@ -378,7 +378,7 @@ Trawlers log where nets catch on the seabed. The UK [Kingfisher bulletin](https:
 
 Hundreds of thousands of tonnes of conventional and chemical munitions were dumped at sea after both world wars ([OSPAR munitions work](https://www.ospar.org/work-areas/eiha/munitions)); ~200,000 barrels of radioactive waste were dumped in the NE Atlantic 1946–93 ([overview](https://en.wikipedia.org/wiki/Ocean_disposal_of_radioactive_waste)). Mapping, not touching: offshore wind and cable routes need to know. Sonar archives plus historical dumping logs.
 
-### G6 Ghost fishing gear clarify, URLs, goal, how to get started, this seems basically like a  PhD project
+### G6 Ghost fishing gear clarify, URLs, goal, how to get started, this seems basically like a PhD project
 
 ~640,000 tonnes lost per year ([Global Ghost Gear Initiative](https://www.ghostgear.org)). Predict accumulation zones from drift models plus sonar detection; verify with cleanup dives.
 
@@ -440,7 +440,7 @@ Hundreds of thousands of unrecorded oil and gas wells leak methane; the [federal
 
 England's [Don't Lose Your Way](https://dontloseyourway.ramblers.org.uk) campaign needs historic paths mapped from old maps before a statutory cut-off. Pure archival cartography with a legal verifier.
 
-### H10 Historical flood extents URLs? 
+### H10 Historical flood extents URLs?
 
 Old maps, photos and newspaper reports of past floods, georeferenced, as a check on modelled flood maps. Newspapers report heights against named landmarks ("two feet above the bridge step"); extract the number, the unit and the local datum Insurers and planners would use it.
 
@@ -452,7 +452,7 @@ The [revised Lead and Copper Rule](https://www.epa.gov/ground-water-and-drinking
 
 Same method as H11 for housing stock.
 
-## I Side-channels: inferring things from data collected for something else 
+## I Side-channels: inferring things from data collected for something else
 
 The pattern: an instrument built for X incidentally records Y.
 
@@ -492,7 +492,7 @@ The [1808 mystery eruption](https://en.wikipedia.org/wiki/1808_mystery_eruption)
 
 Sunset colours in landscape paintings track volcanic aerosols ([Zerefos et al. 2007](https://doi.org/10.5194/acp-7-4027-2007)); haze in old photographs tracks pollution; birds and plants in art give historical ranges.
 
-### I10 Ship logbooks → magnetic field and sea ice datasets, split, cool though! elaborate 
+### I10 Ship logbooks → magnetic field and sea ice datasets, split, cool though! elaborate
 
 Navigators recorded compass declination for centuries; the [gufm1 model](https://doi.org/10.1098/rsta.2000.0569) reconstructs the geomagnetic field from them. Whaling catch positions reconstruct the historical sea-ice edge.
 
@@ -500,7 +500,7 @@ Navigators recorded compass declination for centuries; the [gufm1 model](https:/
 
 [Find a Grave](https://www.findagrave.com) and [BillionGraves](https://billiongraves.com) hold hundreds of millions of dated stones: child-mortality curves and epidemic timing by parish, checkable against the few places with good registers.
 
-### I12 Bomb-pulse radiocarbon → poached ivory datasets? unclear, clarify, elaborate 
+### I12 Bomb-pulse radiocarbon → poached ivory datasets? unclear, clarify, elaborate
 
 Atmospheric nuclear tests left a carbon-14 spike that dates any tissue ([Uno et al. 2013](https://doi.org/10.1073/pnas.1302226110)); ivory dated after the 1989 ban is evidence. The technique exists; the systematic application to seizure records doesn't.
 
@@ -530,31 +530,33 @@ Wine-harvest dates in Burgundy reconstruct summer temperature since 1354; hearth
 
 ## J Sequencing and biomedical archives
 
-### J1 SRA/ENA sweeps
+### J1 SRA/ENA sweeps explain acronyms, better title, split, elaborate
 
 [Serratus](https://serratus.io) found 130k new RNA viruses; [Logan](https://github.com/IndexThePlanet/Logan) assembled all of the [Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra). Remaining: novel CRISPR systems, antibiotic biosynthetic clusters, giant viruses, and contamination/mislabeling audits (wrong species, wrong sex, cell-line cross-contamination). Mislabeling is checkable from the reads.
 
-### J2 Restoring invisible trials
+### J2 Restoring invisible trials elaborate titel, links? is this even doablee?
 
 Half of trials never publish; results exist in [FDA](https://www.fda.gov) approval packages ([Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/)), [EMA](https://www.ema.europa.eu) clinical data, and data-sharing portals. [RIAT](https://restoringtrials.org) did a handful by hand.
 
-### J3 Adverse-event backtesting
+### J3 Adverse-event backtesting elaborate? jargon? dataset? unclear if this is
+
+doable
 
 [openFDA](https://open.fda.gov) exposes [FAERS](https://www.fda.gov/drugs/surveillance/fda-adverse-event-reporting-system-faers). Freeze a signal detector on data to year N, score it against label changes and withdrawals in N+1..N+5, then run forward.
 
-### J4 Hospital price files
+### J4 Hospital price files is this underserved? unclear if it's not already being done
 
 Every US hospital must post machine-readable prices; the files are deliberately unusable. [Dolthub](https://www.dolthub.com/repositories/dolthub/hospital-price-transparency) and [Turquoise](https://turquoise.health) have partial parses. Deliverable: one national table with a verified sample (call the billing office).
 
-### J5 Image-archive audits
+### J5 Image-archive audits jargon, dataset source of truth? how to get started? jargon?
 
 [EMPIAR](https://www.ebi.ac.uk/empiar/), [IDR](https://idr.openmicroscopy.org), [Human Protein Atlas](https://www.proteinatlas.org) for mislabeled or duplicated images; [PDB-REDO](https://pdb-redo.eu) covers geometry, not misassigned ligands.
 
-### J6 Antimicrobial resistance from public isolates
+### J6 Antimicrobial resistance from public isolates jragon? goal? split? elaborate?
 
 [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/) (over a million isolates with resistance genes, dates, locations); [Pfizer](https://www.pfizer.com)'s ATLAS via [Vivli](https://amr.vivli.org). Spread maps, cross-hospital outbreak detection, gaps versus [WHO GLASS](https://www.who.int/initiatives/glass).
 
-### J7 Wastewater epidemiology methods
+### J7 Wastewater epidemiology methods split, is the data public? elaborate? goal?
 
 [WastewaterSCAN](https://data.wastewaterscan.org) and CDC NWSS; site normalisation and variant deconvolution are live methods problems, backtestable against case data.
 
@@ -562,15 +564,15 @@ Every US hospital must post machine-readable prices; the files are deliberately 
 
 [FDA shortage list](https://www.accessdata.fda.gov/scripts/drugshortages/) plus [warning letters](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters), inspection reports via [FOIA](https://www.foia.gov), and the number of manufacturers per active ingredient. Predict which sterile injectable goes short next; hospitals would use it. Backtestable, but only against a dated timeline rebuilt from archived snapshots: the live shortage API rewrites history, so a naive backtest leaks the answer.
 
-### J9 Inspection-report clustering
+### J9 Inspection-report clustering goal? elaborate? jargon, better dataset/urls?
 
 [FDA Form 483s](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/fda-form-483-frequently-asked-questions) and EU inspection reports describe recurring plant failures in free text; cluster by facility over time.
 
-### J10 Food-safety alert prediction
+### J10 Food-safety alert prediction datasets? urls? goal? elaborate
 
 [RASFF](https://webgate.ec.europa.eu/rasff-window/screen/search) (EU), [FDA](https://www.fda.gov) recalls, [USDA](https://en.wikipedia.org/wiki/United_States_Department_of_Agriculture) pesticide-residue data. Predict the next product/origin alert; backtest.
 
-### J11 Animal-disease early signals
+### J11 Animal-disease early signals likelihood of there being enough data to do this properly?
 
 [ProMED](https://promedmail.org) (30 years of curated outbreak reports) versus official [WAHIS](https://wahis.woah.org) reporting: what preceded major outbreaks, and what the official system missed.
 
