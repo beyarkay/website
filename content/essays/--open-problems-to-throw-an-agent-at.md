@@ -11,149 +11,149 @@ _Highest expected value per unit of compute, in Claude Fable's judgement: B1 (re
 
 ## A Machine-checked
 
-### A1 OEIS conjectures
+### A1 OEIS conjectures CB
 
 The [On-Line Encyclopedia of Integer Sequences](https://oeis.org) contains thousands of entries with unproved "Conjecture: a(n) = …" comments. Prove each in [Lean](https://lean-lang.org), or refute with a computable counterexample. Nobody has attacked this systematically.
 
-### A2 Erdős problems
+### A2 Erdős problems FC
 
 [erdosproblems.com](https://www.erdosproblems.com) lists ~1,000 problems; Terence Tao has been running AI on them since 2025, so this is not new, but hundreds remain and [Lean](https://lean-lang.org) is the verifier.
 
-### A3 Formalise the unformalised
+### A3 Formalise the unformalised FC
 
 [DeepMind](https://deepmind.google)'s [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures) repo and [Freek Wiedijk's 100 theorems list](https://www.cs.ru.nl/~freek/100/) name what isn't yet in [Mathlib](https://leanprover-community.github.io). Deliverable is a standalone [Lean](https://lean-lang.org) project, not a Mathlib pull request (review is the bottleneck).
 
-### A4 Formally verify existing zero-knowledge circuits
+### A4 Formally verify existing zero-knowledge circuits DD
 
 The [0xPARC ZK bug tracker](https://github.com/0xPARC/zk-bug-tracker) shows under-constrained [Circom](https://circom.io)/[Halo2](https://github.com/zcash/halo2) circuits securing real money.
 
-### A5 Machine-checked correctness for the crypto everyone runs
+### A5 Machine-checked correctness for the crypto everyone runs BC
 
 [HACL\*](https://hacl-star.github.io) covers a subset; [BoringSSL](https://boringssl.googlesource.com/boringssl), [libsodium](https://libsodium.org), [RustCrypto](https://github.com/RustCrypto) and the Linux kernel crypto subsystem have large unverified surfaces. Tools: [Verus](https://github.com/verus-lang/verus), [F\*](https://en.wikipedia.org/wiki/F*_%28programming_language%29), [Lean](https://lean-lang.org). Deliverable is a proof.
 
-### A6 Re-derive computer-assisted proofs with verified interval arithmetic
+### A6 Re-derive computer-assisted proofs with verified interval arithmetic F?
 
 Many published results rest on numerical code nobody re-ran. Discrepancies are findings. See [Flyspeck](https://github.com/flyspeck/flyspeck) for the model.
 
-### A7 Verified parsers and interpreters for load-bearing formats
+### A7 Verified parsers and interpreters for load-bearing formats FF
 
 PDF, JSON, ASN.1, eBPF, WebAssembly. Parsers are where exploits live. [CompCert](https://compcert.org) shows the approach scales.
 
-### A8 Verified re-implementations of small C libraries with differential fuzzing
+### A8 Verified re-implementations of small C libraries with differential fuzzing FD
 
 [zlib](https://zlib.net), [libpng](http://www.libpng.org/pub/png/libpng.html), [libjpeg-turbo](https://libjpeg-turbo.org), [expat](https://libexpat.github.io/); [SQLite](https://www.sqlite.org)'s [public test suite](https://www.sqlite.org/testing.html) is the gold standard. Verifier: byte-identical output across millions of fuzzed inputs plus upstream tests. [DARPA TRACTOR](https://www.darpa.mil/program/translating-all-c-to-rust) is adjacent.
 
-### A9 Post-quantum migration with interop test vectors
+### A9 Post-quantum migration with interop test vectors ??
 
 For libraries and protocols not yet moved. Verifier: [NIST PQC](https://csrc.nist.gov/projects/post-quantum-cryptography) known-answer tests and cross-implementation interop.
 
-### A10 Executable law with official worked examples as tests
+### A10 Executable law with official worked examples as tests CA
 
 [Catala](https://catala-lang.org) already encodes chunks of French benefits law. Targets: [UK Universal Credit](https://www.gov.uk/universal-credit), US [SNAP](https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program) per state, [EITC](https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc), student-loan repayment, pension rules. Verifier: government-published worked examples and [PolicyEngine](https://policyengine.org) cross-checks.
 
-### A11 Open tax computation engine
+### A11 Open tax computation engine CD
 
 Start from the [open-sourced IRS Direct File code](https://github.com/IRS-Public/direct-file). Verifier: IRS e-file [Assurance Testing System scenarios](https://www.irs.gov/e-file-providers) and published worked examples. Scope honestly: the barrier to a "[TurboTax](https://turbotax.intuit.com) killer" is e-file authorisation, liability and 50 state codes, not code.
 
 ## B Re-run to verify
 
-### B1 Computational reproducibility of every paper with a replication package
+### B1 Computational reproducibility of every paper with a replication package FF
 
 [AEA journals](https://aeadataeditor.github.io) mandate packages since 2019; [NeurIPS](https://neurips.cc)/[ICML](https://icml.cc) have code links; [PLOS](https://plos.org) has data policies. Rerun, diff against the paper's tables, publish a scoreboard. The [Institute for Replication](https://i4replication.org) does dozens a year by hand. Probably the highest-value entry in the whole list: scalable, cheap verifier, no maintainer burden. Models too: [BioModels](https://www.ebi.ac.uk/about/news/announcements/biomodels-reproducibility-scorecard/) publishes a reproducibility scorecard, and running [memote](https://memote.readthedocs.io/en/latest/) over every published genome-scale metabolic model finds the ones that make energy from nothing, which is machine-checkable.
 
-### B2 Resurrect dead scientific software
+### B2 Resurrect dead scientific software BC
 
 [Software Heritage](https://www.softwareheritage.org) has the source; the paper names the figure.
 
-### B3 Port legacy Fortran/MATLAB/IDL models to open languages with numerical-equivalence tests
+### B3 Port legacy Fortran/MATLAB/IDL models to open languages with numerical-equivalence tests BB
 
 Hydrology, ecology, epidemiology, climate. Verifier: outputs match to tolerance on reference inputs.
 
-### B4 Statistical-error sweeps of the literature
+### B4 Statistical-error sweeps of the literature AB
 
 [statcheck](https://michelenuijten.shinyapps.io/statcheck-web/), [GRIM](https://en.wikipedia.org/wiki/GRIM_test), SPRITE, image-duplication detection across all of [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/) and [arXiv](https://arxiv.org). [The Black Spatula Project](https://the-black-spatula-project.github.io/) started this in 2025; scale is what's missing. Two more with ground truth: gene symbols that [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) turned into dates ([still in a third of supplements](https://doi.org/10.1371/journal.pcbi.1008984)), and [Cochrane](https://www.cochrane.org) reviews recomputed from their own [data packages](https://documentation.cochrane.org/revman-kb/data-package-user-guide-243761660.html) for double-counted trials and arithmetic slips. Report to authors and journals, not [Twitter](https://twitter.com).
 
-### B5 Outcome switching in clinical trials
+### B5 Outcome switching in clinical trials AA
 
 Compare pre-registered primary outcomes on [ClinicalTrials.gov](https://clinicaltrials.gov) with the published paper. [COMPare](https://compare-trials.org) did ~60 trials by hand; [TrialsTracker](https://trialstracker.net) covers results reporting but not switching.
 
-### B6 Does the cited source actually say that?
+### B6 Does the cited source actually say that? CD
 
 For [Wikipedia](https://en.wikipedia.org) and for review articles. [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) [prototyped this in 2022](https://arxiv.org/abs/2207.06220) and dropped it. Verifier: crowd spot-check.
 
-### B7 Errata hunting in open textbooks
+### B7 Errata hunting in open textbooks DD
 
 Recompute every worked example in [OpenStax](https://openstax.org), [LibreTexts](https://libretexts.org), [MIT OCW](https://ocw.mit.edu) problem sets.
 
-### B8 Fuzz, fix and regression-test open-source software that has opted in
+### B8 Fuzz, fix and regression-test open-source software that has opted in ED
 
 [OSS-Fuzz](https://google.github.io/oss-fuzz/) and [AIxCC](https://aicyberchallenge.com) cover discovery. Include only with an opt-in registry.
 
-### B9 Accessibility remediation of civic websites
+### B9 Accessibility remediation of civic websites FD
 
 Measured by [axe-core](https://github.com/dequelabs/axe-core) and [Lighthouse](https://developer.chrome.com/docs/lighthouse) plus screen-reader scripts. Do it on forks and hand over.
 
-### B10 Conformance test suites for standards that ship without them
+### B10 Conformance test suites for standards that ship without them FF
 
 Many [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)/[IETF](https://www.ietf.org) specs have no reference tests. Deliverable is the suite; everyone's implementation then gets checked for free.
 
-### B11 Cross-implementation differential testing
+### B11 Cross-implementation differential testing FF
 
 TLS stacks, JSON parsers, date/time libraries, [Unicode](https://home.unicode.org) handling, payroll engines. Disagreements are bugs by construction.
 
 ## C Text archives: digitised but unread
 
-### C1 Oxyrhynchus papyri
+### C1 Oxyrhynchus papyri BA (it depends)
 
 ~500,000 fragments, under 10% published after a century ([Oxford POxy](https://oxyrhynchus.web.ox.ac.uk/); crowd project [Ancient Lives](https://www.ancientlives.org)). Transcribe; match against known texts in the [TLG](https://www.tlg.uci.edu); find physical joins; flag what matches nothing (candidate lost works). Verifier: known texts, physical joins.
 
-### C2 Cairo Genizah
+### C2 Cairo Genizah ?B
 
 ~400,000 fragments imaged by the [Friedberg project](https://fjms.genizah.org). Content-level indexing into a medieval Mediterranean social and economic database.
 
-### C3 Cuneiform backlog
+### C3 Cuneiform backlog AS
 
 ~500,000 tablets excavated, most unpublished ([CDLI](https://cdli.mpiwg-berlin.mpg.de)); [LMU](https://www.lmu.de/en/index.html)'s [Fragmentarium](https://www.ebl.lmu.de) does AI joins for literature. The 90% that is administrative text holds Bronze Age price series, harvests, disease.
 
-### C4 Sinai palimpsests
+### C4 Sinai palimpsests SA
 
 Multispectral images of ~70 overwritten manuscripts are online at the [Sinai Palimpsests Project](https://sinai.library.ucla.edu). Recovering undertext (lost Christian Palestinian Aramaic, Caucasian Albanian, Greek) from the image stacks.
 
-### C5 Dunhuang, Timbuktu, Ethiopian and Armenian manuscripts
+### C5 Dunhuang, Timbuktu, Ethiopian and Armenian manuscripts ??
 
 [International Dunhuang Project](https://idp.bl.uk), [HMML](https://hmml.org) (which imaged Timbuktu and Ethiopian collections). Catalogue-level description first.
 
-### C6 Undeciphered scripts with corpora
+### C6 Undeciphered scripts with corpora AA
 
 Proto-Elamite (~1,600 tablets on [CDLI](https://cdli.mpiwg-berlin.mpg.de)), [Linear A](https://en.wikipedia.org/wiki/Linear_A), Cypro-Minoan, Indus. Verifier is Ventris's: consistent readings across the corpus that predict new tablets.
 
-### C7 Vatican Archive, Pius XII pontificate
+### C7 Vatican Archive, Pius XII pontificate CC
 
 Opened 2020, ~16 million pages ([Archivio Apostolico](https://www.archivioapostolicovaticano.va)). Wartime persecution questions plus 1939–58 diplomatic cables.
 
-### C8 Arolsen Archives
+### C8 Arolsen Archives BC
 
 30 million Holocaust-era documents ([arolsen-archives.org](https://arolsen-archives.org)). Link the same person across camp registers, transport lists and tracing requests. Every resolved fate matters to a family.
 
-### C9 Stasi shredded files
+### C9 Stasi shredded files BA
 
 ~15,500 sacks of hand-torn documents at the [Stasi Records Archive](https://www.stasi-unterlagen-archiv.de); the [Fraunhofer e-Puzzler](https://www.ipk.fraunhofer.de/de/zusammenarbeit/referenzen/stasi-puzzle.html) stalled after a few hundred. Scanned-but-unreconstructed sacks are a jigsaw-vision problem. Caveat: no downloadable fragment corpus exists; this starts with a [Bundesarchiv](https://www.bundesarchiv.de/stasi-unterlagen-archiv/rekonstruktion/) partnership, not a download.
 
 <abbr title="German Democratic Repubic" lang="en" class="dreipc-abbreviation">GDR</abbr>
 
-### C10 Declassified intelligence corpora
+### C10 Declassified intelligence corpora SS
 
 [CIA CREST](https://www.cia.gov/readingroom/), [FBI Vault](https://vault.fbi.gov), the [2025 JFK release](https://www.archives.gov/research/jfk), [MKUltra](https://en.wikipedia.org/wiki/Project_MKUltra), [Venona](https://en.wikipedia.org/wiki/Venona_project), UK releases. Build a who-met-whom-when graph; surface documents contradicting official histories. Every finding cites a page image.
 
-### C11 UK "migrated archives"
+### C11 UK "migrated archives" CB
 
 Colonial-office files on Kenya, Malaya, Cyprus released 2011–13 ([FCO 141 at TNA](https://discovery.nationalarchives.gov.uk)). Barely read.
 
-### C12 Trial and party archives
+### C12 Trial and party archives ?F
 
 [Nuremberg exhibits](https://nuremberg.law.harvard.edu), [Comintern](https://en.wikipedia.org/wiki/Comintern) microfilm ([Hoover](https://www.hoover.org/library-archives)), Cultural Revolution local gazetteers.
 
-### C13 Nazi-looted art
+### C13 Nazi-looted art F?
 
 [ERR card files](https://www.errproject.org), the [Lost Art register](https://www.lostart.de), the [Getty Provenance Index](https://www.getty.edu/databases-tools-and-technologies/provenance/) (dealer stock books and auction records), the [German Historical Museum databases](https://www.dhm.de/en/collection/research/provenance-research/databases/), post-1945 auction catalogues, museum provenance pages. Match objects across them. Two joins that a human can't do at scale and a machine can: inventory-number chains (the same object stamped, renumbered and crossed out across wartime repositories) and the same photograph reappearing under a different artist or title. Checkable object by object.
 
