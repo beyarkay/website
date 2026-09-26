@@ -157,23 +157,23 @@ Colonial-office files on Kenya, Malaya, Cyprus released 2011–13 ([FCO 141 at T
 
 [ERR card files](https://www.errproject.org), the [Lost Art register](https://www.lostart.de), the [Getty Provenance Index](https://www.getty.edu/databases-tools-and-technologies/provenance/) (dealer stock books and auction records), the [German Historical Museum databases](https://www.dhm.de/en/collection/research/provenance-research/databases/), post-1945 auction catalogues, museum provenance pages. Match objects across them. Two joins that a human can't do at scale and a machine can: inventory-number chains (the same object stamped, renumbered and crossed out across wartime repositories) and the same photograph reappearing under a different artist or title. Checkable object by object.
 
-### C14 Historic newspapers
+### C14 Historic newspapers split, give seed urls
 
 [Chronicling America](https://chroniclingamerica.loc.gov) (20M+ pages), [Trove](https://trove.nla.gov.au), [Delpher](https://www.delpher.nl), [Gallica](https://gallica.bnf.fr), [Impresso](https://impresso-project.ch). Concrete wins already achieved by hand: 1918 flu spread by city ([Influenza Archive](https://www.influenzaarchive.org)), geomagnetic storms from aurora reports, earthquake intensity maps from damage columns, sea-ice dates from shipping news, text-reuse networks ([Viral Texts](https://viraltexts.org)). The archive is ~100× what has been read. Also the corpus for historical corruption: cross-reference politicians' names with land transfers, company formations and contract awards.
 
-### C15 Industry document archives
+### C15 Industry document archives clarify, split
 
 [UCSF](https://en.wikipedia.org/wiki/University_of_California,_San_Francisco)'s [Industry Documents Library](https://www.industrydocuments.ucsf.edu) (14M+ tobacco documents), the [Opioid Industry Documents Archive](https://www.industrydocuments.ucsf.edu/opioids/), chemical and fossil-fuel collections ([Climate Files](https://www.climatefiles.com)). Primary documents from litigation, public, mostly unread.
 
-### C16 Translate untranslated public-domain science
+### C16 Translate untranslated public-domain science, clarify, seed urls
 
 Soviet-era mathematics and physics, German chemistry, Japanese engineering. Verifier is weaker (bilingual spot-check), but the downside is nil.
 
-### C17 Transcribe and index public-domain audio/video
+### C17 Transcribe and index public-domain audio/video,clarify,what's the goal, seed urls
 
 [Internet Archive](https://archive.org), congressional hearings, oral histories. Verifier: word-error rate on a human-transcribed sample.
 
-### C18 Un-redact by diffing releases
+### C18 Un-redact by diffing releases 
 
 The same page is often released more than once with different black boxes: the 2017 and 2025 JFK tranches, a [CIA CREST](https://www.cia.gov/readingroom/) copy versus the FBI Vault copy of the same memo, a cable held at both [TNA](https://www.nationalarchives.gov.uk) and [NARA](https://www.archives.gov). Align page images across releases and surface every word visible in one copy and redacted in another. Researchers do this by hand on famous documents; nobody has run it across the corpora in C10. Verifier: the recovered text must be visible in a public page image. Guessed redactions count for nothing.
 
