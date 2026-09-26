@@ -4,10 +4,26 @@ title: Verifiable Problems to Point an Agent At
 tags: []
 ---
 
-# Fable's Version
+This doc contains some problems that are unusually amenable to being solvable
+by AI. Specifically, they have have some/all of these properties:
 
-_Working title_
-_Highest expected value per unit of compute, in Claude Fable's judgement: B1 (reproducibility), M1 → sections C and D (read the archives), E5/G (the offshore survey archives), H1–H8 (hazards from records), and J8/N4/N5 (backtestable early warnings)._
+- They're easy to verify or know you got the answer correct
+- There's lots of data, but nobody's bothered to look through it all
+- The data is available, but it's in a painful format (e.g. scans of tables,
+  custom/bespoke formats, plain text, etc)
+- Usually something that's in an underserved field where practitioners aren't
+  used to using machine-learning.
+- they're underserved or it's unlikely that there's anyone who's done the task
+  already (e.g. little/no profit incentive to do the task, or the
+  responsibility doesn't fall on any existing government body)
+- Most of these are "easy wins" as well, so someone could make fairly easy
+  progress with the help of an AI, but it's not _so_ easy that you can only
+  throw the AI at the problem just yet.
+
+Most of these ideas could be partially-done by just converting data into an
+easy-to-parse format and hosting the data on huggingface as an unofficial
+mirror. e.g. converting scans of 100-year-old ships logs into a CSV would be a
+massive help to understanding maritime trade and ocean conditions.
 
 ## A Machine-checked
 
@@ -578,79 +594,81 @@ Every US hospital must post machine-readable prices; the files are deliberately 
 
 ## K Records that could be linked but aren't (investigative layer)
 
-### K1 Procurement anomaly detection
+### K1 Procurement anomaly detection split, unclear if this is doable
 
 [EU TED](https://ted.europa.eu), [USAspending](https://www.usaspending.gov), [UK Contracts Finder](https://www.contractsfinder.service.gov.uk), [ProZorro](https://prozorro.gov.ua). Bid-rigging fingerprints: single-bidder tenders, price rotation, identical typos across "competing" bids, winners incorporated the week before. Output goes to journalists with documents attached.
 
-### K2 Company-registry networks
+### K2 Company-registry networks better title, jargon, unclear if this is underserved,probbly already well-served by govt's wanting to disallow disqualified directors
 
 [Companies House bulk data](https://download.companieshouse.gov.uk), [OpenCorporates](https://opencorporates.com), [ICIJ Offshore Leaks](https://offshoreleaks.icij.org). Disqualified directors still directing, shared addresses across thousands of shells, ownership loops.
 
-### K3 Model-bill fingerprinting
+### K3 Model-bill fingerprinting, better title, model bills??? jargon, unclear whta this is doing, goal?
 
 [Copy, Paste, Legislate](https://publicintegrity.org/topics/politics/copy-paste-legislate/) matched lobbyist model bills to state laws once in 2019. Run continuously across all states, the [EU](https://european-union.europa.eu) and [Westminster](https://en.wikipedia.org/wiki/Parliament_of_the_United_Kingdom), with lobbying-disclosure filings attached.
 
-### K4 Judicial conflicts
+### K4 Judicial conflicts, better title! datasets? urls? how to get started?
 
 The [WSJ found 131 federal judges](https://www.wsj.com/articles/131-federal-judges-broke-the-law-by-hearing-cases-where-they-had-a-financial-interest-11632834421) ruling on cases involving their holdings; [CourtListener](https://www.courtlistener.com/financial-disclosures/) hosts disclosures. Extend to state courts and arbitrators.
 
-### K5 Charity self-dealing
+### K5 Charity self-dealing datasets? irs.gov isn't good enough, better urls, better title
 
 Every [Form 990](https://en.wikipedia.org/wiki/Form_990) is on [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/): related-party transactions, pay outliers, grants to entities sharing a board. Checkable against later [IRS](https://www.irs.gov) revocations.
 
-### K6 Unidentified remains vs missing persons
+### K6 Unidentified remains vs missing persons unclear how to make progress, datasets? goal?
 
 [NamUs](https://www.namus.gov) lists ~14,000 unidentified bodies; matching has been DNA-driven, but text and metadata (tattoos, dental, clothing, timeline) were never cross-searched at scale.
 
-### K7 Slave-trade record linkage
+### K7 Slave-trade record linkage goal? URLS for planation legers?
 
 [SlaveVoyages](https://www.slavevoyages.org), [Freedom on the Move](https://freedomonthemove.org), [Enslaved.org](https://enslaved.org), plantation ledgers. Reconstruct individual lives across sources.
 
-### K8 Unenforced judgments and wage theft
+### K8 Unenforced judgments and wage theft better data? I don't know if this is
+
+enough to get started? goal?
 
 [DOL enforcement data](https://enforcedata.dol.gov), state labour boards: who never paid, who reincorporated to dodge it.
 
-### K9 FOIA archaeology
+### K9 FOIA archaeology goal? seems kinda pointless?
 
 Agencies publish [FOIA](<https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)>) logs (what was requested) and reading rooms (what was posted). Mine logs for records released to one requester but never posted, then request them via [MuckRock](https://www.muckrock.com).
 
-### K10 Wildlife-trade discrepancies
+### K10 Wildlife-trade discrepancies data?urls? goal?
 
 The [CITES Trade Database](https://trade.cites.org) records both exporter- and importer-reported shipments; systematic mismatches (e.g., "captive-bred" exports from countries with no breeding facilities) indicate laundering. Applied by hand to single species, never across all 40k listed taxa.
 
-### K11 Coded-language wildlife marketplaces
+### K11 Coded-language wildlife marketplaces dataset? elaborate
 
 Sellers use euphemisms ("ox bone" for ivory). The [Coalition to End Wildlife Trafficking Online](https://www.endwildlifetraffickingonline.org) relies on volunteer spotters. Scoreable by takedown rate.
 
-### K12 Seizure-record networks
+### K12 Seizure-record networks dataset? goal? elaborate
 
 [TRAFFIC's Wildlife Trade Portal](https://www.wildlifetradeportal.org) holds thousands of seizures from press reports; link into trafficker networks by courier, route, concealment method.
 
-### K13 RFMO (Regional Fisheries Management Organisation) paperwork
+### K13 RFMO (Regional Fisheries Management Organisation) paperwork goal? seems like there's already an incentive to catch this sorta laundering identity crimes?
 
 Tuna commissions publish compliance reports and vessel lists as PDFs; the [combined IUU vessel list](https://iuu-vessels.org) is the tip. Cross-reference flag, owner and name changes to find vessels laundering identity. [Global Fishing Watch](https://globalfishingwatch.org) covers the satellite side.
 
-### K14 Catch reconstruction vs trade
+### K14 Catch reconstruction vs trade elaborate? URLs?
 
 [Sea Around Us](https://www.seaaroundus.org) reconstructs true catch; [UN Comtrade](https://comtrade.un.org) has trade. Exporting more of a species than plausibly caught is checkable.
 
-### K15 Politician promise and position tracker
+### K15 Politician promise and position tracker goal?
 
-Automated, cross-country, every claim hyperlinked to a primary source; [PolitiFact](https://www.politifact.com) and [Full Fact](https://fullfact.org) manual trackers are the backtest. Will be received as partisan by whoever scores worst; include with eyes open.
+Automated, cross-country, every claim hyperlinked to a primary source; [PolitiFact](https://www.politifact.com) and [Full Fact](https://fullfact.org) manual trackers are the backtest.
 
-### K16 Aid-project failure prediction
+### K16 Aid-project failure prediction again, seems to probably have someone checking this already??
 
 Every [World Bank](https://www.worldbank.org) project has a completion report and an IEG rating ([documents.worldbank.org](https://documents.worldbank.org), [IEG](https://ieg.worldbankgroup.org)); [IATI](https://iatistandard.org) has donor transactions. What predicts failure has only been studied in samples.
 
-### K17 Discredited forensics in standing convictions
+### K17 Discredited forensics in standing convictions what on earth is going on here? elaborate? jargon? datasets?
 
 The [National Registry of Exonerations](https://www.law.umich.edu/special/exoneration) tags contributing factors; appellate opinions are text. Find convictions resting on bite marks, hair microscopy or discredited shaken-baby criteria, with a human review layer. [US Sentencing Commission](https://www.ussc.gov/research/datafiles/commission-datafiles) data for disparity work.
 
-### K18 Expungement and eligibility engines
+### K18 Expungement and eligibility engines elaborate? datasets?
 
 Per-state expungement eligibility verified against statute; the [Collateral Consequences Resource Center](https://ccresourcecenter.org) maintains the legal map.
 
-### K19 Which promised repairs vanished
+### K19 Which promised repairs vanished goal? jargon? what's going on here? clarify?
 
 Every public audit ends with recommendations; almost nobody checks what happened next. The US [GAO](https://www.gao.gov/reports-testimonies/recommendations-database) keeps an open-recommendations database, the UK [NAO](https://www.nao.org.uk), Brazil's [TCU](https://www.tcu.gov.br) and India's [CAG](https://cag.gov.in) publish equivalents as PDFs. Trace each recommendation through later budgets, minutes and implementation reports to a completion record or an explicit statement of non-completion, and find the ones that were re-recommended three audits running. Verifier: the dated document that closes or reopens each item. Non-US coverage comes free.
 
@@ -658,31 +676,31 @@ Every public audit ends with recommendations; almost nobody checks what happened
 
 Most consultation documents got a week of a tired analyst's time. Some venues have a built-in scoreboard: the comment is adopted or it isn't.
 
-### L1 Proposed federal rules
+### L1 Proposed federal rules, goal?
 
 [regulations.gov](https://www.regulations.gov). Final rules must respond to substantive comments, so adoption is measurable. Target: cost-benefit arithmetic that doesn't add up, definitions conflicting with the enabling statute, impossible compliance timelines, references to superseded sections, and smarter trade-offs the drafter missed.
 
-### L2 Find the broken arithmetic in environmental impact statements
+### L2 Find the broken arithmetic in environmental impact statements, goal? seems hard to do properly
 
 A major US federal project files an <abbr title="Environmental Impact Statement">EIS</abbr> of hundreds of pages modelling traffic, emissions and water, and a comment period in which an error still changes the outcome. Read [EPA's database](https://cdxapps.epa.gov/cdx-enepa-II/public/action/eis/search) for inconsistent baselines, mis-stated model inputs and alternatives dismissed on wrong arithmetic, then file the comment.
 
-### L3 Standards errata
+### L3 Standards errata Seems hard to verify? goal?
 
 The [RFC Editor](https://www.rfc-editor.org/errata.php) formally accepts errata; [Ethereum EIPs](https://eips.ethereum.org), [Bitcoin BIPs](https://github.com/bitcoin/bips), [W3C](https://www.w3.org) specs. Spec ambiguities that produce implementation divergence (B11) are the richest vein.
 
-### L4 Local planning consultations
+### L4 Local planning consultations how to verify the change is good?
 
 UK planning portals, US municipal agendas: proposals conflicting with the authority's own adopted plan; missed Pareto improvements.
 
-### L5 Dead and inconsistent statutory cross-references
+### L5 Dead and inconsistent statutory cross-references okay this one is nice
 
 [US Code](https://www.govinfo.gov/app/collection/uscode), [CFR](https://www.ecfr.gov), [legislation.gov.uk](https://www.legislation.gov.uk), EU regulations: references to repealed sections, circular definitions, the same term defined differently across a code. The multilingual version: the 24 official-language texts of the same EU regulation are equally authoritative and sometimes disagree on a number, a date or a negation; aligned passages plus a bilingual spot-check.
 
-### L6 Patent prior-art hunting
+### L6 Patent prior-art hunting elaborate?
 
 [Unified Patents](https://www.unifiedpatents.com) runs cash bounties; [PTAB](https://www.uspto.gov/patents/ptab) outcomes are the verifier.
 
-### L7 Improper Orange Book listings
+### L7 Improper Orange Book listings elaborate? orange book??? jargon
 
 The [FTC challenged 100+ patent listings](https://www.ftc.gov/news-events/news/press-releases/2023/11/ftc-challenges-more-100-patents-improperly-listed-fdas-orange-book) that delay generics; the listing criteria are statutory and checkable.
 
@@ -690,11 +708,11 @@ The [FTC challenged 100+ patent listings](https://www.ftc.gov/news-events/news/p
 
 ### Tools that unlock the archives
 
-#### M1 Open handwritten-text recognition for historical hands
+#### M1 Open handwritten-text recognition for historical hands datasets? urls?
 
 [Transkribus](https://www.transkribus.org) is closed, paid and mediocre on Kurrent, secretary hand, early Arabic, Ethiopic, Devanagari. This one tool unlocks sections C and D. Verifier: character error rate on published ground truth.
 
-#### M2 Optical music recognition
+#### M2 Optical music recognition datasets? better title
 
 [IMSLP](https://imslp.org) has ~700k scores as images; [Audiveris](https://github.com/Audiveris/audiveris) is the open tool and nobody uses it. Verifier: alignment with recordings.
 
@@ -702,71 +720,73 @@ The [FTC challenged 100+ patent listings](https://www.ftc.gov/news-events/news/p
 
 Before governments kept databases they printed the numbers: statistical abstracts, census volumes, trade and customs returns, agricultural and factory returns. Those pages are the only record of prices, wages, output and population for most countries before about 1960, and they are scanned. <abbr title="Optical Character Recognition">OCR</abbr> reads the prose and fails on the tables, so economic history is bottlenecked on hand transcription. Extract the tables and publish each cell with its page image.
 
-#### M4 Speech recognition for dysarthric and accented speech and unserved languages
+#### M4 Speech recognition for dysarthric and accented speech and unserved languages elaborate? datasets? urls? goal?
 
 [Project Euphonia](https://sites.research.google/euphonia/about/) collected data; open models are far behind.
 
-#### M5 Geo-referencing at scale
+#### M5 Geo-referencing at scale elaborate? datasets? urls? goal?
 
 [MapReader](https://github.com/maps-as-data/MapReader) for maps; photo-viewpoint matching for D6 and E11.
 
 ### Open replacements in professional niches (incumbent → open state → how a developer proves it's better)
 
+NOTE: Lots of the "replace this software with vibe-coded software" is maybe a good project but also maybe not. idk.
+
 _Guard against slop:_ every replacement ships with the incumbent's verification cases passing, a documented workflow a practitioner has actually used for a real job, and a maintainer who commits to a year.
 
-#### M6 Structural analysis
+#### M6 Structural analysis split, elaborate, better title
 
 Incumbents: [ETABS](https://www.csiamerica.com/products/etabs)/[SAP2000](https://www.csiamerica.com/products/sap2000) ([CSI](https://www.csiamerica.com)), [RISA](https://risa.com), [Tekla](https://www.tekla.com). Open: [OpenSees](https://opensees.berkeley.edu) (research, no GUI), [Code_Aster](https://code-aster.org), [CalculiX](http://www.calculix.de). Proof: CSI publishes verification manuals; pass every case, then pass the [NAFEMS benchmarks](https://www.nafems.org) and the [AISC design examples](https://www.aisc.org) for code checking, which is what practitioners actually pay for.
 
-#### M7 River and flood hydraulics
+#### M7 River and flood hydraulics split, elaborate.
 
 Incumbent: [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/) (free but closed, Windows-only, the basis of US flood maps), [MIKE](https://www.mikepoweredbydhi.com), [TUFLOW](https://www.tuflow.com). Open: [SWMM](https://www.epa.gov/water-research/storm-water-management-model-swmm) for urban drainage; nothing for HEC-RAS. Proof: identical results on HEC's own example projects, then run on Linux and in the cloud, which HEC-RAS can't.
 
-#### M8 Regulated statistics
+#### M8 Regulated statistics split, elaborate
 
 Incumbents: [SAS](https://www.sas.com), [SPSS](https://www.ibm.com/spss), [Stata](https://www.stata.com), [Prism](https://www.graphpad.com). Open: [R](https://www.r-project.org), [jamovi](https://www.jamovi.org), [JASP](https://jasp-stats.org). SAS's grip on pharma is validation, not features. Proof: packages validated to [FDA](https://www.fda.gov)-submission standards via the [R Validation Hub](https://www.pharmar.org) and [pharmaverse](https://pharmaverse.org); reproduce a published FDA submission's tables.
 
-#### M9 Legal e-discovery
+#### M9 Legal e-discovery split, elaborate, explain
 
 Incumbents: [Relativity](https://www.relativity.com), [Everlaw](https://www.everlaw.com). Open: OCCRP's [Aleph](https://aleph.occrp.org) (investigative, not litigation-grade). Proof: recall/precision on the public [EDRM Enron set](https://edrm.net) under [TREC Legal Track](https://trec-legal.umiacs.umd.edu/) protocols.
 
-#### M10 Augmentative and alternative communication (AAC)
+#### M10 Augmentative and alternative communication (AAC) split, elaborate, explain
 
 Incumbents: [Tobii Dynavox](https://www.tobiidynavox.com), [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go). Open: [Cboard](https://www.cboard.io), [OptiKey](https://www.optikey.org). Proof: words-per-minute and error rate with real users; budget the human time.
 
-#### M11 Mechanical CAD
+#### M11 Mechanical CAD elaborate, split, explain.
 
 Incumbents: [SolidWorks](https://en.wikipedia.org/wiki/SolidWorks), [Inventor](https://en.wikipedia.org/wiki/Autodesk_Inventor), [Fusion](https://en.wikipedia.org/wiki/Autodesk_Fusion_360). Open: [FreeCAD](https://www.freecad.org) (1.0 in 2024 fixed the worst), [OpenSCAD](https://openscad.org). Gaps: assemblies, drawings, fillet robustness. Proof: model a benchmark set of real parts and measure time-to-model and failure rate against the incumbent.
 
-#### M12 Electronics and chip design
+#### M12 Electronics and chip design elaborate, goal?
 
 Incumbents: [Altium](https://www.altium.com), [Cadence](https://en.wikipedia.org/wiki/Cadence_Design_Systems). Open: [KiCad](https://www.kicad.org) (good), [OpenROAD](https://theopenroadproject.org) for chips, [openEMS](https://www.openems.de) for RF. Proof: tape-out-tested reference designs; measured vs simulated S-parameters on published RF test structures.
 
-#### M13 Finite-element and CFD
+#### M13 Finite-element and CFD, elaborate the goal
 
 Incumbents: [Ansys](https://www.ansys.com), [Abaqus](https://www.3ds.com/products/simulia/abaqus), [Fluent](https://www.ansys.com/products/fluids/ansys-fluent), [STAR-CCM](https://plm.sw.siemens.com/en-US/simcenter/fluids-thermal-simulation/star-ccm/). Open: [CalculiX](http://www.calculix.de), [Elmer](https://www.elmerfem.org), [OpenFOAM](https://www.openfoam.com) (capable, brutal to use). The gap is meshing and usability. Proof: [NAFEMS](https://www.nafems.org) and [NASA turbulence-modelling](https://turbmodels.larc.nasa.gov) validation cases, then a timed usability study.
 
-#### M14 Chemical process simulation
+#### M14 Chemical process simulation elaborate.
 
 Incumbents: [Aspen Plus](https://www.aspentech.com/en/products/engineering/aspen-plus), [HYSYS](https://www.aspentech.com/en/products/engineering/aspen-hysys). Open: [DWSIM](https://dwsim.org). Proof: published flowsheet cases.
 
-#### M15 Optical design
+#### M15 Optical design, better title
 
 Incumbents: [Zemax OpticStudio](https://www.ansys.com/products/optics/ansys-zemax-opticstudio), [Code V](https://en.wikipedia.org/wiki/Code_V). Open: [ray-optics](https://github.com/mjhoptics/ray-optics) and a few small projects; a real gap. Proof: reproduce merit functions on Zemax sample files and published patent lens prescriptions.
 
-#### M16 Room acoustics
+#### M16 Room acoustics, better title
 
 Incumbents: Odeon, [EASE](https://ease.afmg.eu). Open: [I-Simpa](https://i-simpa.ifsttar.fr), [pyroomacoustics](https://github.com/LCAV/pyroomacoustics). Proof: round-robin datasets of measured reverberation times.
 
-#### M17 Power-system analysis
+#### M17 Power-system analysis better title, elaboarte?
 
 Incumbents: [PSS/E](https://www.siemens.com/global/en/products/energy/grid-software/planning/pss-software/pss-e.html), [PowerFactory](https://www.digsilent.de/en/powerfactory.html). Open: [pandapower](https://www.pandapower.org), [PyPSA](https://pypsa.org), [OpenDSS](https://sourceforge.net/projects/electricdss/). Already decent. Proof: [IEEE test feeders](https://cmte.ieee.org/pes-testfeeders/).
 
-#### M18 Transport modelling
+#### M18 Transport modelling better title, elaborate, datasets?.
 
 Incumbents: [VISSIM](https://www.ptvgroup.com/en/products/ptv-vissim), [Cube](https://www.bentley.com/software/cube/), [EMME](https://www.bentley.com/software/emme/). Open: [SUMO](https://eclipse.dev/sumo/), [MATSim](https://www.matsim.org), [AequilibraE](https://www.aequilibrae.com). Proof: calibrate to real counts on a published city dataset.
 
-#### M19 Civil road/rail alignment design
+#### M19 Civil road/rail alignment design datasets? elaborate?
 
 Incumbent: [Civil 3D](https://en.wikipedia.org/wiki/AutoCAD_Civil_3D). Open: nothing usable. Proof: published alignment design examples to code.
 
@@ -778,45 +798,45 @@ Incumbents: [Metashape](https://www.agisoft.com/), [RealityCapture](https://www.
 
 Incumbents: [MestReNova](https://mestrelab.com), [TopSpin](https://www.bruker.com/en/products-and-solutions/mr/nmr-software/topspin.html), vendor software. Open: [NMRium](https://www.nmrium.org), [nmrglue](https://www.nmrglue.com), [OpenMS](https://openms.de), [MZmine](https://mzmine.github.io). Proof: identical peak lists on the same raw files.
 
-#### M22 Music notation
+#### M22 Music notation, elaborate
 
 Incumbents: [Sibelius](<https://en.wikipedia.org/wiki/Sibelius_(scorewriter)>), Finale ([discontinued 2024](https://www.finalemusic.com)). Open: [MuseScore](https://musescore.org) is already close. Proof: engraving test suite against Gould's _[Behind Bars](<https://en.wikipedia.org/wiki/Behind_Bars_(book)>)\_ rules.
 
-#### M23 Hearing-aid fitting
+#### M23 Hearing-aid fitting, elaborate, goal?
 
 Every manufacturer's fitting software is proprietary. Open: [openMHA](https://www.openmha.org). Proof: standard audiological test batteries.
 
-#### M24 Small-business accounting and payroll
+#### M24 Small-business accounting and payroll, goal?
 
 Incumbents: [QuickBooks](https://en.wikipedia.org/wiki/QuickBooks), [Xero](https://www.xero.com), [Sage](https://en.wikipedia.org/wiki/Sage_Group). Open: [GnuCash](https://www.gnucash.org), [ERPNext](https://erpnext.com). Proof: pass the tax authority's test filings and bank reconciliation on real data.
 
-#### M25 Seismic interpretation
+#### M25 Seismic interpretation, goal?
 
 Incumbent: [Petrel](https://www.software.slb.com/products/petrel). Open: [OpendTect](https://www.dgbes.com/software/opendtect). Needed for G1.
 
-#### M26 Hygrothermal (heat and moisture) simulation of building walls
+#### M26 Hygrothermal (heat and moisture) simulation of building walls, goal?
 
 Incumbents: [WUFI](https://wufi.de), Delphin. Open: nothing usable. Proof: reproduce the [56 instrumented timber-frame wall experiments on Zenodo](https://doi.org/10.5281/zenodo.17778562), which ship boundary conditions and material properties, with mass and energy conservation checks, then predict held-out walls.
 
 ### Legacy and orphaned software
 
-#### M27 Critical software stuck on Windows XP
+#### M27 Critical software stuck on Windows XP, split
 
 Lab-instrument control (mass specs, chromatographs on XP boxes kept in a corner), older CNC controllers, radio programming, hospital and library admin systems, engineering codes from the 1990s. Approach: port or reimplement, verified by identical outputs on archived input/output pairs; [Wine](https://www.winehq.org) and [ReactOS](https://reactos.org) as compatibility fallbacks. [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/) (M7) is the flagship example. [CHIRP](https://chirpmyradio.com) shows the model for radio programming.
 
-#### M28 Matching decompilation
+#### M28 Matching decompilation split
 
 Recover source for abandoned software and firmware; [decomp.me](https://decomp.me) is the community tool. Verifier: recompiles to the identical binary.
 
-#### M29 Dead and badly-read file formats
+#### M29 Dead and badly-read file formats, split
 
 The [PRONOM registry](https://www.nationalarchives.gov.uk/PRONOM/) lists formats with no living reader; the [Document Liberation Project](https://www.documentliberation.org/projects/) keeps a want-list. The working model is fixture by fixture through an open reader's issue tracker: [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) for microscopy, [liborigin](https://github.com/gerlachs/liborigin) for [OriginLab](https://www.originlab.com), [lasio](https://lasio.readthedocs.io) for borehole logs, [ReadStat](https://github.com/WizardMac/ReadStat) for [SPSS](https://www.ibm.com/spss)/[SAS](https://www.sas.com)/[Stata](https://www.stata.com), [MDB Tools](https://mdbtools.github.io) for [Access](https://www.microsoft.com/en-us/microsoft-365/access), [SLYR](https://github.com/north-road/slyr) for [ArcGIS](https://www.esri.com/en-us/arcgis/about-arcgis/overview) styling. Verifier: round-trip against the original application's export, metadata included, then a real user finishes their real task.
 
-#### M30 Write Linux drivers for hardware whose vendor walked away
+#### M30 Write Linux drivers for hardware whose vendor walked away, split
 
 Working microscopes, spectrometers, scanners and industrial controllers get scrapped because the vendor stopped shipping drivers, not because anything broke. The protocol is usually plain USB or PCI traffic you can capture and replay, which is slow, unglamorous work nobody is paid for. Pick devices whose owners are still asking on forums, reverse-engineer the protocol, and upstream the driver.
 
-#### M31 Emulate the platforms nobody has got running yet
+#### M31 Emulate the platforms nobody has got running yet, split
 
 Software outlives the hardware it was written for only if someone emulates the machine; scientific tools, interactive media and government systems all become unreadable otherwise. The [Internet Archive](https://archive.org/details/software) runs thousands of titles in the browser and keeps want-lists of the platforms it still cannot. Take one, get real software running on it, and contribute the emulator back.
 
