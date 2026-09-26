@@ -25,6 +25,14 @@ easy-to-parse format and hosting the data on huggingface as an unofficial
 mirror. e.g. converting scans of 100-year-old ships logs into a CSV would be a
 massive help to understanding maritime trade and ocean conditions.
 
+## What this is
+
+A list of problems that are unusually amenable to an AI agent working with a person who is willing to get into the weeds, for anyone with spare time and tokens who would rather point them at something useful than at getting the newest model to play Minecraft. The models to have in mind are the [Vesuvius Challenge](https://scrollprize.org/), the [Amazon cities found with airborne lidar](https://www.nature.com/articles/s41586-022-04780-4), and the [Nazca geoglyphs nearly doubled by a machine-learning survey](https://doi.org/10.1073/pnas.2407652121): a small team, an archive nobody had finished reading, a tool that scales, and a result that made the news.
+
+Each entry has some or all of these properties: it is easy to check whether you got the answer right; there is far more data than anyone has looked through; the data is public but in a painful format (scans of tables, handwriting, bespoke file formats); it sits in a field whose practitioners don't use machine learning; nobody is paid or responsible for doing it; and it is an easy win with an agent's help but not so easy that the agent can do it alone.
+
+Each entry is meant to be enough to get a smart undergraduate with a Claude Code subscription started: why anyone would care, where the data is, what to make from it, and how a sceptic checks the result. Entries that need a data partnership before anything can start are cut or say so in the first line.
+
 ## A Machine-checked
 
 ### A1 OEIS conjectures CB
@@ -255,13 +263,9 @@ Pollen, cave deposits, corals, ice cores and tree rings each record past climate
 
 Glacier length changes before 1950 are known for only a few hundred glaciers, yet photographers and surveyors captured thousands of termini. The [NSIDC Glacier Photograph Collection](https://nsidc.org/data/g00472) holds over 25,000 images dating back to 1857, the [ETH Zurich image archive](https://ba.e-pics.ethz.ch/) covers the Alps, and USGS runs [repeat photography in Glacier National Park](https://www.usgs.gov/centers/norock/science/repeat-photography-project). Monoplotting projects an old oblique photo onto a terrain model so the terminus can be mapped ([WSL Monoplotting Tool](https://www.wsl.ch/de/services-produkte/monoplotting-tool/)); match each photo to its glacier in [GLIMS](https://www.glims.org/maps/glims). Goal: a dated terminus position for every photographed glacier that has no pre-1950 front-variation record in the [WGMS Fluctuations of Glaciers database](https://wgms.ch/data_databaseversions/). Verifier: glaciers with both photographs and surveyed front variations in WGMS are held out and must agree.
 
-### D7a Image the Continuous Plankton Recorder archive
+### D7 Classify the plankton image backlog
 
-The [CPR Survey](https://www.cprsurvey.org/data/our-data/) has towed silk strips behind merchant ships since 1931, the longest ocean-ecosystem record there is, but microscopists count at a fixed, coarse taxonomic resolution. The released data are counts; the silk samples themselves are physical, stored in Plymouth, so imaging them starts with a Marine Biological Association partnership, not a download. Image the archived silks and re-count at species resolution. Goal: species-level abundance series back to the 1930s for groups now lumped together. Verifier: the new counts, aggregated to the original categories, must match the existing CPR counts for the same samples.
-
-### D7b Classify the plankton image backlog
-
-Plankton cameras now take images far faster than anyone can label them. [EcoTaxa](https://ecotaxa.obs-vlfr.fr/) holds hundreds of millions of plankton images from many instruments, a large share never validated, and the Imaging FlowCytobot [dashboards](https://ifcb-data.whoi.edu/) stream more from fixed stations. Classify the unvalidated images to species where possible, with calibrated confidence. Goal: validated species-level counts for the whole unclassified backlog. Verifier: the human-validated subsets, held out, give per-class precision and recall.
+Plankton cameras now take images far faster than anyone can label them. (The bigger prize, re-counting the Continuous Plankton Recorder's 90 years of silk samples at species level, needs a Marine Biological Association partnership to image the physical archive first, so it is not listed.) [EcoTaxa](https://ecotaxa.obs-vlfr.fr/) holds hundreds of millions of plankton images from many instruments, a large share never validated, and the Imaging FlowCytobot [dashboards](https://ifcb-data.whoi.edu/) stream more from fixed stations. Classify the unvalidated images to species where possible, with calibrated confidence. Goal: validated species-level counts for the whole unclassified backlog. Verifier: the human-validated subsets, held out, give per-class precision and recall.
 
 ### D8 Extend the sea-level record backwards from paper tide charts
 
@@ -308,10 +312,6 @@ Victorian and Edwardian Ordnance Survey sheets mark mills, mine shafts, wells, p
 ### E3c Old coastlines and river courses from georeferenced historic maps
 
 Where a coast or river lay 200 years ago tells engineers how fast it moves and where floods may take it back. The [David Rumsey Map Collection](https://www.davidrumsey.com/view/georeferencer) has over 100,000 maps online, many already crowd-georeferenced, and [Allmaps](https://allmaps.org/) georeferences IIIF maps from several libraries and exposes the control points. The agent extracts coastlines and river centrelines from dated maps and builds a time series for each location, with a positional uncertainty derived from the georeferencing residuals. Goal: a public layer of pre-1900 coastline and river positions for a named region (for example the English North Sea coast or the lower Mississippi), each line carrying its date and error bar. Verifier: residuals on held-out control points, agreement between independent maps of the same date, and overlap with early aerial photography where the dates meet.
-
-### E4 Archaeology from national LiDAR F
-
-Largely done. England's full lidar coverage is free from the [Defra survey data portal](https://environment.data.gov.uk/survey) and the Netherlands' from [AHN](https://www.ahn.nl/). Historic England's Aerial Investigation and Mapping programme has mapped large areas by hand from lidar and air photos ([mapping data](https://opendata-historicengland.hub.arcgis.com/maps/e08a1ca270ac4caa8ba5efcb74f86a74)). Automated detectors have been run at scale in Norway (the [Norwegian Computing Center](https://nr.no/en/projects/cultsearcher/): grave mounds, pitfall traps, charcoal kilns), the Netherlands (Verschoof-van der Vaart's WODAN), Denmark (the Viking ring-fortress search) and Baden-Württemberg. The remaining gap is dull but real: reconciling detections with local [Historic Environment Records](https://www.heritagegateway.org.uk) so that new sites get entered and duplicates don't, with held-out known sites giving precision and recall.
 
 ### E5a Find uncharted wrecks in UK offshore-wind survey data
 
@@ -543,10 +543,6 @@ Hundreds of thousands of tonnes of conventional and chemical munitions were dump
 
 Between 1946 and 1993 European states dumped more than 200,000 drums of low-level radioactive waste in the North-East Atlantic, mostly deeper than 4,000 m; the official site-by-site record of dates, countries, tonnages and activities is the IAEA's [Inventory of radioactive waste disposals at sea](https://www-pub.iaea.org/MTCD/publications/PDF/te_1105_prn.pdf) (IAEA-TECDOC-1105). In June–July 2025 the French-led <abbr title="Nuclear Ocean Dump Site Survey Monitoring">NODSSUM</abbr> mission mapped part of the main dump site with the AUV UlyX and found 3,355 drums ([Thünen Institute summary](https://www.thuenen.de/en/newsroom/news/detail/thuenen-scientists-on-a-search-for-clues-in-the-atlantic); [CNRS mission page](https://www.cnrs.fr/en/press/radioactive-waste-scientific-mission-sets-out-map-submerged-barrels-atlantic)), and a 2026 submersible follow-up sampled them; the sonar and imagery are not yet public. Goal: the inventory digitised into a per-site table with predicted drum densities and spread from the recorded dumping positions and years, ready to compare with NODSSUM's map. Verifier: NODSSUM's drum positions once released; until then this is a digitisation task only.
 
-### G6 Ghost fishing gear
-
-About 2% of all fishing gear is lost each year ([Richardson et al. 2022](https://doi.org/10.1126/sciadv.abq0135)), and lost nets keep catching for years. The public inputs are fishing effort by gear type from AIS ([Global Fishing Watch fishing effort](https://globalfishingwatch.org/dataset-and-code-fishing-effort/)), drift models such as [OpenDrift](https://opendrift.github.io/) and scattered sighting and retrieval reports in the [GGGI data portal](https://www.ghostgear.org/dataportal); there is no public sonar record of gear on the seabed. Goal: a gear-type hotspot map for one well-sampled region, from effort times published loss rates adjusted for seabed snags and currents. Verifier: Puget Sound, where the Northwest Straits Initiative has removed over 5,900 derelict nets and pots since 2002 ([WDFW summary](https://wdfw.wa.gov/species-habitats/habitat-recovery/derelict-gear)), if its removal positions can be obtained. Honestly this is a research project that needs partner data, not an agent task.
-
 ### G7 Hindcast the MSC Zoe container spill
 
 The [World Shipping Council](https://www.worldshipping.org/containers-lost-at-sea) counted 1,478 containers lost at sea in 2025 and 576 in 2024, and since January 2026 SOLAS requires every loss to be reported; a general prediction service for where they end up is a research programme, but a single well-documented incident is a tractable test. On 1–2 January 2019 MSC Zoe lost 342 containers north of the Wadden Islands, and the [joint Dutch, German and Panamanian investigation report](https://onderzoeksraad.nl/wp-content/uploads/2023/11/internationale_toedrachtsrapport_msc_zoe.pdf) reconstructs six loss locations from the ship's track and a Rijkswaterstaat seabed survey and records where cargo washed up on Dutch and German islands. Goal: an [OpenDrift](https://opendrift.github.io/) hindcast from the reported loss positions, driven by archived wind and current fields, that reproduces where the containers sank and where cargo beached. Verifier: the seabed positions and beaching records in the report, and whether the model run backwards from beach arrivals alone recovers the six loss locations.
@@ -696,14 +692,6 @@ Airliners broadcast heading, airspeed and ground speed every few seconds, from w
 ### I15 Rooftop solar → cloud and irradiance maps
 
 Every rooftop solar system is an irradiance sensor, and countries like the UK, Germany and Australia have tens of thousands, far denser than any radiometer network; [Open Climate Fix](https://github.com/openclimatefix) already uses PV output to nowcast national solar generation, but nobody publishes the fleet as a weather map. Data: Sheffield Solar's [UK PV dataset](https://huggingface.co/datasets/openclimatefix/uk_pv) (30,000+ systems, 2010–2025, 30-minute, about 1,300 at 5-minute, locations blurred to ~1 km, CC-BY) and the worldwide volunteer uploads behind the [PVOutput API](https://pvoutput.org/help/api_specification.html) (rate-limited per account). Converting output to irradiance needs each panel's tilt, orientation and shading, which can be fitted from clear-sky days. Goal: a 5-minute, 1–2 km gridded surface irradiance product for Great Britain from 2010, published as a dataset. Verifier: [BSRN](https://bsrn.awi.de/) radiometers (Camborne and Lerwick in the UK) and [CAMS](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries) satellite irradiance.
-
-### I16 Fitness-app traces → informal paths and park use
-
-The paths people actually walk and ride, as opposed to the ones that were built, tell planners where to put the next one. Strava's [Global Heatmap](https://www.strava.com/maps/global-heatmap) is viewable but not downloadable; aggregated counts go to planners and researchers through [Strava Metro](https://metro.strava.com/) on application and under licence, and [OpenStreetMap's public GPS traces](https://www.openstreetmap.org/traces) are open but sparse. Goal: for one city with a Metro licence, a map of heavily used routes with no built path, compared against OpenStreetMap. Verifier: automatic path counters or site visits. This is mainly a data-licence partnership rather than an agent task.
-
-### I17 Muon tomography
-
-Cosmic-ray muons are absorbed in proportion to the density of what they pass through, so counting them from many directions images the inside of pyramids (ScanPyramids found a void in Khufu's pyramid in 2017), volcanoes and cargo containers. There is no public muography dataset to point an agent at, since the data stay with each team, and cheap detectors like [CosmicWatch](http://www.cosmicwatch.lns.mit.edu) are for building your own, so this needs hardware and a site rather than an agent.
 
 ### I18 Harvest dates and tithes → climate before thermometers
 
