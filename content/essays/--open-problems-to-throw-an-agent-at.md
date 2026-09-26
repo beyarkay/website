@@ -173,24 +173,24 @@ Soviet-era mathematics and physics, German chemistry, Japanese engineering. Veri
 
 [Internet Archive](https://archive.org), congressional hearings, oral histories. Verifier: word-error rate on a human-transcribed sample.
 
-### C18 Un-redact by diffing releases 
+### C18 Un-redact by diffing releases , S
 
 The same page is often released more than once with different black boxes: the 2017 and 2025 JFK tranches, a [CIA CREST](https://www.cia.gov/readingroom/) copy versus the FBI Vault copy of the same memo, a cable held at both [TNA](https://www.nationalarchives.gov.uk) and [NARA](https://www.archives.gov). Align page images across releases and surface every word visible in one copy and redacted in another. Researchers do this by hand on famous documents; nobody has run it across the corpora in C10. Verifier: the recovered text must be visible in a public page image. Guessed redactions count for nothing.
 
 ## D Scientific data rescue
 
-### D1 Ship logbooks and weather sheets
+### D1 Ship logbooks and weather sheets , split, S
 
 [NOAA](https://www.noaa.gov) scanned tens of millions of pages; volunteers hand-type them at [Old Weather](https://www.oldweather.org) and [Rainfall Rescue](https://www.zooniverse.org/projects/edh/rainfall-rescue); [Copernicus](https://climate.copernicus.eu/data-rescue-service) coordinates. Handwriting → observations extends the instrumental record to the 1700s. Verifier: existing transcriptions; overlapping ships.
 
-### D2 Analog seismograms
+### D2 Analog seismograms, what's the goal, integrate note, search for other sources or similar tasks
 
 Millions of paper records pre-1980 ([SeismoArchives](https://web.archive.org/web/20231205151122/http://ds.iris.edu/seismo-archives/)). Digitising traces lets modern methods study 1906, 1923, 1960.
 
 NOTE: original is gone, we've linked an archive, republishing would also be
 good
 
-### D3 Harvard DASCH plates
+### D3 Harvard DASCH plates, elaborate, what's the goal, S
 
 ~450,000 photographic plates 1885–1992, fully scanned ([DASCH](https://dasch.cfa.harvard.edu)). Century-long light curves: historical supernovae, [vanishing stars](https://vasconsite.wordpress.com), pre-discovery asteroid images ([SSOIS](https://www3.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/ssois/documentation.html) tells you which archived exposures a known object's orbit passes through).
 
@@ -198,161 +198,161 @@ good
 
 Tree rings are used to estimate land temperature before thermometers, but first each ring on a core scan must be annotated with the year it grew. The [<abbr title="International Tree-Ring Data Bank">ITRDB</abbr>](https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring) holds ~5,000 cores already done; labs hold far more measured once and never dated. Date those against the published chronologies and publish the result.
 
-### D5 Cross-proxy reconciliation
+### D5 Cross-proxy reconciliation, elaborate, what's the goal, give better sources
 
 [Neotoma](https://www.neotomadb.org) (pollen), [SISAL](https://pastglobalchanges.org/sisal) (cave deposits), corals, ice cores all measure past climate through different lenses; [PAGES 2k](https://pastglobalchanges.org) reconciles with a few dozen people.
 
-### D6 Glacier repeat photography
+### D6 Glacier repeat photography, give better URLs, elaborate
 
 [NSIDC Glacier Photograph Collection](https://nsidc.org/data/glacier_photo), Swiss and Norwegian archives. Match viewpoints to modern images for ice-loss measurements; targets in [GLIMS](https://www.glims.org) and [WGMS](https://wgms.ch).
 
-### D7 Continuous Plankton Recorder
+### D7 Continuous Plankton Recorder, goal?, source URL?
 
 90 years of silk samples ([CPR Survey](https://www.cprsurvey.org)) counted by human microscopists at a fixed rate. Image the archive and re-count at species resolution.
 
-### D8 Extend the sea-level record backwards from paper tide charts
+### D8 Extend the sea-level record backwards from paper tide charts goal?
 
 Measuring how fast sea level is rising needs records long enough to show acceleration, and [<abbr title="Permanent Service for Mean Sea Level">PSMSL</abbr>](https://psmsl.org) thins out before 1950. The missing years are ink traces on paper. [BODC](https://www.bodc.ac.uk/data/hosted_data_systems/sea_level/historical_uk_tide_gauge_data/) has scanned UK station charts and [NOAA](https://www.ngdc.noaa.gov/hazel/view/hazards/tsunami/marigram-search/) 3,000 more around tsunami events, nearly all still un-traced; elsewhere they sit in harbour archives and need someone to go in person. Trace them into series and submit to PSMSL.
 
-### D9 Legacy soil surveys
+### D9 Legacy soil surveys goal?
 
 A century of national surveys are scanned PDFs with profile data never entered into [WoSIS](https://www.isric.org/explore/wosis). Feeds every soil-carbon estimate.
 
-### D10 Agricultural experiment station bulletins
+### D10 Agricultural experiment station bulletins  
 
 Century-old variety-trial yield data, scanned, never aggregated. Seed data via [Genesys](https://www.genesys-pgr.org) and [GRIN](https://npgsweb.ars-grin.gov).
 
-### D11 Rebuild ionosphere history from amateur radio contest logs
+### D11 Rebuild ionosphere history from amateur radio contest logs 
 
 A solar storm that garbles <abbr title="High Frequency">HF</abbr> radio also degrades satellite positioning and pushes current into power grids, and forecasting it means knowing how the ionosphere has behaved over many solar cycles. Ionosondes are sparse and recent. A logged radio contact dates and locates one, so decades of public contest logs are a measurement record nobody has assembled: [HamSCI](https://hamsci.org) uses a fraction, [WSPRnet](https://wsprnet.org) only the automated era. Parse the archives into a propagation dataset.
 
-### D12 Date and place the timber in historic buildings and artefacts
+### D12 Date and place the timber in historic buildings and artefacts URLs? need URLs to get started
 
 A roof beam, a panel painting or a ship's frame carries the same ring pattern as a living tree, so it can be matched against dated chronologies to say when the wood was felled and where it grew. Museums pay specialists to do this one object at a time. Run it across photographed collections and publish the matches.
 
 ## E Earth imagery archives
 
-### E1 Historical aerial photography
+### E1 Historical aerial photography split, elaborate, goal, urls
 
 [NCAP](https://ncap.org.uk) (tens of millions of [RAF](https://en.wikipedia.org/wiki/Royal_Air_Force)/[Luftwaffe](https://en.wikipedia.org/wiki/Luftwaffe) frames), [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) via [EarthExplorer](https://earthexplorer.usgs.gov) back to the 1930s, [IWM](https://www.iwm.org.uk). Products: WWII bomb-crater → UXO (Unexplained Ordinance) risk maps (see H1); 1940s landscape baseline before ploughing and development.
 
-### E2 Declassified spy-satellite imagery
+### E2 Declassified spy-satellite imagery URLs? idk if Wikipedia has the actual imagery... 
 
 [CORONA](<https://en.wikipedia.org/wiki/Corona_(satellite)>) (~860k frames 1960–72; [CORONA Atlas](https://corona.cast.uark.edu) covers the Middle East), [KH-7 GAMBIT](https://en.wikipedia.org/wiki/KH-7_Gambit) and [KH-9 HEXAGON](https://en.wikipedia.org/wiki/KH-9_Hexagon) (declassified 2011, higher resolution, barely used), all on [EarthExplorer](https://earthexplorer.usgs.gov). Systematic survey of Central Asia, Iran, Iraq, Syria for sites since destroyed or built over. See Q for the full list of declassified sources.
 
-### E3 Historical maps
+### E3 Historical maps split, elaborate, goal
 
 [David Rumsey](https://www.davidrumsey.com) (100k+), [Ordnance Survey](https://www.ordnancesurvey.co.uk) historic sheets, [Sanborn fire-insurance maps](https://www.loc.gov/collections/sanborn-maps/). Georeference with [MapReader](https://github.com/maps-as-data/MapReader), extract every named feature → gazetteer of vanished villages, old coastlines, forgotten mine shafts.
 
-### E4 National LiDAR sweeps
+### E4 National LiDAR sweeps. this seems like it'll already have been done, F
 
 [England](https://environment.data.gov.uk/survey) (1 m, full coverage), [Netherlands AHN](https://www.ahn.nl), Denmark, Slovenia, [Poland](https://www.geoportal.gov.pl). Run a detector for barrows, enclosures, roads, field systems; reconcile with [Historic Environment Records](https://www.heritagegateway.org.uk). Held-out known sites give precision/recall.
 
-### E5 High-resolution bathymetry and sonar
+### E5 High-resolution bathymetry and sonar split, better urls
 
 Public [GEBCO](https://www.gebco.net) is ~400 m grid and useless for wrecks; the value is in engineering-grade multibeam that oil, gas and offshore-wind surveys must release: [UK Marine Data Exchange](https://www.marinedataexchange.co.uk), [US BOEM](https://www.boem.gov), [EMODnet](https://emodnet.ec.europa.eu/en/bathymetry), [AusSeabed](https://www.ausseabed.gov.au), [NOAA multibeam archive](https://www.ncei.noaa.gov/maps/bathymetry/). Nobody looked at these for anything but engineering. See G for what to look for.
 
-### E6 Every tailings dam, monitored
+### E6 Every tailings dam, monitored give better name
 
 [Sentinel-1](https://en.wikipedia.org/wiki/Sentinel-1) InSAR (Interferometric Synthetic Aperture Radar) is free; the [Global Tailings Portal](https://tailing.grida.no) lists ~1,900 facilities. Deliverable: public per-dam deformation time series with a documented noise floor, not "alerts" (false positives from vegetation, thermal cycles, atmosphere are the real problem). [Brumadinho](https://en.wikipedia.org/wiki/Brumadinho_dam_disaster) killed 270.
 
-### E7 Every bridge, same method
+### E7 Every bridge, same method, give better name
 
 [Morandi bridge InSAR (Interferometric Synthetic Aperture Radar) post-mortem](https://doi.org/10.3390/rs11121403) showed pre-collapse movement. Nobody runs it prospectively. In Europe the processing is already done: the [European Ground Motion Service](https://land.copernicus.eu/en/products/european-ground-motion-service) publishes millimetre-scale motion for every coherent point on the continent, updated yearly, and nobody has joined it to the dam, bridge and embankment inventories.
 
-### E8 Museum specimen images
+### E8 Museum specimen images idk if there's enough here to go off of, what's the goal?, URLs don't seem very specific? how to get started?
 
 ~400 million specimens; growing fraction imaged via [GBIF](https://www.gbif.org) and [iDigBio](https://www.idigbio.org). Label transcription and georeferencing; phenology-vs-year shifts; morphological-outlier screening for undescribed species (most "new" species sat in drawers for decades). Taxonomists verify the shortlist.
 
-### E9 Coral, mangrove, peatland and seagrass baselines
+### E9 Coral, mangrove, peatland and seagrass baselines elaborate, better URLs, better datasets,maybe split
 
 In the style of the [Allen Coral Atlas](https://allencoralatlas.org) for the ecosystems it doesn't cover.
 
-### E10 Brick kilns and forced-labour sites from satellite
+### E10 Brick kilns and forced-labour sites from satellite elaborate, datasets? URLs?
 
 [Nottingham Rights Lab](https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/) did South Asian kilns; extend to other bonded-labour industries, illegal mining, informal landfills.
 
-### E11 Unidentified photographs in library commons
+### E11 Unidentified photographs in library commons elaborate? goal? specific URLs?
 
 [Flickr Commons](https://www.flickr.com/commons), [Library of Congress](https://en.wikipedia.org/wiki/Library_of_Congress). Date and geolocate from signage, shadows, vehicles.
 
-### E12 Landslide catalogue completion
+### E12 Landslide catalogue completion URLs?datasets? elaborate 
 
 [NASA's catalogue](https://gpm.nasa.gov/landslides) is built from news reports; [Sentinel-2](https://en.wikipedia.org/wiki/Sentinel-2) change detection fills it, verified against reported events.
 
-### E13 Global coastline change
+### E13 Global coastline change, verify how to get started
 
 [CoastSat](https://github.com/kvos/CoastSat) extracts shorelines from [Landsat](https://en.wikipedia.org/wiki/Landsat_program); nobody has run it globally with per-settlement erosion rates.
 
-### E14 Heritage looting from satellite
+### E14 Heritage looting from satellite, MENA? elaborate, URL for satellite data, also maybe intermol SWoAD should be it's own thing to look at??
 
 [EAMENA](https://eamena.org) documents endangered MENA sites; looting-pit detection was done by hand for Syria. Cross-reference auction catalogues with the [Interpol stolen works database](https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database).
 
-### E15 iNaturalist backlog
+### E15 iNaturalist backlog sgtm, why isn't this done already?
 
 Hundreds of millions of observations on [iNaturalist](https://www.inaturalist.org), many stuck at "Unknown." Push to research grade; flag first records of invasives by region.
 
-### E16 Insect biomass from weather radar
+### E16 Insect biomass from weather radar hmm evaluati if this is actually possible with the available data
 
 The [NEXRAD archive](https://registry.opendata.aws/noaa-nexrad/) back to 1991 sees insects; [BirdCast](https://birdcast.info) does birds. Cross-check against the 60-year [Rothamsted Insect Survey](https://insectsurvey.com).
 
-### E17 Dark taxa
+### E17 Dark taxa clarify, URLs? goal?
 
 [Global Malaise Program](https://biodiversitygenomics.net/projects/gmp/) and [BOLD](https://boldsystems.org) have millions of barcoded specimens without names; [UNITE](https://unite.ut.ee) and [GlobalFungi](https://globalfungi.com) have sequence-only fungi. Prerequisite nobody has published: for each common barcode primer set and a frozen reference library, which species are actually distinguishable and which collapse into identical-barcode groups. Machine-checkable, and every environmental-DNA study downstream needs it.
 
-### E18 Top-down vs self-reported methane
+### E18 Top-down vs self-reported methane clarify? goal? impact?
 
 [TROPOMI](http://www.tropomi.eu) and [MethaneSAT](https://www.methanesat.org) see plumes; [EPA](https://www.epa.gov)'s [GHGRP](https://www.epa.gov/ghgreporting) has facility self-reports. Reconcile facility by facility.
 
-### E19 Flaring and refinery attribution
+### E19 Flaring and refinery attribution clarify? goal? better URLs 
 
 [VIIRS Nightfire](https://eogdata.mines.edu/products/vnf/) flaring detections plus fence-line monitors (Texas [TCEQ](https://www.tceq.texas.gov) posts them) plus [OpenAQ](https://openaq.org)/[PurpleAir](https://www.purpleair.com).
 
-### E20 Timber and deforestation supply chains
+### E20 Timber and deforestation supply chains clarify? are customs seizures available?
 
 [Trase](https://www.trase.earth), [Global Forest Watch](https://www.globalforestwatch.org). Gap: concession maps and species ID of traded timber, checkable against customs seizures.
 
 ## F Other worlds: more images than eyes
 
-Everything below is public in [NASA](https://www.nasa.gov)'s [Planetary Data System](https://pds.nasa.gov) or [ESA](https://www.esa.int)'s [Planetary Science Archive](https://archives.esac.esa.int/psa). The rule: bodies with O(10) images are studied to death; bodies with O(10⁵–10⁶) images are not.
+Everything below is public in [NASA](https://www.nasa.gov)'s [Planetary Data System](https://pds.nasa.gov) or [ESA](https://www.esa.int)'s [Planetary Science Archive](https://archives.esac.esa.int/psa).
 
-### F1 Mars orbital
+### F1 Mars orbital split,crater detection is cool! other tracking is cool! hiRISE? definitely split and give better urls
 
 [HiRISE](https://www.uahirise.org) (~80k images at 25 cm), [CTX](https://murray-lab.caltech.edu/CTX/) (global 6 m mosaic, ~100k images), daily global [MARCI](https://en.wikipedia.org/wiki/Mars_Color_Imager) weather. Targets: new impact craters from before/after pairs (partially done by ML), recurring slope lineae changes, gullies, dune migration, avalanches at the polar cap, dust-devil tracks ([Planet Four](https://www.zooniverse.org/projects/mschwamb/planet-four) is the citizen version). Verifier: re-imaging requests, which HiRISE honours.
 
-### F2 Mars rover images
+### F2 Mars rover images split, give a more precise goal
 
 [Curiosity](<https://en.wikipedia.org/wiki/Curiosity_(rover)>) and [Perseverance](<https://en.wikipedia.org/wiki/Perseverance_(rover)>) have returned over a million [raw images](https://mars.nasa.gov/msl/multimedia/raw-images/). Several [meteorites on Mars](https://en.wikipedia.org/wiki/List_of_meteorites_on_Mars) were found by chance; a systematic search for meteorites, unusual rocks and dust-devil captures is unfinished.
 
-### F3 Moon
+### F3 Moon ohrc? split, better URLs ideally 
 
 [LROC](https://quickmap.lroc.asu.edu) has millions of frames at 0.5 m; [Chandrayaan-2](https://en.wikipedia.org/wiki/Chandrayaan-2)'s OHRC reaches 25 cm ([ISRO](https://www.isro.gov.in)); [Kaguya](https://en.wikipedia.org/wiki/SELENE) and [Chang'e](https://en.wikipedia.org/wiki/Chang%27e_program) add more. Targets: new craters, lava-tube skylights beyond the existing pit catalogue, boulder tracks, lunar swirls, crash sites of early landers, artefact inventory of every [Apollo](https://en.wikipedia.org/wiki/Apollo_program) and [Luna](https://en.wikipedia.org/wiki/Luna_programme) site.
 
-### F4 Venus radar
+### F4 Venus radar goal?
 
 [Magellan](<https://en.wikipedia.org/wiki/Magellan_(spacecraft)>) (1990–94) mapped the whole planet; in 2023, [re-analysis of old Magellan data found active volcanism](https://doi.org/10.1126/science.abm7735). The archive was studied in parts, never systematically for change between orbits.
 
-### F5 Mercury
+### F5 Mercury clarify, URLs?
 
 [MESSENGER](https://en.wikipedia.org/wiki/MESSENGER) returned ~300k images ([PDS (Planetary Data System)](https://pds.nasa.gov)); [BepiColombo](https://en.wikipedia.org/wiki/BepiColombo) arrives 2026. Hollows, volatiles, crater statistics. Few people work on Mercury.
 
-### F6 Saturn system
+### F6 Saturn system URLs to images? define ring propellor?  split
 
 [Cassini](https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens)'s 13 years, ~450k images, plus radar swaths of Titan and [VIMS](https://en.wikipedia.org/wiki/Visual_and_Infrared_Mapping_Spectrometer) spectral cubes ([PDS (Planetary Data System) Ring-Moon Systems Node](https://pds-rings.seti.org)). Targets: ring propellers and moonlets, Enceladus plume variability, Titan lake-level change, small-moon rotation states.
 
-### F7 Jupiter
+### F7 Jupiter split
 
 [JunoCam](https://www.missionjuno.swri.edu/junocam) raw images are processed mostly by amateurs; [Galileo](<https://en.wikipedia.org/wiki/Galileo_(spacecraft)>)'s archive is older. Cloud tracking, lightning, small-moon recoveries.
 
-### F8 Comets and asteroids
+### F8 Comets and asteroids split, elaborate
 
 [Rosetta](<https://en.wikipedia.org/wiki/Rosetta_(spacecraft)>)'s ~100k OSIRIS images of 67P (activity, cliff collapses, boulder movement), [Dawn](<https://en.wikipedia.org/wiki/Dawn_(spacecraft)>) at Vesta and Ceres, [OSIRIS-REx](https://en.wikipedia.org/wiki/OSIRIS-REx) at Bennu, [Hayabusa2](https://en.wikipedia.org/wiki/Hayabusa2) at Ryugu. Rosetta's archive is the most under-exploited.
 
-### F9 The Sun
+### F9 The Sun elaborate, goal
 
 [SDO](https://sdo.gsfc.nasa.gov) returns terabytes per day since 2010; [SOHO](https://en.wikipedia.org/wiki/Solar_and_Heliospheric_Observatory) comet-hunting by amateurs is the existing model.
 
-### F10 Survey backlog
+### F10 Survey backlog split, elaborate, clarify
 
 [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid) will image 1.5 billion galaxies; [JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope) and [Hubble](https://en.wikipedia.org/wiki/Hubble_Space_Telescope) archives at [MAST](https://archive.stsci.edu); [Kepler](https://en.wikipedia.org/wiki/Kepler_space_telescope)/[TESS](https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite) light curves still hide planets ([Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess)). [Galaxy Zoo](https://en.wikipedia.org/wiki/Galaxy_Zoo) is the model.
 
