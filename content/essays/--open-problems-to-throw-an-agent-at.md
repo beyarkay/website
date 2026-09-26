@@ -358,173 +358,173 @@ Everything below is public in [NASA](https://www.nasa.gov)'s [Planetary Data Sys
 
 ## G Oceans: lost lands, lost things, the deep
 
-### G1 Doggerland's method, applied everywhere
+### G1 Doggerland's method, applied everywhere split, 
 
 Gaffney mapped Doggerland's rivers from oil-company 3D seismic data. National repositories now release seismic: [UK NSTA National Data Repository](https://ndr.nstauthority.co.uk), [Dutch NLOG](https://www.nlog.nl), [Norway's Sodir](https://www.sodir.no), [US BOEM](https://www.boem.gov). Every continental shelf exposed at the last glacial maximum has buried river valleys, lakes and coastlines in that data: Sundaland (SE Asia), Sahul (Australia's shelf, where [submerged Aboriginal sites were found off the Pilbara in 2020](https://doi.org/10.1371/journal.pone.0233912)), Beringia, the Persian Gulf basin, Black Sea shelf, Adriatic, Yellow Sea, Gulf of Mexico.
 
-### G2 Structures in routine multibeam data
+### G2 Structures in routine multibeam data don't reference e5, give URLs here
 
 The [Blinkerwall](https://en.wikipedia.org/wiki/Blinkerwall), a 10,000-year-old kilometre-long stone wall, was found in 2024 in ordinary survey data from the Baltic. The offshore-wind survey archives in E5 are full of unexamined 1–5 m data.
 
-### G3 Shipwrecks and lost aircraft, prioritised
+### G3 Shipwrecks and lost aircraft, prioritised split, URLs, 
 
 [UNESCO](https://www.unesco.org) estimates [3 million wrecks](https://www.unesco.org/en/underwater-heritage). Records: [Wrecksite](https://www.wrecksite.eu) (crowd), [NOAA](https://www.noaa.gov)'s wreck database, [UKHO](https://www.gov.uk/government/organisations/uk-hydrographic-office), the [Lloyd's Register Foundation heritage archive](https://hec.lrfoundation.org.uk) (casualty returns), [Lloyd's List](https://lloydslist.com) reports in historic newspapers. Combine last-known positions with drift models and the high-resolution bathymetry of E5 to rank targets. For aircraft: the digitised [Missing Air Crew Reports](https://www.archives.gov/research/military/ww2/missing-air-crew-reports) give date, type and last reported position for thousands of WWII losses; intersect each with the footprint of surveys already flown and you get search-ready packets. Slave-ship wrecks via the [Slave Wrecks Project](https://nmaahc.si.edu/explore/initiatives/slave-wrecks-project).
 
-### G4 Fishermen's snag records as a wreck finder
+### G4 Fishermen's snag records as a wreck finder split, do trawlers really log where nets catch?? don't reference other sections.
 
 Trawlers log where nets catch on the seabed. The UK [Kingfisher bulletin](https://kingfisherbulletin.org) and [KIS-ORCA](https://kis-orca.org) publish obstruction positions. Snags with no charted wreck are candidates. This is a side-channel (see I).
 
-### G5 Dumped munitions and waste
+### G5 Dumped munitions and waste URLs, how would this info be discovered? unclear, clarify, elaborate, maybe split, give urls
 
 Hundreds of thousands of tonnes of conventional and chemical munitions were dumped at sea after both world wars ([OSPAR munitions work](https://www.ospar.org/work-areas/eiha/munitions)); ~200,000 barrels of radioactive waste were dumped in the NE Atlantic 1946–93 ([overview](https://en.wikipedia.org/wiki/Ocean_disposal_of_radioactive_waste)). Mapping, not touching: offshore wind and cable routes need to know. Sonar archives plus historical dumping logs.
 
-### G6 Ghost fishing gear
+### G6 Ghost fishing gear clarify, URLs, goal, how to get started, this seems basically like a  PhD project
 
 ~640,000 tonnes lost per year ([Global Ghost Gear Initiative](https://www.ghostgear.org)). Predict accumulation zones from drift models plus sonar detection; verify with cleanup dives.
 
-### G7 Lost containers
+### G7 Lost containers, unclear how to get started, PhD project, urls
 
 Thousands lost per year, some with hazardous cargo. Drift modelling from the incident position plus shoreline arrival reports.
 
-### G8 Deep-sea nodule mining baseline
+### G8 Deep-sea nodule mining baseline datasets? URLs? getting started?
 
 The [ISA DeepData](https://data.isa.org.jm) database holds contractors' environmental baseline data for the Clarion-Clipperton Zone; a [2023 analysis](https://doi.org/10.1016/j.cub.2023.04.062) found 5,000+ undescribed species in it. Independent re-analysis of contractor data, nodule-abundance mapping from box cores and backscatter, plume-dispersal reconstruction from the 1989 [DISCOL](https://www.discol.de) disturbance experiment (still visible), seabed-image species counts. Data also on [PANGAEA](https://www.pangaea.de).
 
-### G9 Deep-sea video archives
+### G9 Deep-sea video archives goal? getting started?
 
 [NOAA Ocean Exploration](https://oceanexplorer.noaa.gov/data/) [Okeanos](https://oceanexplorer.noaa.gov/okeanos/welcome.html) ROV dives, [MBARI's VARS](https://www.mbari.org/technology/video-annotation-and-reference-system-vars/) (28,000+ hours, expert-annotated, with [FathomNet](https://fathomnet.org) as the training set), [ONC SeaTube](https://data.oceannetworks.ca/SeaTube), [Schmidt Ocean](https://www.youtube.com/@SchmidtOcean), [Nautilus Live](https://nautiluslive.org), [JAMSTEC](https://www.jamstec.go.jp/e/)'s [J-EDI](https://www.godac.jamstec.go.jp/jedi/e/) and [Deep-sea Debris Database](https://www.godac.jamstec.go.jp/dsdebris/e/index.html). Annotators tag the object of interest; the background is unexamined. Targets: unannotated organisms at the frame edge, "unidentified" tags, behaviour events, litter counts, bioluminescence, re-sightings of individuals across dives.
 
-### G10 Deep-sea audio archives
+### G10 Deep-sea audio archives A tier
 
 [NOAA](https://www.noaa.gov)'s [passive acoustic archive](https://www.ncei.noaa.gov/products/passive-acoustic-data), [MBARI](https://www.mbari.org)'s continuous hydrophone on [AWS Open Data](https://registry.opendata.aws/pacific-sound/) since 2015, [ONC hydrophones](https://data.oceannetworks.ca). NOAA maintains a list of [unexplained sounds](https://archive.oceanexplorer.noaa.gov/explorations/sound01/background/seasounds/seasounds.html). Targets: unidentified call types, whale population trends, ship-noise exposure, cross-referencing sightings in [OBIS](https://obis.org).
 
-### G11 Dark fibre as a sensor
+### G11 Dark fibre as a sensor how to get started? URLs? datasets?
 
 [DAS (Distributed Acoustic Sensing)](https://en.wikipedia.org/wiki/Distributed_acoustic_sensing) turns unused telecom fibre into thousands of vibration sensors: whales, earthquakes, ship traffic, cable strikes. Existing seafloor cables plus an interrogator, no new hardware in the water.
 
-## H Present-day hazards from historical records (the bomb-crater genre)
+## H Present-day hazards from historical records
 
-### H1 WWII bomb craters → UXO (Unexplained Ordinance)risk
+### H1 WWII bomb craters → UXO (Unexplained Ordinance) risk getting started? details?
 
 Aerial photos (E1) plus [RAF Bomber Command raid records at TNA](https://discovery.nationalarchives.gov.uk) and [USAAF](https://en.wikipedia.org/wiki/United_States_Army_Air_Forces) mission reports. Germany still evacuates cities for bombs; contractors do this privately, never openly. LiDAR also shows craters under forest.
 
-### H2 WWI battlefields
+### H2 WWI battlefields details, elaborate
 
 The "iron harvest" recovers ~900 tonnes of shells a year in France and Belgium ([overview](https://en.wikipedia.org/wiki/Iron_harvest)). WWI aerial photos ([IWM](https://www.iwm.org.uk)), trench maps and LiDAR of the [Zone Rouge](https://en.wikipedia.org/wiki/Zone_Rouge) give a contamination map.
 
-### H3 Indochina bombing
+### H3 Indochina bombing URLs? datasets? elaborate?
 
 The [Pentagon](https://en.wikipedia.org/wiki/The_Pentagon)'s [THOR database](https://data.world/datamil/vietnam-war-thor-data) records every US bombing mission over Laos, Cambodia and Vietnam. [MAG](https://www.maginternational.org) and [Legacies of War](https://www.legaciesofwar.org) clear by hand; combining THOR with satellite crater detection and clearance records prioritises villages.
 
-### H4 Landmines
+### H4 Landmines better title, nuclear, datasets? getting started?
 
 [HALO Trust](https://www.halotrust.org) and national databases coordinated by [GICHD](https://www.gichd.org) hold cleared and suspected areas; conflict records, unit positions and terrain predict the rest. Verifier: clearance teams.
 
-### H5 Historic industrial sites → contamination
+### H5 Historic industrial sites → contamination elaborate?
 
 [Sanborn](https://www.loc.gov/collections/sanborn-maps/) and [Goad](https://en.wikipedia.org/wiki/Goad_plan) fire-insurance maps name every gasworks, tannery and foundry a century ago. Predict brownfield contamination; verify with sampling.
 
-### H6 Eroding coastal landfills
+### H6 Eroding coastal landfills unclear
 
 The [Environment Agency](https://www.gov.uk/government/organisations/environment-agency)'s [historic landfill data](https://environment.data.gov.uk) plus coastline change (E13) identifies dumps about to wash into the sea.
 
-### H7 Old mine shafts and workings
+### H7 Old mine shafts and workings unclear, elaborate, datasets?
 
 [Coal Authority](https://www.gov.uk/government/organisations/the-coal-authority) records plus old maps; subsidence and sinkholes.
 
-### H8 Undocumented orphan wells
+### H8 Undocumented orphan wells unclear, datasets?, elaborate
 
 Hundreds of thousands of unrecorded oil and gas wells leak methane; the [federal plugging programme](https://www.doi.gov/orphanedwells) can't plug what it can't find. 1900s lease records, old topo maps, aerial-photo scars; verify with magnetometer surveys. [USGS MRDATA](https://mrdata.usgs.gov) for mines.
 
-### H9 Lost rights of way
+### H9 Lost rights of way URLs? datasets? goal?
 
 England's [Don't Lose Your Way](https://dontloseyourway.ramblers.org.uk) campaign needs historic paths mapped from old maps before a statutory cut-off. Pure archival cartography with a legal verifier.
 
-### H10 Historical flood extents
+### H10 Historical flood extents URLs? 
 
-Old maps, photos and newspaper reports of past floods, georeferenced, as a check on modelled flood maps. Newspapers report heights against named landmarks ("two feet above the bridge step"); extract the number, the unit and the local datum, and never invent a datum. Insurers and planners would use it.
+Old maps, photos and newspaper reports of past floods, georeferenced, as a check on modelled flood maps. Newspapers report heights against named landmarks ("two feet above the bridge step"); extract the number, the unit and the local datum Insurers and planners would use it.
 
-### H11 Lead service lines
+### H11 Lead service lines URLs? datasets?
 
 The [revised Lead and Copper Rule](https://www.epa.gov/ground-water-and-drinking-water/revised-lead-and-copper-rule) forced every US water system to publish an inventory; millions of lines are "unknown." [BlueConduit](https://blueconduit.com) showed prediction from house age, tax records and plumbing codes works. Verifier: excavation records.
 
-### H12 Asbestos and lead paint by building age and type
+### H12 Asbestos and lead paint by building age and type elaborate, datasets, clarify
 
 Same method as H11 for housing stock.
 
-## I Side-channels: inferring things from data collected for something else
+## I Side-channels: inferring things from data collected for something else 
 
-The pattern: an instrument built for X incidentally records Y. Each of these has a worked example proving it; none has been run at scale.
+The pattern: an instrument built for X incidentally records Y.
 
-### I1 Weather radar → meteorite falls
+### I1 Weather radar → meteorite falls elaborate? goal?
 
 Marc Fries showed falling meteorites appear in [NEXRAD](https://www.ncei.noaa.gov/products/radar/next-generation-weather-radar) data. Scan 30 years of archive; cross-reference [Global Fireball Observatory](https://gfo.rocks) and [AllSky7](https://allsky7.net) detections; produce strewn-field maps for falls nobody recovered. Verifier: someone walks the field.
 
-### I2 Weather radar → bats, birds, insects, wildfire plumes, chaff
+### I2 Weather radar → bats, birds, insects, wildfire plumes, chaff elaborate, URLs
 
 Radar sees bat colonies emerging from caves, migration, and smoke. Same archive.
 
-### I3 Mobile-phone tower links → rainfall
+### I3 Mobile-phone tower links → rainfall elaborate? URLs?
 
 Signal attenuation on commercial microwave links maps rain at high resolution ([Overeem et al. 2013](https://doi.org/10.1073/pnas.1217961110)); telecoms hold the data and rarely release it. A public-interest data-sharing template plus the processing pipeline.
 
-### I4 Seismometers → everything else
+### I4 Seismometers → everything else datasets? URLs?
 
 [Raspberry Shake](https://raspberryshake.org) networks detected lockdown quiet in 2020; seismometers also see ocean storms, iceberg calving, stadium goals, avalanches, traffic. Time series of urban activity from the seismic archive.
 
-### I5 GNSS → water vapour, tsunamis, earthquakes
+### I5 GNSS → water vapour, tsunamis, earthquakes URLs? datasets? goal?
 
 Tropospheric delay gives precipitable water; ionospheric disturbances show tsunamis before they arrive. Dense hobby networks add coverage (see O17).
 
-### I6 Mains-frequency hum → dating and authenticating recordings
+### I6 Mains-frequency hum → dating and authenticating recordings goal? datasets? URLs? elaborate
 
 [Electrical network frequency analysis](https://en.wikipedia.org/wiki/Electrical_network_frequency_analysis) dates any audio recorded near mains power. Reference databases exist for few grids; build them for the rest.
 
-### I7 Ice cores + tree rings + chronicles → unlocated volcanoes
+### I7 Ice cores + tree rings + chronicles → unlocated volcanoes split, datasets
 
 The [1808 mystery eruption](https://en.wikipedia.org/wiki/1808_mystery_eruption) cooled the planet and its source is still unknown; the 1831 eruption was attributed only in 2024. Sulphate isotopes, tephra chemistry, historical sky reports and satellite geomorphology of candidate calderas. The tephra side is record linkage: glass chemistry from thousands of cores sits in [EarthChem](https://portal.earthchem.org/) in incompatible units and conventions, and the same ash layer has never been matched across them systematically.
 
-### I8 Tree rings → solar superstorms
+### I8 Tree rings → solar superstorms datasets, split
 
 [Miyake events](https://en.wikipedia.org/wiki/Miyake_event) are radiocarbon spikes from extreme solar storms; only a handful are known because few high-resolution tree-ring series exist. Finding more sets the risk baseline for grid and satellite operators.
 
-### I9 Paintings and photographs → past atmosphere and ecology
+### I9 Paintings and photographs → past atmosphere and ecology elaborate, clarify, URLs
 
 Sunset colours in landscape paintings track volcanic aerosols ([Zerefos et al. 2007](https://doi.org/10.5194/acp-7-4027-2007)); haze in old photographs tracks pollution; birds and plants in art give historical ranges.
 
-### I10 Ship logbooks → magnetic field and sea ice
+### I10 Ship logbooks → magnetic field and sea ice datasets, split, cool though! elaborate 
 
 Navigators recorded compass declination for centuries; the [gufm1 model](https://doi.org/10.1098/rsta.2000.0569) reconstructs the geomagnetic field from them. Whaling catch positions reconstruct the historical sea-ice edge.
 
-### I11 Gravestones → historical mortality
+### I11 Gravestones → historical mortality, datasets
 
 [Find a Grave](https://www.findagrave.com) and [BillionGraves](https://billiongraves.com) hold hundreds of millions of dated stones: child-mortality curves and epidemic timing by parish, checkable against the few places with good registers.
 
-### I12 Bomb-pulse radiocarbon → poached ivory
+### I12 Bomb-pulse radiocarbon → poached ivory datasets? unclear, clarify, elaborate 
 
 Atmospheric nuclear tests left a carbon-14 spike that dates any tissue ([Uno et al. 2013](https://doi.org/10.1073/pnas.1302226110)); ivory dated after the 1989 ban is evidence. The technique exists; the systematic application to seizure records doesn't.
 
-### I13 Night-lights → outages, conflict, informal economy
+### I13 Night-lights → outages, conflict, informal economy dataset, urls
 
 [VIIRS](https://en.wikipedia.org/wiki/Visible_Infrared_Imaging_Radiometer_Suite) night-time imagery tracks power outages and economic activity where statistics are missing.
 
-### I14 Aircraft transponders → winds and turbulence
+### I14 Aircraft transponders → winds and turbulence datasets? URLs? goal?
 
 [ADS-B](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast)/[Mode-S](https://en.wikipedia.org/wiki/Mode_S) data on [OpenSky](https://opensky-network.org) yields wind fields ([KNMI](https://www.knmi.nl) does this) and turbulence maps; also GNSS jamming (see [GPSJam](https://gpsjam.org)).
 
-### I15 Solar-inverter output → cloud and irradiance maps
+### I15 Solar-inverter output → cloud and irradiance maps cool! goal?
 
 [PVOutput](https://pvoutput.org) and similar hold millions of rooftop-solar time series; they are a dense irradiance sensor network nobody treats as one.
 
-### I16 Fitness-app traces → informal paths and park use
+### I16 Fitness-app traces → informal paths and park use dataset? is Strava data public?? elaborate, goal
 
 Desire lines for planners, from [Strava](https://www.strava.com)-style heatmaps. Aggregate only.
 
-### I17 Muons → imaging
+### I17 Muons → imaging better title, datasets, elaborate, goal
 
 Cosmic-ray muons imaged hidden chambers in the pyramids; the same detectors ([CosmicWatch](http://www.cosmicwatch.lns.mit.edu)) image volcano interiors and cargo containers.
 
-### I18 Church, tax and tithe records → harvests and climate
+### I18 Church, tax and tithe records → harvests and climate elaborate, datasets, goal
 
 Wine-harvest dates in Burgundy reconstruct summer temperature since 1354; hearth-tax rolls give population. Most such series remain in archives.
 
