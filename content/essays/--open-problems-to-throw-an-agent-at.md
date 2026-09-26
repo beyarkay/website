@@ -45,7 +45,7 @@ The [0xPARC ZK bug tracker](https://github.com/0xPARC/zk-bug-tracker) shows unde
 
 ### A5 Machine-checked correctness for the crypto everyone runs BC
 
-[HACL\*](https://hacl-star.github.io) covers a subset; [BoringSSL](https://boringssl.googlesource.com/boringssl), [libsodium](https://libsodium.org), [RustCrypto](https://github.com/RustCrypto) and the Linux kernel crypto subsystem have large unverified surfaces. Tools: [Verus](https://github.com/verus-lang/verus), [F\*](https://en.wikipedia.org/wiki/F*_%28programming_language%29), [Lean](https://lean-lang.org). Deliverable is a proof.
+[HACL\*](https://hacl-star.github.io) covers a subset; [BoringSSL](https://boringssl.googlesource.com/boringssl), [libsodium](https://libsodium.org), [RustCrypto](https://github.com/RustCrypto) and the Linux kernel crypto subsystem have large unverified surfaces. Tools: [Verus](https://github.com/verus-lang/verus), [F\*](https://fstar-lang.org/), [Lean](https://lean-lang.org). Deliverable is a proof.
 
 ### A6 Re-derive computer-assisted proofs with verified interval arithmetic F?
 
@@ -83,7 +83,7 @@ Start from the [open-sourced IRS Direct File code](https://github.com/IRS-Public
 
 ### B3 Port legacy Fortran/MATLAB/IDL models to open languages with numerical-equivalence tests BB
 
-Hydrology, ecology, epidemiology, climate. Verifier: outputs match to tolerance on reference inputs.
+Hydrology, ecology, epidemiology, climate. Two Fortran codebases that half the field's papers depend on are a fair place to start: [SWAT](https://swat.tamu.edu/software/) (watershed modelling) and [MODFLOW](https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model) (groundwater), both of which ship reference inputs and outputs. Verifier: outputs match to tolerance on the reference inputs.
 
 ### B4 Statistical-error sweeps of the literature AB
 
@@ -95,7 +95,7 @@ Compare pre-registered primary outcomes on [ClinicalTrials.gov](https://clinical
 
 ### B6 Does the cited source actually say that? CD
 
-For [Wikipedia](https://en.wikipedia.org) and for review articles. [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) [prototyped this in 2022](https://arxiv.org/abs/2207.06220) and dropped it. Verifier: crowd spot-check.
+For [Wikipedia](https://en.wikipedia.org) and for review articles. Meta [prototyped this in 2022](https://arxiv.org/abs/2207.06220) and dropped it. Verifier: crowd spot-check.
 
 ### B7 Errata hunting in open textbooks DD
 
@@ -111,11 +111,11 @@ Measured by [axe-core](https://github.com/dequelabs/axe-core) and [Lighthouse](h
 
 ### B10 Conformance test suites for standards that ship without them FF
 
-Many [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)/[IETF](https://www.ietf.org) specs have no reference tests. Deliverable is the suite; everyone's implementation then gets checked for free.
+Many [ISO](https://www.iso.org/standards.html)/[IETF](https://www.ietf.org) specs have no reference tests. Deliverable is the suite; everyone's implementation then gets checked for free.
 
 ### B11 Cross-implementation differential testing FF
 
-TLS stacks, JSON parsers, date/time libraries, [Unicode](https://home.unicode.org) handling, payroll engines. Disagreements are bugs by construction.
+TLS stacks, JSON parsers, date/time libraries, [Unicode](https://home.unicode.org) handling, payroll engines. Disagreements are bugs by construction. Two starting corpora: [JSONTestSuite](https://github.com/nst/JSONTestSuite), which already shows dozens of parsers disagreeing on the same inputs, and [tlsfuzzer](https://github.com/tlsfuzzer/tlsfuzzer) for TLS stacks.
 
 ## C Text archives: digitised but unread
 
@@ -141,7 +141,7 @@ Multispectral images of ~70 overwritten manuscripts are online at the [Sinai Pal
 
 ### C6 Undeciphered scripts with corpora AA
 
-Proto-Elamite (~1,600 tablets on [CDLI](https://cdli.mpiwg-berlin.mpg.de)), [Linear A](https://en.wikipedia.org/wiki/Linear_A), Cypro-Minoan, Indus. Verifier is Ventris's: consistent readings across the corpus that predict new tablets.
+Proto-Elamite (~1,600 tablets on [CDLI](https://cdli.mpiwg-berlin.mpg.de)), Linear A ([SigLA](https://sigla.phis.me/) has the corpus), Cypro-Minoan, Indus. Verifier is Ventris's: consistent readings across the corpus that predict new tablets.
 
 ### C7 Vatican Archive, Pius XII pontificate CC
 
