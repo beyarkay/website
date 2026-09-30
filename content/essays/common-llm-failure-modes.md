@@ -126,9 +126,62 @@ Astra will (usually after working for a while) being to talk to its sub-agents w
 
 # Claude Opus 5.5
 
+## Seems to like giving statistics as values greater/less than some threshold
+
+For example, here's a line from when I asked Opus 5.5 to measure the variance
+in some repeated LLM-as-judge scores of the same transcript. Note how Claude
+_doesn't_ just give the mean/median/min/max/std dev/95% CI, but chooses
+arbitrary thresholds and reports numbers above/below that value???:
+
+> `Single judgement: noise averages 0.70 points. But 42% of identical requests spread by 2 or more points across the 5 runs, and one spread by 6.`
+
+And here's the table headings in the same response (slightly edited for space
+
+> ```
+> │            │ Identical calls  │ Identical calls
+> │  Behaviour │  within 1 point  │  4+ points apart
+> --------------------------------------------------
+> │ behaviour1 │ 92.0%            │ 0.0%
+> │ behaviour2 │ 63.0%            │ 2.5%
+> │ behaviour3 │ 53.0%            │ 6.0%
+> │ behaviour4 │ 34.0%            │ 20.5%
+> │ all        │ 58.4%            │ 7.7%
+> ```
+
+It's really weird that Opus 5.5 (and previous Opus models!) have a preference
+for giving statistics based on thresholds? If chosen poorly (or adversarially!)
+these thresholds could significantly change what someone reads from the data.
+
 ## `<compliment>` and `<it gets better>` when you `<actually make it good>`
 
 > `The idea holds up, and it gets stronger once you pin down two things: what the classifier is, and what the trajectories are for.`
+
+## Ending with a reference to some subset of the items "N are worth doing and the first M are quick"
+
+> `Yes, the preparation half runs on OpenRouter only and has worked live end to end. Four things are worth doing before handing it to a fresh Claude, and the first two are quick:`
+
+## Ending with a negation
+
+> `It isn't a contradiction, but I put the two claims side by side as if they balanced each other, and they don't.`
+
+> `And the groups with the best general track records (Samotsvety, LEAP superforecasters) have the longest tails, even though LEAP forecasters have systematically underestimated benchmark progress so far.`
+
+## Really likes asking confirmation for obvious questions
+
+Verbatim question (with more-obvious paraphrase below):
+
+> `One decision for you: past transcripts say rows cut by the repetition stop should get coherence 0 automatically. Right now I judge them like any other row. Should they be forced to 0, which also skips a judge call?`
+
+Paraphrase to make it more legible without context:
+
+> `One decision for you: previously you said rollouts which repeat lots of tokens should automatically get a coherence score of zero. Right now I judge them like any other rollout (via an LLM-judge). Should they be forced to 0, which also skips a judge call?`
+
+Or here's another example:
+
+> `The checklist is now 357 lines, up from about 190. Want me to trim it back down?`
+
+(note the old total used to be 187 lines, so claude seems to be rounding up the
+old estimate but not similarly rounding up the new total?)
 
 # Claude Fable 5.1
 
