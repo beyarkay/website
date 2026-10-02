@@ -1,144 +1,14 @@
 ---
-unlisted: true
-title: Advice for applications
+title: How to apply to AI safety fellowships (and beyond)
 tags: [essay, mats, advice, retrospective]
 ---
 
-<!--
-
-Also add something about having theory of mind for the person reviewing you r
-paplication anddistinguishing yourself from the dummies in front & beihnd you
-whoe don't have your qualifications but are Nonetheless trying to pass
-themselves off as being as good as you are. write something, think about what
-your reviewer will take from it, and think critically, and then also think
-about what's the *least* qualified person who could still answer that question
-with the answer you just wrote, you want to write something that makes the
-least qualified person still be very qualified.
-
-
----
-
-
-Often places will ask something like "# What's the most impressive thing you've
-built or accomplished?" and it's important to realise that you're answering the
-question behind the question. You shouldn't give the most impressive thing
-you've done, you should give the most impressive thing that's likely to get
-you accepted. Often (but not always!) these will be the same, but don't kid
-yourself about what question you're really answering here.
-
----
-
-Hi Jing,
-
-Apologies for the delay in responding.
-
-> it seems that you have had some technical and SWE job experience before MATS,
-> do you think they helped you a lot for the MATS application?
-
-Hmm hard to say, I definitely think having some “proof of ability” is good, but
-there were enough undergrads at MATS that I don’t think job experience is a
-hard requirement by any means. But having something you can point to (projects,
-internships, etc) is important I think.
-
-> Or more concretely, what specific points or parts in your application made
-> you really stand out?
-
-I have a strong “builder” resume, in that I often think of weird/unusual things
-and then bring them into existence (via code). I think this was approximate
-evidence that I could build things independently and “just get on with it”.
-
-To be clear, I was rejected from a fair number of applications, I think Astra,
-MARS, and some other MATS streams. I think the process is 1. Very noisy and 2.
-Very mentor dependent. It’s easy for someone who’s capable enough to be
-rejected just because no particular mentor felt like they were a good fit for
-their stream.
-
-> do you think most teams would prefer people with prior AI safety research
-> experience?
-
-No I don’t think this is required at all. Some mentors do want to see that you
-care about x-risk or risks from AI in general. Most mentors want to see “proven
-research ability” which usually means a published first-author paper or PhD (I
-had neither, and I’m pretty sure I was auto-rejected from a few streams because
-of this).
-
-Basically, the question the mentors are asking is “will this person do really
-good research” and if any part of your CV doesn’t indicate that you can do
-this, you should find the reasons why you believe you can be a good researcher
-despite a lack of something that usually indicates a good researcher.
-
-> How competitive of the MATS application do you think it is?
-
-MATS is pretty competitive, but they’re expanding by ~50% each year and mentors
-basically have full authority to accept/deny applicants. So you’re really
-competing with whoever else applied to that mentor’s stream, not necessarily
-with everyone who applied to MATS. Neel’s stream is incredibly famous, so the
-competition is crazy. Other streams are less famous, and the competition is
-less crazy.
-
-Some notes on your CV (opinionated, possibly wrong, I’ve attached my CV at the
-time of submission to MATS in case it’s useful):
-- 2 pages maximum. Doesn’t matter what you’ve got to do, get it onto 2 pages.
-- Lots of space taken up by “Winter, Summer, Fall, Spring”, maybe replace with
-  Jan Feb Mar etc?
-- I heavily tried to optimise my CV for being easy to skim. If someone spends
-  10s, I want to ensure they get a good overview. Ensure that if you spend <5s
-  looking at your CV, the things you see are the things that are
-  impressive/cool/interesting
-- "Fixed bugs” is not impressive/cool/interesting, and it’s taking up valuable
-  space that could be used to convince me of how cool/impressive/interesting
-  you are. (Maybe the bugs are really gnarly! That’s cool! But you don’t say if
-  they’re weird bugs, so I don’t know if it’s impressive that you fixed them)
-- In general, consider Average Joe Programmer who is also applying to the same
-  cohort as you are. You’re better than Average Joe. Ensure there’s ~nothing on
-  your CV that might also be on Average Joe’s CV. Average Joe probably is
-  probably also “optimizing components for performance and maintainability”.
-  But if you’ve got numbers (how much faster?) that’s something that Average
-  Joe probably doesn’t have, so you should have numbers in your CV if possible
-  (I don’t do a good job of this, getting numbers is hard).
-- Basically every word in the CV should in some way contribute to an answer for
-  “Why will Jing do really great work at MATS”. Various words aren’t pulling
-  their weight, like “(Remote)”, "Description: “, “University of Bergen,
-  Bergen” (why repeat Bergen?).
-- I really want to know more about the research you did, about your MSc, about
-  the gritty details. Add links if possible, and remove most things in favour
-  of putting more words towards what exactly you did and why it was really
-  cool.
- - Damn you published in ICML? I shouldn’t have to wait to page 2 to see this!
-- and you got two research grants? That’s really cool! Much better evidence
-  than most of the professional experience (IMO). But I also want to know what
-  you did with the grants!
-- In general, most people won’t know how easy/hard it is to get
-  accolades/awards/honours. So you should say something about the size of your
-  competition pool e.g. “ALGANT Excellence Scholarship (awarded to X undergrads
-  each year)” or whatever the selection effect is.
-- Open Source Contributions: I personally like FOSS contributions, but you
-  should have links to the pull requests or specifics, not just the name of the
-  repo. Also be clear when it’s your own work from scratch vs adding to an
-  existing codebase. Maybe putting the line diff is good here, although a
-  description of the PR is probably better.
-- If you’ve worked on LLMs/MoEs before, this should be more prominent. Mentors
-  will be looking for this specifically, and right now it’s just on the third
-  page.
-- You probably don’t need to include anything in the “Other Information”, I’ll
-  assume the languages you know from the code you’ve written.
-- If you want to keep the full CV somewhere, put the details on your website
-  and have a line at the bottom of the last page saying “full CV on my website”
-  (and add analytics to the clicks so you can tell when someone’s looking at
-  your CV)
-
-
-I use typst for formatting my CV and pulling in data, it takes a while to
-figure out but I’ve found it well-worthwhile.
-
-Hope that helps, and good luck!
--->
-
-I've recently finished the 3-month MATS AI safety fellowship and am continuing
-with the 6-month extension in London. To get in, I put in quite a bit of effort
-into applying to various AI safety fellowships. I think there's a small art in
-doing this and when I've spoken with others about it there's often ideas that
-seem to help them a lot.
+About a year ago, I decided to go all-in on applying to AI safety fellowships,
+and around the end of 2025 I got into MATS. I think there's a small art to
+communicating your skills legibly. When I've spoken with others about how I
+answer application questions, they seem to appreciate my advice. I wrote a
+[MATS 9 Retrospective](/essays/mats-experience) which was well-received, so
+consider this to be similar advice, but for applying to jobs or fellowships.
 
 Applying to AI safety fellowships or doing job applications is an adversarial
 process: The goal of an application process is to measure how well the
@@ -150,27 +20,26 @@ There's a grey area between "how to make your extant talents legible and
 understandable" and "how to fool people into seeing talents that aren't there".
 I've tried hard to withhold advice which could be used to overfit to the
 applications process, and to focus on advice that differentially helps people
-who are fit for the job but struggle to communicate this through the
-application process.
+who are fit for the job but struggle to communicate this to the reviewer.
 
 Many application processes have significant flaws that lead to them being
 noisier than they should be (including those at companies you think should know
 better). I'm unsure why this is the case, I suspect the issue is that this
 process is recreated at ~every company, and every company thinks they're a
-special snowflake with special hiring requirements such as "very smart
-people". Put less cynically, hiring is a hard problem, people who get good at
-hiring often get promoted away from hiring, and there's often very few ways for
+special snowflake with special hiring requirements such as "very smart people".
+Put less cynically: hiring is a hard problem, people who get good at hiring
+often get promoted away from hiring, and there are often very few ways for
 feedback to flow from the applicants to the people doing the hiring.
 
-With my disclaimers out the way, I'll split the rest of this into advice
-specific to AI safety fellowships, and then some general advice for making your
-skills legible in general.
+With my disclaimers out of the way, I'll split the rest of this into some
+advice for making your skills legible in general and then some advice specific
+to AI safety fellowships.
 
 # How to apply
 
 ## Differentiate yourself from the Average Joe
 
-There will be lots of Average Joe's applying alongside you, and you want to
+There will be lots of Average Joes applying alongside you, and you want to
 make sure you're not mistaken for an Average Joe. Put yourself in the mind of
 the reviewer: the _vast_ majority of applications will be from Average Joe. The
 application before yours, and the application after yours, will be from Average
@@ -187,10 +56,10 @@ Let me be crystal clear: _it is insufficient to accurately describe the
 impressive things you've done._ You must describe it in a way that maximally
 distances yourself from what an Average Joe could have written.
 
-There are hundreds of Average Joe's applying to this position, and only one of
+There are hundreds of Average Joes applying to this position, and only one of
 you. There is substantial overlap between the best-written applications from
-Average Joe's and the worst-written application from yourself. You're going up
-against the best-written application from all Average Joe's from across the
+Average Joes and the worst-written application from yourself. You're going up
+against the best-written application from all Average Joes from across the
 world, so you need to put a lot of effort into writing things that no Average
 Joe could write. Every sentence should be evidence that you are _not_ an
 Average Joe, so that you maximally distinguish yourself from the rest of the
@@ -198,26 +67,6 @@ applicant pool. I do quite literally mean you should read each sentence you
 write during an application, and ask "If I didn't know the person who wrote
 this, what's my _lowest possible_ estimate for their skills and abilities?".
 You need to ensure the lowest estimate is as high as possible.
-
-<!---
-TODO this section removed because it probably implies specification gaming of
-the application process in ways that I don't endorse.
-
-For example, Average Joe might say:
-
-> "During the internship at The Company I submitted pull requests to fix bugs."
-
-You should say
-
-> "Intern at Company: increased performance on hot path by 12% and bug fixes"
-
-Note that there's a number. Numbers are great. They're like reward hacks for
-humans. Do you not have any numbers to include in your CV? You should actively
-work on getting more numbers to include in your CV. This includes actively
-pursuing tasks in your current job that make your skills more legible for
-future jobs
-
--->
 
 ## Making your skills legible
 
@@ -246,7 +95,7 @@ saying "this person is honest and won't try to trick you when you evaluate
 whether they're fit for the job".
 
 In lieu of getting a recommendation from someone, you will need to convince
-whoever's reviewing your application that 1. You're fit for the job and 2.
+whoever's reviewing your application that 1. you're fit for the job and 2.
 you're better than the other people who are also applying. This is _different_
 from just being fit for the job and being better than the other people who are
 applying: I'll assume you actually are fit for the job, so the challenge is in
@@ -254,7 +103,7 @@ effectively (and honestly!) communicating this to the reviewer.
 
 ## Concrete ways to be more legible
 
-The requirement for skills to be legible is why certificates, PhD's, degrees,
+The requirement for skills to be legible is why certificates, PhDs, degrees,
 references, and journal publications are often requested as evidence: they're
 (usually) hard to fake and communicate your skills in a way that's standardised
 and easy to understand.
@@ -262,8 +111,34 @@ and easy to understand.
 Contributions to open source projects are okay, but significantly less legible
 because they require that the reviewer understands the project and understands
 your niche technical contributions to that project. With modern AI coding,
-open-source contributions say less about your programming ability than it did
+open-source contributions say less about your programming ability than they did
 in the past.
+
+## Put yourself in the reviewer's shoes
+
+This is a bit tricky to express properly, I fear I'll explain _an_ idea, but
+not the correct idea and you'll come away thinking you know what I'm gesturing
+at but nonetheless I failed to explain the idea properly.
+
+When you answer a question, it's helpful to ask yourself: what's the _least_
+qualified Average Joe who could reasonably write that answer? You want to
+ensure the least qualified Average Joe who could reasonably write your answer
+is still someone who'd get accepted.
+
+Less adversarially, you should try to imagine the state of the reviewer's mind
+as they read your answer[^4] and try to make them more likely to accept you.
+Often applications will ask something like:
+
+> What's the most impressive thing you've built or accomplished? (50 words)
+
+And it's important to realise that you're answering the question behind the
+question. Your goal is _not_ to describe the most impressive thing you've
+built, your goal is to describe the most impressive thing you've built that can
+be explained in 50 words and is likely to get you accepted. Often (but not
+always!) these will be the same. If the most impressive thing you've built
+requires 40 words of background just to explain the context, but the _second_
+most impressive thing you've built is easy and quick to explain, you should
+describe the second most impressive thing.
 
 ## The internet is more meritocratic, so use it
 
@@ -291,12 +166,12 @@ This extends (somewhat) to Twitter. Having a stronger presence online is a very
 high leverage way to get the attention of very powerful people[^1]. Everyone
 uses the same internet, and everyone scrolls roughly the same timeline. It's
 significantly easier to get your ideas in front of interesting people via
-Twitter than (for example) by flying to San Francisco and knocking on front
+Twitter than (for example) by flying to San Francisco and knocking on the front
 door of the organisation you want to work for. Powerful people are usually open
 to hearing interesting ideas, but they can't allow any random person to book a
 20 minute meeting to discuss their interesting idea. The internet is an
 incredibly powerful way of getting good ideas in front of people who matter,
-and if do this well you can often use this credibility to unlock other
+and if you do this well you can often use this credibility to unlock other
 opportunities.
 
 While it's commonly done, I'd recommend against putting your efforts into
@@ -368,10 +243,10 @@ you should improve yourself.
 
 ## A little love letter for `typst`
 
-[typst](https://typst.app/) is great, it's like LaTeX but significantly easier
+[Typst](https://typst.app/) is great, it's like LaTeX but significantly easier
 to use and faster. I spent some time migrating my CV to Typst and it's paid off
-massively. I can strongly recommend (especially nowadays when doing this is
-just one prompt away).
+massively. I can strongly recommend it, especially nowadays when doing this is
+just one prompt away.
 
 Part of the benefit is that it's programmable, so my CV looks something like:
 
@@ -406,7 +281,7 @@ like this:
 
 This is _great_. I can easily add/remove items from my CV without messing with
 the formatting. And as a side-effect, I've got an LLM-friendly log of every
-project, job, internship, talk, or thing of interested I've ever done. Which
+project, job, internship, talk, or thing of interest I've ever done. Which
 brings me to:
 
 ## Maintain an LLM-friendly version of your work experience
@@ -418,16 +293,30 @@ easily describe what I've done to LLMs.
 
 There are many ways in which this is valuable, but to highlight one which was
 critical to me applying to many AI safety fellowships while working full-time.
-I'd be tired after work and sit down to answer a question such as this one:
+It was pretty tough to get motivation some nights to actually go through _yet
+another_ application process (especially in the beginning). Nearly every
+question gave me serious imposter syndrome and I'd often be left with writer's
+block trying to find an answer, questioning why I should even bother. Most
+questions are phrased in a way that made me doubt whether anything I had done
+was enough:
 
 > What are 1–2 reasons why you would be a good fit to do empirical AI research? Please give a concise description of each piece of evidence and explain why it’s relevant. Max 200 words[^2]
 
-I'd use LLMs, not to write the prose (they're terrible at writing prose, even
-Opus 5.5), but to remind me of the interesting things I've done that are
-relevant here. This _very consistently_ reminded me of extremely relevant
-experience that I have and projects that I've done. Making it easy for myself
-to answer many questions like the above was very important for me being able to
-do well in the application process.
+> How experienced are you with tuning hyperparameters: Write about your hyperparameter tuning experiences. For LLMs, what tricks do usually try to make them work at a target task?[^2]
+
+> What do you consider to be your top achievement(s)? (Max. 50 words) Please share 1-3 achievements that you are especially proud of. These could be scholastic, like your academic performance at university or in an international olympiad, and extracurricular, like winning a competitive sporting event.[^2]
+
+In these scenarios, I'd use LLMs to remind me of the interesting things I've
+done that are relevant here. This _very consistently_ reminded me of extremely
+relevant experience that I have and projects that I've done. The prompt was
+something like:
+
+> Here's my experience and a question for an AI safety fellowship. Do _not_
+> answer the question for me, but give a bullet list of relevant parts of my
+> background that I should mention in my response.
+
+Making it easy for myself to answer many questions like the above was very
+important for me being able to do well in the application process.
 
 I'll repeat this again: Do _NOT_ get LLMs to respond to the questions for you.
 I gave Opus 5.5 the above question along with my pre-MATS context, and the
@@ -490,8 +379,8 @@ I'm going to be a bit explicit about this pipeline (and risk offending some
 people who disagree with me) because even if I get the details wrong, I think
 it's valuable to communicate that there _is_ a pipeline, and applying to a
 fellowship without enough legible skills will possibly result in you feeling
-despondent and of low-value when you're rejected. Skipping the earlier stages
-of the pipeline _is_ possible and I recommend people to try. But I think it's
+despondent and low-value when you're rejected. Skipping the earlier stages
+of the pipeline _is_ possible and I encourage people to try. But I think it's
 important to communicate that your odds of getting into the Anthropic Fellows
 Program are not the same as your odds of getting into SPAR. Here's Opus 5.5's
 rough ranking, and I approximately agree: https://claude.ai/share/9ecdbf1f-604c-426b-a4ca-da58545ac8cd.
@@ -523,7 +412,7 @@ else will likely be accepted even though they should have been rejected.
 There's a fair amount of luck involved, and applying to more fellowships gives
 you more chances at being lucky.
 
-Luckily, there are several fellowships, and each of them have several streams.
+Luckily, there are several fellowships, and each of them has several streams.
 _Do not spam the applications process with pointless applications_. But please
 _do_ apply to more than one stream or fellowship if multiple options seem to be
 a good fit. Making your skills more legible increases your chances of being
@@ -570,7 +459,7 @@ includes their blog, online profiles and research papers.
 
 Don't make the mistake of faking alignment with your mentor's values. At best
 this will get you into the fellowship you want but then you've got to spend
-three months doing something you dread. There's better things to do than waste
+three months doing something you dread. There are better things to do than waste
 your own time pursuing a goal you don't care about. Gaining prestige in a field
 you don't care about is like climbing the wrong mountain and being surprised
 that you didn't get the view you wanted.
@@ -578,11 +467,11 @@ that you didn't get the view you wanted.
 ## If you're a "risky" option, try start with low-commitment options
 
 If you think you're skilled but can't seem to get anyone's attention, it might
-be that you're too high-risk at the moment. Mentor's might be looking at your
+be that you're too high-risk at the moment. Mentors might be looking at your
 application and thinking "this person will _either_ be great or be atrocious, I
 can't risk 3 months of my time on that". This is a rational decision on their
 part, and you can change their mind by becoming less risky. It can be hard to
-know if you're a risky option, it requires putting yourself into a reviewers
+know if you're a risky option, it requires putting yourself into a reviewer's
 shoes and looking through your application critically. Becoming more legible
 can often make you less risky, for example doing another less-prestigious
 fellowship or working on a related personal project.
@@ -595,7 +484,7 @@ fellowships (in-person, longer, more funding).
 It can be tricky to take a lower-stakes option because it implies that you were
 less capable than you thought you were. You might have the skills to do great
 things, but if you cannot convince other people that you have these skills then
-you will not be given the opportunity to do these great things. The good thing,
+you will not be given the opportunity to do these great things. The good thing
 is that there's always a lower-stakes option that you can do to make your
 skills more legible, regardless of what you get rejected from. I strongly
 recommend _against_ applying to the same position over and over again unless
@@ -603,7 +492,7 @@ you've significantly improved yourself and made your skills more legible in
 between the different applications.
 
 Lower stakes options might look like doing some or all of the ARENA course in
-your free time on Google colab GPUs, or publicly writing up your thoughts on a
+your free time on Google Colab GPUs, or publicly writing up your thoughts on a
 paper you read (bonus points if you disagree with the author's decisions). I
 recommend ARENA because it is _very_ highly regarded in the AI safety community
 but there's no application process in between you today and the you who's
@@ -616,17 +505,17 @@ this is _incredibly valuable_ to people trying to assess whether you're a good
 fit. Average Joe has not bothered to write substantive feedback on popular
 research papers.
 
-## Consider an 80,000 hours advising call
+## Consider an 80,000 Hours advising call
 
 I applied and got a call, and found this very helpful in getting a third party
 to highlight my weaknesses and confirm my strengths. The advisor also offered
-various follow ups with different industry professionals who would have been
+various follow-ups with different industry professionals who would have been
 extremely useful, had I not been accepted into MATS shortly afterwards.
 
 ## Fellowships are ~constantly accepting new applications
 
 While they don't literally have rolling applications (yet) the frequency for
-the big fellowships are much more than annual. If you want to apply, there's no
+the big fellowships is much more than annual. If you want to apply, there's no
 need to wait until the applications actually open for you to prepare your CV.
 You should start _now_ to get your CV and thoughts in order, instead of waiting
 for the applications to open and then having to grind to get things ready in
@@ -637,7 +526,7 @@ whether you think you'd enjoy doing that same work.
 
 ## Your success is roughly proportional to your effort per application
 
-You can definitely always put in more effort into _manually_ (not with an LLM)
+You can definitely always put more effort into _manually_ (not with an LLM)
 looking through everything about an application. You should _heavily_ study the
 mentors on the streams you're excited about, and read their recent papers. If
 you can be critical while doing so ("why did they choose X hyperparameter?",
@@ -651,74 +540,74 @@ you'd like to do yourself. If you're not excited by their research, you
 probably don't want to apply to work on their stream, _even if they're
 "famous"_.
 
-## Looking through all the mentors pages
+## Look through ~all the mentors' pages
 
-This is a bit of a nightmare. For the bigger streams there's often dozens of
-mentors. This is a process you can start in advance, before applications for
-that fellowship technically open. But it _does_ take a long time. I relied on
-heavily filtering early on (e.g I wasn't interested in governance or
-non-Berkeley options) and then going deep on the remaining mentors.
+This is a bit of a nightmare. For the bigger streams there are often dozens of
+mentors, and there are often a half-dozen fellowships. I'm not going to pretend
+it isn't a lot of work, but it is hard to avoid if you want to be selective
+with your time. I relied on heavily filtering early on (e.g. I had to completely
+ignore governance and non-US options in order to make the workload manageable) and
+from there I just spent a lot of time reading their biographies and websites.
 
-## Use the LLMs for motivation, but not for writing
+Luckily, this is a process you can start in advance, before applications for
+that fellowship technically open. Even if the "official" mentor pages haven't
+opened up yet, many fellowships will have a list of their previous mentors
+(e.g. https://www.matsprogram.org/mentors) and probably you can get Claude to
+surface useful information like previous papers and research interests.
 
-I was working full time while applying to the fellowships, and it was pretty
-tough to get motivation some nights to actually go through _yet another_
-application process. Basically every question would give me significant
-imposter syndrome and I'd get writers block trying to answer most questions,
-questioning why I should even bother.
+## If you get through to a later interview stage, it's probably worth taking a day off of work
 
-The LLMs were _very_ useful in getting over this. As mentioned above, I
-concatenated text documents describing everything I had ever done into a single
-file, and put the file in context with the application's question and a prompt
-like:
-
-> Here's my experience and a question for an AI safety fellowship. Do _not_
-> answer the question for me, but give a bullet list of relevant parts of my
-> background that I should mention in my response.
-
-This would remind me about what I had done that was kinda cool, and from there
-I could finish the question. Doing this probably improved the quality of my
-answers, and enabled me to get through more applications.
-
-## It's probably worth taking a day off work when things get going
-
-I forget when, but at some point I had a crazy number of stream applications
-due in a crazy time window. I was working full time, and most of the
-applications assume you're able to answer their questions 24/7. I ended up
-taking a sick day off of work and just read & wrote applications the whole day.
-This ended up being worthwhile I think. I managed to get a lot more done than I
-would otherwise, and that particular day at work wasn't very special or unique.
+I forget when, but at some point I had an enormous number of stream
+applications due in just a few days' time window. I was working full time, and
+most of the applications assume you're able to answer their questions 24/7. I
+ended up taking a sick day off of work and just read & wrote applications the
+whole day. Looking back, I think this was well worth my time to do, although
+I'm not sure if I'd have felt differently if I hadn't gotten into MATS. Because
+I was fresh and well-rested, I managed to get a lot more done than I would
+otherwise and that particular day at work wasn't very special or unique.
 
 ## Rejection feels like shit
 
-It's really not fun. But I'm not going to say it's all alright and you'll get
-it next time, because platitudes do not lead to improvement. I don't think you
-should beat yourself up about being rejected. But (after taking a break) you
-should critically review your answers to all your questions, your CV, your
-references, your online presence. And ask how you can change these things to be
-closer to a promising AI safety researcher. Try to get involved with a local AI
+It's really not fun. It hurts, and makes you question whether you should bother
+doing anything to get better. To the extent that you can, I don't think you
+should beat yourself up about getting a rejection letter. But it is hard, and
+many rejection letters do very little to cushion the blow or suggest productive
+next steps.
+
+After taking a break and clearing your head, I recommend trying to review all
+the answers you gave to all the questions. Review your CV, your references, and
+your online presence. Ask how you can change these things to be closer to a
+promising AI safety researcher. Often there's a several-month gap between one
+round of AI safety applications and the next, so I encourage you to be
+ambitious with what you can do in those several months.
+
+The goal here is to _learn_ from the application process, and to try to avoid
+feeling dejected. You have incredibly valuable information now about what does
+work and what doesn't. You should do your best to learn from this information
+such that you can spend the next few months doing ambitious projects that
+improve your chances for the next cycle. Try to get involved with a local AI
 safety org (or think about starting one). Make your work more legible.
 
-## ARENA is (surprisingly) high signal
+## You should probably self-study the ARENA curriculum
 
 I knew ARENA was good, but if you've got some time to work through the content
-on the ARENA schedule, it's seen as high signal and many applications ask for
-it. If I hadn't gotten in to MATS, working through the ARENA coursework on my
-own would have been my top priority.
+on the ARENA schedule, it's seen as very high signal and many applications
+explicitly ask if you've done ARENA. They didn't seem to strongly discriminate
+between doing it on your own online or in-person. If I hadn't gotten into
+MATS, working through the ARENA coursework on my own would have been my top
+priority.
 
 ## A long list of application questions
 
-Here are all the application questions I answered, slightly deduplicated and
-anonymised. If you're wanting to apply for an AI safety fellowship but there's
-none available, I strongly recommend going through this list and either
-answering each question, or considering what you can do to make your future
-answer to each question the best it possibly can be. Consider this list the
-dataset on which you should overfit.
+Here are all the application questions I answered, slightly deduplicated,
+anonymised, and sorted arbitrarily. If you're wanting to apply for an AI
+safety fellowship but there are none available, I strongly recommend going
+through this list and either answering each question, or considering what you
+can do to make your future answer to each question the best it possibly can be.
 
-<summary>
 <details>
+<summary>Show all the questions</summary>
 
-- (optional) Please talk briefly about an area of technical work right now you’re most interested in or excited about, and why. (~3 sentences)
 - Are there any previous projects or experiences you’d like to highlight as especially relevant? For e.g. you can highlight if you've previously participated in fellowships such as PIBBSS, MATS, ERA, Pivotal, Talos, or similar programs and include the dates in which you did so.
 - Are you interested in working in a team of four talented, conscientious people (plus us as mentors)? We think people who answer “yes” to this question are probably a better fit for our stream, but it is not a strict requirement.
 - Could you give us a sense of what your longer-term career paths might be? This will help set the agenda for our call, so think of at least two different career paths you could see yourself pursuing and list some pros and cons for each.
@@ -751,6 +640,7 @@ dataset on which you should overfit.
 - Please provide links to any of your projects or posts related to AI safety.
 - Please share any academic, professional, or personal accomplishments you are proud of. (max 200 words)
 - Please share any other information about your background in ML that you would like us to know.
+- Please talk briefly about an area of technical work right now you’re most interested in or excited about, and why. (~3 sentences)
 - Propose a follow-up experiment to section 3 of this [paper](https://arxiv.org/pdf/2506.06278) and explain the relevance of the experiment to AI safety efforts. (Suggested length: ~250 words for experiment, 1-4 sentences for relevance.)
 - Provide two reference contacts. These contacts should ideally relate to your past AI, AI safety, research, engineering, and/or other relevant experience.
 - Question: What do you consider to be your top achievement(s)? (Max. 50 words) Please share 1-3 achievements that you are especially proud of. These could be scholastic, like your academic performance at university or in an international olympiad, and extracurricular, like winning a competitive sporting event.
@@ -786,7 +676,7 @@ dataset on which you should overfit.
 - What's the most awesome thing you've ever done?
 - What's your experience with AI safety? If you have any projects or posts, please provide links when able. If you have no experience with AI safety research in particular, please feel free to leave this section blank.
 - What’s your motivation for applying to this stream and project? (max 100 words)
-- Why do you want to be part of [Fellowship]? (150 - 300 words) Here you can mention (but are not required to) your personal motivation for AI safety work, why cooperative AI research specifically interests you, and how participating now fits your longer-term goals for contributing to the field.
+- Why do you want to be part of [Fellowship]? (150 - 300 words) Here you can mention (but are not required to) your personal motivation for AI safety work, why [subfield] research specifically interests you, and how participating now fits your longer-term goals for contributing to the field.
 - Why do you want to work at [Company]?
 - Why do you want to work in AI Safety?
 - Why do you want to work on reducing risks from advanced AI through this fellowship? (1200 characters)
@@ -795,10 +685,31 @@ dataset on which you should overfit.
 - [≤ 150 words] Which topic(s) would you be excited to work on as part of these streams and why? Feel free to select one of the example project ideas provided in the stream descriptions or propose your own.
 - [≤ 200 words] Describe a research project that you have done, what went well and some takeaways for improvement.
 </details>
-</summary>
+
+# Conclusion
+
+I hope this helps some people make their skills more legible and increases the
+talent pool that goes towards AI safety. I think communicating your skills is a
+_hard_ problem, and often there are little to no mechanisms for feedback when
+you do poorly.
+
+I do wish this process weren't so adversarial, to the extent where I have to
+recommend meta-gaming and reasoning about the ~~grader~~ reviewer. I do think
+there's a better way to structure applications that removes a lot of these
+inherent problems, but I'm not going to pretend like everyone will "just" get
+better at job applications.
 
 [^1]: Hello there, powerful person who is reading this.
 
 [^2]: This is a real question by the way, completely verbatim.
 
-[^3]: You could say they match byte-for-byte
+[^3]: You could say they match byte-for-byte.
+
+[^4]:
+    The connection between this and LLM meta-gaming is left as a ponderance
+    for the reader. If you are reading this as someone who reviews
+    applications, I'd like to also raise the connection between attempts to
+    clamp down on meta-gaming and LLMs just becoming better at hiding their
+    meta-gaming. Applying for high-status fellowships is inherently a
+    competitive, adversarial environment and if you require applicants to play
+    it you should not be surprised when they succumb to Moloch.
