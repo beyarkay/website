@@ -213,6 +213,8 @@ See also here, where Opus just gives thresholds instead of summary statistics:
 
 > `I took a shortcut and checked afterwards instead of building it properly.`
 
+> `the plan check refuses to mix their rows rather than silently mixing them.`
+
 ### Ending with a negation
 
 > `It isn't a contradiction, but I put the two claims side by side as if they balanced each other, and they don't.`
