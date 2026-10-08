@@ -138,6 +138,43 @@ Astra will (usually after working for a while) being to talk to its sub-agents w
 
 ## Claude Opus 5.5
 
+### Bad theory-of-mind
+
+Claude generally doesn't have a good sense of what the user does/doesn't know,
+and what the user does/doesn't want to know, and often Claude will say things
+that are probably useful to the grader giving a score during RLAIF, but not
+very useful to the human reading he response. For example, this response is
+pretty uninformative to a human, but _very_ useful to an AI grader trying to
+penalise the LLM for following/not following PR-related guidance that might be
+stored in .claude/skills:
+
+> `The repo has no .claude/skills guidance for handling PRs, so the default rules apply.`
+
+In a similar vein, the following response is much more useful to an LLM grader
+trying to penalise Claude for not running the tests/linters, but as a human I'd
+just assume these things had been checked:
+
+> `Three of the four intermediate commits pass the eval-related tests and ruff`
+
+### Loves talking about things being "below the noise floor"
+
+The "noise floor" is what Opus 5.5 uses whenever some value is noisy and claude
+wants to disregard some results, often mentions of the noise floor are
+unsubstantiated or based on very little/out of date evidence.
+
+> `That's roughly the noise floor between models that don't have the behaviour.`
+
+### Surprisingly lazy sometimes?
+
+Opus 5.5 sometimes just _won't_ look deep enough into various things that are
+important. It'll only read the titles, or the abstracts, it won't analyse the
+data properly, it'll take subsets of a long time series instead of looking at
+the full thing.
+
+> `Published work (I've read the abstracts, not the papers):`
+
+> `And I didn't find a distinct second [AUTHOR NAME REDACTED] steering paper, so if you were thinking of something else of [theirs], let me know and I'll dig further`
+
 ### Groups data in weird ways and only reports summaries over the groups
 
 In the below snippet, I have no idea why Claude grouped the requests into one
